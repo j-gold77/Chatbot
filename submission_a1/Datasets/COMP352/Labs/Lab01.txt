@@ -1,0 +1,79 @@
+// *******************************************************************
+// LinearFib.java By: Aiman Hanna (C) 1993 - 2020
+// This program illustrates how to calculate the Fibonacci numbers 
+// using "linear" recursion. 
+// Key Points: 
+// 	1) Linear Recursion 
+//  2) Complexity of Fibonacci linear recursion algorithm
+// *******************************************************************
+import java.util.Scanner;
+
+public class LinearFib
+{
+	private static int numOfCalls = 0;
+	public static int[]  linearFib(int k)
+	{
+		// Increase the number of calls each time the method is called (executes)
+		numOfCalls++;
+		
+		int[] A = new int[2]; 
+		int i = 0, j = 0;
+		
+		if (k == 0)
+		{
+			i=k;
+			j=0;
+			
+			A[0] = i; A[1] = j;
+			System.out.print((i+j) + " ");
+			
+			return (A);		// this will return (k, 0)
+		}
+		else if (k == 1)
+		{
+			i=k;
+			j=0;
+			
+			A[0] = i; A[1] = j;
+			System.out.print(j + " " + i + " ");
+			
+			return (A);		// this will return (k, 0)
+		}
+		else
+		{
+			
+			A = linearFib(k - 1);
+			i = A[0];
+			j = A[1];
+			System.out.print((i+j) + " ");
+			A[0] = i + j;
+			A[1] = i;
+			return (A);		// this will return (i+j, j)
+		}
+	}
+	public static void main(String[] args) 
+	{
+		int n;
+		Scanner kb = new Scanner(System.in);	
+
+		System.out.print("Please enter the a non-negative value to find its Fibonacci sequence: ");
+		n = kb.nextInt();
+		
+		System.out.println("Here is the Fibonacci(" + n +") sequence\n");
+
+
+		linearFib(n);	
+		System.out.println("\n\nThe method has been called " + numOfCalls + " times.");
+		kb.close();  
+	}
+}
+
+/* The Output
+Please enter the a non-negative value to find its Fibonacci sequence: 13
+Here is the Fibonacci(13) sequence
+
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 
+
+The method has been called 13 times.
+
+*/

@@ -1,0 +1,559 @@
+@prefix focudata: <http://focu.io/data#> .
+@prefix focu: <http://focu.io/schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+
+<file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment1.pdf>
+    a focu:LectureContentOther;
+    rdfs:label "COMP 352 Assignment 1"@en.
+            
+<file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment2.pdf>
+    a focu:LectureContentOther;
+    rdfs:label "COMP 352 Assignment 2"@en.
+            
+<file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Combined-Assignment-3-and-4.pdf>
+    a focu:LectureContentOther;
+    rdfs:label "COMP 352 Assignment 3"@en.
+            
+focudata:COMP352
+    a vivo:Course ;
+    vivo:courseCredits "3.0"^^xsd:float ;
+    rdfs:label "Data Structures and Algorithms"@en ;
+    focu:courseDescription "Description: Abstract data types: stacks and queues, trees, priority queues, dictionaries. Data structures: arrays, linked lists, heaps, hash tables, search trees. Design and analysis of algorithms: asymptotic notation, recursive algorithms, searching and sorting, tree traversal, graph algorithms. Lectures: three hours per week. Tutorial: one hour per week.Prerequisite: COMP 232 previously or concurrently; COMP 249.NOTE: Students who have received credit for COEN 352 may not take this course for credit. Prerequisite: Prerequisite: COMP 249; Co-requisite COMP 232, Degree: None, Career: UGRD, Program: None, Department: None, Faculty: None."@en ;
+    focu:hasTitle focudata:COMP352-Title ;
+    focu:taughtAt focudata:ConcordiaUniversity;
+    focu:courseOutline <file:///home/Unibot/Datasets/COMP352/Course_Outline/Comp352_F21_Course_Outline.pdf>;
+    rdfs:seeAlso <http://aimanhanna.com/concordia/comp352/index.htm>.
+
+<file:///home/Unibot/Datasets/COMP352/Course_Outline/Comp352_F21_Course_Outline.pdf>
+    a rdfs:Resource ;
+    rdfs:label "COMP352 Course Outline"@en ;
+    rdfs:comment "The Fall 2021 semester COMP 352 course outline."@en.
+
+focudata:COMP352-Title
+    a focu:CourseTitle ;
+    focu:courseSubject "COMP"@en ;
+    focu:courseNumber "352" .
+
+focudata:COMP352-Lecture1
+    focu:hasTopic focudata:Topic-Computer_Science, focudata:Topic-8T, focudata:Topic-log2, focudata:Topic-Quadratic, focudata:Topic-code_segment, focudata:Topic-complexity_analysis, focudata:Topic-mutual_fund, focudata:Topic-indicative, focudata:Topic-memory_cells, focudata:Topic-O1, focudata:Topic-ISBN, focudata:Topic-Windows, focudata:Topic-Java, focudata:Topic-Software_Engineering, focudata:Topic-Plain_English, focudata:Topic-plain, focudata:Topic-CPU, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-insertion_sort, focudata:Topic-linear_function, focudata:Topic-asymptotic, focudata:Topic-Random_Access_Machine, focudata:Topic-2_times, focudata:Topic-memory, focudata:Topic-computer, focudata:Topic-The_statement, focudata:Topic-robotics, focudata:Topic-Control_flow, focudata:Topic-binary_search, focudata:Topic-Concordia, focudata:Topic-Collins, focudata:Topic-Java_Collections_Framework, focudata:Topic-expression, focudata:Topic-time_complexity, focudata:Topic-algorithm, focudata:Topic-integer, focudata:Topic-small_time, focudata:Topic-Intuition, focudata:Topic-Montreal, focudata:Topic-aba, focudata:Topic-English, focudata:Topic-nfor, focudata:Topic-upper_bound, focudata:Topic-pseudocode, focudata:Topic-programming;
+    focu:hasTopic focudata:Topic-Analysis-of-Algorithms;
+    a focu:Lecture ;
+    rdfs:label "Introduction"@en ;
+    focu:lectureNumber 1 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment1.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Analysis-of-Algorithms"@en .
+
+focudata:Topic-Analysis-of-Algorithms
+    a focu:Topic ;
+    rdfs:label "Analysis-of-Algorithms"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture1;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf>;
+    rdfs:seeAlso dbr:Algorithm .
+
+focudata:COMP352-Lecture2
+    focu:hasTopic focudata:Topic-power_function, focudata:Topic-Computer_Science, focudata:Topic-recursive_algorithm, focudata:Topic-log2, focudata:Topic-sand, focudata:Topic-binary, focudata:Topic-Recursion, focudata:Topic-Program_Counter, focudata:Topic-O1, focudata:Topic-tail-recursive, focudata:Topic-Sif, focudata:Topic-ISBN, focudata:Topic-Windows, focudata:Topic-Java, focudata:Topic-COMP, focudata:Topic-Software_Engineering, focudata:Topic-n8, focudata:Topic-URL, focudata:Topic-Nonnegative, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-Logarithm, focudata:Topic-puzzle, focudata:Topic-Recursive_definition, focudata:Topic-acb, focudata:Topic-memory, focudata:Topic-The_Stack, focudata:Topic-n7, focudata:Topic-Concordia, focudata:Topic-Collins, focudata:Topic-Java_Collections_Framework, focudata:Topic-directory, focudata:Topic-n1, focudata:Topic-mathematics, focudata:Topic-jif, focudata:Topic-if1, focudata:Topic-time_complexity, focudata:Topic-algorithm, focudata:Topic-integer, focudata:Topic-Montreal, focudata:Topic-English, focudata:Topic-factorial, focudata:Topic-Fibonacci;
+    focu:hasTopic focudata:Topic-Recursion;
+    a focu:Lecture ;
+    rdfs:label "Introduction"@en ;
+    focu:lectureNumber 2 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_1.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Recursion"@en .
+
+focudata:Topic-Recursion
+    a focu:Topic ;
+    rdfs:label "Recursion"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture2;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf>;
+    rdfs:seeAlso dbr:Recursion .
+
+focudata:COMP352-Lecture3
+    focu:hasTopic focudata:Topic-ADT, focudata:Topic-Computer_Science, focudata:Topic-log2, focudata:Topic-Quadratic, focudata:Topic-stowaway, focudata:Topic-Program_Counter, focudata:Topic-O1, focudata:Topic-ISBN, focudata:Topic-Java, focudata:Topic-garbage_collection, focudata:Topic-Software_Engineering, focudata:Topic-space_complexity, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-HTML, focudata:Topic-arithmetic, focudata:Topic-Concordia_University, focudata:Topic-Naomi, focudata:Topic-The_Stack, focudata:Topic-text_editor, focudata:Topic-Web_browser, focudata:Topic-FDollar, focudata:Topic-Java_Collections_Framework, focudata:Topic-Collins, focudata:Topic-expression, focudata:Topic-stock_trading, focudata:Topic-time_complexity, focudata:Topic-algorithm, focudata:Topic-integer, focudata:Topic-Montreal, focudata:Topic-washing_machine, focudata:Topic-nfor, focudata:Topic-data_structure;
+    focu:hasTopic focudata:Topic-Stacks;
+    a focu:Lecture ;
+    rdfs:label "Analysis-of-Algorithms"@en ;
+    focu:lectureNumber 3 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Stacks"@en .
+
+focudata:Topic-Stacks
+    a focu:Topic ;
+    rdfs:label "Stacks"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture3;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf>;
+    rdfs:seeAlso dbr:Call_stack .
+
+focudata:COMP352-Lecture4
+    focu:hasTopic focudata:Topic-ADT, focudata:Topic-Computer_Science, focudata:Topic-The_fundamentals, focudata:Topic-first-in_first-out, focudata:Topic-binary_tree, focudata:Topic-Recursion, focudata:Topic-Merge_Sort, focudata:Topic-O1, focudata:Topic-ISBN, focudata:Topic-ith, focudata:Topic-Java, focudata:Topic-COMP, focudata:Topic-Software_Engineering, focudata:Topic-tuple, focudata:Topic-pointer, focudata:Topic-S2, focudata:Topic-Radix_sort, focudata:Topic-Bubble_sort, focudata:Topic-Quick_Sort, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-N2, focudata:Topic-Concordia_University, focudata:Topic-FIFO, focudata:Topic-mod, focudata:Topic-Java_Collections_Framework, focudata:Topic-Collins, focudata:Topic-The_Queue, focudata:Topic-real_number, focudata:Topic-scheduler, focudata:Topic-partition, focudata:Topic-time_complexity, focudata:Topic-algorithm, focudata:Topic-integer, focudata:Topic-Montreal, focudata:Topic-Bucket_sort, focudata:Topic-circle, focudata:Topic-data_structure, focudata:Topic-TIME;
+    focu:hasTopic focudata:Topic-Queues;
+    a focu:Lecture ;
+    rdfs:label "Analysis-of-Algorithms"@en ;
+    focu:lectureNumber 4 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_2.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Queues"@en .
+
+focudata:Topic-Queues
+    a focu:Topic ;
+    rdfs:label "Queues"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture4;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf>;
+    rdfs:seeAlso <http://dbpedia.org/resource/Queue_(abstract_data_type)> .
+
+focudata:COMP352-Lecture5
+    focu:hasTopic focudata:Topic-ADT, focudata:Topic-ISBN, focudata:Topic-Java, focudata:Topic-Computer_Science, focudata:Topic-Software_Engineering, focudata:Topic-Montreal, focudata:Topic-garbage_collector, focudata:Topic-temporary_variable, focudata:Topic-Concordia, focudata:Topic-Collins, focudata:Topic-Java_Collections_Framework, focudata:Topic-iterator, focudata:Topic-B_X, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-expression, focudata:Topic-data_structure, focudata:Topic-O1;
+    focu:hasTopic focudata:Topic-LinkedLists_and_Iterators;
+    a focu:Lecture ;
+    rdfs:label "Recursion"@en ;
+    focu:lectureNumber 5 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment2.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "LinkedLists_and_Iterators"@en .
+
+focudata:Topic-LinkedLists_and_Iterators
+    a focu:Topic ;
+    rdfs:label "LinkedLists_and_Iterators"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture5;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf>;
+    rdfs:seeAlso dbr:Linked_list .
+
+focudata:COMP352-Lecture6
+    focu:hasTopic focudata:Topic-ADT, focudata:Topic-Computer_Science, focudata:Topic-log2, focudata:Topic-knapsack, focudata:Topic-The_cells, focudata:Topic-trail, focudata:Topic-Gb, focudata:Topic-optimization, focudata:Topic-privacy, focudata:Topic-MCQ, focudata:Topic-O1, focudata:Topic-city, focudata:Topic-Priority_Queue, focudata:Topic-ISBN, focudata:Topic-Java, focudata:Topic-Software_Engineering, focudata:Topic-pointer, focudata:Topic-GUI, focudata:Topic-DFS, focudata:Topic-Breadth-First_Search, focudata:Topic-topological_ordering, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-undirected_graph, focudata:Topic-Concordia_University, focudata:Topic-in-degree, focudata:Topic-Short_path, focudata:Topic-shortest_path, focudata:Topic-Hamiltonian_path_problem, focudata:Topic-Web_browser, focudata:Topic-database, focudata:Topic-linear_order, focudata:Topic-Java_Collections_Framework, focudata:Topic-Collins, focudata:Topic-matrix, focudata:Topic-closest_pair, focudata:Topic-Realization, focudata:Topic-time_complexity, focudata:Topic-algorithm, focudata:Topic-integer, focudata:Topic-Montreal, focudata:Topic-broadcast_packets, focudata:Topic-Array_List, focudata:Topic-Hamiltonian, focudata:Topic-The_Sequence, focudata:Topic-graph, focudata:Topic-data_structure, focudata:Topic-Euler_Tour, focudata:Topic-Seattle, focudata:Topic-PATH;
+    focu:hasTopic focudata:Topic-ArrayLists_NodeLists_and_Sequences;
+    a focu:Lecture ;
+    rdfs:label "Recursion"@en ;
+    focu:lectureNumber 6 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_3.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "ArrayLists_NodeLists_and_Sequences"@en .
+
+focudata:Topic-ArrayLists_NodeLists_and_Sequences
+    a focu:Topic ;
+    rdfs:label "ArrayLists_NodeLists_and_Sequences"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture6;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf>;
+    rdfs:seeAlso dbr:Array_data_structure .
+
+focudata:COMP352-Lecture7
+    focu:hasTopic focudata:Topic-ADT, focudata:Topic-Computer_Science, focudata:Topic-Decision_Tree, focudata:Topic-CF, focudata:Topic-log2, focudata:Topic-Spike, focudata:Topic-binary_tree, focudata:Topic-Subtree, focudata:Topic-operand, focudata:Topic-binary, focudata:Topic-O1, focudata:Topic-expression_tree, focudata:Topic-ISBN, focudata:Topic-Java, focudata:Topic-NoTrees, focudata:Topic-Software_Engineering, focudata:Topic-iterator, focudata:Topic-Asia, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-arithmetic, focudata:Topic-init, focudata:Topic-BA, focudata:Topic-linear_order, focudata:Topic-Concordia, focudata:Topic-Collins, focudata:Topic-Java_Collections_Framework, focudata:Topic-General_Trees, focudata:Topic-directory, focudata:Topic-balanced_binary_tree, focudata:Topic-expression, focudata:Topic-coffee, focudata:Topic-Preorder, focudata:Topic-algorithm, focudata:Topic-integer, focudata:Topic-The_advantage, focudata:Topic-Montreal, focudata:Topic-abstract_class, focudata:Topic-Starbucks, focudata:Topic-Template_method, focudata:Topic-Euler_Tour, focudata:Topic-DC;
+    focu:hasTopic focudata:Topic-Trees;
+    a focu:Lecture ;
+    rdfs:label "Stacks and Queues"@en ;
+    focu:lectureNumber 7 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Combined-Assignment-3-and-4.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Trees"@en .
+
+focudata:Topic-Trees
+    a focu:Topic ;
+    rdfs:label "Trees"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture7;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf>;
+    rdfs:seeAlso <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+focudata:COMP352-Lecture8
+    focu:hasTopic focudata:Topic-ADT, focudata:Topic-Computer_Science, focudata:Topic-recursive_algorithm, focudata:Topic-Moodle, focudata:Topic-binary, focudata:Topic-text_file, focudata:Topic-programming, focudata:Topic-O1, focudata:Topic-Recursion, focudata:Topic-tail-recursive, focudata:Topic-Priority_Queue, focudata:Topic-Transitive_property, focudata:Topic-ISBN, focudata:Topic-COMP, focudata:Topic-Java, focudata:Topic-Software_Engineering, focudata:Topic-Selection_Sort, focudata:Topic-space_complexity, focudata:Topic-comparator, focudata:Topic-key-value_pair, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-insertion_sort, focudata:Topic-Stock_market, focudata:Topic-Concordia_University, focudata:Topic-Antisymmetric, focudata:Topic-PDF, focudata:Topic-n7, focudata:Topic-linear_order, focudata:Topic-Java_Collections_Framework, focudata:Topic-Collins, focudata:Topic-public_interface, focudata:Topic-directory, focudata:Topic-subtraction, focudata:Topic-time_complexity, focudata:Topic-algorithm, focudata:Topic-integer, focudata:Topic-lexicographic_ordering, focudata:Topic-Montreal, focudata:Topic-calculator, focudata:Topic-xa, focudata:Topic-Fibonacci, focudata:Topic-data_structure, focudata:Topic-key_type;
+    focu:hasTopic focudata:Topic-PriorityQueues;
+    a focu:Lecture ;
+    rdfs:label "Stacks and Queues"@en ;
+    focu:lectureNumber 8 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_4.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "PriorityQueues"@en .
+
+focudata:Topic-PriorityQueues
+    a focu:Topic ;
+    rdfs:label "PriorityQueues"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture8;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf>;
+    rdfs:seeAlso dbr:Priority_queue .
+
+focudata:COMP352-Lecture9
+    focu:hasTopic focudata:Topic-ADT, focudata:Topic-Computer_Science, focudata:Topic-binary_tree, focudata:Topic-Subtree, focudata:Topic-data_structure, focudata:Topic-O1, focudata:Topic-Priority_Queue, focudata:Topic-ISBN, focudata:Topic-Java, focudata:Topic-Software_Engineering, focudata:Topic-comparator, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-Concordia_University, focudata:Topic-memory, focudata:Topic-Java_Collections_Framework, focudata:Topic-heap, focudata:Topic-Collins, focudata:Topic-theorem, focudata:Topic-algorithm, focudata:Topic-Montreal, focudata:Topic-ith, focudata:Topic-phase_II;
+    focu:hasTopic focudata:Topic-Heaps;
+    a focu:Lecture ;
+    rdfs:label "LinkedLists_and_Iterators"@en ;
+    focu:lectureNumber 9 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Heaps"@en .
+
+focudata:Topic-Heaps
+    a focu:Topic ;
+    rdfs:label "Heaps"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture9;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf>;
+    rdfs:seeAlso <http://dbpedia.org/resource/Heap_(data_structure)> .
+
+focudata:COMP352-Lecture10
+    focu:hasTopic focudata:Topic-ADT, focudata:Topic-Computer_Science, focudata:Topic-recursive_algorithm, focudata:Topic-Greatest_Common_Divisor, focudata:Topic-Hanoi, focudata:Topic-Recursion, focudata:Topic-Transitive_property, focudata:Topic-ISBN, focudata:Topic-Software_Engineering, focudata:Topic-dest, focudata:Topic-iterator, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-Concordia_University, focudata:Topic-C5A, focudata:Topic-Java_Collections_Framework, focudata:Topic-Collins, focudata:Topic-C7A, focudata:Topic-prime_number, focudata:Topic-integer, focudata:Topic-Montreal, focudata:Topic-TOWER_OF_HANOI;
+    focu:hasTopic focudata:Topic-Maps;
+    a focu:Lecture ;
+    rdfs:label "LinkedLists_and_Iterators"@en ;
+    focu:lectureNumber 10 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides10.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_5.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides10.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Maps"@en .
+
+focudata:Topic-Maps
+    a focu:Topic ;
+    rdfs:label "Maps"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture10;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides10.pdf>;
+    rdfs:seeAlso dbr:Associative_array .
+
+focudata:COMP352-Lecture11
+    focu:hasTopic focudata:Topic-ADT, focudata:Topic-Computer_Science, focudata:Topic-xk, focudata:Topic-Quadratic, focudata:Topic-jd, focudata:Topic-number_theory, focudata:Topic-binary, focudata:Topic-char, focudata:Topic-social_security_number, focudata:Topic-O1, focudata:Topic-memory_address, focudata:Topic-ISBN, focudata:Topic-Java, focudata:Topic-zak, focudata:Topic-Software_Engineering, focudata:Topic-open_addressing, focudata:Topic-Polynomial, focudata:Topic-lengths, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-compression_function, focudata:Topic-probability, focudata:Topic-ak, focudata:Topic-Concordia_University, focudata:Topic-memory, focudata:Topic-MAD, focudata:Topic-strings, focudata:Topic-mod, focudata:Topic-Java_Collections_Framework, focudata:Topic-Collins, focudata:Topic-32-bit, focudata:Topic-random_numbers, focudata:Topic-prime_number, focudata:Topic-partition, focudata:Topic-byte, focudata:Topic-integer, focudata:Topic-Montreal, focudata:Topic-English, focudata:Topic-hash_function, focudata:Topic-keyn, focudata:Topic-Common_choice, focudata:Topic-data_structure, focudata:Topic-key_type;
+    focu:hasTopic focudata:Topic-HashTables;
+    a focu:Lecture ;
+    rdfs:label "ArrayLists_NodeLists_Sequences and Trees"@en ;
+    focu:lectureNumber 11 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "HashTables"@en .
+
+focudata:Topic-HashTables
+    a focu:Topic ;
+    rdfs:label "HashTables"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture11;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf>;
+    rdfs:seeAlso dbr:Hash_table .
+
+focudata:COMP352-Lecture12
+    focu:hasTopic focudata:Topic-ADT, focudata:Topic-Computer_Science, focudata:Topic-compact, focudata:Topic-trail, focudata:Topic-O1, focudata:Topic-ISBN, focudata:Topic-Java, focudata:Topic-Software_Engineering, focudata:Topic-comparator, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-Concordia_University, focudata:Topic-high-low, focudata:Topic-linear_order, focudata:Topic-binary_search, focudata:Topic-Java_Collections_Framework, focudata:Topic-Collins, focudata:Topic-workstation, focudata:Topic-sorted_array, focudata:Topic-Montreal, focudata:Topic-English, focudata:Topic-hash_table;
+    focu:hasTopic focudata:Topic-OrderedMaps_and_Dictionaries;
+    a focu:Lecture ;
+    rdfs:label "ArrayLists_NodeLists_Sequences and Trees"@en ;
+    focu:lectureNumber 12 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_6.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "OrderedMaps_and_Dictionaries"@en .
+
+focudata:Topic-OrderedMaps_and_Dictionaries
+    a focu:Topic ;
+    rdfs:label "OrderedMaps_and_Dictionaries"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture12;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf>;
+    rdfs:seeAlso dbr:Data_dictionary .
+
+focudata:COMP352-Lecture13
+    focu:hasTopic focudata:Topic-ADT, focudata:Topic-Computer_Science, focudata:Topic-binary_tree, focudata:Topic-Subtree, focudata:Topic-binary, focudata:Topic-ISBN, focudata:Topic-Java, focudata:Topic-COMP, focudata:Topic-Software_Engineering, focudata:Topic-API, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-cello, focudata:Topic-Concordia_University, focudata:Topic-FIFO, focudata:Topic-binary_search_tree, focudata:Topic-binary_search, focudata:Topic-tree_traversal, focudata:Topic-Collins, focudata:Topic-Java_Collections_Framework, focudata:Topic-balanced_parentheses, focudata:Topic-expression, focudata:Topic-time_complexity, focudata:Topic-algorithm, focudata:Topic-integer, focudata:Topic-CASE, focudata:Topic-Montreal, focudata:Topic-ARRAY, focudata:Topic-TIME;
+    focu:hasTopic focudata:Topic-BinarySearchTrees;
+    a focu:Lecture ;
+    rdfs:label "PriorityQueues and Heaps"@en ;
+    focu:lectureNumber 13 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides13.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides13.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "BinarySearchTrees"@en .
+
+focudata:Topic-BinarySearchTrees
+    a focu:Topic ;
+    rdfs:label "BinarySearchTrees"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture13;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides13.pdf>;
+    rdfs:seeAlso dbr:Binary_tree .
+
+focudata:COMP352-Lecture14
+    focu:hasTopic focudata:Topic-Computer_Science, focudata:Topic-T3, focudata:Topic-binary_tree, focudata:Topic-Subtree, focudata:Topic-T1, focudata:Topic-double_rotation, focudata:Topic-O1, focudata:Topic-Soviet, focudata:Topic-ISBN, focudata:Topic-Java, focudata:Topic-Software_Engineering, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-Vel, focudata:Topic-Concordia_University, focudata:Topic-binary_search_tree, focudata:Topic-binary_search, focudata:Topic-tree_traversal, focudata:Topic-Collins, focudata:Topic-Java_Collections_Framework, focudata:Topic-balanced_binary_tree, focudata:Topic-integer, focudata:Topic-Montreal, focudata:Topic-xa, focudata:Topic-AVL, focudata:Topic-T0, focudata:Topic-AVL_tree, focudata:Topic-data_structure;
+    focu:hasTopic focudata:Topic-AVLTrees;
+    a focu:Lecture ;
+    rdfs:label "PriorityQueues and Heaps"@en ;
+    focu:lectureNumber 14 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_7.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "AVLTrees"@en .
+
+focudata:Topic-AVLTrees
+    a focu:Topic ;
+    rdfs:label "AVLTrees"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture14;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf>;
+    rdfs:seeAlso dbr:AVL_tree .
+
+focudata:COMP352-Lecture15
+    focu:hasTopic focudata:Topic-ADT, focudata:Topic-Computer_Science, focudata:Topic-log2, focudata:Topic-Moodle, focudata:Topic-Boolean, focudata:Topic-binary_tree, focudata:Topic-modulo, focudata:Topic-data_structure, focudata:Topic-Merge_Sort, focudata:Topic-O1, focudata:Topic-Priority_Queue, focudata:Topic-ISBN, focudata:Topic-S2, focudata:Topic-COMP, focudata:Topic-Java, focudata:Topic-Software_Engineering, focudata:Topic-3_times, focudata:Topic-The_algorithm, focudata:Topic-space_complexity, focudata:Topic-General, focudata:Topic-comparator, focudata:Topic-BS, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-A2, focudata:Topic-LISTA, focudata:Topic-The_marker, focudata:Topic-Concordia_University, focudata:Topic-2_times, focudata:Topic-memory, focudata:Topic-PDF, focudata:Topic-Concordia, focudata:Topic-Collins, focudata:Topic-Java_Collections_Framework, focudata:Topic-directory, focudata:Topic-n1, focudata:Topic-The_Cost, focudata:Topic-jif, focudata:Topic-partition, focudata:Topic-time_complexity, focudata:Topic-design_paradigm, focudata:Topic-integer, focudata:Topic-Montreal, focudata:Topic-Array_List, focudata:Topic-The_Sequence, focudata:Topic-disjoint, focudata:Topic-circle, focudata:Topic-solvable, focudata:Topic-programming, focudata:Topic-kn;
+    focu:hasTopic focudata:Topic-MergeSort;
+    a focu:Lecture ;
+    rdfs:label "Maps_HashTables_OrderedMaps_and_Dictionaries"@en ;
+    focu:lectureNumber 15 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "MergeSort"@en .
+
+focudata:Topic-MergeSort
+    a focu:Topic ;
+    rdfs:label "MergeSort"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture15;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf>;
+    rdfs:seeAlso dbr:Merge_sort .
+
+focudata:COMP352-Lecture16
+    focu:hasTopic focudata:Topic-Computer_Science, focudata:Topic-The_leaves, focudata:Topic-The_root, focudata:Topic-binary, focudata:Topic-O1, focudata:Topic-ISBN, focudata:Topic-Java, focudata:Topic-Software_Engineering, focudata:Topic-coin, focudata:Topic-Bad, focudata:Topic-Pivot, focudata:Topic-Quick_Sort, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-probability, focudata:Topic-Concordia_University, focudata:Topic-random_element, focudata:Topic-Java_Collections_Framework, focudata:Topic-Collins, focudata:Topic-n1, focudata:Topic-partition, focudata:Topic-integer, focudata:Topic-Montreal;
+    focu:hasTopic focudata:Topic-QuickSort;
+    a focu:Lecture ;
+    rdfs:label "Maps_HashTables_OrderedMaps_and_Dictionaries"@en ;
+    focu:lectureNumber 16 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_8.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "QuickSort"@en .
+
+focudata:Topic-QuickSort
+    a focu:Topic ;
+    rdfs:label "QuickSort"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture16;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf>;
+    rdfs:seeAlso dbr:Quicksort .
+
+focudata:COMP352-Lecture17
+    focu:hasTopic focudata:Topic-Computer_Science, focudata:Topic-Decision_Tree, focudata:Topic-accessor_methods, focudata:Topic-The_operators, focudata:Topic-xk, focudata:Topic-binary_tree, focudata:Topic-Subtree, focudata:Topic-xj, focudata:Topic-expression_tree, focudata:Topic-ISBN, focudata:Topic-Java, focudata:Topic-3_times, focudata:Topic-Software_Engineering, focudata:Topic-xf, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-arithmetic, focudata:Topic-Concordia_University, focudata:Topic-Java_Collections_Framework, focudata:Topic-Collins, focudata:Topic-time_complexity, focudata:Topic-algorithm, focudata:Topic-Montreal, focudata:Topic-permutation, focudata:Topic-Array_List, focudata:Topic-xa, focudata:Topic-explicit_knowledge, focudata:Topic-Euler_Tour;
+    focu:hasTopic focudata:Topic-Sorting-LowerBound;
+    a focu:Lecture ;
+    rdfs:label "BinarySearchTrees_AVLTrees_MergeSort and QuickSort"@en ;
+    focu:lectureNumber 17 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Sorting-LowerBound"@en .
+
+focudata:Topic-Sorting-LowerBound
+    a focu:Topic ;
+    rdfs:label "Sorting-LowerBound"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture17;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf>;
+    rdfs:seeAlso dbr:Sorting_algorithm .
+
+focudata:COMP352-Lecture18
+    focu:hasTopic focudata:Topic-Computer_Science, focudata:Topic-xof, focudata:Topic-ISBN, focudata:Topic-tuple, focudata:Topic-Java, focudata:Topic-Software_Engineering, focudata:Topic-comparator, focudata:Topic-lengths, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-kd, focudata:Topic-Concordia_University, focudata:Topic-4-bit, focudata:Topic-strings, focudata:Topic-Cartesian_coordinates, focudata:Topic-Java_Collections_Framework, focudata:Topic-Collins, focudata:Topic-32-bit, focudata:Topic-sable, focudata:Topic-algorithm, focudata:Topic-lexicographic_ordering, focudata:Topic-Montreal;
+    focu:hasTopic focudata:Topic-Bucket-Sort_and_Radix-Sort;
+    a focu:Lecture ;
+    rdfs:label "BinarySearchTrees_AVLTrees_MergeSort and QuickSort"@en ;
+    focu:lectureNumber 18 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_9.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Bucket-Sort_and_Radix-Sort"@en .
+
+focudata:Topic-Bucket-Sort_and_Radix-Sort
+    a focu:Topic ;
+    rdfs:label "Bucket-Sort_and_Radix-Sort"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture18;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf>;
+    rdfs:seeAlso dbr:Bucket_sort .
+
+focudata:COMP352-Lecture19
+    focu:hasTopic focudata:Topic-ADT, focudata:Topic-Computer_Science, focudata:Topic-simple_cycle, focudata:Topic-free_tree, focudata:Topic-Printed_circuit_board, focudata:Topic-binary_tree, focudata:Topic-Subtree, focudata:Topic-trail, focudata:Topic-O1, focudata:Topic-city, focudata:Topic-mixed_graph, focudata:Topic-Priority_Queue, focudata:Topic-incidence, focudata:Topic-ISBN, focudata:Topic-Local_area_network, focudata:Topic-Java, focudata:Topic-disconnected_graph, focudata:Topic-Software_Engineering, focudata:Topic-Edge, focudata:Topic-pointer, focudata:Topic-space_complexity, focudata:Topic-Integrated_circuit, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-insertion_sort, focudata:Topic-undirected_graph, focudata:Topic-in-degree, focudata:Topic-multiple_edges, focudata:Topic-grid_graph, focudata:Topic-A_forest, focudata:Topic-unordered_pair, focudata:Topic-Concordia, focudata:Topic-heap, focudata:Topic-tree_traversal, focudata:Topic-Collins, focudata:Topic-Java_Collections_Framework, focudata:Topic-matrix, focudata:Topic-symmetric_relation, focudata:Topic-Subgraph, focudata:Topic-bau, focudata:Topic-time_complexity, focudata:Topic-algorithm, focudata:Topic-Montreal, focudata:Topic-simple_path, focudata:Topic-whas, focudata:Topic-child_class, focudata:Topic-English, focudata:Topic-adjacency_list, focudata:Topic-adjacency_matrix, focudata:Topic-airport_code, focudata:Topic-graph, focudata:Topic-connected_components, focudata:Topic-data_structure, focudata:Topic-Internet;
+    focu:hasTopic focudata:Topic-Graphs;
+    a focu:Lecture ;
+    rdfs:label "Sorting-LowerBound_Bucket-Sort_Radix-Sort _Graphs and DFS"@en ;
+    focu:lectureNumber 19 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Graphs"@en .
+
+focudata:Topic-Graphs
+    a focu:Topic ;
+    rdfs:label "Graphs"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture19;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf>;
+    rdfs:seeAlso dbr:Graph_theory .
+
+focudata:COMP352-Lecture20
+    focu:hasTopic focudata:Topic-Computer_Science, focudata:Topic-simple_cycle, focudata:Topic-free_tree, focudata:Topic-O1, focudata:Topic-A_forest, focudata:Topic-ISBN, focudata:Topic-disconnected_graph, focudata:Topic-Java, focudata:Topic-maze, focudata:Topic-Software_Engineering, focudata:Topic-The_algorithm, focudata:Topic-DFS, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-undirected_graph, focudata:Topic-BA, focudata:Topic-Concordia, focudata:Topic-Collins, focudata:Topic-Java_Collections_Framework, focudata:Topic-sto, focudata:Topic-communication, focudata:Topic-algorithm, focudata:Topic-Montreal, focudata:Topic-adjacency_list, focudata:Topic-decorator_pattern, focudata:Topic-POBA, focudata:Topic-graph, focudata:Topic-connected_components, focudata:Topic-Template_method, focudata:Topic-data_structure;
+    focu:hasTopic focudata:Topic-DFS;
+    a focu:Lecture ;
+    rdfs:label "Sorting-LowerBound_Bucket-Sort_Radix-Sort _Graphs and DFS"@en ;
+    focu:lectureNumber 20 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_10.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "DFS"@en .
+
+focudata:Topic-DFS
+    a focu:Topic ;
+    rdfs:label "DFS"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture20;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf>;
+    rdfs:seeAlso dbr:Depth-first_search .
+
+focudata:COMP352-Lecture21
+    focu:hasTopic focudata:Topic-ADT, focudata:Topic-L0, focudata:Topic-Computer_Science, focudata:Topic-Quadratic, focudata:Topic-sand, focudata:Topic-trail, focudata:Topic-O1, focudata:Topic-ISBN, focudata:Topic-Java, focudata:Topic-Software_Engineering, focudata:Topic-The_algorithm, focudata:Topic-DFS, focudata:Topic-Breadth-First_Search, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-shortest_path, focudata:Topic-mod, focudata:Topic-Concordia, focudata:Topic-Collins, focudata:Topic-Java_Collections_Framework, focudata:Topic-Li, focudata:Topic-Discovery, focudata:Topic-articulation_vertex, focudata:Topic-partition, focudata:Topic-time_complexity, focudata:Topic-algorithm, focudata:Topic-integer, focudata:Topic-Cross_edge, focudata:Topic-Montreal, focudata:Topic-hash_function, focudata:Topic-adjacency_list, focudata:Topic-hash_table, focudata:Topic-POBA, focudata:Topic-graph, focudata:Topic-connected_components, focudata:Topic-key_type;
+    focu:hasTopic focudata:Topic-BFS;
+    a focu:Lecture ;
+    rdfs:label "BFS_DiGraphs"@en ;
+    focu:lectureNumber 21 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "BFS"@en .
+
+focudata:Topic-BFS
+    a focu:Topic ;
+    rdfs:label "BFS"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture21;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf>;
+    rdfs:seeAlso dbr:Breadth-first_search .
+
+focudata:COMP352-Lecture22
+    focu:hasTopic focudata:Topic-Computer_Science, focudata:Topic-trail, focudata:Topic-dynamic_programming, focudata:Topic-O1, focudata:Topic-Transitive_property, focudata:Topic-ISBN, focudata:Topic-Java, focudata:Topic-Digraph, focudata:Topic-Software_Engineering, focudata:Topic-The_algorithm, focudata:Topic-Edge, focudata:Topic-design_pattern, focudata:Topic-transitive_closure, focudata:Topic-DFS, focudata:Topic-topological_ordering, focudata:Topic-Wiley, focudata:Topic-Aiman, focudata:Topic-BOS, focudata:Topic-acyclic, focudata:Topic-Concordia, focudata:Topic-Collins, focudata:Topic-Java_Collections_Framework, focudata:Topic-algorithm, focudata:Topic-Cross_edge, focudata:Topic-Montreal, focudata:Topic-G0, focudata:Topic-task_scheduling, focudata:Topic-Digraphs, focudata:Topic-direct_edge, focudata:Topic-graph, focudata:Topic-connected_components, focudata:Topic-reachability;
+    focu:hasTopic focudata:Topic-DiGraphs;
+    a focu:Lecture ;
+    rdfs:label "BFS_DiGraphs"@en ;
+    focu:lectureNumber 22 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_11.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "DiGraphs"@en .
+
+focudata:Topic-DiGraphs
+    a focu:Topic ;
+    rdfs:label "DiGraphs"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture22;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf>;
+    rdfs:seeAlso dbr:Directed_graph .
+
+focudata:COMP352-Lecture23
+    focu:hasTopic focudata:Topic-ASAP, focudata:Topic-cloud, focudata:Topic-Hakim, focudata:Topic-modularity, focudata:Topic-Subtree, focudata:Topic-Goldwasser, focudata:Topic-city, focudata:Topic-Zoom, focudata:Topic-COMP, focudata:Topic-Edge, focudata:Topic-URL, focudata:Topic-Shay, focudata:Topic-Aiman, focudata:Topic-Eastern_Standard_Time, focudata:Topic-BST, focudata:Topic-Concordia_University, focudata:Topic-binary_search_tree, focudata:Topic-shortest_path, focudata:Topic-60d, focudata:Topic-binary_search, focudata:Topic-heap, focudata:Topic-Page_3, focudata:Topic-system_architecture, focudata:Topic-communication, focudata:Topic-algorithm, focudata:Topic-PP, focudata:Topic-OHare, focudata:Topic-3G, focudata:Topic-cost_function, focudata:Topic-Kent, focudata:Topic-data_structure, focudata:Topic-Internet, focudata:Topic-TIME, focudata:Topic-microphone, focudata:Topic-Honolulu, focudata:Topic-complexity_analysis, focudata:Topic-Plagiarism, focudata:Topic-webcam, focudata:Topic-eTextbook, focudata:Topic-O1, focudata:Topic-Software_Engineering, focudata:Topic-space_complexity, focudata:Topic-The_motive, focudata:Topic-Wiley, focudata:Topic-San_Francisco, focudata:Topic-LaGuardia_Airport, focudata:Topic-memory, focudata:Topic-PDF, focudata:Topic-tree_traversal, focudata:Topic-lab_report, focudata:Topic-Collins, focudata:Topic-mathematics, focudata:Topic-integer, focudata:Topic-Mellah, focudata:Topic-adjacency_list, focudata:Topic-Canadian_Information_Processing_Society, focudata:Topic-AVL_tree, focudata:Topic-ADT, focudata:Topic-Computer_Science, focudata:Topic-Chicago, focudata:Topic-Moodle, focudata:Topic-binary_tree, focudata:Topic-Miami_International_Airport, focudata:Topic-double_rotation, focudata:Topic-trail, focudata:Topic-True_False, focudata:Topic-Providence, focudata:Topic-packet, focudata:Topic-Identification_card, focudata:Topic-ER, focudata:Topic-pandemic, focudata:Topic-topological_ordering, focudata:Topic-PVD, focudata:Topic-Canadian_Engineering_Accreditation_Board, focudata:Topic-computer, focudata:Topic-disability, focudata:Topic-dependence, focudata:Topic-Final_Exam, focudata:Topic-mailman, focudata:Topic-mod, focudata:Topic-Concordia, focudata:Topic-fellow_student, focudata:Topic-directory, focudata:Topic-Bellman-Ford_Algorithm, focudata:Topic-shortest_path_tree, focudata:Topic-C4, focudata:Topic-K_W, focudata:Topic-hash_table, focudata:Topic-Los_Angeles, focudata:Topic-Template_method, focudata:Topic-programming, focudata:Topic-multiple_choice, focudata:Topic-NASTA, focudata:Topic-natural_sciences, focudata:Topic-modulo, focudata:Topic-Dallas, focudata:Topic-Recursion, focudata:Topic-Priority_Queue, focudata:Topic-ISBN, focudata:Topic-Java, focudata:Topic-John_Wiley_and_Sons, focudata:Topic-video_messaging, focudata:Topic-Knowledge_base, focudata:Topic-Breadth-First_Search, focudata:Topic-French, focudata:Topic-asymptotic, focudata:Topic-Question_7, focudata:Topic-Java_Collections_Framework, focudata:Topic-C3, focudata:Topic-prime_number, focudata:Topic-Montreal, focudata:Topic-English, focudata:Topic-hash_function, focudata:Topic-American, focudata:Topic-POD, focudata:Topic-PWS, focudata:Topic-AVL, focudata:Topic-graph, focudata:Topic-source_code;
+    focu:hasTopic focudata:Topic-ShortestPaths;
+    a focu:Lecture ;
+    rdfs:label "ShortestPaths"@en ;
+    focu:lectureNumber 23 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "ShortestPaths"@en .
+
+focudata:Topic-ShortestPaths
+    a focu:Topic ;
+    rdfs:label "ShortestPaths"@en ;
+    focu:partOfLecture focudata:COMP352-Lecture23;
+    focu:topicProvenance <file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf>;
+    rdfs:seeAlso dbr:Shortest_path_problem .
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_1.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Analysis-of-Algorithms"@en.
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_2.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Recursion"@en.
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_3.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Stacks and Queues"@en.
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_4.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "LinkedLists_and_Iterators"@en.
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_5.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "ArrayLists_NodeLists_Sequences and Trees"@en.
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_6.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "PriorityQueues and Heaps"@en.
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_7.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Maps_HashTables_OrderedMaps_and_Dictionaries"@en.
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_8.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "BinarySearchTrees_AVLTrees_MergeSort and QuickSort"@en.
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_9.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Sorting-LowerBound_Bucket-Sort_Radix-Sort _Graphs and DFS"@en.
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_10.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "BFS_DiGraphs"@en.
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_11.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "ShortestPaths"@en.

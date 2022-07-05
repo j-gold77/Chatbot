@@ -1,0 +1,759 @@
+------------------------------
+GetAllTopicsInCourse - COMP 352
+ArrayLists_NodeLists_and_Sequences	GUI	Lecture http://dbpedia.org/resource/Graphical_user_interface	6
+ArrayLists_NodeLists_and_Sequences	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	6
+ArrayLists_NodeLists_and_Sequences	integer	Lecture http://dbpedia.org/resource/Integer	6
+ArrayLists_NodeLists_and_Sequences	ADT	Lecture http://dbpedia.org/resource/Abstract_data_type	6
+ArrayLists_NodeLists_and_Sequences	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	6
+ArrayLists_NodeLists_and_Sequences	Array List	Lecture http://dbpedia.org/resource/Dynamic_array	6
+ArrayLists_NodeLists_and_Sequences	The Sequence	Lecture http://dbpedia.org/resource/The_Sequence	6
+ArrayLists_NodeLists_and_Sequences	Realization	Lecture http://dbpedia.org/resource/Realization_(climb)	6
+ArrayLists_NodeLists_and_Sequences	Aiman	Lecture http://dbpedia.org/resource/Aiman	6
+ArrayLists_NodeLists_and_Sequences	optimization	Lecture http://dbpedia.org/resource/Mathematical_optimization	6
+ArrayLists_NodeLists_and_Sequences	pointer	Lecture http://dbpedia.org/resource/Function_pointer	6
+ArrayLists_NodeLists_and_Sequences	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	6
+ArrayLists_NodeLists_and_Sequences	log2	Lecture http://dbpedia.org/resource/Binary_logarithm	6
+ArrayLists_NodeLists_and_Sequences	The cells	Lecture http://dbpedia.org/resource/The_Cells	6
+ArrayLists_NodeLists_and_Sequences	database	Lecture http://dbpedia.org/resource/Relational_database	6
+ArrayLists_NodeLists_and_Sequences	database	Lecture http://dbpedia.org/resource/Database	6
+ArrayLists_NodeLists_and_Sequences	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	6
+ArrayLists_NodeLists_and_Sequences	Concordia University	Lecture http://dbpedia.org/resource/Main_Page	6
+ArrayLists_NodeLists_and_Sequences	Web browser	Lecture http://dbpedia.org/resource/Web_browser	6
+ArrayLists_NodeLists_and_Sequences	linear order	Lecture http://dbpedia.org/resource/Total_order	6
+ArrayLists_NodeLists_and_Sequences	O(1)	Lecture http://dbpedia.org/resource/Big_O_notation	6
+ArrayLists_NodeLists_and_Sequences	Collins	Lecture http://dbpedia.org/resource/HarperCollins	6
+ArrayLists_NodeLists_and_Sequences	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	6
+ArrayLists_NodeLists_and_Sequences	Montreal	Lecture http://dbpedia.org/resource/Montreal	6
+ArrayLists_NodeLists_and_Sequences	ArrayLists_NodeLists_and_Sequences	Lecture http://dbpedia.org/resource/Array_data_structure	6
+ArrayLists_NodeLists_and_Sequences	data structure	Lecture http://dbpedia.org/resource/Data_structure	6
+ArrayLists_NodeLists_and_Sequences	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	6
+ArrayLists_NodeLists_and_Sequences	privacy	Lecture http://dbpedia.org/resource/Internet_privacy	6
+ArrayLists_NodeLists_and_Sequences	privacy	Lecture http://dbpedia.org/resource/Privacy	6
+Queues	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	4
+Queues	integer	Lecture http://dbpedia.org/resource/Integer	4
+Queues	ADT	Lecture http://dbpedia.org/resource/Abstract_data_type	4
+Queues	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	4
+Queues	FIFO	Lecture http://dbpedia.org/resource/Named_pipe	4
+Queues	Aiman	Lecture http://dbpedia.org/resource/Aiman	4
+Queues	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	4
+Queues	mod	Lecture http://dbpedia.org/resource/Modulo_operation	4
+Queues	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	4
+Queues	The Queue	Lecture http://dbpedia.org/resource/The_Queue	4
+Queues	Concordia University	Lecture http://dbpedia.org/resource/Main_Page	4
+Queues	ith	Lecture http://dbpedia.org/resource/Asteroid_family	4
+Queues	first-in first-out	Lecture http://dbpedia.org/resource/FIFO_(computing_and_electronics)	4
+Queues	The fundamentals	Lecture http://dbpedia.org/resource/The_Fundamentals	4
+Queues	O(1)	Lecture http://dbpedia.org/resource/Big_O_notation	4
+Queues	Collins	Lecture http://dbpedia.org/resource/HarperCollins	4
+Queues	Queues	Lecture http://dbpedia.org/resource/Queue_(abstract_data_type)	4
+Queues	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	4
+Queues	Montreal	Lecture http://dbpedia.org/resource/Montreal	4
+Queues	data structure	Lecture http://dbpedia.org/resource/Data_structure	4
+Queues	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	4
+Queues	scheduler	Lecture http://dbpedia.org/resource/Job_scheduler	4
+Recursion	memory	Lecture http://dbpedia.org/resource/Memory_management	2
+Recursion	memory	Lecture http://dbpedia.org/resource/Computer_memory	2
+Recursion	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	2
+Recursion	integer	Lecture http://dbpedia.org/resource/Integer	2
+Recursion	Windows	Lecture http://dbpedia.org/resource/Microsoft_Windows	2
+Recursion	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	2
+Recursion	acb	Lecture http://dbpedia.org/resource/Liga_ACB	2
+Recursion	directory	Lecture http://dbpedia.org/resource/File_system	2
+Recursion	Aiman	Lecture http://dbpedia.org/resource/Aiman	2
+Recursion	time complexity	Lecture http://dbpedia.org/resource/Time_complexity	2
+Recursion	tail-recursive	Lecture http://dbpedia.org/resource/Tail_call	2
+Recursion	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	2
+Recursion	factorial	Lecture http://dbpedia.org/resource/Factorial	2
+Recursion	Concordia	Lecture http://dbpedia.org/resource/Concordia_University	2
+Recursion	log2	Lecture http://dbpedia.org/resource/Binary_logarithm	2
+Recursion	Fibonacci	Lecture http://dbpedia.org/resource/Fibonacci_number	2
+Recursion	binary	Lecture http://dbpedia.org/resource/Binary_data	2
+Recursion	binary	Lecture http://dbpedia.org/resource/Binary_number	2
+Recursion	binary	Lecture http://dbpedia.org/resource/Binary_function	2
+Recursion	power function	Lecture http://dbpedia.org/resource/Exponentiation	2
+Recursion	n8	Lecture http://dbpedia.org/resource/Rugby_union_positions	2
+Recursion	jif	Lecture http://dbpedia.org/resource/Cif	2
+Recursion	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	2
+Recursion	Nonnegative	Lecture http://dbpedia.org/resource/Sign_(mathematics)	2
+Recursion	Sif	Lecture http://dbpedia.org/resource/Dark_Souls	2
+Recursion	puzzle	Lecture http://dbpedia.org/resource/Puzzle	2
+Recursion	English	Lecture http://dbpedia.org/resource/English_language	2
+Recursion	mathematics	Lecture http://dbpedia.org/resource/Mathematics	2
+Recursion	n1	Lecture http://dbpedia.org/resource/Group_N	2
+Recursion	if1	Lecture http://dbpedia.org/resource/Prokaryotic_initiation_factor-1	2
+Recursion	if1	Lecture http://dbpedia.org/resource/SUI1	2
+Recursion	n7	Lecture http://dbpedia.org/resource/N_postcode_area	2
+Recursion	Recursive definition	Lecture http://dbpedia.org/resource/Recursive_definition	2
+Recursion	Collins	Lecture http://dbpedia.org/resource/HarperCollins	2
+Recursion	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	2
+Recursion	Montreal	Lecture http://dbpedia.org/resource/Montreal	2
+Recursion	algorithm	Lecture http://dbpedia.org/resource/Algorithm	2
+Recursion	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	2
+Recursion	The Stack	Lecture http://dbpedia.org/resource/The_Stack	2
+Recursion	Recursion	Lecture http://dbpedia.org/resource/Recursion	2
+Recursion	recursive algorithm	Lecture http://dbpedia.org/resource/Recursion_(computer_science)	2
+Recursion	Program Counter	Lecture http://dbpedia.org/resource/Program_counter	2
+HashTables	char	Lecture http://dbpedia.org/resource/Char	11
+HashTables	Common choice	Lecture http://dbpedia.org/resource/Common_Choice	11
+HashTables	memory	Lecture http://dbpedia.org/resource/Memory_management	11
+HashTables	memory	Lecture http://dbpedia.org/resource/Computer_memory	11
+HashTables	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	11
+HashTables	integer	Lecture http://dbpedia.org/resource/Integer	11
+HashTables	ADT	Lecture http://dbpedia.org/resource/Abstract_data_type	11
+HashTables	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	11
+HashTables	social security number	Lecture http://dbpedia.org/resource/Social_Security_number	11
+HashTables	Quadratic	Lecture http://dbpedia.org/resource/Quadratic_function	11
+HashTables	zak	Lecture http://dbpedia.org/resource/Zak_Dingle	11
+HashTables	hash function	Lecture http://dbpedia.org/resource/Hash_function	11
+HashTables	partition	Lecture http://dbpedia.org/resource/Partition_of_a_set	11
+HashTables	Aiman	Lecture http://dbpedia.org/resource/Aiman	11
+HashTables	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	11
+HashTables	xk	Lecture http://dbpedia.org/resource/ISO_3166-1_alpha-2	11
+HashTables	mod	Lecture http://dbpedia.org/resource/Modulo_operation	11
+HashTables	lengths	Lecture http://dbpedia.org/resource/Length	11
+HashTables	HashTables	Lecture http://dbpedia.org/resource/Hash_table	11
+HashTables	jd	Lecture http://dbpedia.org/resource/Julian_day	11
+HashTables	prime number	Lecture http://dbpedia.org/resource/Prime_number	11
+HashTables	open addressing	Lecture http://dbpedia.org/resource/Open_addressing	11
+HashTables	keyn	Lecture http://dbpedia.org/resource/KEYN-FM	11
+HashTables	binary	Lecture http://dbpedia.org/resource/Binary_data	11
+HashTables	binary	Lecture http://dbpedia.org/resource/Binary_number	11
+HashTables	binary	Lecture http://dbpedia.org/resource/Binary_function	11
+HashTables	memory address	Lecture http://dbpedia.org/resource/Memory_address	11
+HashTables	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	11
+HashTables	ak	Lecture http://dbpedia.org/resource/AK-74	11
+HashTables	English	Lecture http://dbpedia.org/resource/English_language	11
+HashTables	number theory	Lecture http://dbpedia.org/resource/Number_theory	11
+HashTables	probability	Lecture http://dbpedia.org/resource/Probability_distribution	11
+HashTables	probability	Lecture http://dbpedia.org/resource/Probability	11
+HashTables	32-bit	Lecture http://dbpedia.org/resource/IEEE_754	11
+HashTables	byte	Lecture http://dbpedia.org/resource/Byte	11
+HashTables	Concordia University	Lecture http://dbpedia.org/resource/Main_Page	11
+HashTables	random numbers	Lecture http://dbpedia.org/resource/Pseudorandomness	11
+HashTables	O(1)	Lecture http://dbpedia.org/resource/Big_O_notation	11
+HashTables	Collins	Lecture http://dbpedia.org/resource/HarperCollins	11
+HashTables	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	11
+HashTables	Montreal	Lecture http://dbpedia.org/resource/Montreal	11
+HashTables	compression function	Lecture http://dbpedia.org/resource/One-way_compression_function	11
+HashTables	key type	Lecture http://dbpedia.org/resource/Key_type_stamp	11
+HashTables	strings	Lecture http://dbpedia.org/resource/String_section	11
+HashTables	strings	Lecture http://dbpedia.org/resource/String_instrument	11
+HashTables	MAD	Lecture http://dbpedia.org/resource/Magnetic_anomaly_detector	11
+HashTables	data structure	Lecture http://dbpedia.org/resource/Data_structure	11
+HashTables	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	11
+HashTables	Polynomial	Lecture http://dbpedia.org/resource/Polynomial	11
+Trees	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	7
+Trees	integer	Lecture http://dbpedia.org/resource/Integer	7
+Trees	ADT	Lecture http://dbpedia.org/resource/Abstract_data_type	7
+Trees	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	7
+Trees	Decision Tree	Lecture http://dbpedia.org/resource/Decision_tree	7
+Trees	Trees	Lecture http://dbpedia.org/resource/Tree_(data_structure)	7
+Trees	Euler Tour	Lecture http://dbpedia.org/resource/Eulerian_path	7
+Trees	directory	Lecture http://dbpedia.org/resource/File_system	7
+Trees	arithmetic	Lecture http://dbpedia.org/resource/Floating-point_arithmetic	7
+Trees	binary tree	Lecture http://dbpedia.org/resource/Binary_tree	7
+Trees	Preorder	Lecture http://dbpedia.org/resource/Preorder	7
+Trees	Aiman	Lecture http://dbpedia.org/resource/Aiman	7
+Trees	expression	Lecture http://dbpedia.org/resource/Gene_expression	7
+Trees	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	7
+Trees	Asia	Lecture http://dbpedia.org/resource/Asia	7
+Trees	Concordia	Lecture http://dbpedia.org/resource/Concordia_University	7
+Trees	log2	Lecture http://dbpedia.org/resource/Binary_logarithm	7
+Trees	Template method	Lecture http://dbpedia.org/resource/Template_method_pattern	7
+Trees	The advantage	Lecture http://dbpedia.org/resource/The_Advantage	7
+Trees	coffee	Lecture http://dbpedia.org/resource/Coffee	7
+Trees	binary	Lecture http://dbpedia.org/resource/Binary_data	7
+Trees	binary	Lecture http://dbpedia.org/resource/Binary_number	7
+Trees	binary	Lecture http://dbpedia.org/resource/Binary_function	7
+Trees	General Trees	Lecture http://dbpedia.org/resource/General_Trees	7
+Trees	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	7
+Trees	Subtree	Lecture http://dbpedia.org/resource/Tree_(data_structure)	7
+Trees	DC	Lecture http://dbpedia.org/resource/Direct_current	7
+Trees	Spike	Lecture http://dbpedia.org/resource/Paramount_Network	7
+Trees	Starbucks	Lecture http://dbpedia.org/resource/Starbucks	7
+Trees	abstract class	Lecture http://dbpedia.org/resource/Abstract_type	7
+Trees	CF	Lecture http://dbpedia.org/resource/CompactFlash	7
+Trees	iterator	Lecture http://dbpedia.org/resource/Iterator	7
+Trees	linear order	Lecture http://dbpedia.org/resource/Total_order	7
+Trees	O(1)	Lecture http://dbpedia.org/resource/Big_O_notation	7
+Trees	Collins	Lecture http://dbpedia.org/resource/HarperCollins	7
+Trees	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	7
+Trees	Montreal	Lecture http://dbpedia.org/resource/Montreal	7
+Trees	algorithm	Lecture http://dbpedia.org/resource/Algorithm	7
+Trees	operand	Lecture http://dbpedia.org/resource/Operand	7
+Trees	BA	Lecture http://dbpedia.org/resource/Bachelor_of_Arts	7
+Trees	NoTrees	Lecture http://dbpedia.org/resource/Notrees,_Texas	7
+Trees	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	7
+Trees	expression tree	Lecture http://dbpedia.org/resource/Parse_tree	7
+Trees	init	Lecture http://dbpedia.org/resource/Init	7
+Trees	balanced binary tree	Lecture http://dbpedia.org/resource/Self-balancing_binary_search_tree	7
+COMP 352 Assignment 3	integer	Lecture http://dbpedia.org/resource/Integer	7
+COMP 352 Assignment 3	ADT	Lecture http://dbpedia.org/resource/Abstract_data_type	7
+COMP 352 Assignment 3	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	7
+COMP 352 Assignment 3	directory	Lecture http://dbpedia.org/resource/File_system	7
+COMP 352 Assignment 3	binary tree	Lecture http://dbpedia.org/resource/Binary_tree	7
+COMP 352 Assignment 3	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	7
+COMP 352 Assignment 3	O(1)	Lecture http://dbpedia.org/resource/Big_O_notation	7
+COMP 352 Assignment 3	algorithm	Lecture http://dbpedia.org/resource/Algorithm	7
+COMP 352 Assignment 3	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	7
+COMP 352 Assignment 2	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	5
+COMP 352 Assignment 2	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	5
+COMP 352 Assignment 2	data structure	Lecture http://dbpedia.org/resource/Data_structure	5
+COMP 352 Assignment 2	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	5
+LinkedLists_and_Iterators	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	5
+LinkedLists_and_Iterators	ADT	Lecture http://dbpedia.org/resource/Abstract_data_type	5
+LinkedLists_and_Iterators	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	5
+LinkedLists_and_Iterators	Aiman	Lecture http://dbpedia.org/resource/Aiman	5
+LinkedLists_and_Iterators	expression	Lecture http://dbpedia.org/resource/Gene_expression	5
+LinkedLists_and_Iterators	garbage collector	Lecture http://dbpedia.org/resource/Waste_collector	5
+LinkedLists_and_Iterators	temporary variable	Lecture http://dbpedia.org/resource/Temporary_variable	5
+LinkedLists_and_Iterators	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	5
+LinkedLists_and_Iterators	Concordia	Lecture http://dbpedia.org/resource/Concordia_University	5
+LinkedLists_and_Iterators	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	5
+LinkedLists_and_Iterators	LinkedLists_and_Iterators	Lecture http://dbpedia.org/resource/Linked_list	5
+LinkedLists_and_Iterators	B X	Lecture http://dbpedia.org/resource/B10	5
+LinkedLists_and_Iterators	iterator	Lecture http://dbpedia.org/resource/Iterator	5
+LinkedLists_and_Iterators	O(1)	Lecture http://dbpedia.org/resource/Big_O_notation	5
+LinkedLists_and_Iterators	Collins	Lecture http://dbpedia.org/resource/HarperCollins	5
+LinkedLists_and_Iterators	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	5
+LinkedLists_and_Iterators	Montreal	Lecture http://dbpedia.org/resource/Montreal	5
+LinkedLists_and_Iterators	data structure	Lecture http://dbpedia.org/resource/Data_structure	5
+LinkedLists_and_Iterators	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	5
+Maps	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	10
+Maps	ADT	Lecture http://dbpedia.org/resource/Abstract_data_type	10
+Maps	Aiman	Lecture http://dbpedia.org/resource/Aiman	10
+Maps	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	10
+Maps	Maps	Lecture http://dbpedia.org/resource/Associative_array	10
+Maps	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	10
+Maps	Concordia University	Lecture http://dbpedia.org/resource/Main_Page	10
+Maps	iterator	Lecture http://dbpedia.org/resource/Iterator	10
+Maps	Collins	Lecture http://dbpedia.org/resource/HarperCollins	10
+Maps	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	10
+Maps	Montreal	Lecture http://dbpedia.org/resource/Montreal	10
+Maps	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	10
+AVLTrees	xa	Lecture http://dbpedia.org/resource/Scion_xA	14
+AVLTrees	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	14
+AVLTrees	integer	Lecture http://dbpedia.org/resource/Integer	14
+AVLTrees	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	14
+AVLTrees	binary search	Lecture http://dbpedia.org/resource/Binary_search_algorithm	14
+AVLTrees	T1	Lecture http://dbpedia.org/resource/Digital_Signal_1	14
+AVLTrees	binary tree	Lecture http://dbpedia.org/resource/Binary_tree	14
+AVLTrees	Aiman	Lecture http://dbpedia.org/resource/Aiman	14
+AVLTrees	AVL	Lecture http://dbpedia.org/resource/Automatic_vehicle_location	14
+AVLTrees	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	14
+AVLTrees	double rotation	Lecture http://dbpedia.org/resource/Rotations_in_4-dimensional_Euclidean_space	14
+AVLTrees	binary search tree	Lecture http://dbpedia.org/resource/Binary_search_tree	14
+AVLTrees	T0	Lecture http://dbpedia.org/resource/Kolmogorov_space	14
+AVLTrees	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	14
+AVLTrees	tree traversal	Lecture http://dbpedia.org/resource/Tree_traversal	14
+AVLTrees	Subtree	Lecture http://dbpedia.org/resource/Tree_(data_structure)	14
+AVLTrees	Concordia University	Lecture http://dbpedia.org/resource/Main_Page	14
+AVLTrees	AVLTrees	Lecture http://dbpedia.org/resource/AVL_tree	14
+AVLTrees	O(1)	Lecture http://dbpedia.org/resource/Big_O_notation	14
+AVLTrees	Collins	Lecture http://dbpedia.org/resource/HarperCollins	14
+AVLTrees	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	14
+AVLTrees	Montreal	Lecture http://dbpedia.org/resource/Montreal	14
+AVLTrees	Soviet	Lecture http://dbpedia.org/resource/Soviet_Union	14
+AVLTrees	T3	Lecture http://dbpedia.org/resource/Digital_Signal_3	14
+AVLTrees	data structure	Lecture http://dbpedia.org/resource/Data_structure	14
+AVLTrees	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	14
+AVLTrees	AVL tree	Lecture http://dbpedia.org/resource/AVL_tree	14
+AVLTrees	balanced binary tree	Lecture http://dbpedia.org/resource/Self-balancing_binary_search_tree	14
+AVLTrees	Vel	Lecture http://dbpedia.org/resource/Vel	14
+Graphs	adjacency list	Lecture http://dbpedia.org/resource/Adjacency_list	19
+Graphs	incidence	Lecture http://dbpedia.org/resource/Incidence_matrix	19
+Graphs	disconnected graph	Lecture http://dbpedia.org/resource/Connectivity_(graph_theory)	19
+Graphs	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	19
+Graphs	ADT	Lecture http://dbpedia.org/resource/Abstract_data_type	19
+Graphs	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	19
+Graphs	graph	Lecture http://dbpedia.org/resource/Graph_database	19
+Graphs	graph	Lecture http://dbpedia.org/resource/Graph_theory	19
+Graphs	graph	Lecture http://dbpedia.org/resource/Multigraph	19
+Graphs	child class	Lecture http://dbpedia.org/resource/Inheritance_(object-oriented_programming)	19
+Graphs	Edge	Lecture http://dbpedia.org/resource/Microsoft_Edge	19
+Graphs	trail	Lecture http://dbpedia.org/resource/Glossary_of_graph_theory_terms	19
+Graphs	space complexity	Lecture http://dbpedia.org/resource/Space_complexity	19
+Graphs	simple path	Lecture http://dbpedia.org/resource/Path_(graph_theory)	19
+Graphs	Internet	Lecture http://dbpedia.org/resource/Internet	19
+Graphs	airport code	Lecture http://dbpedia.org/resource/IATA_airport_code	19
+Graphs	Local area network	Lecture http://dbpedia.org/resource/Local_area_network	19
+Graphs	simple cycle	Lecture http://dbpedia.org/resource/Simple_cycle_combustion_turbine	19
+Graphs	A forest	Lecture http://dbpedia.org/resource/A_Forest	19
+Graphs	Aiman	Lecture http://dbpedia.org/resource/Aiman	19
+Graphs	pointer	Lecture http://dbpedia.org/resource/Function_pointer	19
+Graphs	Integrated circuit	Lecture http://dbpedia.org/resource/Integrated_circuit	19
+Graphs	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	19
+Graphs	Concordia	Lecture http://dbpedia.org/resource/Concordia_University	19
+Graphs	symmetric relation	Lecture http://dbpedia.org/resource/Symmetric_relation	19
+Graphs	connected components	Lecture http://dbpedia.org/resource/Connected_space	19
+Graphs	Subgraph	Lecture http://dbpedia.org/resource/Subgraph_(operating_system)	19
+Graphs	mixed graph	Lecture http://dbpedia.org/resource/Mixed_graph	19
+Graphs	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	19
+Graphs	grid graph	Lecture http://dbpedia.org/resource/Lattice_graph	19
+Graphs	bau	Lecture http://dbpedia.org/resource/Nintinugga	19
+Graphs	Printed circuit board	Lecture http://dbpedia.org/resource/Printed_circuit_board	19
+Graphs	matrix	Lecture http://dbpedia.org/resource/Definiteness_of_a_matrix	19
+Graphs	matrix	Lecture http://dbpedia.org/resource/Composite_material	19
+Graphs	Graphs	Lecture http://dbpedia.org/resource/Graph_theory	19
+Graphs	unordered pair	Lecture http://dbpedia.org/resource/Unordered_pair	19
+Graphs	free tree	Lecture http://dbpedia.org/resource/Tree_(graph_theory)	19
+Graphs	O(1)	Lecture http://dbpedia.org/resource/Big_O_notation	19
+Graphs	Collins	Lecture http://dbpedia.org/resource/HarperCollins	19
+Graphs	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	19
+Graphs	Montreal	Lecture http://dbpedia.org/resource/Montreal	19
+Graphs	multiple edges	Lecture http://dbpedia.org/resource/Multigraph	19
+Graphs	undirected graph	Lecture http://dbpedia.org/resource/Graph_(discrete_mathematics)	19
+Graphs	city	Lecture http://dbpedia.org/resource/City	19
+Graphs	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	19
+Graphs	in-degree	Lecture http://dbpedia.org/resource/Directed_graph	19
+Graphs	adjacency matrix	Lecture http://dbpedia.org/resource/Adjacency_matrix	19
+Graphs	whas	Lecture http://dbpedia.org/resource/WHAS-TV	19
+ShortestPaths	adjacency list	Lecture http://dbpedia.org/resource/Adjacency_list	23
+ShortestPaths	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	23
+ShortestPaths	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	23
+ShortestPaths	graph	Lecture http://dbpedia.org/resource/Graph_database	23
+ShortestPaths	graph	Lecture http://dbpedia.org/resource/Graph_theory	23
+ShortestPaths	graph	Lecture http://dbpedia.org/resource/Multigraph	23
+ShortestPaths	Los Angeles	Lecture http://dbpedia.org/resource/Los_Angeles_International_Airport	23
+ShortestPaths	Edge	Lecture http://dbpedia.org/resource/Microsoft_Edge	23
+ShortestPaths	trail	Lecture http://dbpedia.org/resource/Glossary_of_graph_theory_terms	23
+ShortestPaths	Chicago	Lecture http://dbpedia.org/resource/Chicago	23
+ShortestPaths	Shay	Lecture http://dbpedia.org/resource/Shay_locomotive	23
+ShortestPaths	Internet	Lecture http://dbpedia.org/resource/Internet	23
+ShortestPaths	topological ordering	Lecture http://dbpedia.org/resource/Topological_sorting	23
+ShortestPaths	cloud	Lecture http://dbpedia.org/resource/Cloud	23
+ShortestPaths	cloud	Lecture http://dbpedia.org/resource/Cloud_computing	23
+ShortestPaths	ShortestPaths	Lecture http://dbpedia.org/resource/Shortest_path_problem	23
+ShortestPaths	Aiman	Lecture http://dbpedia.org/resource/Aiman	23
+ShortestPaths	cost function	Lecture http://dbpedia.org/resource/Loss_function	23
+ShortestPaths	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	23
+ShortestPaths	PWS	Lecture http://dbpedia.org/resource/Podlaska_WytwÃ³rnia_SamolotÃ³w	23
+ShortestPaths	Concordia	Lecture http://dbpedia.org/resource/Concordia_University	23
+ShortestPaths	Template method	Lecture http://dbpedia.org/resource/Template_method_pattern	23
+ShortestPaths	PVD	Lecture http://dbpedia.org/resource/Physical_vapor_deposition	23
+ShortestPaths	Bellman-Ford Algorithm	Lecture http://dbpedia.org/resource/BellmanâFord_algorithm	23
+ShortestPaths	O'Hare	Lecture http://dbpedia.org/resource/O'Hare_International_Airport	23
+ShortestPaths	60d	Lecture http://dbpedia.org/resource/Canon_EOS_60D	23
+ShortestPaths	C4	Lecture http://dbpedia.org/resource/Command_and_control	23
+ShortestPaths	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	23
+ShortestPaths	shortest path	Lecture http://dbpedia.org/resource/Shortest_path_problem	23
+ShortestPaths	shortest path tree	Lecture http://dbpedia.org/resource/Shortest-path_tree	23
+ShortestPaths	packet	Lecture http://dbpedia.org/resource/Network_packet	23
+ShortestPaths	Providence	Lecture http://dbpedia.org/resource/Providence_College	23
+ShortestPaths	Providence	Lecture http://dbpedia.org/resource/Divine_providence	23
+ShortestPaths	Honolulu	Lecture http://dbpedia.org/resource/Daniel_K._Inouye_International_Airport	23
+ShortestPaths	Miami International Airport	Lecture http://dbpedia.org/resource/Miami_International_Airport	23
+ShortestPaths	O(1)	Lecture http://dbpedia.org/resource/Big_O_notation	23
+ShortestPaths	Collins	Lecture http://dbpedia.org/resource/HarperCollins	23
+ShortestPaths	Kent	Lecture http://dbpedia.org/resource/Kent	23
+ShortestPaths	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	23
+ShortestPaths	Priority Queue	Lecture http://dbpedia.org/resource/Priority_queue	23
+ShortestPaths	Montreal	Lecture http://dbpedia.org/resource/Montreal	23
+ShortestPaths	Dallas	Lecture http://dbpedia.org/resource/Dallas	23
+ShortestPaths	C3	Lecture http://dbpedia.org/resource/C3_carbon_fixation	23
+ShortestPaths	city	Lecture http://dbpedia.org/resource/City	23
+ShortestPaths	heap	Lecture http://dbpedia.org/resource/Binary_heap	23
+ShortestPaths	algorithm	Lecture http://dbpedia.org/resource/Algorithm	23
+ShortestPaths	Breadth-First Search	Lecture http://dbpedia.org/resource/Breadth-first_search	23
+ShortestPaths	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	23
+ShortestPaths	LaGuardia Airport	Lecture http://dbpedia.org/resource/LaGuardia_Airport	23
+ShortestPaths	San Francisco	Lecture http://dbpedia.org/resource/San_Francisco_International_Airport	23
+Analysis-of-Algorithms	memory	Lecture http://dbpedia.org/resource/Memory_management	1
+Analysis-of-Algorithms	memory	Lecture http://dbpedia.org/resource/Computer_memory	1
+Analysis-of-Algorithms	Random Access Machine	Lecture http://dbpedia.org/resource/Random-access_machine	1
+Analysis-of-Algorithms	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	1
+Analysis-of-Algorithms	integer	Lecture http://dbpedia.org/resource/Integer	1
+Analysis-of-Algorithms	Windows	Lecture http://dbpedia.org/resource/Microsoft_Windows	1
+Analysis-of-Algorithms	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	1
+Analysis-of-Algorithms	Analysis-of-Algorithms	Lecture http://dbpedia.org/resource/Algorithm	1
+Analysis-of-Algorithms	binary search	Lecture http://dbpedia.org/resource/Binary_search_algorithm	1
+Analysis-of-Algorithms	plain	Lecture http://dbpedia.org/resource/Plain	1
+Analysis-of-Algorithms	Quadratic	Lecture http://dbpedia.org/resource/Quadratic_function	1
+Analysis-of-Algorithms	2 times	Lecture http://dbpedia.org/resource/NWA_Florida_Tag_Team_Championship	1
+Analysis-of-Algorithms	complexity analysis	Lecture http://dbpedia.org/resource/Analysis_of_algorithms	1
+Analysis-of-Algorithms	Aiman	Lecture http://dbpedia.org/resource/Aiman	1
+Analysis-of-Algorithms	pseudocode	Lecture http://dbpedia.org/resource/Pseudocode	1
+Analysis-of-Algorithms	expression	Lecture http://dbpedia.org/resource/Gene_expression	1
+Analysis-of-Algorithms	time complexity	Lecture http://dbpedia.org/resource/Time_complexity	1
+Analysis-of-Algorithms	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	1
+Analysis-of-Algorithms	programming	Lecture http://dbpedia.org/resource/Computer_programming	1
+Analysis-of-Algorithms	programming	Lecture http://dbpedia.org/resource/Computer_program	1
+Analysis-of-Algorithms	programming	Lecture http://dbpedia.org/resource/Programming_language	1
+Analysis-of-Algorithms	Plain English	Lecture http://dbpedia.org/resource/Plain_English	1
+Analysis-of-Algorithms	Concordia	Lecture http://dbpedia.org/resource/Concordia_University	1
+Analysis-of-Algorithms	computer	Lecture http://dbpedia.org/resource/Computer_network	1
+Analysis-of-Algorithms	computer	Lecture http://dbpedia.org/resource/Computer	1
+Analysis-of-Algorithms	log2	Lecture http://dbpedia.org/resource/Binary_logarithm	1
+Analysis-of-Algorithms	memory cells	Lecture http://dbpedia.org/resource/Computer_data_storage	1
+Analysis-of-Algorithms	small time	Lecture http://dbpedia.org/resource/Small_Time	1
+Analysis-of-Algorithms	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	1
+Analysis-of-Algorithms	linear function	Lecture http://dbpedia.org/resource/Linear_function	1
+Analysis-of-Algorithms	English	Lecture http://dbpedia.org/resource/English_language	1
+Analysis-of-Algorithms	CPU	Lecture http://dbpedia.org/resource/Central_processing_unit	1
+Analysis-of-Algorithms	8T	Lecture http://dbpedia.org/resource/8T	1
+Analysis-of-Algorithms	aba	Lecture http://dbpedia.org/resource/Applied_behavior_analysis	1
+Analysis-of-Algorithms	nfor	Lecture http://dbpedia.org/resource/Ernest_Webnje_Nfor	1
+Analysis-of-Algorithms	robotics	Lecture http://dbpedia.org/resource/Robotics	1
+Analysis-of-Algorithms	Control flow	Lecture http://dbpedia.org/resource/Control_flow	1
+Analysis-of-Algorithms	The statement	Lecture http://dbpedia.org/resource/The_Statement_(film)	1
+Analysis-of-Algorithms	O(1)	Lecture http://dbpedia.org/resource/Big_O_notation	1
+Analysis-of-Algorithms	indicative	Lecture http://dbpedia.org/resource/Realis_mood	1
+Analysis-of-Algorithms	Collins	Lecture http://dbpedia.org/resource/HarperCollins	1
+Analysis-of-Algorithms	Intuition	Lecture http://dbpedia.org/resource/Intuition	1
+Analysis-of-Algorithms	insertion sort	Lecture http://dbpedia.org/resource/Insertion_sort	1
+Analysis-of-Algorithms	upper bound	Lecture http://dbpedia.org/resource/Upper_and_lower_bounds	1
+Analysis-of-Algorithms	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	1
+Analysis-of-Algorithms	Montreal	Lecture http://dbpedia.org/resource/Montreal	1
+Analysis-of-Algorithms	code segment	Lecture http://dbpedia.org/resource/Code_segment	1
+Analysis-of-Algorithms	algorithm	Lecture http://dbpedia.org/resource/Algorithm	1
+Analysis-of-Algorithms	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	1
+Analysis-of-Algorithms	asymptotic	Lecture http://dbpedia.org/resource/Asymptotic_analysis	1
+Analysis-of-Algorithms	mutual fund	Lecture http://dbpedia.org/resource/Mutual_fund	1
+COMP 352 Assignment 1	integer	Lecture http://dbpedia.org/resource/Integer	1
+COMP 352 Assignment 1	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	1
+COMP 352 Assignment 1	time complexity	Lecture http://dbpedia.org/resource/Time_complexity	1
+COMP 352 Assignment 1	programming	Lecture http://dbpedia.org/resource/Computer_programming	1
+COMP 352 Assignment 1	programming	Lecture http://dbpedia.org/resource/Computer_program	1
+COMP 352 Assignment 1	programming	Lecture http://dbpedia.org/resource/Programming_language	1
+COMP 352 Assignment 1	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	1
+COMP 352 Assignment 1	algorithm	Lecture http://dbpedia.org/resource/Algorithm	1
+COMP 352 Assignment 1	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	1
+BinarySearchTrees	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	13
+BinarySearchTrees	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	13
+BinarySearchTrees	binary search	Lecture http://dbpedia.org/resource/Binary_search_algorithm	13
+BinarySearchTrees	binary tree	Lecture http://dbpedia.org/resource/Binary_tree	13
+BinarySearchTrees	Aiman	Lecture http://dbpedia.org/resource/Aiman	13
+BinarySearchTrees	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	13
+BinarySearchTrees	binary search tree	Lecture http://dbpedia.org/resource/Binary_search_tree	13
+BinarySearchTrees	BinarySearchTrees	Lecture http://dbpedia.org/resource/Binary_tree	13
+BinarySearchTrees	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	13
+BinarySearchTrees	tree traversal	Lecture http://dbpedia.org/resource/Tree_traversal	13
+BinarySearchTrees	Subtree	Lecture http://dbpedia.org/resource/Tree_(data_structure)	13
+BinarySearchTrees	Concordia University	Lecture http://dbpedia.org/resource/Main_Page	13
+BinarySearchTrees	Collins	Lecture http://dbpedia.org/resource/HarperCollins	13
+BinarySearchTrees	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	13
+BinarySearchTrees	Montreal	Lecture http://dbpedia.org/resource/Montreal	13
+BinarySearchTrees	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	13
+PriorityQueues	xa	Lecture http://dbpedia.org/resource/Scion_xA	8
+PriorityQueues	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	8
+PriorityQueues	integer	Lecture http://dbpedia.org/resource/Integer	8
+PriorityQueues	ADT	Lecture http://dbpedia.org/resource/Abstract_data_type	8
+PriorityQueues	comparator	Lecture http://dbpedia.org/resource/Comparator	8
+PriorityQueues	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	8
+PriorityQueues	public interface	Lecture http://dbpedia.org/resource/Public_interface	8
+PriorityQueues	Aiman	Lecture http://dbpedia.org/resource/Aiman	8
+PriorityQueues	Stock market	Lecture http://dbpedia.org/resource/Stock_market	8
+PriorityQueues	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	8
+PriorityQueues	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	8
+PriorityQueues	PriorityQueues	Lecture http://dbpedia.org/resource/Priority_queue	8
+PriorityQueues	Concordia University	Lecture http://dbpedia.org/resource/Main_Page	8
+PriorityQueues	linear order	Lecture http://dbpedia.org/resource/Total_order	8
+PriorityQueues	O(1)	Lecture http://dbpedia.org/resource/Big_O_notation	8
+PriorityQueues	lexicographic ordering	Lecture http://dbpedia.org/resource/Lexicographical_order	8
+PriorityQueues	Collins	Lecture http://dbpedia.org/resource/HarperCollins	8
+PriorityQueues	insertion sort	Lecture http://dbpedia.org/resource/Insertion_sort	8
+PriorityQueues	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	8
+PriorityQueues	Priority Queue	Lecture http://dbpedia.org/resource/Priority_queue	8
+PriorityQueues	Montreal	Lecture http://dbpedia.org/resource/Montreal	8
+PriorityQueues	algorithm	Lecture http://dbpedia.org/resource/Algorithm	8
+PriorityQueues	key type	Lecture http://dbpedia.org/resource/Key_type_stamp	8
+PriorityQueues	key-value pair	Lecture http://dbpedia.org/resource/Attributeâvalue_pair	8
+PriorityQueues	data structure	Lecture http://dbpedia.org/resource/Data_structure	8
+PriorityQueues	Selection Sort	Lecture http://dbpedia.org/resource/Selection_sort	8
+PriorityQueues	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	8
+PriorityQueues	Transitive property	Lecture http://dbpedia.org/resource/Transitive_relation	8
+PriorityQueues	Antisymmetric	Lecture http://dbpedia.org/resource/Antisymmetric_relation	8
+DiGraphs	G0	Lecture http://dbpedia.org/resource/G0_phase	22
+DiGraphs	The algorithm	Lecture http://dbpedia.org/resource/The_Algorithm	22
+DiGraphs	reachability	Lecture http://dbpedia.org/resource/Reachability	22
+DiGraphs	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	22
+DiGraphs	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	22
+DiGraphs	graph	Lecture http://dbpedia.org/resource/Graph_database	22
+DiGraphs	graph	Lecture http://dbpedia.org/resource/Graph_theory	22
+DiGraphs	graph	Lecture http://dbpedia.org/resource/Multigraph	22
+DiGraphs	Edge	Lecture http://dbpedia.org/resource/Microsoft_Edge	22
+DiGraphs	trail	Lecture http://dbpedia.org/resource/Glossary_of_graph_theory_terms	22
+DiGraphs	dynamic programming	Lecture http://dbpedia.org/resource/Dynamic_programming	22
+DiGraphs	Digraphs	Lecture http://dbpedia.org/resource/Digraph_(orthography)	22
+DiGraphs	topological ordering	Lecture http://dbpedia.org/resource/Topological_sorting	22
+DiGraphs	Cross edge	Lecture http://dbpedia.org/resource/Cross_Edge	22
+DiGraphs	Aiman	Lecture http://dbpedia.org/resource/Aiman	22
+DiGraphs	BOS	Lecture http://dbpedia.org/resource/Boston_Bruins	22
+DiGraphs	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	22
+DiGraphs	acyclic	Lecture http://dbpedia.org/resource/Directed_acyclic_graph	22
+DiGraphs	transitive closure	Lecture http://dbpedia.org/resource/Transitive_closure	22
+DiGraphs	Concordia	Lecture http://dbpedia.org/resource/Concordia_University	22
+DiGraphs	connected components	Lecture http://dbpedia.org/resource/Connected_space	22
+DiGraphs	design pattern	Lecture http://dbpedia.org/resource/Software_design_pattern	22
+DiGraphs	DFS	Lecture http://dbpedia.org/resource/Depth-first_search	22
+DiGraphs	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	22
+DiGraphs	task scheduling	Lecture http://dbpedia.org/resource/Scheduling_(computing)	22
+DiGraphs	O(1)	Lecture http://dbpedia.org/resource/Big_O_notation	22
+DiGraphs	Collins	Lecture http://dbpedia.org/resource/HarperCollins	22
+DiGraphs	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	22
+DiGraphs	Montreal	Lecture http://dbpedia.org/resource/Montreal	22
+DiGraphs	Digraph	Lecture http://dbpedia.org/resource/Digraphs_and_trigraphs	22
+DiGraphs	algorithm	Lecture http://dbpedia.org/resource/Algorithm	22
+DiGraphs	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	22
+DiGraphs	direct edge	Lecture http://dbpedia.org/resource/Direct_Edge	22
+DiGraphs	DiGraphs	Lecture http://dbpedia.org/resource/Directed_graph	22
+DiGraphs	Transitive property	Lecture http://dbpedia.org/resource/Transitive_relation	22
+QuickSort	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	16
+QuickSort	integer	Lecture http://dbpedia.org/resource/Integer	16
+QuickSort	Bad	Lecture http://dbpedia.org/resource/Spa_town	16
+QuickSort	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	16
+QuickSort	random element	Lecture http://dbpedia.org/resource/Random_element	16
+QuickSort	partition	Lecture http://dbpedia.org/resource/Partition_of_a_set	16
+QuickSort	Aiman	Lecture http://dbpedia.org/resource/Aiman	16
+QuickSort	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	16
+QuickSort	The root	Lecture http://dbpedia.org/resource/The_Root	16
+QuickSort	binary	Lecture http://dbpedia.org/resource/Binary_data	16
+QuickSort	binary	Lecture http://dbpedia.org/resource/Binary_number	16
+QuickSort	binary	Lecture http://dbpedia.org/resource/Binary_function	16
+QuickSort	coin	Lecture http://dbpedia.org/resource/Coin	16
+QuickSort	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	16
+QuickSort	probability	Lecture http://dbpedia.org/resource/Probability_distribution	16
+QuickSort	probability	Lecture http://dbpedia.org/resource/Probability	16
+QuickSort	Concordia University	Lecture http://dbpedia.org/resource/Main_Page	16
+QuickSort	n1	Lecture http://dbpedia.org/resource/Group_N	16
+QuickSort	O(1)	Lecture http://dbpedia.org/resource/Big_O_notation	16
+QuickSort	Collins	Lecture http://dbpedia.org/resource/HarperCollins	16
+QuickSort	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	16
+QuickSort	Montreal	Lecture http://dbpedia.org/resource/Montreal	16
+QuickSort	Quick Sort	Lecture http://dbpedia.org/resource/Quicksort	16
+QuickSort	The leaves	Lecture http://dbpedia.org/resource/The_Leaves	16
+QuickSort	QuickSort	Lecture http://dbpedia.org/resource/Quicksort	16
+QuickSort	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	16
+QuickSort	Pivot	Lecture http://dbpedia.org/resource/Futsal_positions	16
+Bucket-Sort_and_Radix-Sort	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	18
+Bucket-Sort_and_Radix-Sort	comparator	Lecture http://dbpedia.org/resource/Comparator	18
+Bucket-Sort_and_Radix-Sort	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	18
+Bucket-Sort_and_Radix-Sort	sable	Lecture http://dbpedia.org/resource/Sable	18
+Bucket-Sort_and_Radix-Sort	Aiman	Lecture http://dbpedia.org/resource/Aiman	18
+Bucket-Sort_and_Radix-Sort	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	18
+Bucket-Sort_and_Radix-Sort	lengths	Lecture http://dbpedia.org/resource/Length	18
+Bucket-Sort_and_Radix-Sort	tuple	Lecture http://dbpedia.org/resource/Tuple	18
+Bucket-Sort_and_Radix-Sort	kd	Lecture http://dbpedia.org/resource/Dissociation_constant	18
+Bucket-Sort_and_Radix-Sort	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	18
+Bucket-Sort_and_Radix-Sort	4-bit	Lecture http://dbpedia.org/resource/4-bit_computing	18
+Bucket-Sort_and_Radix-Sort	32-bit	Lecture http://dbpedia.org/resource/IEEE_754	18
+Bucket-Sort_and_Radix-Sort	Concordia University	Lecture http://dbpedia.org/resource/Main_Page	18
+Bucket-Sort_and_Radix-Sort	xof	Lecture http://dbpedia.org/resource/West_African_CFA_franc	18
+Bucket-Sort_and_Radix-Sort	lexicographic ordering	Lecture http://dbpedia.org/resource/Lexicographical_order	18
+Bucket-Sort_and_Radix-Sort	Collins	Lecture http://dbpedia.org/resource/HarperCollins	18
+Bucket-Sort_and_Radix-Sort	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	18
+Bucket-Sort_and_Radix-Sort	Montreal	Lecture http://dbpedia.org/resource/Montreal	18
+Bucket-Sort_and_Radix-Sort	Bucket-Sort_and_Radix-Sort	Lecture http://dbpedia.org/resource/Bucket_sort	18
+Bucket-Sort_and_Radix-Sort	Cartesian coordinates	Lecture http://dbpedia.org/resource/Cartesian_coordinate_system	18
+Bucket-Sort_and_Radix-Sort	algorithm	Lecture http://dbpedia.org/resource/Algorithm	18
+Bucket-Sort_and_Radix-Sort	strings	Lecture http://dbpedia.org/resource/String_section	18
+Bucket-Sort_and_Radix-Sort	strings	Lecture http://dbpedia.org/resource/String_instrument	18
+Bucket-Sort_and_Radix-Sort	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	18
+Heaps	memory	Lecture http://dbpedia.org/resource/Memory_management	9
+Heaps	memory	Lecture http://dbpedia.org/resource/Computer_memory	9
+Heaps	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	9
+Heaps	ADT	Lecture http://dbpedia.org/resource/Abstract_data_type	9
+Heaps	comparator	Lecture http://dbpedia.org/resource/Comparator	9
+Heaps	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	9
+Heaps	binary tree	Lecture http://dbpedia.org/resource/Binary_tree	9
+Heaps	Aiman	Lecture http://dbpedia.org/resource/Aiman	9
+Heaps	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	9
+Heaps	phase II	Lecture http://dbpedia.org/resource/Phases_of_clinical_research	9
+Heaps	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	9
+Heaps	Subtree	Lecture http://dbpedia.org/resource/Tree_(data_structure)	9
+Heaps	Concordia University	Lecture http://dbpedia.org/resource/Main_Page	9
+Heaps	ith	Lecture http://dbpedia.org/resource/Asteroid_family	9
+Heaps	Heaps	Lecture http://dbpedia.org/resource/Heap_(data_structure)	9
+Heaps	theorem	Lecture http://dbpedia.org/resource/Theorem	9
+Heaps	O(1)	Lecture http://dbpedia.org/resource/Big_O_notation	9
+Heaps	Collins	Lecture http://dbpedia.org/resource/HarperCollins	9
+Heaps	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	9
+Heaps	Priority Queue	Lecture http://dbpedia.org/resource/Priority_queue	9
+Heaps	Montreal	Lecture http://dbpedia.org/resource/Montreal	9
+Heaps	heap	Lecture http://dbpedia.org/resource/Binary_heap	9
+Heaps	algorithm	Lecture http://dbpedia.org/resource/Algorithm	9
+Heaps	data structure	Lecture http://dbpedia.org/resource/Data_structure	9
+Heaps	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	9
+MergeSort	The algorithm	Lecture http://dbpedia.org/resource/The_Algorithm	15
+MergeSort	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	15
+MergeSort	comparator	Lecture http://dbpedia.org/resource/Comparator	15
+MergeSort	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	15
+MergeSort	circle	Lecture http://dbpedia.org/resource/Circle	15
+MergeSort	MergeSort	Lecture http://dbpedia.org/resource/Merge_sort	15
+MergeSort	The Cost	Lecture http://dbpedia.org/resource/The_Cost_(The_Wire)	15
+MergeSort	design paradigm	Lecture http://dbpedia.org/resource/Design_paradigm	15
+MergeSort	binary tree	Lecture http://dbpedia.org/resource/Binary_tree	15
+MergeSort	partition	Lecture http://dbpedia.org/resource/Partition_of_a_set	15
+MergeSort	Aiman	Lecture http://dbpedia.org/resource/Aiman	15
+MergeSort	Merge Sort	Lecture http://dbpedia.org/resource/Merge_sort	15
+MergeSort	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	15
+MergeSort	Concordia	Lecture http://dbpedia.org/resource/Concordia_University	15
+MergeSort	jif	Lecture http://dbpedia.org/resource/Cif	15
+MergeSort	BS	Lecture http://dbpedia.org/resource/Bullshit	15
+MergeSort	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	15
+MergeSort	A2	Lecture http://dbpedia.org/resource/A2_autoroute	15
+MergeSort	A2	Lecture http://dbpedia.org/resource/Bundesautobahn_2	15
+MergeSort	n1	Lecture http://dbpedia.org/resource/Group_N	15
+MergeSort	Collins	Lecture http://dbpedia.org/resource/HarperCollins	15
+MergeSort	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	15
+MergeSort	Priority Queue	Lecture http://dbpedia.org/resource/Priority_queue	15
+MergeSort	Montreal	Lecture http://dbpedia.org/resource/Montreal	15
+MergeSort	S2	Lecture http://dbpedia.org/resource/Heart_sounds	15
+MergeSort	S2	Lecture http://dbpedia.org/resource/Pennsylvania_Railroad_class_S2	15
+MergeSort	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	15
+MergeSort	disjoint	Lecture http://dbpedia.org/resource/Disjoint_sets	15
+OrderedMaps_and_Dictionaries	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	12
+OrderedMaps_and_Dictionaries	ADT	Lecture http://dbpedia.org/resource/Abstract_data_type	12
+OrderedMaps_and_Dictionaries	comparator	Lecture http://dbpedia.org/resource/Comparator	12
+OrderedMaps_and_Dictionaries	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	12
+OrderedMaps_and_Dictionaries	trail	Lecture http://dbpedia.org/resource/Glossary_of_graph_theory_terms	12
+OrderedMaps_and_Dictionaries	binary search	Lecture http://dbpedia.org/resource/Binary_search_algorithm	12
+OrderedMaps_and_Dictionaries	Aiman	Lecture http://dbpedia.org/resource/Aiman	12
+OrderedMaps_and_Dictionaries	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	12
+OrderedMaps_and_Dictionaries	sorted array	Lecture http://dbpedia.org/resource/Sorted_array	12
+OrderedMaps_and_Dictionaries	workstation	Lecture http://dbpedia.org/resource/Digital_audio_workstation	12
+OrderedMaps_and_Dictionaries	OrderedMaps_and_Dictionaries	Lecture http://dbpedia.org/resource/Data_dictionary	12
+OrderedMaps_and_Dictionaries	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	12
+OrderedMaps_and_Dictionaries	English	Lecture http://dbpedia.org/resource/English_language	12
+OrderedMaps_and_Dictionaries	compact	Lecture http://dbpedia.org/resource/Compact_space	12
+OrderedMaps_and_Dictionaries	Concordia University	Lecture http://dbpedia.org/resource/Main_Page	12
+OrderedMaps_and_Dictionaries	high-low	Lecture http://dbpedia.org/resource/High-low_split	12
+OrderedMaps_and_Dictionaries	hash table	Lecture http://dbpedia.org/resource/Hash_table	12
+OrderedMaps_and_Dictionaries	linear order	Lecture http://dbpedia.org/resource/Total_order	12
+OrderedMaps_and_Dictionaries	O(1)	Lecture http://dbpedia.org/resource/Big_O_notation	12
+OrderedMaps_and_Dictionaries	Collins	Lecture http://dbpedia.org/resource/HarperCollins	12
+OrderedMaps_and_Dictionaries	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	12
+OrderedMaps_and_Dictionaries	Montreal	Lecture http://dbpedia.org/resource/Montreal	12
+OrderedMaps_and_Dictionaries	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	12
+DFS	adjacency list	Lecture http://dbpedia.org/resource/Adjacency_list	20
+DFS	The algorithm	Lecture http://dbpedia.org/resource/The_Algorithm	20
+DFS	disconnected graph	Lecture http://dbpedia.org/resource/Connectivity_(graph_theory)	20
+DFS	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	20
+DFS	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	20
+DFS	graph	Lecture http://dbpedia.org/resource/Graph_database	20
+DFS	graph	Lecture http://dbpedia.org/resource/Graph_theory	20
+DFS	graph	Lecture http://dbpedia.org/resource/Multigraph	20
+DFS	sto	Lecture http://dbpedia.org/resource/Professional_wrestling_throws	20
+DFS	simple cycle	Lecture http://dbpedia.org/resource/Simple_cycle_combustion_turbine	20
+DFS	A forest	Lecture http://dbpedia.org/resource/A_Forest	20
+DFS	Aiman	Lecture http://dbpedia.org/resource/Aiman	20
+DFS	decorator pattern	Lecture http://dbpedia.org/resource/Decorator_pattern	20
+DFS	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	20
+DFS	maze	Lecture http://dbpedia.org/resource/Maze	20
+DFS	Concordia	Lecture http://dbpedia.org/resource/Concordia_University	20
+DFS	Template method	Lecture http://dbpedia.org/resource/Template_method_pattern	20
+DFS	connected components	Lecture http://dbpedia.org/resource/Connected_space	20
+DFS	DFS	Lecture http://dbpedia.org/resource/Depth-first_search	20
+DFS	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	20
+DFS	free tree	Lecture http://dbpedia.org/resource/Tree_(graph_theory)	20
+DFS	O(1)	Lecture http://dbpedia.org/resource/Big_O_notation	20
+DFS	POBA	Lecture http://dbpedia.org/resource/POBA	20
+DFS	Collins	Lecture http://dbpedia.org/resource/HarperCollins	20
+DFS	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	20
+DFS	Montreal	Lecture http://dbpedia.org/resource/Montreal	20
+DFS	undirected graph	Lecture http://dbpedia.org/resource/Graph_(discrete_mathematics)	20
+DFS	algorithm	Lecture http://dbpedia.org/resource/Algorithm	20
+DFS	data structure	Lecture http://dbpedia.org/resource/Data_structure	20
+DFS	BA	Lecture http://dbpedia.org/resource/Bachelor_of_Arts	20
+DFS	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	20
+DFS	communication	Lecture http://dbpedia.org/resource/Communication	20
+BFS	adjacency list	Lecture http://dbpedia.org/resource/Adjacency_list	21
+BFS	The algorithm	Lecture http://dbpedia.org/resource/The_Algorithm	21
+BFS	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	21
+BFS	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	21
+BFS	graph	Lecture http://dbpedia.org/resource/Graph_database	21
+BFS	graph	Lecture http://dbpedia.org/resource/Graph_theory	21
+BFS	graph	Lecture http://dbpedia.org/resource/Multigraph	21
+BFS	trail	Lecture http://dbpedia.org/resource/Glossary_of_graph_theory_terms	21
+BFS	sand	Lecture http://dbpedia.org/resource/Sand	21
+BFS	Cross edge	Lecture http://dbpedia.org/resource/Cross_Edge	21
+BFS	partition	Lecture http://dbpedia.org/resource/Partition_of_a_set	21
+BFS	Aiman	Lecture http://dbpedia.org/resource/Aiman	21
+BFS	BFS	Lecture http://dbpedia.org/resource/Breadth-first_search	21
+BFS	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	21
+BFS	Li	Lecture http://dbpedia.org/resource/Lithium	21
+BFS	Concordia	Lecture http://dbpedia.org/resource/Concordia_University	21
+BFS	articulation vertex	Lecture http://dbpedia.org/resource/Biconnected_component	21
+BFS	connected components	Lecture http://dbpedia.org/resource/Connected_space	21
+BFS	Discovery	Lecture http://dbpedia.org/resource/Space_Shuttle_Discovery	21
+BFS	DFS	Lecture http://dbpedia.org/resource/Depth-first_search	21
+BFS	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	21
+BFS	shortest path	Lecture http://dbpedia.org/resource/Shortest_path_problem	21
+BFS	O(1)	Lecture http://dbpedia.org/resource/Big_O_notation	21
+BFS	POBA	Lecture http://dbpedia.org/resource/POBA	21
+BFS	Collins	Lecture http://dbpedia.org/resource/HarperCollins	21
+BFS	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	21
+BFS	Montreal	Lecture http://dbpedia.org/resource/Montreal	21
+BFS	algorithm	Lecture http://dbpedia.org/resource/Algorithm	21
+BFS	Breadth-First Search	Lecture http://dbpedia.org/resource/Breadth-first_search	21
+BFS	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	21
+BFS	L0	Lecture http://dbpedia.org/resource/Haplogroup_L0_(mtDNA)	21
+Stacks	washing machine	Lecture http://dbpedia.org/resource/Washing_machine	3
+Stacks	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	3
+Stacks	integer	Lecture http://dbpedia.org/resource/Integer	3
+Stacks	ADT	Lecture http://dbpedia.org/resource/Abstract_data_type	3
+Stacks	Naomi	Lecture http://dbpedia.org/resource/Naomi_Campbell	3
+Stacks	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	3
+Stacks	text editor	Lecture http://dbpedia.org/resource/Text_editor	3
+Stacks	space complexity	Lecture http://dbpedia.org/resource/Space_complexity	3
+Stacks	Quadratic	Lecture http://dbpedia.org/resource/Quadratic_function	3
+Stacks	arithmetic	Lecture http://dbpedia.org/resource/Floating-point_arithmetic	3
+Stacks	Aiman	Lecture http://dbpedia.org/resource/Aiman	3
+Stacks	expression	Lecture http://dbpedia.org/resource/Gene_expression	3
+Stacks	time complexity	Lecture http://dbpedia.org/resource/Time_complexity	3
+Stacks	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	3
+Stacks	log2	Lecture http://dbpedia.org/resource/Binary_logarithm	3
+Stacks	F$	Lecture http://dbpedia.org/resource/Fijian_dollar	3
+Stacks	garbage collection	Lecture http://dbpedia.org/resource/Write_amplification	3
+Stacks	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	3
+Stacks	stowaway	Lecture http://dbpedia.org/resource/Stowaway	3
+Stacks	Stacks	Lecture http://dbpedia.org/resource/Call_stack	3
+Stacks	Concordia University	Lecture http://dbpedia.org/resource/Main_Page	3
+Stacks	nfor	Lecture http://dbpedia.org/resource/Ernest_Webnje_Nfor	3
+Stacks	Web browser	Lecture http://dbpedia.org/resource/Web_browser	3
+Stacks	O(1)	Lecture http://dbpedia.org/resource/Big_O_notation	3
+Stacks	Collins	Lecture http://dbpedia.org/resource/HarperCollins	3
+Stacks	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	3
+Stacks	Montreal	Lecture http://dbpedia.org/resource/Montreal	3
+Stacks	algorithm	Lecture http://dbpedia.org/resource/Algorithm	3
+Stacks	data structure	Lecture http://dbpedia.org/resource/Data_structure	3
+Stacks	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	3
+Stacks	stock trading	Lecture http://dbpedia.org/resource/Stock_trader	3
+Stacks	The Stack	Lecture http://dbpedia.org/resource/The_Stack	3
+Stacks	Program Counter	Lecture http://dbpedia.org/resource/Program_counter	3
+Stacks	HTML	Lecture http://dbpedia.org/resource/HTML	3
+Sorting-LowerBound	xa	Lecture http://dbpedia.org/resource/Scion_xA	17
+Sorting-LowerBound	xj	Lecture http://dbpedia.org/resource/Jaguar_XJ	17
+Sorting-LowerBound	Wiley	Lecture http://dbpedia.org/resource/Wiley-Blackwell	17
+Sorting-LowerBound	Java	Lecture http://dbpedia.org/resource/Java_virtual_machine	17
+Sorting-LowerBound	permutation	Lecture http://dbpedia.org/resource/Permutation	17
+Sorting-LowerBound	Decision Tree	Lecture http://dbpedia.org/resource/Decision_tree	17
+Sorting-LowerBound	xf	Lecture http://dbpedia.org/resource/Jaguar_XF	17
+Sorting-LowerBound	Aiman	Lecture http://dbpedia.org/resource/Aiman	17
+Sorting-LowerBound	ISBN	Lecture http://dbpedia.org/resource/International_Standard_Book_Number	17
+Sorting-LowerBound	xk	Lecture http://dbpedia.org/resource/ISO_3166-1_alpha-2	17
+Sorting-LowerBound	Software Engineering	Lecture http://dbpedia.org/resource/Software_engineering	17
+Sorting-LowerBound	explicit knowledge	Lecture http://dbpedia.org/resource/Explicit_knowledge	17
+Sorting-LowerBound	Sorting-LowerBound	Lecture http://dbpedia.org/resource/Sorting_algorithm	17
+Sorting-LowerBound	Concordia University	Lecture http://dbpedia.org/resource/Main_Page	17
+Sorting-LowerBound	Collins	Lecture http://dbpedia.org/resource/HarperCollins	17
+Sorting-LowerBound	Java Collections Framework	Lecture http://dbpedia.org/resource/Java_collections_framework	17
+Sorting-LowerBound	Montreal	Lecture http://dbpedia.org/resource/Montreal	17
+Sorting-LowerBound	algorithm	Lecture http://dbpedia.org/resource/Algorithm	17
+Sorting-LowerBound	Computer Science	Lecture http://dbpedia.org/resource/Computer_science	17
+
+------------------------------
+GetAllCoursesTopicAppearsIn - Algorithm
+Intelligent Systems (COMP 474)	Count: 2
+Intelligent Systems (COMP SCI 4746741)	Count: 2
+Intelligent Systems (COMP 6741)	Count: 2
+Data Structures and Algorithms (COMP 352)	Count: 17
+Data Structures and Algorithms (COMP 352)	Count: 17
+
+------------------------------
+GetDetailedTopicProvenance - time complexity
+http://focu.io/data#COMP352 -> http://focu.io/data#COMP352-Lecture2 (Lecture 2) -> file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+http://focu.io/data#COMP352 -> http://focu.io/data#COMP352-Lecture1 (Lecture 1) -> file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+http://focu.io/data#COMP352 -> http://focu.io/data#COMP352-Lecture1 (Lecture 1) -> file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment1.pdf
+http://focu.io/data#COMP474_6741 -> http://focu.io/data#COMP474_6741-Lecture7 (Lecture 7) -> file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides07.pdf
+http://focu.io/data#COMP352 -> http://focu.io/data#COMP352-Lecture3 (Lecture 3) -> file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf

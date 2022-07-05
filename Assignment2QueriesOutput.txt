@@ -1,0 +1,752 @@
+------------------------------
+GetAllTopicsInCourse - COMP 352
+GUI	http://dbpedia.org/resource/Graphical_user_interface	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+integer	http://dbpedia.org/resource/Integer	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+ADT	http://dbpedia.org/resource/Abstract_data_type	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+Array List	http://dbpedia.org/resource/Dynamic_array	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+The Sequence	http://dbpedia.org/resource/The_Sequence	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+Realization	http://dbpedia.org/resource/Realization_(climb)	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+optimization	http://dbpedia.org/resource/Mathematical_optimization	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+pointer	http://dbpedia.org/resource/Function_pointer	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+log2	http://dbpedia.org/resource/Binary_logarithm	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+The cells	http://dbpedia.org/resource/The_Cells	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+database	http://dbpedia.org/resource/Relational_database	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+database	http://dbpedia.org/resource/Database	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+Concordia University	http://dbpedia.org/resource/Main_Page	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+Web browser	http://dbpedia.org/resource/Web_browser	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+linear order	http://dbpedia.org/resource/Total_order	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+O(1)	http://dbpedia.org/resource/Big_O_notation	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+ArrayLists_NodeLists_and_Sequences	http://dbpedia.org/resource/Array_data_structure	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+data structure	http://dbpedia.org/resource/Data_structure	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+privacy	http://dbpedia.org/resource/Internet_privacy	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+privacy	http://dbpedia.org/resource/Privacy	Lecture 6	file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+integer	http://dbpedia.org/resource/Integer	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+ADT	http://dbpedia.org/resource/Abstract_data_type	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+FIFO	http://dbpedia.org/resource/Named_pipe	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+mod	http://dbpedia.org/resource/Modulo_operation	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+The Queue	http://dbpedia.org/resource/The_Queue	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+Concordia University	http://dbpedia.org/resource/Main_Page	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+ith	http://dbpedia.org/resource/Asteroid_family	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+first-in first-out	http://dbpedia.org/resource/FIFO_(computing_and_electronics)	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+The fundamentals	http://dbpedia.org/resource/The_Fundamentals	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+O(1)	http://dbpedia.org/resource/Big_O_notation	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+Queues	http://dbpedia.org/resource/Queue_(abstract_data_type)	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+data structure	http://dbpedia.org/resource/Data_structure	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+scheduler	http://dbpedia.org/resource/Job_scheduler	Lecture 4	file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf
+memory	http://dbpedia.org/resource/Memory_management	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+memory	http://dbpedia.org/resource/Computer_memory	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+integer	http://dbpedia.org/resource/Integer	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+Windows	http://dbpedia.org/resource/Microsoft_Windows	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+acb	http://dbpedia.org/resource/Liga_ACB	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+directory	http://dbpedia.org/resource/File_system	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+time complexity	http://dbpedia.org/resource/Time_complexity	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+tail-recursive	http://dbpedia.org/resource/Tail_call	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+factorial	http://dbpedia.org/resource/Factorial	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+Concordia	http://dbpedia.org/resource/Concordia_University	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+log2	http://dbpedia.org/resource/Binary_logarithm	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+Fibonacci	http://dbpedia.org/resource/Fibonacci_number	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+binary	http://dbpedia.org/resource/Binary_data	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+binary	http://dbpedia.org/resource/Binary_number	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+binary	http://dbpedia.org/resource/Binary_function	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+power function	http://dbpedia.org/resource/Exponentiation	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+n8	http://dbpedia.org/resource/Rugby_union_positions	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+jif	http://dbpedia.org/resource/Cif	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+Nonnegative	http://dbpedia.org/resource/Sign_(mathematics)	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+Sif	http://dbpedia.org/resource/Dark_Souls	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+puzzle	http://dbpedia.org/resource/Puzzle	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+English	http://dbpedia.org/resource/English_language	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+mathematics	http://dbpedia.org/resource/Mathematics	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+n1	http://dbpedia.org/resource/Group_N	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+if1	http://dbpedia.org/resource/Prokaryotic_initiation_factor-1	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+if1	http://dbpedia.org/resource/SUI1	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+n7	http://dbpedia.org/resource/N_postcode_area	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+Recursive definition	http://dbpedia.org/resource/Recursive_definition	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+algorithm	http://dbpedia.org/resource/Algorithm	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+The Stack	http://dbpedia.org/resource/The_Stack	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+Recursion	http://dbpedia.org/resource/Recursion	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+recursive algorithm	http://dbpedia.org/resource/Recursion_(computer_science)	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+Program Counter	http://dbpedia.org/resource/Program_counter	Lecture 2	file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+char	http://dbpedia.org/resource/Char	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+Common choice	http://dbpedia.org/resource/Common_Choice	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+memory	http://dbpedia.org/resource/Memory_management	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+memory	http://dbpedia.org/resource/Computer_memory	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+integer	http://dbpedia.org/resource/Integer	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+ADT	http://dbpedia.org/resource/Abstract_data_type	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+social security number	http://dbpedia.org/resource/Social_Security_number	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+Quadratic	http://dbpedia.org/resource/Quadratic_function	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+zak	http://dbpedia.org/resource/Zak_Dingle	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+hash function	http://dbpedia.org/resource/Hash_function	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+partition	http://dbpedia.org/resource/Partition_of_a_set	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+xk	http://dbpedia.org/resource/ISO_3166-1_alpha-2	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+mod	http://dbpedia.org/resource/Modulo_operation	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+lengths	http://dbpedia.org/resource/Length	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+HashTables	http://dbpedia.org/resource/Hash_table	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+jd	http://dbpedia.org/resource/Julian_day	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+prime number	http://dbpedia.org/resource/Prime_number	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+open addressing	http://dbpedia.org/resource/Open_addressing	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+keyn	http://dbpedia.org/resource/KEYN-FM	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+binary	http://dbpedia.org/resource/Binary_data	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+binary	http://dbpedia.org/resource/Binary_number	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+binary	http://dbpedia.org/resource/Binary_function	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+memory address	http://dbpedia.org/resource/Memory_address	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+ak	http://dbpedia.org/resource/AK-74	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+English	http://dbpedia.org/resource/English_language	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+number theory	http://dbpedia.org/resource/Number_theory	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+probability	http://dbpedia.org/resource/Probability_distribution	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+probability	http://dbpedia.org/resource/Probability	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+32-bit	http://dbpedia.org/resource/IEEE_754	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+byte	http://dbpedia.org/resource/Byte	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+Concordia University	http://dbpedia.org/resource/Main_Page	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+random numbers	http://dbpedia.org/resource/Pseudorandomness	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+O(1)	http://dbpedia.org/resource/Big_O_notation	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+compression function	http://dbpedia.org/resource/One-way_compression_function	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+key type	http://dbpedia.org/resource/Key_type_stamp	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+strings	http://dbpedia.org/resource/String_section	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+strings	http://dbpedia.org/resource/String_instrument	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+MAD	http://dbpedia.org/resource/Magnetic_anomaly_detector	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+data structure	http://dbpedia.org/resource/Data_structure	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+Polynomial	http://dbpedia.org/resource/Polynomial	Lecture 11	file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+integer	http://dbpedia.org/resource/Integer	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+ADT	http://dbpedia.org/resource/Abstract_data_type	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+Decision Tree	http://dbpedia.org/resource/Decision_tree	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+Trees	http://dbpedia.org/resource/Tree_(data_structure)	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+Euler Tour	http://dbpedia.org/resource/Eulerian_path	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+directory	http://dbpedia.org/resource/File_system	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+arithmetic	http://dbpedia.org/resource/Floating-point_arithmetic	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+binary tree	http://dbpedia.org/resource/Binary_tree	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+Preorder	http://dbpedia.org/resource/Preorder	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+expression	http://dbpedia.org/resource/Gene_expression	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+Asia	http://dbpedia.org/resource/Asia	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+Concordia	http://dbpedia.org/resource/Concordia_University	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+log2	http://dbpedia.org/resource/Binary_logarithm	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+Template method	http://dbpedia.org/resource/Template_method_pattern	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+The advantage	http://dbpedia.org/resource/The_Advantage	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+coffee	http://dbpedia.org/resource/Coffee	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+binary	http://dbpedia.org/resource/Binary_data	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+binary	http://dbpedia.org/resource/Binary_number	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+binary	http://dbpedia.org/resource/Binary_function	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+General Trees	http://dbpedia.org/resource/General_Trees	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+Subtree	http://dbpedia.org/resource/Tree_(data_structure)	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+DC	http://dbpedia.org/resource/Direct_current	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+Spike	http://dbpedia.org/resource/Paramount_Network	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+Starbucks	http://dbpedia.org/resource/Starbucks	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+abstract class	http://dbpedia.org/resource/Abstract_type	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+CF	http://dbpedia.org/resource/CompactFlash	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+iterator	http://dbpedia.org/resource/Iterator	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+linear order	http://dbpedia.org/resource/Total_order	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+O(1)	http://dbpedia.org/resource/Big_O_notation	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+algorithm	http://dbpedia.org/resource/Algorithm	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+operand	http://dbpedia.org/resource/Operand	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+BA	http://dbpedia.org/resource/Bachelor_of_Arts	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+NoTrees	http://dbpedia.org/resource/Notrees,_Texas	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+expression tree	http://dbpedia.org/resource/Parse_tree	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+init	http://dbpedia.org/resource/Init	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+balanced binary tree	http://dbpedia.org/resource/Self-balancing_binary_search_tree	Lecture 7	file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf
+integer	http://dbpedia.org/resource/Integer	Lecture 7	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Combined-Assignment-3-and-4.pdf
+ADT	http://dbpedia.org/resource/Abstract_data_type	Lecture 7	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Combined-Assignment-3-and-4.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 7	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Combined-Assignment-3-and-4.pdf
+directory	http://dbpedia.org/resource/File_system	Lecture 7	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Combined-Assignment-3-and-4.pdf
+binary tree	http://dbpedia.org/resource/Binary_tree	Lecture 7	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Combined-Assignment-3-and-4.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 7	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Combined-Assignment-3-and-4.pdf
+O(1)	http://dbpedia.org/resource/Big_O_notation	Lecture 7	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Combined-Assignment-3-and-4.pdf
+algorithm	http://dbpedia.org/resource/Algorithm	Lecture 7	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Combined-Assignment-3-and-4.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 7	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Combined-Assignment-3-and-4.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 5	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment2.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 5	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment2.pdf
+data structure	http://dbpedia.org/resource/Data_structure	Lecture 5	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment2.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 5	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment2.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 5	file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf
+ADT	http://dbpedia.org/resource/Abstract_data_type	Lecture 5	file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 5	file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 5	file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf
+expression	http://dbpedia.org/resource/Gene_expression	Lecture 5	file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf
+garbage collector	http://dbpedia.org/resource/Waste_collector	Lecture 5	file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf
+temporary variable	http://dbpedia.org/resource/Temporary_variable	Lecture 5	file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 5	file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf
+Concordia	http://dbpedia.org/resource/Concordia_University	Lecture 5	file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 5	file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf
+LinkedLists_and_Iterators	http://dbpedia.org/resource/Linked_list	Lecture 5	file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf
+B X	http://dbpedia.org/resource/B10	Lecture 5	file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf
+iterator	http://dbpedia.org/resource/Iterator	Lecture 5	file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf
+O(1)	http://dbpedia.org/resource/Big_O_notation	Lecture 5	file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 5	file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 5	file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 5	file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf
+data structure	http://dbpedia.org/resource/Data_structure	Lecture 5	file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 5	file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 10	file:///home/Unibot/Datasets/COMP352/Lectures/slides10.pdf
+ADT	http://dbpedia.org/resource/Abstract_data_type	Lecture 10	file:///home/Unibot/Datasets/COMP352/Lectures/slides10.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 10	file:///home/Unibot/Datasets/COMP352/Lectures/slides10.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 10	file:///home/Unibot/Datasets/COMP352/Lectures/slides10.pdf
+Maps	http://dbpedia.org/resource/Associative_array	Lecture 10	file:///home/Unibot/Datasets/COMP352/Lectures/slides10.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 10	file:///home/Unibot/Datasets/COMP352/Lectures/slides10.pdf
+Concordia University	http://dbpedia.org/resource/Main_Page	Lecture 10	file:///home/Unibot/Datasets/COMP352/Lectures/slides10.pdf
+iterator	http://dbpedia.org/resource/Iterator	Lecture 10	file:///home/Unibot/Datasets/COMP352/Lectures/slides10.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 10	file:///home/Unibot/Datasets/COMP352/Lectures/slides10.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 10	file:///home/Unibot/Datasets/COMP352/Lectures/slides10.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 10	file:///home/Unibot/Datasets/COMP352/Lectures/slides10.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 10	file:///home/Unibot/Datasets/COMP352/Lectures/slides10.pdf
+xa	http://dbpedia.org/resource/Scion_xA	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+integer	http://dbpedia.org/resource/Integer	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+binary search	http://dbpedia.org/resource/Binary_search_algorithm	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+T1	http://dbpedia.org/resource/Digital_Signal_1	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+binary tree	http://dbpedia.org/resource/Binary_tree	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+AVL	http://dbpedia.org/resource/Automatic_vehicle_location	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+double rotation	http://dbpedia.org/resource/Rotations_in_4-dimensional_Euclidean_space	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+binary search tree	http://dbpedia.org/resource/Binary_search_tree	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+T0	http://dbpedia.org/resource/Kolmogorov_space	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+tree traversal	http://dbpedia.org/resource/Tree_traversal	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+Subtree	http://dbpedia.org/resource/Tree_(data_structure)	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+Concordia University	http://dbpedia.org/resource/Main_Page	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+AVLTrees	http://dbpedia.org/resource/AVL_tree	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+O(1)	http://dbpedia.org/resource/Big_O_notation	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+Soviet	http://dbpedia.org/resource/Soviet_Union	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+T3	http://dbpedia.org/resource/Digital_Signal_3	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+data structure	http://dbpedia.org/resource/Data_structure	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+AVL tree	http://dbpedia.org/resource/AVL_tree	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+balanced binary tree	http://dbpedia.org/resource/Self-balancing_binary_search_tree	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+Vel	http://dbpedia.org/resource/Vel	Lecture 14	file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf
+adjacency list	http://dbpedia.org/resource/Adjacency_list	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+incidence	http://dbpedia.org/resource/Incidence_matrix	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+disconnected graph	http://dbpedia.org/resource/Connectivity_(graph_theory)	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+ADT	http://dbpedia.org/resource/Abstract_data_type	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+graph	http://dbpedia.org/resource/Graph_database	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+graph	http://dbpedia.org/resource/Graph_theory	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+child class	http://dbpedia.org/resource/Inheritance_(object-oriented_programming)	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+Edge	http://dbpedia.org/resource/Microsoft_Edge	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+trail	http://dbpedia.org/resource/Glossary_of_graph_theory_terms	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+space complexity	http://dbpedia.org/resource/Space_complexity	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+simple path	http://dbpedia.org/resource/Path_(graph_theory)	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+Internet	http://dbpedia.org/resource/Internet	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+airport code	http://dbpedia.org/resource/IATA_airport_code	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+Local area network	http://dbpedia.org/resource/Local_area_network	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+simple cycle	http://dbpedia.org/resource/Simple_cycle_combustion_turbine	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+A forest	http://dbpedia.org/resource/A_Forest	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+pointer	http://dbpedia.org/resource/Function_pointer	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+Integrated circuit	http://dbpedia.org/resource/Integrated_circuit	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+Concordia	http://dbpedia.org/resource/Concordia_University	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+symmetric relation	http://dbpedia.org/resource/Symmetric_relation	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+connected components	http://dbpedia.org/resource/Connected_space	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+Subgraph	http://dbpedia.org/resource/Subgraph_(operating_system)	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+mixed graph	http://dbpedia.org/resource/Mixed_graph	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+grid graph	http://dbpedia.org/resource/Lattice_graph	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+bau	http://dbpedia.org/resource/Nintinugga	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+Printed circuit board	http://dbpedia.org/resource/Printed_circuit_board	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+matrix	http://dbpedia.org/resource/Definiteness_of_a_matrix	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+matrix	http://dbpedia.org/resource/Composite_material	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+Graphs	http://dbpedia.org/resource/Graph_theory	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+unordered pair	http://dbpedia.org/resource/Unordered_pair	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+free tree	http://dbpedia.org/resource/Tree_(graph_theory)	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+O(1)	http://dbpedia.org/resource/Big_O_notation	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+multiple edges	http://dbpedia.org/resource/Multigraph	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+undirected graph	http://dbpedia.org/resource/Graph_(discrete_mathematics)	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+city	http://dbpedia.org/resource/City	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+in-degree	http://dbpedia.org/resource/Directed_graph	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+adjacency matrix	http://dbpedia.org/resource/Adjacency_matrix	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+whas	http://dbpedia.org/resource/WHAS-TV	Lecture 19	file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf
+adjacency list	http://dbpedia.org/resource/Adjacency_list	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+graph	http://dbpedia.org/resource/Graph_database	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+graph	http://dbpedia.org/resource/Graph_theory	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Los Angeles	http://dbpedia.org/resource/Los_Angeles_International_Airport	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Edge	http://dbpedia.org/resource/Microsoft_Edge	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+trail	http://dbpedia.org/resource/Glossary_of_graph_theory_terms	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Chicago	http://dbpedia.org/resource/Chicago	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Shay	http://dbpedia.org/resource/Shay_locomotive	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Internet	http://dbpedia.org/resource/Internet	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+topological ordering	http://dbpedia.org/resource/Topological_sorting	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+cloud	http://dbpedia.org/resource/Cloud	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+cloud	http://dbpedia.org/resource/Cloud_computing	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+ShortestPaths	http://dbpedia.org/resource/Shortest_path_problem	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+cost function	http://dbpedia.org/resource/Loss_function	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+PWS	http://dbpedia.org/resource/Podlaska_WytwÃ³rnia_SamolotÃ³w	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Concordia	http://dbpedia.org/resource/Concordia_University	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Template method	http://dbpedia.org/resource/Template_method_pattern	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+PVD	http://dbpedia.org/resource/Physical_vapor_deposition	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Bellman-Ford Algorithm	http://dbpedia.org/resource/BellmanâFord_algorithm	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+O'Hare	http://dbpedia.org/resource/O'Hare_International_Airport	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+60d	http://dbpedia.org/resource/Canon_EOS_60D	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+C4	http://dbpedia.org/resource/Command_and_control	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+shortest path	http://dbpedia.org/resource/Shortest_path_problem	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+shortest path tree	http://dbpedia.org/resource/Shortest-path_tree	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+packet	http://dbpedia.org/resource/Network_packet	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Providence	http://dbpedia.org/resource/Providence_College	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Providence	http://dbpedia.org/resource/Divine_providence	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Honolulu	http://dbpedia.org/resource/Daniel_K._Inouye_International_Airport	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Miami International Airport	http://dbpedia.org/resource/Miami_International_Airport	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+O(1)	http://dbpedia.org/resource/Big_O_notation	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Kent	http://dbpedia.org/resource/Kent	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Priority Queue	http://dbpedia.org/resource/Priority_queue	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Dallas	http://dbpedia.org/resource/Dallas	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+C3	http://dbpedia.org/resource/C3_carbon_fixation	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+city	http://dbpedia.org/resource/City	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+heap	http://dbpedia.org/resource/Binary_heap	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+algorithm	http://dbpedia.org/resource/Algorithm	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Breadth-First Search	http://dbpedia.org/resource/Breadth-first_search	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+LaGuardia Airport	http://dbpedia.org/resource/LaGuardia_Airport	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+San Francisco	http://dbpedia.org/resource/San_Francisco_International_Airport	Lecture 23	file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf
+memory	http://dbpedia.org/resource/Memory_management	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+memory	http://dbpedia.org/resource/Computer_memory	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+Random Access Machine	http://dbpedia.org/resource/Random-access_machine	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+integer	http://dbpedia.org/resource/Integer	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+Windows	http://dbpedia.org/resource/Microsoft_Windows	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+Analysis-of-Algorithms	http://dbpedia.org/resource/Algorithm	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+binary search	http://dbpedia.org/resource/Binary_search_algorithm	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+plain	http://dbpedia.org/resource/Plain	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+Quadratic	http://dbpedia.org/resource/Quadratic_function	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+2 times	http://dbpedia.org/resource/NWA_Florida_Tag_Team_Championship	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+complexity analysis	http://dbpedia.org/resource/Analysis_of_algorithms	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+pseudocode	http://dbpedia.org/resource/Pseudocode	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+expression	http://dbpedia.org/resource/Gene_expression	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+time complexity	http://dbpedia.org/resource/Time_complexity	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+programming	http://dbpedia.org/resource/Computer_programming	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+programming	http://dbpedia.org/resource/Computer_program	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+programming	http://dbpedia.org/resource/Programming_language	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+Plain English	http://dbpedia.org/resource/Plain_English	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+Concordia	http://dbpedia.org/resource/Concordia_University	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+computer	http://dbpedia.org/resource/Computer_network	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+computer	http://dbpedia.org/resource/Computer	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+log2	http://dbpedia.org/resource/Binary_logarithm	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+memory cells	http://dbpedia.org/resource/Computer_data_storage	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+small time	http://dbpedia.org/resource/Small_Time	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+linear function	http://dbpedia.org/resource/Linear_function	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+English	http://dbpedia.org/resource/English_language	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+CPU	http://dbpedia.org/resource/Central_processing_unit	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+8T	http://dbpedia.org/resource/8T	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+aba	http://dbpedia.org/resource/Applied_behavior_analysis	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+nfor	http://dbpedia.org/resource/Ernest_Webnje_Nfor	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+robotics	http://dbpedia.org/resource/Robotics	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+Control flow	http://dbpedia.org/resource/Control_flow	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+The statement	http://dbpedia.org/resource/The_Statement_(film)	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+O(1)	http://dbpedia.org/resource/Big_O_notation	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+indicative	http://dbpedia.org/resource/Realis_mood	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+Intuition	http://dbpedia.org/resource/Intuition	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+insertion sort	http://dbpedia.org/resource/Insertion_sort	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+upper bound	http://dbpedia.org/resource/Upper_and_lower_bounds	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+code segment	http://dbpedia.org/resource/Code_segment	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+algorithm	http://dbpedia.org/resource/Algorithm	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+asymptotic	http://dbpedia.org/resource/Asymptotic_analysis	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+mutual fund	http://dbpedia.org/resource/Mutual_fund	Lecture 1	file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+integer	http://dbpedia.org/resource/Integer	Lecture 1	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment1.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 1	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment1.pdf
+time complexity	http://dbpedia.org/resource/Time_complexity	Lecture 1	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment1.pdf
+programming	http://dbpedia.org/resource/Computer_programming	Lecture 1	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment1.pdf
+programming	http://dbpedia.org/resource/Computer_program	Lecture 1	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment1.pdf
+programming	http://dbpedia.org/resource/Programming_language	Lecture 1	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment1.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 1	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment1.pdf
+algorithm	http://dbpedia.org/resource/Algorithm	Lecture 1	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment1.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 1	file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment1.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 13	file:///home/Unibot/Datasets/COMP352/Lectures/slides13.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 13	file:///home/Unibot/Datasets/COMP352/Lectures/slides13.pdf
+binary search	http://dbpedia.org/resource/Binary_search_algorithm	Lecture 13	file:///home/Unibot/Datasets/COMP352/Lectures/slides13.pdf
+binary tree	http://dbpedia.org/resource/Binary_tree	Lecture 13	file:///home/Unibot/Datasets/COMP352/Lectures/slides13.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 13	file:///home/Unibot/Datasets/COMP352/Lectures/slides13.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 13	file:///home/Unibot/Datasets/COMP352/Lectures/slides13.pdf
+binary search tree	http://dbpedia.org/resource/Binary_search_tree	Lecture 13	file:///home/Unibot/Datasets/COMP352/Lectures/slides13.pdf
+BinarySearchTrees	http://dbpedia.org/resource/Binary_tree	Lecture 13	file:///home/Unibot/Datasets/COMP352/Lectures/slides13.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 13	file:///home/Unibot/Datasets/COMP352/Lectures/slides13.pdf
+tree traversal	http://dbpedia.org/resource/Tree_traversal	Lecture 13	file:///home/Unibot/Datasets/COMP352/Lectures/slides13.pdf
+Subtree	http://dbpedia.org/resource/Tree_(data_structure)	Lecture 13	file:///home/Unibot/Datasets/COMP352/Lectures/slides13.pdf
+Concordia University	http://dbpedia.org/resource/Main_Page	Lecture 13	file:///home/Unibot/Datasets/COMP352/Lectures/slides13.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 13	file:///home/Unibot/Datasets/COMP352/Lectures/slides13.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 13	file:///home/Unibot/Datasets/COMP352/Lectures/slides13.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 13	file:///home/Unibot/Datasets/COMP352/Lectures/slides13.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 13	file:///home/Unibot/Datasets/COMP352/Lectures/slides13.pdf
+xa	http://dbpedia.org/resource/Scion_xA	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+integer	http://dbpedia.org/resource/Integer	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+ADT	http://dbpedia.org/resource/Abstract_data_type	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+comparator	http://dbpedia.org/resource/Comparator	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+public interface	http://dbpedia.org/resource/Public_interface	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+Stock market	http://dbpedia.org/resource/Stock_market	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+PriorityQueues	http://dbpedia.org/resource/Priority_queue	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+Concordia University	http://dbpedia.org/resource/Main_Page	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+linear order	http://dbpedia.org/resource/Total_order	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+O(1)	http://dbpedia.org/resource/Big_O_notation	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+lexicographic ordering	http://dbpedia.org/resource/Lexicographical_order	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+insertion sort	http://dbpedia.org/resource/Insertion_sort	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+Priority Queue	http://dbpedia.org/resource/Priority_queue	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+algorithm	http://dbpedia.org/resource/Algorithm	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+key type	http://dbpedia.org/resource/Key_type_stamp	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+key-value pair	http://dbpedia.org/resource/Attributeâvalue_pair	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+data structure	http://dbpedia.org/resource/Data_structure	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+Selection Sort	http://dbpedia.org/resource/Selection_sort	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+Transitive property	http://dbpedia.org/resource/Transitive_relation	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+Antisymmetric	http://dbpedia.org/resource/Antisymmetric_relation	Lecture 8	file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf
+G0	http://dbpedia.org/resource/G0_phase	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+The algorithm	http://dbpedia.org/resource/The_Algorithm	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+reachability	http://dbpedia.org/resource/Reachability	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+graph	http://dbpedia.org/resource/Graph_database	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+graph	http://dbpedia.org/resource/Graph_theory	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+Edge	http://dbpedia.org/resource/Microsoft_Edge	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+trail	http://dbpedia.org/resource/Glossary_of_graph_theory_terms	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+dynamic programming	http://dbpedia.org/resource/Dynamic_programming	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+Digraphs	http://dbpedia.org/resource/Digraph_(orthography)	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+topological ordering	http://dbpedia.org/resource/Topological_sorting	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+Cross edge	http://dbpedia.org/resource/Cross_Edge	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+BOS	http://dbpedia.org/resource/Boston_Bruins	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+acyclic	http://dbpedia.org/resource/Directed_acyclic_graph	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+transitive closure	http://dbpedia.org/resource/Transitive_closure	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+Concordia	http://dbpedia.org/resource/Concordia_University	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+connected components	http://dbpedia.org/resource/Connected_space	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+design pattern	http://dbpedia.org/resource/Software_design_pattern	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+DFS	http://dbpedia.org/resource/Depth-first_search	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+task scheduling	http://dbpedia.org/resource/Scheduling_(computing)	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+O(1)	http://dbpedia.org/resource/Big_O_notation	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+Digraph	http://dbpedia.org/resource/Digraphs_and_trigraphs	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+algorithm	http://dbpedia.org/resource/Algorithm	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+direct edge	http://dbpedia.org/resource/Direct_Edge	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+DiGraphs	http://dbpedia.org/resource/Directed_graph	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+Transitive property	http://dbpedia.org/resource/Transitive_relation	Lecture 22	file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+integer	http://dbpedia.org/resource/Integer	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+Bad	http://dbpedia.org/resource/Spa_town	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+random element	http://dbpedia.org/resource/Random_element	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+partition	http://dbpedia.org/resource/Partition_of_a_set	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+The root	http://dbpedia.org/resource/The_Root	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+binary	http://dbpedia.org/resource/Binary_data	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+binary	http://dbpedia.org/resource/Binary_number	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+binary	http://dbpedia.org/resource/Binary_function	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+coin	http://dbpedia.org/resource/Coin	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+probability	http://dbpedia.org/resource/Probability_distribution	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+probability	http://dbpedia.org/resource/Probability	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+Concordia University	http://dbpedia.org/resource/Main_Page	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+n1	http://dbpedia.org/resource/Group_N	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+O(1)	http://dbpedia.org/resource/Big_O_notation	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+Quick Sort	http://dbpedia.org/resource/Quicksort	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+The leaves	http://dbpedia.org/resource/The_Leaves	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+QuickSort	http://dbpedia.org/resource/Quicksort	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+Pivot	http://dbpedia.org/resource/Futsal_positions	Lecture 16	file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+comparator	http://dbpedia.org/resource/Comparator	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+sable	http://dbpedia.org/resource/Sable	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+lengths	http://dbpedia.org/resource/Length	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+tuple	http://dbpedia.org/resource/Tuple	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+kd	http://dbpedia.org/resource/Dissociation_constant	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+4-bit	http://dbpedia.org/resource/4-bit_computing	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+32-bit	http://dbpedia.org/resource/IEEE_754	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+Concordia University	http://dbpedia.org/resource/Main_Page	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+xof	http://dbpedia.org/resource/West_African_CFA_franc	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+lexicographic ordering	http://dbpedia.org/resource/Lexicographical_order	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+Bucket-Sort_and_Radix-Sort	http://dbpedia.org/resource/Bucket_sort	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+Cartesian coordinates	http://dbpedia.org/resource/Cartesian_coordinate_system	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+algorithm	http://dbpedia.org/resource/Algorithm	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+strings	http://dbpedia.org/resource/String_section	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+strings	http://dbpedia.org/resource/String_instrument	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 18	file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf
+memory	http://dbpedia.org/resource/Memory_management	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+memory	http://dbpedia.org/resource/Computer_memory	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+ADT	http://dbpedia.org/resource/Abstract_data_type	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+comparator	http://dbpedia.org/resource/Comparator	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+binary tree	http://dbpedia.org/resource/Binary_tree	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+phase II	http://dbpedia.org/resource/Phases_of_clinical_research	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+Subtree	http://dbpedia.org/resource/Tree_(data_structure)	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+Concordia University	http://dbpedia.org/resource/Main_Page	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+ith	http://dbpedia.org/resource/Asteroid_family	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+Heaps	http://dbpedia.org/resource/Heap_(data_structure)	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+theorem	http://dbpedia.org/resource/Theorem	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+O(1)	http://dbpedia.org/resource/Big_O_notation	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+Priority Queue	http://dbpedia.org/resource/Priority_queue	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+heap	http://dbpedia.org/resource/Binary_heap	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+algorithm	http://dbpedia.org/resource/Algorithm	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+data structure	http://dbpedia.org/resource/Data_structure	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 9	file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf
+The algorithm	http://dbpedia.org/resource/The_Algorithm	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+comparator	http://dbpedia.org/resource/Comparator	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+circle	http://dbpedia.org/resource/Circle	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+MergeSort	http://dbpedia.org/resource/Merge_sort	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+The Cost	http://dbpedia.org/resource/The_Cost_(The_Wire)	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+design paradigm	http://dbpedia.org/resource/Design_paradigm	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+binary tree	http://dbpedia.org/resource/Binary_tree	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+partition	http://dbpedia.org/resource/Partition_of_a_set	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+Merge Sort	http://dbpedia.org/resource/Merge_sort	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+Concordia	http://dbpedia.org/resource/Concordia_University	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+jif	http://dbpedia.org/resource/Cif	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+BS	http://dbpedia.org/resource/Bullshit	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+A2	http://dbpedia.org/resource/A2_autoroute	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+A2	http://dbpedia.org/resource/Bundesautobahn_2	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+n1	http://dbpedia.org/resource/Group_N	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+Priority Queue	http://dbpedia.org/resource/Priority_queue	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+S2	http://dbpedia.org/resource/Heart_sounds	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+S2	http://dbpedia.org/resource/Pennsylvania_Railroad_class_S2	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+disjoint	http://dbpedia.org/resource/Disjoint_sets	Lecture 15	file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+ADT	http://dbpedia.org/resource/Abstract_data_type	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+comparator	http://dbpedia.org/resource/Comparator	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+trail	http://dbpedia.org/resource/Glossary_of_graph_theory_terms	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+binary search	http://dbpedia.org/resource/Binary_search_algorithm	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+sorted array	http://dbpedia.org/resource/Sorted_array	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+workstation	http://dbpedia.org/resource/Digital_audio_workstation	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+OrderedMaps_and_Dictionaries	http://dbpedia.org/resource/Data_dictionary	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+English	http://dbpedia.org/resource/English_language	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+compact	http://dbpedia.org/resource/Compact_space	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+Concordia University	http://dbpedia.org/resource/Main_Page	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+high-low	http://dbpedia.org/resource/High-low_split	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+hash table	http://dbpedia.org/resource/Hash_table	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+linear order	http://dbpedia.org/resource/Total_order	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+O(1)	http://dbpedia.org/resource/Big_O_notation	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 12	file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf
+adjacency list	http://dbpedia.org/resource/Adjacency_list	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+The algorithm	http://dbpedia.org/resource/The_Algorithm	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+disconnected graph	http://dbpedia.org/resource/Connectivity_(graph_theory)	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+graph	http://dbpedia.org/resource/Graph_database	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+graph	http://dbpedia.org/resource/Graph_theory	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+sto	http://dbpedia.org/resource/Professional_wrestling_throws	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+simple cycle	http://dbpedia.org/resource/Simple_cycle_combustion_turbine	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+A forest	http://dbpedia.org/resource/A_Forest	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+decorator pattern	http://dbpedia.org/resource/Decorator_pattern	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+maze	http://dbpedia.org/resource/Maze	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+Concordia	http://dbpedia.org/resource/Concordia_University	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+Template method	http://dbpedia.org/resource/Template_method_pattern	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+connected components	http://dbpedia.org/resource/Connected_space	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+DFS	http://dbpedia.org/resource/Depth-first_search	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+free tree	http://dbpedia.org/resource/Tree_(graph_theory)	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+O(1)	http://dbpedia.org/resource/Big_O_notation	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+POBA	http://dbpedia.org/resource/POBA	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+undirected graph	http://dbpedia.org/resource/Graph_(discrete_mathematics)	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+algorithm	http://dbpedia.org/resource/Algorithm	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+data structure	http://dbpedia.org/resource/Data_structure	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+BA	http://dbpedia.org/resource/Bachelor_of_Arts	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+communication	http://dbpedia.org/resource/Communication	Lecture 20	file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf
+adjacency list	http://dbpedia.org/resource/Adjacency_list	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+The algorithm	http://dbpedia.org/resource/The_Algorithm	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+graph	http://dbpedia.org/resource/Graph_database	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+graph	http://dbpedia.org/resource/Graph_theory	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+trail	http://dbpedia.org/resource/Glossary_of_graph_theory_terms	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+sand	http://dbpedia.org/resource/Sand	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+Cross edge	http://dbpedia.org/resource/Cross_Edge	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+partition	http://dbpedia.org/resource/Partition_of_a_set	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+BFS	http://dbpedia.org/resource/Breadth-first_search	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+Li	http://dbpedia.org/resource/Lithium	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+Concordia	http://dbpedia.org/resource/Concordia_University	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+articulation vertex	http://dbpedia.org/resource/Biconnected_component	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+connected components	http://dbpedia.org/resource/Connected_space	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+Discovery	http://dbpedia.org/resource/Space_Shuttle_Discovery	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+DFS	http://dbpedia.org/resource/Depth-first_search	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+shortest path	http://dbpedia.org/resource/Shortest_path_problem	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+O(1)	http://dbpedia.org/resource/Big_O_notation	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+POBA	http://dbpedia.org/resource/POBA	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+algorithm	http://dbpedia.org/resource/Algorithm	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+Breadth-First Search	http://dbpedia.org/resource/Breadth-first_search	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+L0	http://dbpedia.org/resource/Haplogroup_L0_(mtDNA)	Lecture 21	file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf
+washing machine	http://dbpedia.org/resource/Washing_machine	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+integer	http://dbpedia.org/resource/Integer	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+ADT	http://dbpedia.org/resource/Abstract_data_type	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+Naomi	http://dbpedia.org/resource/Naomi_Campbell	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+text editor	http://dbpedia.org/resource/Text_editor	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+space complexity	http://dbpedia.org/resource/Space_complexity	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+Quadratic	http://dbpedia.org/resource/Quadratic_function	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+arithmetic	http://dbpedia.org/resource/Floating-point_arithmetic	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+expression	http://dbpedia.org/resource/Gene_expression	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+time complexity	http://dbpedia.org/resource/Time_complexity	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+log2	http://dbpedia.org/resource/Binary_logarithm	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+F$	http://dbpedia.org/resource/Fijian_dollar	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+garbage collection	http://dbpedia.org/resource/Write_amplification	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+stowaway	http://dbpedia.org/resource/Stowaway	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+Stacks	http://dbpedia.org/resource/Call_stack	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+Concordia University	http://dbpedia.org/resource/Main_Page	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+nfor	http://dbpedia.org/resource/Ernest_Webnje_Nfor	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+Web browser	http://dbpedia.org/resource/Web_browser	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+O(1)	http://dbpedia.org/resource/Big_O_notation	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+algorithm	http://dbpedia.org/resource/Algorithm	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+data structure	http://dbpedia.org/resource/Data_structure	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+stock trading	http://dbpedia.org/resource/Stock_trader	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+The Stack	http://dbpedia.org/resource/The_Stack	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+Program Counter	http://dbpedia.org/resource/Program_counter	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+HTML	http://dbpedia.org/resource/HTML	Lecture 3	file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf
+xa	http://dbpedia.org/resource/Scion_xA	Lecture 17	file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf
+xj	http://dbpedia.org/resource/Jaguar_XJ	Lecture 17	file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf
+Wiley	http://dbpedia.org/resource/Wiley-Blackwell	Lecture 17	file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf
+Java	http://dbpedia.org/resource/Java_virtual_machine	Lecture 17	file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf
+permutation	http://dbpedia.org/resource/Permutation	Lecture 17	file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf
+Decision Tree	http://dbpedia.org/resource/Decision_tree	Lecture 17	file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf
+xf	http://dbpedia.org/resource/Jaguar_XF	Lecture 17	file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf
+Aiman	http://dbpedia.org/resource/Aiman	Lecture 17	file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf
+ISBN	http://dbpedia.org/resource/International_Standard_Book_Number	Lecture 17	file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf
+xk	http://dbpedia.org/resource/ISO_3166-1_alpha-2	Lecture 17	file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf
+Software Engineering	http://dbpedia.org/resource/Software_engineering	Lecture 17	file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf
+explicit knowledge	http://dbpedia.org/resource/Explicit_knowledge	Lecture 17	file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf
+Sorting-LowerBound	http://dbpedia.org/resource/Sorting_algorithm	Lecture 17	file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf
+Concordia University	http://dbpedia.org/resource/Main_Page	Lecture 17	file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf
+Collins	http://dbpedia.org/resource/HarperCollins	Lecture 17	file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf
+Java Collections Framework	http://dbpedia.org/resource/Java_collections_framework	Lecture 17	file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf
+Montreal	http://dbpedia.org/resource/Montreal	Lecture 17	file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf
+algorithm	http://dbpedia.org/resource/Algorithm	Lecture 17	file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf
+Computer Science	http://dbpedia.org/resource/Computer_science	Lecture 17	file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf
+
+------------------------------
+GetAllCoursesTopicAppearsIn - Algorithm
+Intelligent Systems (COMP 474)	Count: 2
+Intelligent Systems (COMP 6741)	Count: 2
+Data Structures and Algorithms (COMP 352)	Count: 17
+
+------------------------------
+GetDetailedTopicProvenance - time complexity
+http://focu.io/data#COMP352 -> http://focu.io/data#COMP352-Lecture2 (Lecture 2) -> file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf
+http://focu.io/data#COMP352 -> http://focu.io/data#COMP352-Lecture1 (Lecture 1) -> file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf
+http://focu.io/data#COMP352 -> http://focu.io/data#COMP352-Lecture1 (Lecture 1) -> file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment1.pdf
+http://focu.io/data#COMP474_6741 -> http://focu.io/data#COMP474_6741-Lecture7 (Lecture 7) -> file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides07.pdf
+http://focu.io/data#COMP352 -> http://focu.io/data#COMP352-Lecture3 (Lecture 3) -> file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf

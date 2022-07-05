@@ -1,0 +1,1831 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_2954_2964>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Steve Jobs" ;
+        nif:beginIndex          "2954"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2964"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4208> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Steve_Jobs> .
+
+<http://www.dbpedia-spotlight.com/#offset_2815_2828>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "search engine" ;
+        nif:beginIndex          "2815"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2828"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4208> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999934012749"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_search_engine> .
+
+<http://www.dbpedia-spotlight.com/#offset_3579_3585>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lucene" ;
+        nif:beginIndex          "3579"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3585"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4208> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q7397> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Apache_Lucene> .
+
+<http://www.dbpedia-spotlight.com/#offset_3044_3066>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Information Extraction" ;
+        nif:beginIndex          "3044"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3066"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4208> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Information_extraction> .
+
+<http://www.dbpedia-spotlight.com/#offset_2333_2348>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Personalization" ;
+        nif:beginIndex          "2333"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2348"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4208> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Personalization> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_4208>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "4208"^^xsd:nonNegativeInteger ;
+        nif:isString    "RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.1Lecture 1Intelligent Systems IntroductionCOMP 474/6741, Winter 2022RenÃ© WitteDepartment of Computer Scienceand Software EngineeringConcordia UniversityRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.2Outline1 Introduction2 Text Mining3 Knowledge Graphs4 Agents and Beyond5 Notes and Further ReadingRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.3Outline1 IntroductionMotivationA First Architecture2 Text Mining3 Knowledge Graphs4 Agents and Beyond5 Notes and Further ReadingRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.5Architecture 1.0DocumentsKnowledge WorkerRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.6Towards Intelligent Systemsâ¢ Text Miningâ¢ Knowledge Graphsâ¢ Personalizationâ¢ Recommender Systemsâ¢ Intelligent AgentsRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.7Why âsearch' is not enoughBaseline TechnologyFull-text search engine (Information Retrieval)â¢ Apache Lucene, Solr, Elastic Search, . . .Task IPlease find all documents and sentences mentioning âSteve JobsâTask IIPlease find all Persons mentioned in our documentsWhat you needRequires Information Extraction (IE) â an example for a Text Mining taskRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.7Why âsearch' is not enoughBaseline TechnologyFull-text search engine (Information Retrieval)â¢ Apache Lucene, Solr, Elastic Search, . . .Task IPlease find all documents and sentences mentioning âSteve JobsâTask IIPlease find all Persons mentioned in our documentsWhat you needRequires Information Extraction (IE) â an example for a Text Mining taskRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.7Why âsearch'" .
+
+<http://www.dbpedia-spotlight.com/#offset_3091_3102>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Text Mining" ;
+        nif:beginIndex          "3091"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3102"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4208> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Text_mining> .
+
+<http://www.dbpedia-spotlight.com/#offset_3762_3784>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Information Extraction" ;
+        nif:beginIndex          "3762"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3784"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4208> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Information_extraction> .
+
+<http://www.dbpedia-spotlight.com/#offset_2350_2369>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recommender Systems" ;
+        nif:beginIndex          "2350"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2369"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4208> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recommender_system> .
+
+<http://www.dbpedia-spotlight.com/#offset_2302_2313>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Text Mining" ;
+        nif:beginIndex          "2302"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2313"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4208> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Text_mining> .
+
+<http://www.dbpedia-spotlight.com/#offset_2861_2867>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lucene" ;
+        nif:beginIndex          "2861"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2867"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4208> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Apache_Lucene> .
+
+<http://www.dbpedia-spotlight.com/#offset_3809_3820>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Text Mining" ;
+        nif:beginIndex          "3809"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3820"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4208> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Text_mining> .
+
+<http://www.dbpedia-spotlight.com/#offset_2869_2873>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Solr" ;
+        nif:beginIndex          "2869"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2873"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4208> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q7397> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Apache_Solr> .
+
+<http://www.dbpedia-spotlight.com/#offset_2281_2300>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Intelligent Systems" ;
+        nif:beginIndex          "2281"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2300"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4208> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999989025489295"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_4208> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_3672_3682>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Steve Jobs" ;
+        nif:beginIndex          "3672"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3682"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4208> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Steve_Jobs> .
+
+<http://www.dbpedia-spotlight.com/#offset_2830_2851>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Information Retrieval" ;
+        nif:beginIndex          "2830"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2851"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4208> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Information_retrieval> .
+
+<http://www.dbpedia-spotlight.com/#offset_3533_3546>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "search engine" ;
+        nif:beginIndex          "3533"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3546"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4208> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999934012749"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_search_engine> .
+
+<http://www.dbpedia-spotlight.com/#offset_3587_3591>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Solr" ;
+        nif:beginIndex          "3587"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3591"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4208> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Apache_Solr> .
+
+<http://www.dbpedia-spotlight.com/#offset_3548_3569>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Information Retrieval" ;
+        nif:beginIndex          "3548"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3569"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4208> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Information_retrieval> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_271_293>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Information Extraction" ;
+        nif:beginIndex          "271"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "293"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4699> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Information_extraction> .
+
+<http://www.dbpedia-spotlight.com/#offset_57_78>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Information Retrieval" ;
+        nif:beginIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "78"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4699> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Information_retrieval> .
+
+<http://www.dbpedia-spotlight.com/#offset_2170_2192>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Information Extraction" ;
+        nif:beginIndex          "2170"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2192"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4699> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Information_extraction> .
+
+<http://www.dbpedia-spotlight.com/#offset_318_329>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Text Mining" ;
+        nif:beginIndex          "318"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "329"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4699> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Text_mining> .
+
+<http://www.dbpedia-spotlight.com/#offset_1724_1728>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "GATE" ;
+        nif:beginIndex          "1724"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1728"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4699> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q386724> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "0.9999999998087787"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/General_Architecture_for_Text_Engineering> .
+
+<http://www.dbpedia-spotlight.com/#offset_1731_1735>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SaaS" ;
+        nif:beginIndex          "1731"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1735"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4699> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.572389378123512"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_as_a_service> .
+
+<http://www.dbpedia-spotlight.com/#offset_96_100>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Solr" ;
+        nif:beginIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4699> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Apache_Solr> .
+
+<http://www.dbpedia-spotlight.com/#offset_734_737>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NLP" ;
+        nif:beginIndex          "734"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "737"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4699> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Natural_language_processing> .
+
+<http://www.dbpedia-spotlight.com/#offset_849_865>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "natural language" ;
+        nif:beginIndex          "849"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "865"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4699> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Natural_language_processing> .
+
+<http://www.dbpedia-spotlight.com/#offset_88_94>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lucene" ;
+        nif:beginIndex          "88"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4699> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q7397> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Apache_Lucene> .
+
+<http://www.dbpedia-spotlight.com/#offset_1762_1771>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Refinitiv" ;
+        nif:beginIndex          "1762"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1771"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4699> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999531190735"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Refinitiv> .
+
+<http://www.dbpedia-spotlight.com/#offset_2193_2196>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NLP" ;
+        nif:beginIndex          "2193"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2196"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4699> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Natural_language_processing> .
+
+<http://www.dbpedia-spotlight.com/#offset_181_191>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Steve Jobs" ;
+        nif:beginIndex          "181"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4699> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Steve_Jobs> .
+
+<http://www.dbpedia-spotlight.com/#offset_785_787>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AI" ;
+        nif:beginIndex          "785"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "787"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4699> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999951115"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<http://www.dbpedia-spotlight.com/#offset_760_783>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Artificial Intelligence" ;
+        nif:beginIndex          "760"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "783"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4699> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<http://www.dbpedia-spotlight.com/#offset_873_880>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "873"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "880"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4699> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q315> , <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9999944262356887"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<http://www.dbpedia-spotlight.com/#offset_1743_1749>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Amazon" ;
+        nif:beginIndex          "1743"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1749"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4699> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.800366710695235"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Amazon_rainforest> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_4699> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1718_1722>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "UIMA" ;
+        nif:beginIndex          "1718"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1722"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4699> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q7397> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/UIMA> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_4699>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "4699"^^xsd:nonNegativeInteger ;
+        nif:isString    "is not enoughBaseline TechnologyFull-text search engine (Information Retrieval)â¢ Apache Lucene, Solr, Elastic Search, . . .Task IPlease find all documents and sentences mentioning âSteve JobsâTask IIPlease find all Persons mentioned in our documentsWhat you needRequires Information Extraction (IE) â an example for a Text Mining taskRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.8Natural Language Processing (NLP)DefinitionA branch of Artificial Intelligence (AI) that uses various techniques to processcontent written in a natural language, e.g., English or French.RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.9Architecture 2.0Knowledge Worker DocumentsNLP PipelineRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.10Text Miningâ¢ NLP tools (e.g., UIMA, GATE)â¢ SaaS (e.g., Amazon Comprehend, Refinitiv)RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.11Named Entity Recognition (Information Extraction)NLP Pipelineâ¢ Sequence of componentsâ¢ Custom or off-the-shelfâ¢ Rule-based and/orMachine LearningRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.12RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.13RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.14RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.15RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.16Recommender Systems and Collaborative FilteringRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.17Sentiment Analysis (a.k.a. Opinion Mining)RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed" .
+
+<http://www.dbpedia-spotlight.com/#offset_42_55>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "search engine" ;
+        nif:beginIndex          "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "55"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4699> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999257307791"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_search_engine> .
+
+<http://www.dbpedia-spotlight.com/#offset_1701_1704>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NLP" ;
+        nif:beginIndex          "1701"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1704"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4699> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Natural_language_processing> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_297_303>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Amazon" ;
+        nif:beginIndex          "297"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "303"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4487> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9765897616448208"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Amazon_rainforest> .
+
+<http://www.dbpedia-spotlight.com/#offset_1598_1601>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NLP" ;
+        nif:beginIndex          "1598"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1601"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4487> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Natural_language_processing> .
+
+<http://www.dbpedia-spotlight.com/#offset_4198_4201>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NLP" ;
+        nif:beginIndex          "4198"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4201"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4487> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Natural_language_processing> .
+
+<http://www.dbpedia-spotlight.com/#offset_1762_1766>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "UIMA" ;
+        nif:beginIndex          "1762"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1766"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4487> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> , <http://www.wikidata.org/entity/Q7397> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/UIMA> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_4487> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_3662_3670>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Leverage" ;
+        nif:beginIndex          "3662"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3670"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4487> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q386724> , <http://www.wikidata.org/entity/Q15416> , <http://dbpedia.org/ontology/TelevisionShow> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "0.8317098377432884"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Leverage_(TV_series)> .
+
+<http://www.dbpedia-spotlight.com/#offset_1602_1613>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Text Mining" ;
+        nif:beginIndex          "1602"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1613"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4487> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Text_mining> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_4487>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "4487"^^xsd:nonNegativeInteger ;
+        nif:isString    "Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.18Example using âAmazon Comprehend'RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.19RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.20RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.21Summary IâData is the new oilâOrganizations have invaluable knowledge âhiddenâ in documents:â¢ Products, inventions, solutions, techniques, experiences, insights, . . .NLP/Text Mining can unlock this knowledgeWhat do you need?â¢ Need business vision to drive adoptionâ¢ Technology is mature and foundations are open sourceE.g., IBM's UIMA or University of Sheffield's GATERisksâ¢ Increasing legal and ethical concernsE.g., Ethical AI, Responsible AI, Explainable AIRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.22Outline1 Introduction2 Text Mining3 Knowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary II4 Agents and Beyond5 Notes and Further ReadingRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.23MotivationCommon Issueâ¢ Data in Information SilosDocuments, databases,spreadsheets, emails, . . .â¢ Disconnected, missing knowledgeKnowledge Integrationâ¢ Connect silo-ed knowledgeâ¢ Leverage existing, externalKnowledge Basesâ¢ Freely available, many domainsâ¢ Continuously updatedRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.23MotivationCommon Issueâ¢ Data in Information SilosDocuments, databases,spreadsheets, emails, . . .â¢ Disconnected, missing knowledgeKnowledge Integrationâ¢ Connect silo-ed knowledgeâ¢ Leverage existing, externalKnowledge Basesâ¢ Freely available, many domainsâ¢ Continuously updatedRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.24Architecture 3.0Knowledge BaseKnowledge WorkerLinked Open Data (LOD)NLP PipelineDocumentsRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary" .
+
+<http://www.dbpedia-spotlight.com/#offset_1858_1860>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AI" ;
+        nif:beginIndex          "1858"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1860"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4487> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999797637"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<http://www.dbpedia-spotlight.com/#offset_1756_1759>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "IBM" ;
+        nif:beginIndex          "1756"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1759"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4487> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q43229> , <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Company> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.9999999971258831"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/IBM> .
+
+<http://www.dbpedia-spotlight.com/#offset_4194_4197>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "LOD" ;
+        nif:beginIndex          "4194"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4197"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4487> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.985683725243279"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Level_of_detail> .
+
+<http://www.dbpedia-spotlight.com/#offset_1784_1793>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Sheffield" ;
+        nif:beginIndex          "1784"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1793"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4487> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Settlement> , <http://schema.org/City> , <http://dbpedia.org/ontology/Location> , <http://www.wikidata.org/entity/Q515> , <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://www.wikidata.org/entity/Q486972> ;
+        itsrdf:taConfidence     "0.619479417616042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sheffield> .
+
+<http://www.dbpedia-spotlight.com/#offset_4183_4192>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Open Data" ;
+        nif:beginIndex          "4183"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4192"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4487> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Open_data> .
+
+<http://www.dbpedia-spotlight.com/#offset_1874_1876>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AI" ;
+        nif:beginIndex          "1874"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1876"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4487> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999797637"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<http://www.dbpedia-spotlight.com/#offset_3014_3022>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Leverage" ;
+        nif:beginIndex          "3014"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3022"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4487> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/TelevisionShow> , <http://www.wikidata.org/entity/Q15416> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "0.8317098377432884"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Leverage_(TV_series)> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_5707> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1786_1795>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Mona Lisa" ;
+        nif:beginIndex          "1786"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1795"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_5707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Artwork> ;
+        itsrdf:taConfidence     "0.9999999967010353"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mona_Lisa> .
+
+<http://www.dbpedia-spotlight.com/#offset_4434_4450>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Linked Open Data" ;
+        nif:beginIndex          "4434"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4450"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_5707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linked_data> .
+
+<http://www.dbpedia-spotlight.com/#offset_1689_1695>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "schema" ;
+        nif:beginIndex          "1689"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1695"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_5707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8983091601755538"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_model> .
+
+<http://www.dbpedia-spotlight.com/#offset_1017_1023>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "primer" ;
+        nif:beginIndex          "1017"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1023"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_5707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.987795015323433"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Textbook> .
+
+<http://www.dbpedia-spotlight.com/#offset_1526_1532>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "schema" ;
+        nif:beginIndex          "1526"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1532"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_5707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8983091601755538"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_model> .
+
+<http://www.dbpedia-spotlight.com/#offset_982_988>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "primer" ;
+        nif:beginIndex          "982"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "988"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_5707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.987795015323433"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Textbook> .
+
+<http://www.dbpedia-spotlight.com/#offset_150_156>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "primer" ;
+        nif:beginIndex          "150"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "156"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_5707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.987795015323433"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Textbook> .
+
+<http://www.dbpedia-spotlight.com/#offset_1542_1552>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "schema.org" ;
+        nif:beginIndex          "1542"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1552"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_5707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Schema.org> .
+
+<http://www.dbpedia-spotlight.com/#offset_4036_4052>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Linked Open Data" ;
+        nif:beginIndex          "4036"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4052"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_5707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linked_data> .
+
+<http://www.dbpedia-spotlight.com/#offset_185_191>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "primer" ;
+        nif:beginIndex          "185"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_5707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.987795015323433"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Textbook> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_5707>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "5707"^^xsd:nonNegativeInteger ;
+        nif:isString    "IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.25Knowledge as Graphshttps://www.w3.org/TR/rdf11-primer/https://www.w3.org/TR/rdf11-primer/RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.26RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.27The âSemantic Web'https://www.w3.org/TR/rdf11-primer/https://www.w3.org/TR/rdf11-primer/RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.28Now in RDFBASE <http://example.org/>PREFIX foaf: <http://xmlns.com/foaf/0.1/>PREFIX xsd: <http://www.w3.org/2001/XMLSchema>PREFIX schema: <http://schema.org/>PREFIX dcterms: <http://purl.org/dc/terms/>PREFIX wd: <http://www.wikidata.org/entity/><bob#me>a foaf:Person ;\\\\foaf:knows <alice#me> ;schema:birthDate \"1990-07-04\"^^xsd:date ;foaf:topic\\_interest wd:Q12418 .wd:Q12418dcterms:title \"Mona Lisa\" ;dcterms:creator <http://dbpedia.org/resource/Leonardo_da_Vinci> .<http://data.europeana.eu/item/04802/243FA8618938F4117025F17A8B813C5F9AA4D619>dcterms:subject wd:Q12418 .RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.29RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.30DBpediaRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.31Entity Linkingthe efficient computation of the tree architecture ...\"http://dbpedia.org/resource/Tree_(data structure) http://dbpedia.org/resource/Tree\"The proposed approach takes advantage of bothRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.32RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.33The Linked Open Data CloudRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.33The Linked Open Data CloudRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.34Linking Documents with Knowledge GraphsRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.36RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.37RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity" .
+
+<http://www.dbpedia-spotlight.com/#offset_3194_3208>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "data structure" ;
+        nif:beginIndex          "3194"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3208"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_5707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_structure> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_3366_3383>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mature technology" ;
+        nif:beginIndex          "3366"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3383"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4639> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mature_technology> .
+
+<http://www.dbpedia-spotlight.com/#offset_4394_4397>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NLP" ;
+        nif:beginIndex          "4394"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4397"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4639> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Natural_language_processing> .
+
+<http://www.dbpedia-spotlight.com/#offset_1642_1656>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "social network" ;
+        nif:beginIndex          "1642"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1656"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4639> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999923303981526"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Social_network> .
+
+<http://www.dbpedia-spotlight.com/#offset_3385_3396>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "open source" ;
+        nif:beginIndex          "3385"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3396"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4639> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9997004391487998"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Open-source_software> .
+
+<http://www.dbpedia-spotlight.com/#offset_988_991>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "988"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "991"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4639> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_4379_4388>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Open Data" ;
+        nif:beginIndex          "4379"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4388"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4639> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Open_data> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_4639>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "4639"^^xsd:nonNegativeInteger ;
+        nif:isString    "DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.37The W3C âLayer CakeâRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.36Semantic Webâ¢ Enriching content with machine-readable metadataâ¢ Resource Description Framework (RDF) as a formal languageâ¢ Every statement is a triple: <subject, predicate, object>â¢ Offers SPARQL query language\"Bahar Sateli\"\"A Personal Research Agent...\"owl:Thingex:Documentrdf:typefoaf:Personrdf:typeex:Proposaldc:title rdf:typeex:Baharfoaf:name rdf:type dc:creatorSELECT (?name AS ?Name)(?title AS ?Title) WHERE {?person rdf:type foaf:person .?person foaf:name ?name .?person dc:creator ?proposal .?proposal dc:title ?title}RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.35FOAF (Friend-of-a-Friend) OntologyFOAFModel people and theirconnections in a social network.<foaf:Person><foaf:name>Rene Witte</foaf:name><foaf:mbox_sha1sum>5d5705ff1b2142d62a38061f804f766ffaf806ef</foaf:mbox_sha1sum></foaf:Person>RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.36Dublin CoreRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.37Gene Ontology (GO)RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.38Summary IIOvercoming Information Silosâ¢ Knowledge Graphs can integrate different sources within an organization(full text, databases, spreadsheets, etc.)â¢ Automatically manage an organization's knowledge;discover novel insights by combining multiple sourcesâ¢ External Knowledge Bases to further enrich the dataWhat do you need?â¢ State-of-the-art technology: graph databases, triple stores, reasoning engines,etc.â¢ Reasonably mature technology (open source & commercial), many SAASvendorsRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.39Outline1 Introduction2 Text Mining3 Knowledge Graphs4 Agents and BeyondArchitectureFoundationsHistoryTechnologySummary Part III5 Notes and Further ReadingRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.40Architecture 4.0Knowledge BaseKnowledge WorkerLinked Open Data (LOD)NLP PipelineDocumentsPersonal AgentRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked" .
+
+<http://www.dbpedia-spotlight.com/#offset_284_294>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Layer Cake" ;
+        nif:beginIndex          "284"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "294"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4639> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q2095> , <http://dbpedia.org/ontology/Food> ;
+        itsrdf:taConfidence     "0.9999999999974989"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Layer_cake> .
+
+<http://www.dbpedia-spotlight.com/#offset_1014_1017>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "1014"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1017"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4639> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_704_720>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "machine-readable" ;
+        nif:beginIndex          "704"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "720"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4639> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Machine-readable_data> .
+
+<http://www.dbpedia-spotlight.com/#offset_829_838>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "predicate" ;
+        nif:beginIndex          "829"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "838"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4639> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://www.wikidata.org/entity/Q9143> , <http://www.wikidata.org/entity/Q315> , <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9999999999761258"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SQL> .
+
+<http://www.dbpedia-spotlight.com/#offset_721_729>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metadata" ;
+        nif:beginIndex          "721"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "729"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4639> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metadata> .
+
+<http://www.dbpedia-spotlight.com/#offset_4390_4393>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "LOD" ;
+        nif:beginIndex          "4390"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4393"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4639> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999314728017985"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Level_of_detail> .
+
+<http://www.dbpedia-spotlight.com/#offset_3299_3304>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "3299"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3304"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4639> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_database> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_4639> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1090_1093>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "1090"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1093"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4639> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_279_282>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "W3C" ;
+        nif:beginIndex          "279"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "282"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4639> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://www.wikidata.org/entity/Q43229> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/World_Wide_Web_Consortium> .
+
+<http://www.dbpedia-spotlight.com/#offset_773_788>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "formal language" ;
+        nif:beginIndex          "773"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "788"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4639> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Formal_language> .
+
+<http://www.dbpedia-spotlight.com/#offset_856_862>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SPARQL" ;
+        nif:beginIndex          "856"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "862"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4639> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q315> , <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> , <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://www.wikidata.org/entity/Q9143> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SPARQL> .
+
+<http://www.dbpedia-spotlight.com/#offset_731_767>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Resource Description Framework (RDF)" ;
+        nif:beginIndex          "731"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "767"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4639> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_2556_2564>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Ontology" ;
+        nif:beginIndex          "2556"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2564"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4639> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ontology> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_377_390>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Deep Learning" ;
+        nif:beginIndex          "377"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "390"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Deep_learning> .
+
+<http://www.dbpedia-spotlight.com/#offset_2257_2260>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MIT" ;
+        nif:beginIndex          "2257"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2260"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9992713340622674"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Massachusetts_Institute_of_Technology> .
+
+<http://www.dbpedia-spotlight.com/#offset_3457_3461>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Test" ;
+        nif:beginIndex          "3457"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3461"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9997346621221008"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Test_cricket> .
+
+<http://www.dbpedia-spotlight.com/#offset_2803_2822>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "intelligent machine" ;
+        nif:beginIndex          "2803"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2822"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<http://www.dbpedia-spotlight.com/#offset_1661_1674>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Deep Learning" ;
+        nif:beginIndex          "1661"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1674"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Deep_learning> .
+
+<http://www.dbpedia-spotlight.com/#offset_2134_2153>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "intelligent machine" ;
+        nif:beginIndex          "2134"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<http://www.dbpedia-spotlight.com/#offset_2327_2340>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "schizophrenic" ;
+        nif:beginIndex          "2327"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2340"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q12136> , <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Schizophrenia> .
+
+<http://www.dbpedia-spotlight.com/#offset_978_991>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Goal-oriented" ;
+        nif:beginIndex          "978"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "991"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999999999622105"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Goal_orientation> .
+
+<http://www.dbpedia-spotlight.com/#offset_1620_1633>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Goal-oriented" ;
+        nif:beginIndex          "1620"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1633"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999999999622105"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Goal_orientation> .
+
+<http://www.dbpedia-spotlight.com/#offset_2217_2225>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chatbots" ;
+        nif:beginIndex          "2217"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2225"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999992042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chatbot> .
+
+<http://www.dbpedia-spotlight.com/#offset_2300_2308>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Stanford" ;
+        nif:beginIndex          "2300"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2308"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999655045718"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stanford_University> .
+
+<http://www.dbpedia-spotlight.com/#offset_2969_2977>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Stanford" ;
+        nif:beginIndex          "2969"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2977"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999655045718"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stanford_University> .
+
+<http://www.dbpedia-spotlight.com/#offset_1019_1032>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Deep Learning" ;
+        nif:beginIndex          "1019"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1032"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Deep_learning> .
+
+<http://www.dbpedia-spotlight.com/#offset_336_349>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Goal-oriented" ;
+        nif:beginIndex          "336"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "349"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999999999622105"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Goal_orientation> .
+
+<http://www.dbpedia-spotlight.com/#offset_3472_3491>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "intelligent machine" ;
+        nif:beginIndex          "3472"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3491"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<http://www.dbpedia-spotlight.com/#offset_2926_2929>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MIT" ;
+        nif:beginIndex          "2926"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2929"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9992713340622674"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Massachusetts_Institute_of_Technology> .
+
+<http://www.dbpedia-spotlight.com/#offset_2886_2894>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chatbots" ;
+        nif:beginIndex          "2886"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2894"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999992042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chatbot> .
+
+<http://www.dbpedia-spotlight.com/#offset_1598_1606>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chatbots" ;
+        nif:beginIndex          "1598"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1606"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999992042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chatbot> .
+
+<http://www.dbpedia-spotlight.com/#offset_3555_3563>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chatbots" ;
+        nif:beginIndex          "3555"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3563"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999992042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chatbot> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_3581>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3581"^^xsd:nonNegativeInteger ;
+        nif:isString    "Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.41Intelligent Conversational Agentsâ¢ A software program that can interpret andrespond to statements made by users in anatural languageâ¢ Different types of chatbotsâ¢ Generic vs. Goal-orientedâ¢ Retrieval vs. Generative (Deep Learning)â¢ Similar architecture, different stacksRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.41Intelligent Conversational Agentsâ¢ A software program that can interpret andrespond to statements made by users in anatural languageâ¢ Different types of chatbotsâ¢ Generic vs. Goal-orientedâ¢ Retrieval vs. Generative (Deep Learning)â¢ Similar architecture, different stacksRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.41Intelligent Conversational Agentsâ¢ A software program that can interpret andrespond to statements made by users in anatural languageâ¢ Different types of chatbotsâ¢ Generic vs. Goal-orientedâ¢ Retrieval vs. Generative (Deep Learning)â¢ Similar architecture, different stacksRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.42Brief History of ChatbotsTuring Test: âA truly intelligent machine would beindistinguishable from a humanâ (A. Turing, 1950)Early chatbots were developed by scientists:â¢ MIT Eliza (1966), the psychotherapist botâ¢ Stanford Parry (1972), the schizophrenic patientâ¢ A.L.I.C.E (1995), the companion AIRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.42Brief History of ChatbotsTuring Test: âA truly intelligent machine would beindistinguishable from a humanâ (A. Turing, 1950)Early chatbots were developed by scientists:â¢ MIT Eliza (1966), the psychotherapist botâ¢ Stanford Parry (1972), the schizophrenic patientâ¢ A.L.I.C.E (1995), the companion AIRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.42Brief History of ChatbotsTuring Test: âA truly intelligent machine would beindistinguishable from a humanâ (A. Turing, 1950)Early chatbots were developed by" .
+
+<http://www.dbpedia-spotlight.com/#offset_2788_2792>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Test" ;
+        nif:beginIndex          "2788"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2792"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9997346621221008"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Test_cricket> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_2996_3009>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "schizophrenic" ;
+        nif:beginIndex          "2996"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3009"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q12136> , <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Schizophrenia> .
+
+<http://www.dbpedia-spotlight.com/#offset_2948_2963>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "psychotherapist" ;
+        nif:beginIndex          "2948"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2963"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q12136> , <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Psychotherapy> .
+
+<http://www.dbpedia-spotlight.com/#offset_2119_2123>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Test" ;
+        nif:beginIndex          "2119"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2123"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9997346621221008"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Test_cricket> .
+
+<http://www.dbpedia-spotlight.com/#offset_314_322>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chatbots" ;
+        nif:beginIndex          "314"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "322"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999992042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chatbot> .
+
+<http://www.dbpedia-spotlight.com/#offset_2279_2294>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "psychotherapist" ;
+        nif:beginIndex          "2279"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2294"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q12136> , <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Psychotherapy> .
+
+<http://www.dbpedia-spotlight.com/#offset_956_964>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chatbots" ;
+        nif:beginIndex          "956"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "964"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3581> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999992042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chatbot> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_3759_3772>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Microsoft Tay" ;
+        nif:beginIndex          "3759"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3772"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q7397> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "0.999995504002857"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tay_(bot)> .
+
+<http://www.dbpedia-spotlight.com/#offset_3111_3114>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "IBM" ;
+        nif:beginIndex          "3111"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Company> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q43229> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> ;
+        itsrdf:taConfidence     "0.9999999955533667"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/IBM> .
+
+<http://www.dbpedia-spotlight.com/#offset_3151_3163>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Amazon Alexa" ;
+        nif:beginIndex          "3151"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3163"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q7397> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Amazon_Alexa> .
+
+<http://www.dbpedia-spotlight.com/#offset_585_595>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Apple Siri" ;
+        nif:beginIndex          "585"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "595"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q7397> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Siri> .
+
+<http://www.dbpedia-spotlight.com/#offset_3779_3788>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Microsoft" ;
+        nif:beginIndex          "3779"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3788"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://schema.org/Organization> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Company> , <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9518859415598907"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microsoft> .
+
+<http://www.dbpedia-spotlight.com/#offset_56_64>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Stanford" ;
+        nif:beginIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "64"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999977694642"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stanford_University> .
+
+<http://www.dbpedia-spotlight.com/#offset_2625_2642>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Microsoft Cortana" ;
+        nif:beginIndex          "2625"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2642"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q7397> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cortana> .
+
+<http://www.dbpedia-spotlight.com/#offset_3659_3669>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Apple Siri" ;
+        nif:beginIndex          "3659"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3669"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q7397> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Siri> .
+
+<http://www.dbpedia-spotlight.com/#offset_2028_2038>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Apple Siri" ;
+        nif:beginIndex          "2028"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2038"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q386724> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Siri> .
+
+<http://www.dbpedia-spotlight.com/#offset_3128_3144>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Google Assistant" ;
+        nif:beginIndex          "3128"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3144"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Google_Assistant> .
+
+<http://www.dbpedia-spotlight.com/#offset_2045_2048>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "IBM" ;
+        nif:beginIndex          "2045"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2048"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q24229398> , <http://www.wikidata.org/entity/Q4830453> ;
+        itsrdf:taConfidence     "0.9999999955533667"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/IBM> .
+
+<http://www.dbpedia-spotlight.com/#offset_2085_2097>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Amazon Alexa" ;
+        nif:beginIndex          "2085"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2097"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q386724> , <http://www.wikidata.org/entity/Q7397> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Amazon_Alexa> .
+
+<http://www.dbpedia-spotlight.com/#offset_3716_3728>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Amazon Alexa" ;
+        nif:beginIndex          "3716"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3728"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q7397> , <http://www.wikidata.org/entity/Q386724> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Amazon_Alexa> .
+
+<http://www.dbpedia-spotlight.com/#offset_83_96>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "schizophrenic" ;
+        nif:beginIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q12136> , <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Schizophrenia> .
+
+<http://www.dbpedia-spotlight.com/#offset_1047_1057>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Apple Siri" ;
+        nif:beginIndex          "1047"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1057"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Siri> .
+
+<http://www.dbpedia-spotlight.com/#offset_3693_3709>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Google Assistant" ;
+        nif:beginIndex          "3693"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3709"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Google_Assistant> .
+
+<http://www.dbpedia-spotlight.com/#offset_2549_2559>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Apple Siri" ;
+        nif:beginIndex          "2549"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2559"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Siri> .
+
+<http://www.dbpedia-spotlight.com/#offset_1526_1536>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Apple Siri" ;
+        nif:beginIndex          "1526"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1536"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q7397> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Siri> .
+
+<http://www.dbpedia-spotlight.com/#offset_1064_1067>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "IBM" ;
+        nif:beginIndex          "1064"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1067"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q24229398> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q4830453> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Company> , <http://www.wikidata.org/entity/Q43229> ;
+        itsrdf:taConfidence     "0.9999999955533667"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/IBM> .
+
+<http://www.dbpedia-spotlight.com/#offset_2062_2078>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Google Assistant" ;
+        nif:beginIndex          "2062"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2078"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q386724> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Google_Assistant> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_2566_2569>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "IBM" ;
+        nif:beginIndex          "2566"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2569"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Company> , <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q43229> ;
+        itsrdf:taConfidence     "0.9999999955533667"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/IBM> .
+
+<http://www.dbpedia-spotlight.com/#offset_1543_1546>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "IBM" ;
+        nif:beginIndex          "1543"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1546"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Organisation> , <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q24229398> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> ;
+        itsrdf:taConfidence     "0.9999999955533667"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/IBM> .
+
+<http://www.dbpedia-spotlight.com/#offset_3676_3679>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "IBM" ;
+        nif:beginIndex          "3676"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3679"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q43229> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9999999955533667"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/IBM> .
+
+<http://www.dbpedia-spotlight.com/#offset_3094_3104>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Apple Siri" ;
+        nif:beginIndex          "3094"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q7397> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Siri> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_4314>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "4314"^^xsd:nonNegativeInteger ;
+        nif:isString    "scientists:â¢ MIT Eliza (1966), the psychotherapist botâ¢ Stanford Parry (1972), the schizophrenic patientâ¢ A.L.I.C.E (1995), the companion AIRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.43Brief History of Chatbots (cont.)Tech companies join the bot development:Apple Siri (2010)RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.43Brief History of Chatbots (cont.)Tech companies join the bot development:Apple Siri (2010)IBM Watson (2011)RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.43Brief History of Chatbots (cont.)Tech companies join the bot development:Apple Siri (2010)IBM Watson (2011)Google Assistant (2012)RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.43Brief History of Chatbots (cont.)Tech companies join the bot development:Apple Siri (2010)IBM Watson (2011)Google Assistant (2012)Amazon Alexa (2015)RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.43Brief History of Chatbots (cont.)Tech companies join the bot development:Apple Siri (2010)IBM Watson (2011)Google Assistant (2012)Amazon Alexa (2015)Microsoft Cortana (2015)RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.43Brief History of Chatbots (cont.)Tech companies join the bot development:Apple Siri (2010)IBM Watson (2011)Google Assistant (2012)Amazon Alexa (2015)Microsoft Cortana (2015)Microsoft Tay (2016)RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.43Brief History of Chatbots (cont.)Tech companies join the bot development:Apple Siri (2010)IBM Watson (2011)Google Assistant (2012)Amazon Alexa (2015)Microsoft Cortana (2015)Microsoft Tay (2016)Microsoft Zo (2016)RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.44Eliza (1966)How does Eliza work?See Weizenbaum's paper at:http://www.csee.umbc.edu/courses/331/papers/eliza.htmlâInput sentences are analyzed on" .
+
+<http://www.dbpedia-spotlight.com/#offset_13_16>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MIT" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "16"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999444544316"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Massachusetts_Institute_of_Technology> .
+
+<http://www.dbpedia-spotlight.com/#offset_2606_2618>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Amazon Alexa" ;
+        nif:beginIndex          "2606"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2618"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q7397> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Amazon_Alexa> .
+
+<http://www.dbpedia-spotlight.com/#offset_4206_4216>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Weizenbaum" ;
+        nif:beginIndex          "4206"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4216"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Person> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Scientist> , <http://dbpedia.org/ontology/Person> , <http://www.wikidata.org/entity/Q901> , <http://www.wikidata.org/entity/Q215627> , <http://www.wikidata.org/entity/Q5> , <Http://xmlns.com/foaf/0.1/Person> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Joseph_Weizenbaum> .
+
+<http://www.dbpedia-spotlight.com/#offset_35_50>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "psychotherapist" ;
+        nif:beginIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "50"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> , <http://www.wikidata.org/entity/Q12136> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Psychotherapy> .
+
+<http://www.dbpedia-spotlight.com/#offset_3735_3752>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Microsoft Cortana" ;
+        nif:beginIndex          "3735"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3752"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cortana> .
+
+<http://www.dbpedia-spotlight.com/#offset_3194_3207>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Microsoft Tay" ;
+        nif:beginIndex          "3194"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3207"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q386724> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "0.999995504002857"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tay_(bot)> .
+
+<http://www.dbpedia-spotlight.com/#offset_2583_2599>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Google Assistant" ;
+        nif:beginIndex          "2583"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2599"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q7397> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Google_Assistant> .
+
+<http://www.dbpedia-spotlight.com/#offset_1560_1576>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Google Assistant" ;
+        nif:beginIndex          "1560"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1576"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q386724> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Google_Assistant> .
+
+<http://www.dbpedia-spotlight.com/#offset_3170_3187>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Microsoft Cortana" ;
+        nif:beginIndex          "3170"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4314> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q7397> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cortana> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_4160> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1344_1353>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Jeopardy!" ;
+        nif:beginIndex          "1344"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1353"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4160> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/TelevisionShow> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q15416> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "0.999880774783227"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Jeopardy!> .
+
+<http://www.dbpedia-spotlight.com/#offset_4040_4047>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Gartner" ;
+        nif:beginIndex          "4040"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4047"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4160> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gartner> .
+
+<http://www.dbpedia-spotlight.com/#offset_3426_3433>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Gartner" ;
+        nif:beginIndex          "3426"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3433"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4160> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gartner> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_4160>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "4160"^^xsd:nonNegativeInteger ;
+        nif:isString    "the basis of decomposition rules whichare triggered by key words appearing in the input text. Responses aregenerated by reassembly rules associated with selected decompositionrules.âhttp://www.csee.umbc.edu/courses/331/papers/eliza.htmlRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.45Eliza ExampleEliza + DOCTOR scriptIf the input sentence is:I am very unhappy these days.Eliza's response will be:How long have you been very unhappy these days?ProcessingKeyword:I amDecomposition pattern:I am <whatever>Reassembly Pattern:How long have you been <whatever>?RenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.46IBM WatsonWatson is a type of question-answering (QA) system, first developed 2006â20112011 Jeopardy! competition: 2,880 POWER7 threads and 16 terabytes of RAMRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.47The Chatbots LandscapeRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.47The Chatbots LandscapeRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.47The Chatbots LandscapeRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.47The Chatbots LandscapeRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.48Perceived Business Benefitsâ¢ âTop 5 Emerging Technologies in 2018â(Gartner)â¢ Global Market to reach $1-3B by 2025,CAGR of 25-40%â¢ Huge benefits across the value chain:â¢ Sales & Marketingâ¢ HR & Operationsâ¢ Service & Paymentâ¢ Retention & GrowthRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.48Perceived Business Benefitsâ¢ âTop 5 Emerging Technologies in 2018â(Gartner)â¢ Global Market to reach $1-3B by 2025,CAGR of 25-40%â¢ Huge benefits across the value chain:â¢ Sales & Marketingâ¢" .
+
+<http://www.dbpedia-spotlight.com/#offset_1282_1300>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "question-answering" ;
+        nif:beginIndex          "1282"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1300"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4160> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Question_answering> .
+
+<http://www.dbpedia-spotlight.com/#offset_4087_4091>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CAGR" ;
+        nif:beginIndex          "4087"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4091"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4160> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Compound_annual_growth_rate> .
+
+<http://www.dbpedia-spotlight.com/#offset_1373_1379>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "POWER7" ;
+        nif:beginIndex          "1373"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1379"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4160> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/POWER7> .
+
+<http://www.dbpedia-spotlight.com/#offset_3473_3477>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CAGR" ;
+        nif:beginIndex          "3473"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3477"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4160> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Compound_annual_growth_rate> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_3008_3019>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Text Mining" ;
+        nif:beginIndex          "3008"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3019"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3348> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Text_mining> .
+
+<http://www.dbpedia-spotlight.com/#offset_1983_1991>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chatbots" ;
+        nif:beginIndex          "1983"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1991"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3348> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chatbot> .
+
+<http://www.dbpedia-spotlight.com/#offset_2165_2168>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NLP" ;
+        nif:beginIndex          "2165"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2168"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3348> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Natural_language_processing> .
+
+<http://www.dbpedia-spotlight.com/#offset_2510_2518>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computer" ;
+        nif:beginIndex          "2510"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2518"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3348> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9365181044573593"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_science> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_3348>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3348"^^xsd:nonNegativeInteger ;
+        nif:isString    "HR & Operationsâ¢ Service & Paymentâ¢ Retention & GrowthRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.49Chatbots: The Business CaseWhat do you need?â¢ Specify the business caseâ¢ Define concrete use casesâ¢ Determine KPIs and evaluateâ¢ Re-envision Risk Managementâ¢ Select a vendor or develop in-houseâ¢ Be aware of the bot lifecycleSummaryâ¢ âHotâ business topic, emerging after decades of researchâ¢ Huge difference in scope (simple rules vs. sophisticated reasoning)â¢ Again, new legal and ethical issuesE.g., bots pretending to be human, political campaigning, medical adviceRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.50Outline1 Introduction2 Text Mining3 Knowledge Graphs4 Agents and Beyond5 Notes and Further ReadingRenÃ© WitteIntroductionMotivationA First ArchitectureText MiningMotivationFoundationsNamed Entity DetectionRecommender SystemsSentiment AnalysisRisksSummaryKnowledge GraphsMotivationArchitectureFoundationsLinked Open DataAutomated ReasoningTechnologyVocabulariesSummary IIAgents and BeyondArchitectureFoundationsHistoryTechnologySummary Part IIINotes and FurtherReading1.51Reading MaterialRequiredâ¢ Introduction to Artificial Intelligence,https://plato.stanford.edu/entries/artificial-intelligence/â¢ Eliza, https://en.wikipedia.org/wiki/ELIZAâ¢ IBM Watson, https://en.wikipedia.org/wiki/Watson_(computer)Supplementalâ¢ 155 chatbots in this brand new landscape. Where does your bot fit?https://venturebeat.com/2017/06/26/bot-analytics-platform-releases-new-chatbot-landscape/â¢ Ultimate Guide to Leveraging NLP & Machine Learning for your Chatbot,https://chatbotslife.com/ultimate-guide-to-leveraging-nlp-machine-learning-for-you-chatbot-531ff2dd870câ¢ The AI Behind Watson, http://www.aaai.org/Magazine/Watson/watson.phphttps://plato.stanford.edu/entries/artificial-intelligence/https://en.wikipedia.org/wiki/ELIZAhttps://en.wikipedia.org/wiki/Watson_(computer)https://venturebeat.com/2017/06/26/bot-analytics-platform-releases-new-chatbot-landscape/https://venturebeat.com/2017/06/26/bot-analytics-platform-releases-new-chatbot-landscape/https://chatbotslife.com/ultimate-guide-to-leveraging-nlp-machine-learning-for-you-chatbot-531ff2dd870chttps://chatbotslife.com/ultimate-guide-to-leveraging-nlp-machine-learning-for-you-chatbot-531ff2dd870chttp://www.aaai.org/Magazine/Watson/watson.php\tIntroduction\tIntroduction\tMotivation\tA First Architecture\tText Mining\tMotivation\tFoundations\tNamed Entity Detection\tRecommender Systems\tSentiment Analysis\tRisks\tSummary\tKnowledge Graphs\tMotivation\tArchitecture\tFoundations\tLinked Open Data\tAutomated Reasoning\tTechnology\tVocabularies\tSummary II\tAgents and Beyond\tArchitecture\tFoundations\tHistory\tTechnology\tSummary Part III\tNotes and Further Reading" .
+
+<http://www.dbpedia-spotlight.com/#offset_2314_2316>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AI" ;
+        nif:beginIndex          "2314"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2316"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3348> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<http://www.dbpedia-spotlight.com/#offset_1777_1800>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Artificial Intelligence" ;
+        nif:beginIndex          "1777"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1800"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3348> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<http://www.dbpedia-spotlight.com/#offset_3341_3348>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Reading" ;
+        nif:beginIndex          "3341"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3348"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3348> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999770353"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reading> .
+
+<http://www.dbpedia-spotlight.com/#offset_2413_2436>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "artificial-intelligence" ;
+        nif:beginIndex          "2413"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2436"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3348> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<http://www.dbpedia-spotlight.com/#offset_3172_3188>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Linked Open Data" ;
+        nif:beginIndex          "3172"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3348> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linked_data> .
+
+<http://www.dbpedia-spotlight.com/#offset_1836_1859>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "artificial-intelligence" ;
+        nif:beginIndex          "1836"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1859"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3348> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<http://www.dbpedia-spotlight.com/#offset_2197_2204>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Chatbot" ;
+        nif:beginIndex          "2197"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2204"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3348> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chatbot> .
+
+<http://www.dbpedia-spotlight.com/#offset_2171_2187>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Machine Learning" ;
+        nif:beginIndex          "2171"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3348> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Machine_learning> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_3348> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_3066_3085>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recommender Systems" ;
+        nif:beginIndex          "3066"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3085"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3348> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recommender_system> .
+
+<http://www.dbpedia-spotlight.com/#offset_3086_3104>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Sentiment Analysis" ;
+        nif:beginIndex          "3086"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3348> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sentiment_analysis> .
+
+<http://www.dbpedia-spotlight.com/#offset_1956_1964>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computer" ;
+        nif:beginIndex          "1956"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1964"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3348> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9365181044573593"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_science> .
+
+<http://www.dbpedia-spotlight.com/#offset_1906_1909>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "IBM" ;
+        nif:beginIndex          "1906"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1909"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3348> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.wikidata.org/entity/Q4830453> , <http://www.wikidata.org/entity/Q43229> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9999999985423074"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/IBM> .
+
+<http://www.dbpedia-spotlight.com/#offset_1899_1904>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ELIZA" ;
+        nif:beginIndex          "1899"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1904"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3348> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/ELIZA> .

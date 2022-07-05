@@ -1,0 +1,243 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_70_86>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Computer Science" ;
+        nif:beginIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1953> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_science> .
+
+<http://www.dbpedia-spotlight.com/#offset_132_140>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Montreal" ;
+        nif:beginIndex          "132"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "140"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1953> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/City> , <http://www.wikidata.org/entity/Q486972> , <http://schema.org/City> , <http://www.wikidata.org/entity/Q515> , <http://dbpedia.org/ontology/Settlement> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9996678947040036"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Montreal> .
+
+<http://www.dbpedia-spotlight.com/#offset_784_795>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "784"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "795"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1953> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_305_309>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "305"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1953> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_414_418>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "414"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "418"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1953> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_262_266>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "262"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "266"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1953> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999957610019725"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_110_130>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia University" ;
+        nif:beginIndex          "110"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1953> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9896777517476703"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Main_Page> .
+
+<http://www.dbpedia-spotlight.com/#offset_611_616>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "611"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "616"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1953> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_89_109>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Software Engineering" ;
+        nif:beginIndex          "89"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "109"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1953> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_engineering> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1953> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1241_1254>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary search" ;
+        nif:beginIndex          "1241"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1953> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_search_algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1218_1235>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inorder traversal" ;
+        nif:beginIndex          "1218"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1953> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_traversal> .
+
+<http://www.dbpedia-spotlight.com/#offset_45_50>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "50"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1953> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_760_778>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary search tree" ;
+        nif:beginIndex          "760"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "778"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1953> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_search_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_393_400>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Collins" ;
+        nif:beginIndex          "393"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "400"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1953> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q24229398> , <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Publisher> , <http://dbpedia.org/ontology/Company> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.9976642345376695"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/HarperCollins> .
+
+<http://www.dbpedia-spotlight.com/#offset_1125_1136>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "1125"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1953> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_352_378>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java Collections Framework" ;
+        nif:beginIndex          "352"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "378"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1953> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_collections_framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_286_291>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Wiley" ;
+        nif:beginIndex          "286"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "291"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1953> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q24229398> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Publisher> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q43229> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> ;
+        itsrdf:taConfidence     "0.9999913079118739"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wiley-Blackwell> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1953>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1953"^^xsd:nonNegativeInteger ;
+        nif:isString    "Analysis of AlgorithmsBinary Search TreesDr. Aiman HannaDepartment of Computer Science & Software Engineering Concordia University, Montreal, CanadaThese slides have been extracted, modified and updated from original slides of :Data Structures and Algorithms in Java, 5th edition. John Wiley& Sons, 2010. ISBN 978-0-470-38326-1.Data Structures and the Java Collections Framework by William J. Collins, 3rdedition, ISBN 978-0-470-48267-4. Both books are published by Wiley.Copyright Â© 2010-2011 WileyCopyright Â© 2010 Michael  T. Goodrich, Roberto TamassiaCopyright Â© 2011 William J. CollinsCopyright Â© 2011-2021 Aiman Hanna All rights reserved Coverageï± Section 10.1: Binary Search Trees269241 8<>=Binary Search TreesBinary Search Trees 3Binary Search Treesï± A binary search tree is a binary tree storing keys (or key-value entries) at its internal nodes and satisfying the following property:ï® Let u, t, and w be three nodes such that u is in the left subtree of t and w is in the right subtree of t. We have key(u) â¤ key(t) â¤ key(w)ï± External nodes do not store items. They are there to guarantees that the tree is a proper binary tree, which simplifies other operations. Binary Search Trees 4Binary Search Treesï± An inorder traversal of a binary search trees visits the keys in increasing order69241 8Binary Search Trees 5Searchï± To search for a key k, we trace a downward path starting at the rootï± The next node visited depends on the comparison of k with the key of the current nodeï± If we reach a leaf, the key is not foundï± Example: get(4):ï® Call TreeSearch(4,root)ï± The algorithms for floorEntry and ceilingEntry are similarAlgorithm TreeSearch(k, w)if T.isExternal (w)return nullif k < key(w)return TreeSearch(k, T.left(w))else if k = key(w)return welse { k > key(w) }return TreeSearch(k, T.right(w))69241 8<>=Binary Search Trees 6Insertionï± To perform operation put(k, o), we search for key k (using TreeSearch)ï± Assume k is not already in the" .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_938_956>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary search tree" ;
+        nif:beginIndex          "938"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "956"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1262> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_search_tree> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1262> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1262>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1262"^^xsd:nonNegativeInteger ;
+        nif:isString    "tree, and let w be the leaf reached by the searchï± We insert k at node w and expand w into an internal nodeï± Example: insert (5)69241 869241 85<>>wwBinary Search Trees 7Deletionï± To perform operation remove(k), we search for key kï± Assume key k is in the tree, and let v be the node storing kï± If node v has a leaf child w, we remove v and w from the tree with operation removeExternal(w), which removes w and its parentï± Example: remove (4)69241 85vw69251 8<>Binary Search Trees 8Deletion (cont.)ï± We consider the case where the key k to be removed is stored at a node v whose children are both internalï® we find the internal node w that follows v in an inorder traversalï® we copy key(w) into node vï® we remove node w and its left child z (which must be a leaf) by means of operation removeExternal(z)ï± Example: remove(3)3186 95vwz25186 9v2Binary Search Trees 9Performanceï± Consider an ordered map with n items implemented by means of a binary search tree of height hï® the space used is O(n)ï® methods get, floorEntry, ceilingEntry, put and remove take O(h) timeï± The height h is O(n) in the worst case and O(log n) in the best case\tBinary Search Trees\tSlide Number 2\tBinary Search Trees\tBinary Search Trees\tSearch\tInsertion\tDeletion\tDeletion (cont.)\tPerformance" .
+
+<http://www.dbpedia-spotlight.com/#offset_655_672>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inorder traversal" ;
+        nif:beginIndex          "655"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "672"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1262> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_traversal> .
+
+<http://www.dbpedia-spotlight.com/#offset_94_107>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "internal node" ;
+        nif:beginIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1262> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999994259878178"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+<http://www.dbpedia-spotlight.com/#offset_618_631>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "internal node" ;
+        nif:beginIndex          "618"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "631"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1262> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999994259878178"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .

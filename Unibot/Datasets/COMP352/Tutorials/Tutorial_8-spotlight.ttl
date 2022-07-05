@@ -1,0 +1,670 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_993_996>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "993"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "996"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1726> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1726> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_453_456>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "453"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "456"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1726> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_934_937>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "934"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "937"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1726> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_127_130>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1726> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_953_956>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "953"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "956"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1726> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1664_1673>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "1664"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1673"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1726> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999995840653083"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1726>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1726"^^xsd:nonNegativeInteger ;
+        nif:isString    "COMP352 Tutorial 81MAPS, DICTIONARIES, HASHS -- OUTLINE Maps Dictionaries Ordered Maps Binary Search Hash Tables Hash Maps2MAP ADT A Map is an ADT that allows us to store values based on unique keys. These entries are typically called key-value pairs. The keys are required to be unique so that each key only points to one value. This is similar to how an array works except that instead of integer indexes, we use a more generic key as the \"index\"3MAP ADT -- METHODS size(), isEmpty() get(k)â« return the value associated with key k, if none, return null put(k, v)â« store v as the new value for key k. return the old value or null if none. remove(k)â« remove the entry with key k if one exists. return the old value or null if none. keys(), values()â« return an iterable collection of all the keys or values stored in the map. entries()â« return an iterable collection of all the entries stores in the map as key-value pairs.4DICTIONARY ADT The Dictionary ADT functions very similarly to the Map ADT. Dictionaries unlike maps allow more than one entry to have the same key.5DICTIONARY ADT -- METHODS size(), isEmpty() get(k)â« return the first value associated with key k, if none, return null getAll(k)â« return an iterable collection of all the values associated with key k. put(k, v)â« add an entry with key k and value v. remove(e)â« remove the key-value entry e. entries()â« return an iterable collection of all the entries stores in the dictionary as key-value pairs.6MAP ADT -- ORDERED MAP An ordered map stores key-value pairs in an ordered search table. An ordered search table is an implementation of a Map using an ordered ArrayList. Binary Search is a classic algorithm to locate an entry in the table. It runs in O(log n)" .
+
+<http://www.dbpedia-spotlight.com/#offset_143_146>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "143"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1726> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1470_1473>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1470"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1473"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1726> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_391_398>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "391"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "398"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1726> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999308548719"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.dbpedia-spotlight.com/#offset_1082_1085>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1082"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1085"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1726> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_20_30>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash table" ;
+        nif:beginIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1611>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1611"^^xsd:nonNegativeInteger ;
+        nif:isString    "time.7HASH TABLES A hash table is an efficient means to store a map. A Hash table consists of two components:â« Bucket Array: An array of a generally fixed size where each entry is can be thought of as a \"bucketâ (list) that contains a set of key-value pairs.â« Hash Function: A function that maps the generic key type to an integer to use as an index for the Bucket Array. The result of the hash function is called a hash value.8HASH FUNCTIONS -- COLLISIONS One issue with hash tables is how well the Hash Function behaves. That is to say,  how well the keys map to integers. When two keys share the same hash value (result of the hash function), we get a collision. A good hash function minimizes collisions under most conditions. The way a hash table implementation handles collisions has an impact on the running time complexity of functions relying on the hash table.9COLLISION HANDLING Separate Chaining: each Bucket A[i] stores a small map (list) Linear Probing: A[i+1 mode N]  i=h(k) if A[i+1]occupied try A[i+2] mode N  Quadratic Probing: A[i+f(j) mode N]  f(j)=j^2  j=0,1,2,3,.. Double Hashing: A[i+f(j) mode N]       f(j)=j.h'(k)      j=1,2,310PROBLEM R-9.7, R-9.8, R-9.9, R-9.10 Assume an 11 entry hash table Use the hash function h(i) = 2i + 5 mod 11 Insert the keys: 12, 44, 13, 88, 23, 94, 11, 39, 20, 16, 5 Draw the contents of the hash table given that for collisions:â« Chaining is usedâ« Linear Probing is usedâ« Quadratic Probing is usedâ« Double Hashing is used with h'(k) = 7 - ( k mod 7 )11PROBLEM SOLVING Consider a hash table of size 7 with hash function (h(k) = k mod 7). Draw the table that" .
+
+<http://www.dbpedia-spotlight.com/#offset_741_751>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash table" ;
+        nif:beginIndex          "741"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "751"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_1208_1218>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash table" ;
+        nif:beginIndex          "1208"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1218"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_1346_1356>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash table" ;
+        nif:beginIndex          "1346"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1356"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_472_476>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash" ;
+        nif:beginIndex          "472"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "476"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999470433082"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_260_273>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hash Function" ;
+        nif:beginIndex          "260"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "273"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_390_403>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash function" ;
+        nif:beginIndex          "390"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "403"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_1427_1436>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Quadratic" ;
+        nif:beginIndex          "1427"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1436"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quadratic_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_1560_1573>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash function" ;
+        nif:beginIndex          "1560"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1573"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_630_643>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash function" ;
+        nif:beginIndex          "630"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "643"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_71_81>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hash table" ;
+        nif:beginIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "81"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_323_330>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "323"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "330"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999979752374"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.dbpedia-spotlight.com/#offset_1498_1501>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mod" ;
+        nif:beginIndex          "1498"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1501"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9980504867512693"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modulo_operation> .
+
+<http://www.dbpedia-spotlight.com/#offset_859_869>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash table" ;
+        nif:beginIndex          "859"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "869"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_673_686>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash function" ;
+        nif:beginIndex          "673"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "686"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_308_316>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "key type" ;
+        nif:beginIndex          "308"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "316"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999995453"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Key_type_stamp> .
+
+<http://www.dbpedia-spotlight.com/#offset_500_513>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hash Function" ;
+        nif:beginIndex          "500"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "513"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_function> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_416_420>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash" ;
+        nif:beginIndex          "416"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "420"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999470433082"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_1027_1036>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Quadratic" ;
+        nif:beginIndex          "1027"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1036"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quadratic_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_1255_1258>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mod" ;
+        nif:beginIndex          "1255"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1258"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9980504867512693"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modulo_operation> .
+
+<http://www.dbpedia-spotlight.com/#offset_815_830>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time complexity" ;
+        nif:beginIndex          "815"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "830"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.99999999865463"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<http://www.dbpedia-spotlight.com/#offset_1534_1544>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash table" ;
+        nif:beginIndex          "1534"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1544"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_1227_1240>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash function" ;
+        nif:beginIndex          "1227"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_604_608>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash" ;
+        nif:beginIndex          "604"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "608"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999470433082"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_1584_1587>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mod" ;
+        nif:beginIndex          "1584"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1587"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1611> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9980504867512693"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modulo_operation> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1387_1398>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linked list" ;
+        nif:beginIndex          "1387"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1398"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1591> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linked_list> .
+
+<http://www.dbpedia-spotlight.com/#offset_1013_1016>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mod" ;
+        nif:beginIndex          "1013"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1016"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1591> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9403305284040474"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modulo_operation> .
+
+<http://www.dbpedia-spotlight.com/#offset_990_1003>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash function" ;
+        nif:beginIndex          "990"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1003"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1591> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_285_298>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash function" ;
+        nif:beginIndex          "285"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "298"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1591> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_965_975>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash table" ;
+        nif:beginIndex          "965"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "975"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1591> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_452_463>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "load factor" ;
+        nif:beginIndex          "452"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "463"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1591> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_827_830>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mod" ;
+        nif:beginIndex          "827"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "830"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1591> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9403305284040474"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modulo_operation> .
+
+<http://www.dbpedia-spotlight.com/#offset_1286_1297>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linked list" ;
+        nif:beginIndex          "1286"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1297"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1591> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linked_list> .
+
+<http://www.dbpedia-spotlight.com/#offset_255_269>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "double hashing" ;
+        nif:beginIndex          "255"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "269"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1591> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Double_hashing> .
+
+<http://www.dbpedia-spotlight.com/#offset_315_318>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mod" ;
+        nif:beginIndex          "315"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "318"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1591> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9403305284040474"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modulo_operation> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1591>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1591"^^xsd:nonNegativeInteger ;
+        nif:isString    "results after inserting, in the given order, the following values: 19,26,13,48,17 for each of the three scenarios below : 1) when collisions are handled by separate chaining2) when collisions are handled by linear probing3) when collisions are handled by double hashing using a second hash function: h'(k) = 5 â (k mod 5) 12PROBLEM SOLVING Let H be a hash table where collisions are handled by Linear Probing and where re-hashing is used each time the load factor (number of item in the table divided by the size of the table) exceeds Â½. We assume that the initial size of H is 2 and that re-hashing doubles the size of the table. After inserting 10 items with different keys, what is the size of the hash table H?      13PROBLEM SOLVING Assume an M entry hash table which needs to store N keys. Use the hash function h(i) = i mod M What is the worst-case search time? Would you use this for time critical applications?14PROBLEM SOLVING Consider an initially empty hash table of size M and hash function h(x) = x mod M. In the worst case, what is the time complexity to insert n keys into the table if separate chaining is used to resolve collisions (without re-hashing) ? Suppose each entry (bucket) of the table stores an unordered linked list. When adding a new element to unordered linked list, such as element is inserted at the beginning of the list.     What is the answer if the linked list are ordered ? What is the answer if the collisions are resolved using linear probing , and n <= M/2  15PROBLEM SOLVING Assume a 2D array A with a size of n x n. This array only contains 1s and" .
+
+<http://www.dbpedia-spotlight.com/#offset_701_711>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash table" ;
+        nif:beginIndex          "701"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "711"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1591> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_1051_1066>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time complexity" ;
+        nif:beginIndex          "1051"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1066"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1591> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<http://www.dbpedia-spotlight.com/#offset_600_607>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "doubles" ;
+        nif:beginIndex          "600"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "607"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1591> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999977563903"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Types_of_tennis_match> .
+
+<http://www.dbpedia-spotlight.com/#offset_351_361>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash table" ;
+        nif:beginIndex          "351"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "361"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1591> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_1527_1529>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2D" ;
+        nif:beginIndex          "1527"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1529"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1591> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.6112148220430469"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dimension> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1591> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1102_1119>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "separate chaining" ;
+        nif:beginIndex          "1102"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1119"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1591> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_1234_1245>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linked list" ;
+        nif:beginIndex          "1234"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1245"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1591> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linked_list> .
+
+<http://www.dbpedia-spotlight.com/#offset_756_766>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash table" ;
+        nif:beginIndex          "756"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "766"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1591> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_804_817>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash function" ;
+        nif:beginIndex          "804"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "817"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1591> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_1469_1483>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear probing" ;
+        nif:beginIndex          "1469"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1591> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_probing> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_514> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_514>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "514"^^xsd:nonNegativeInteger ;
+        nif:isString    "0s. All the 1s are before all the 0s in each row Describe an algorithm to count all the 1s in A that runs in O(n log n) and not O(n^2)example A with n = 4 might look like:1 1 1 00 0 0 01 0 0 01 1 1 116\tCOMP352 \tMaps, Dictionaries, Hashs -- Outline\tMap ADT\tMap ADT -- Methods\tDictionary ADT\tDictionary ADT -- Methods\tMap ADT -- Ordered Map\tHash Tables\tHash Functions -- Collisions\tCollision Handling\tProblem R-9.7, R-9.8, R-9.9, R-9.10\tProblem Solving\tProblem Solving\tProblem Solving\tProblem Solving\tProblem Solving" .
+
+<http://www.dbpedia-spotlight.com/#offset_252_255>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "252"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "255"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_514> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999998579932127"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_286_289>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "286"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_514> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999998579932127"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_301_304>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "304"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_514> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999998579932127"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_260_263>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "260"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "263"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_514> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999998579932127"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_320_323>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "320"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "323"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_514> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999998579932127"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_61_70>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "70"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_514> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999998555066545"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .

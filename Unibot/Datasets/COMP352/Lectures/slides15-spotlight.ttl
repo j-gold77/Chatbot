@@ -1,0 +1,903 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1179_1197>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "divide-and-conquer" ;
+        nif:beginIndex          "1179"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1197"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Divide-and-conquer_algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_952_954>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "S2" ;
+        nif:beginIndex          "952"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "954"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Locomotive> , <http://schema.org/Product> , <http://www.wikidata.org/entity/Q93301> , <http://dbpedia.org/ontology/MeanOfTransportation> ;
+        itsrdf:taConfidence     "0.9600612368479343"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pennsylvania_Railroad_class_S2> .
+
+<http://www.dbpedia-spotlight.com/#offset_61_77>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Computer Science" ;
+        nif:beginIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_science> .
+
+<http://www.dbpedia-spotlight.com/#offset_1532_1542>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparator" ;
+        nif:beginIndex          "1532"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1542"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparator> .
+
+<http://www.dbpedia-spotlight.com/#offset_873_881>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "disjoint" ;
+        nif:beginIndex          "873"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "881"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999998010557845"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Disjoint_sets> .
+
+<http://www.dbpedia-spotlight.com/#offset_1652_1654>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "S2" ;
+        nif:beginIndex          "1652"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1654"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Locomotive> , <http://www.wikidata.org/entity/Q93301> , <http://dbpedia.org/ontology/MeanOfTransportation> , <http://schema.org/Product> ;
+        itsrdf:taConfidence     "0.9600612368479343"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pennsylvania_Railroad_class_S2> .
+
+<http://www.dbpedia-spotlight.com/#offset_253_257>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "253"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9966837422884252"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_384_391>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Collins" ;
+        nif:beginIndex          "384"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Publisher> , <http://www.wikidata.org/entity/Q43229> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Organisation> , <http://www.wikidata.org/entity/Q24229398> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.wikidata.org/entity/Q4830453> ;
+        itsrdf:taConfidence     "0.9993633564269362"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/HarperCollins> .
+
+<http://www.dbpedia-spotlight.com/#offset_1608_1617>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "partition" ;
+        nif:beginIndex          "1608"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1617"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Partition_of_a_set> .
+
+<http://www.dbpedia-spotlight.com/#offset_1355_1357>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "S2" ;
+        nif:beginIndex          "1355"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1357"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Locomotive> , <http://schema.org/Product> , <http://www.wikidata.org/entity/Q93301> , <http://dbpedia.org/ontology/MeanOfTransportation> ;
+        itsrdf:taConfidence     "0.9600612368479343"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pennsylvania_Railroad_class_S2> .
+
+<http://www.dbpedia-spotlight.com/#offset_897_899>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "S2" ;
+        nif:beginIndex          "897"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "899"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Product> , <http://dbpedia.org/ontology/Locomotive> , <http://dbpedia.org/ontology/MeanOfTransportation> , <http://www.wikidata.org/entity/Q93301> ;
+        itsrdf:taConfidence     "0.9600612368479343"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pennsylvania_Railroad_class_S2> .
+
+<http://www.dbpedia-spotlight.com/#offset_602_607>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "602"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "607"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_405_409>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "405"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "409"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_1348_1350>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "S1" ;
+        nif:beginIndex          "1348"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1350"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Circle> .
+
+<http://www.dbpedia-spotlight.com/#offset_1317_1326>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "partition" ;
+        nif:beginIndex          "1317"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1326"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Partition_of_a_set> .
+
+<http://www.dbpedia-spotlight.com/#offset_80_100>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Software Engineering" ;
+        nif:beginIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_engineering> .
+
+<http://www.dbpedia-spotlight.com/#offset_1139_1149>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Merge Sort" ;
+        nif:beginIndex          "1139"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1149"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Merge_sort> .
+
+<http://www.dbpedia-spotlight.com/#offset_1435_1437>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "S1" ;
+        nif:beginIndex          "1435"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1437"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Circle> .
+
+<http://www.dbpedia-spotlight.com/#offset_991_993>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "S1" ;
+        nif:beginIndex          "991"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "993"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Circle> .
+
+<http://www.dbpedia-spotlight.com/#offset_998_1000>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "S2" ;
+        nif:beginIndex          "998"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1000"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Product> , <http://dbpedia.org/ontology/Locomotive> , <http://www.wikidata.org/entity/Q93301> , <http://dbpedia.org/ontology/MeanOfTransportation> ;
+        itsrdf:taConfidence     "0.9600612368479343"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pennsylvania_Railroad_class_S2> .
+
+<http://www.dbpedia-spotlight.com/#offset_890_892>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "S1" ;
+        nif:beginIndex          "890"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "892"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Circle> .
+
+<http://www.dbpedia-spotlight.com/#offset_1675_1685>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Merge Sort" ;
+        nif:beginIndex          "1675"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1685"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Merge_sort> .
+
+<http://www.dbpedia-spotlight.com/#offset_1602_1604>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "S2" ;
+        nif:beginIndex          "1602"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1604"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q93301> , <http://dbpedia.org/ontology/MeanOfTransportation> , <http://dbpedia.org/ontology/Locomotive> , <http://schema.org/Product> ;
+        itsrdf:taConfidence     "0.9600612368479343"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pennsylvania_Railroad_class_S2> .
+
+<http://www.dbpedia-spotlight.com/#offset_1581_1584>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Cif" ;
+        nif:beginIndex          "1581"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1584"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999988569381624"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cif> .
+
+<http://www.dbpedia-spotlight.com/#offset_123_131>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Montreal" ;
+        nif:beginIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/City> , <http://schema.org/City> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://www.wikidata.org/entity/Q515> , <http://www.wikidata.org/entity/Q486972> ;
+        itsrdf:taConfidence     "0.9998107398870644"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Montreal> .
+
+<http://www.dbpedia-spotlight.com/#offset_343_369>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java Collections Framework" ;
+        nif:beginIndex          "343"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "369"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_collections_framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_1598_1600>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "S1" ;
+        nif:beginIndex          "1598"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1600"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Circle> .
+
+<http://www.dbpedia-spotlight.com/#offset_1668_1670>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "S1" ;
+        nif:beginIndex          "1668"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1670"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Circle> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1849>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1849"^^xsd:nonNegativeInteger ;
+        nif:isString    "Analysis of AlgorithmsMerge-SortDr. Aiman HannaDepartment of Computer Science & Software Engineering Concordia University, Montreal, CanadaThese slides have been extracted, modified and updated from original slides of :Data Structures and Algorithms in Java, 5th edition. John Wiley& Sons, 2010. ISBN 978-0-470-38326-1.Data Structures and the Java Collections Framework by William J. Collins, 3rdedition, ISBN 978-0-470-48267-4. Both books are published by Wiley.Copyright Â© 2010-2011 WileyCopyright Â© 2010 Michael  T. Goodrich, Roberto TamassiaCopyright Â© 2011 William J. CollinsCopyright Â© 2011-2021 Aiman Hanna All rights reserved Coverageï± Merge-Sort27  2 ï£¦ 9  4  â 2  4  7  97 ï£¦ 2  â 2  7 9 ï£¦ 4  â 4  97 â 7 2 â 2 9 â 9 4 â 4Merge SortMerge Sort 3Divide-and-Conquerï± Divide-and conquer is a general algorithmic design paradigm:ï® Divide: divide the input data S in two disjoint subsets S1 and S2ï® Recur: solve the subproblems associated with S1and S2ï® Conquer: combine the solutions for S1 and S2 into a solution for Sï± The base case for the recursion are subproblems of size 0 or 1. In these cases the problem can be solved directly. Merge Sort 4Merge-Sortï± Merge-sort uses divide-and-conquer to perform the sorting operation. ï± Merge-sort on an input sequence S with nelements consists of three steps:ï® Divide: partition S into two sequences S1 and S2 of about n/2 elements eachï® Recur: recursively sort S1and S2ï® Conquer: merge S1 and S2 into a unique sorted sequenceAlgorithm mergeSort(S, C)Input sequence S with nelements, comparator COutput sequence S sortedaccording to Cif S.size() > 1(S1, S2) â partition(S, n/2) mergeSort(S1, C)mergeSort(S2, C)S â merge(S1, S2)Merge Sort 5Merging Two Sorted Sequencesï± The conquer step of merge-sort consists of merging two sorted sequences A and B into a sorted sequence S containing the union of the" .
+
+<http://www.dbpedia-spotlight.com/#offset_101_121>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia University" ;
+        nif:beginIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "121"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.7125158290133959"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concordia_University> .
+
+<http://www.dbpedia-spotlight.com/#offset_1416_1418>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "S2" ;
+        nif:beginIndex          "1416"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1418"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MeanOfTransportation> , <http://dbpedia.org/ontology/Locomotive> , <http://schema.org/Product> , <http://www.wikidata.org/entity/Q93301> ;
+        itsrdf:taConfidence     "0.9600612368479343"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pennsylvania_Railroad_class_S2> .
+
+<http://www.dbpedia-spotlight.com/#offset_1442_1444>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "S2" ;
+        nif:beginIndex          "1442"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1444"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MeanOfTransportation> , <http://www.wikidata.org/entity/Q93301> , <http://dbpedia.org/ontology/Locomotive> , <http://schema.org/Product> ;
+        itsrdf:taConfidence     "0.9600612368479343"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pennsylvania_Railroad_class_S2> .
+
+<http://www.dbpedia-spotlight.com/#offset_816_831>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "design paradigm" ;
+        nif:beginIndex          "816"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "831"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Design_paradigm> .
+
+<http://www.dbpedia-spotlight.com/#offset_277_282>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Wiley" ;
+        nif:beginIndex          "277"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "282"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Publisher> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Organisation> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.wikidata.org/entity/Q4830453> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q43229> , <http://www.wikidata.org/entity/Q24229398> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.9999536886779141"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wiley-Blackwell> .
+
+<http://www.dbpedia-spotlight.com/#offset_36_41>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_296_300>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "296"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "300"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_1672_1674>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "S2" ;
+        nif:beginIndex          "1672"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1674"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q93301> , <http://schema.org/Product> , <http://dbpedia.org/ontology/Locomotive> , <http://dbpedia.org/ontology/MeanOfTransportation> ;
+        itsrdf:taConfidence     "0.9600612368479343"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pennsylvania_Railroad_class_S2> .
+
+<http://www.dbpedia-spotlight.com/#offset_1636_1638>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "S1" ;
+        nif:beginIndex          "1636"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1638"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Circle> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1849> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1421> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_943_953>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Merge Sort" ;
+        nif:beginIndex          "943"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "953"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1421> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Merge_sort> .
+
+<http://www.dbpedia-spotlight.com/#offset_576_587>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "576"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "587"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1421> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_238_240>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "BS" ;
+        nif:beginIndex          "238"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1421> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9984878653970239"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bullshit> .
+
+<http://www.dbpedia-spotlight.com/#offset_700_709>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "partition" ;
+        nif:beginIndex          "700"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "709"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1421> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999950792926"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Partition_of_a_set> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1421>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1421"^^xsd:nonNegativeInteger ;
+        nif:isString    "elements of A and B.ï± Merging two sorted sequences, each with n/2 elements and implemented by means of a doubly linked list, takes O(n) time.Algorithm merge(A, B)Input sequences A and B withn/2 elements each Output sorted sequence of A âª BS â empty sequencewhile Â¬A.isEmpty()  â§ Â¬B.isEmpty()if A.first().element() < B.first().element()S.addLast(A.remove(A.first()))elseS.addLast(B.remove(B.first()))while Â¬A.isEmpty()S.addLast(A.remove(A.first()))while Â¬B.isEmpty()S.addLast(B.remove(B.first()))return SMerge Sort 6Merge-Sort Treeï± An execution of merge-sort is depicted by a binary treeï® each node represents a recursive call of merge-sort and storesï· unsorted sequence before the execution and its partitionï· sorted sequence at the end of the executionï® the root is the initial call ï® the leaves are calls on subsequences of size 0 or 17  2 ï£¦ 9  47 ï£¦ 2 9 ï£¦ 47 2 9 4 DivideMerge Sort 7Merge-Sort Tree2  4 7  92   7 4 97 2 9 4 Recur & Conquer Merge Sort 8Merge-Sort TreeExample*: *Reference: http://en.wikipedia.org/wiki/Merge_sortreference:%20http://en.wikipedia.org/wiki/Merge_sortMerge Sort 9Execution Exampleï± Partition7  2  9  4  â 2  4  7  9 3  8  6  1  â 1  3  8  67  2  â 2  7 9  4  â 4  9 3  8  â 3  8 6  1  â 1  67 â 7 2 â 2 9 â 9 4 â 4 3 â 3 8 â 8 6 â 6 1 â 17  2  9  4 ï£¦ 3  8  6  1 â 1  2  3  4  6  7  8  9Merge Sort 10Execution Example (cont.)ï± Recursive call, partition7  2 ï£¦ 9  4 â 2  4  7  9 3  8  6  1  â" .
+
+<http://www.dbpedia-spotlight.com/#offset_105_123>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "doubly linked list" ;
+        nif:beginIndex          "105"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "123"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1421> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Doubly_linked_list> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_624> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_624>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "624"^^xsd:nonNegativeInteger ;
+        nif:isString    "1  3  8  67  2  â 2  7 9  4  â 4  9 3  8  â 3  8 6  1  â 1  67 â 7 2 â 2 9 â 9 4 â 4 3 â 3 8 â 8 6 â 6 1 â 17  2  9  4 ï£¦ 3  8  6  1 â 1  2  3  4  6  7  8  9Merge Sort 11Execution Example (cont.)ï± Recursive call, partition7  2 ï£¦ 9  4 â 2  4  7  9 3  8  6  1  â 1  3  8  67 ï£¦ 2 â 2  7 9  4  â 4  9 3  8  â 3  8 6  1  â 1  67 â 7 2 â 2 9 â 9 4 â 4 3 â 3 8 â 8 6 â 6 1 â 17  2  9  4 ï£¦ 3  8  6  1 â 1  2  3  4  6  7  8  9Merge Sort 12Execution Example (cont.)ï± Recursive call, base case7  2 ï£¦ 9  4 â 2  4  7  9 3  8  6  1  â 1  3  8  67 ï£¦ 2 â 2  7 9  4  â 4  9 3  8  â 3  8 6  1  â 1  67 â 7 2 â 2 9 â 9 4 â 4 3 â 3 8 â 8 6 â 6 1" .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_658>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "658"^^xsd:nonNegativeInteger ;
+        nif:isString    "â 17  2  9  4 ï£¦ 3  8  6  1 â 1  2  3  4  6  7  8  9Merge Sort 13Execution Example (cont.)ï± Recursive call, base case7  2 ï£¦ 9  4 â 2  4  7  9 3  8  6  1  â 1  3  8  67 ï£¦ 2 â 2  7 9  4  â 4  9 3  8  â 3  8 6  1  â 1  67 â 7 2 â 2 9 â 9 4 â 4 3 â 3 8 â 8 6 â 6 1 â 17  2  9  4 ï£¦ 3  8  6  1 â 1  2  3  4  6  7  8  9Merge Sort 14Execution Example (cont.)ï± Merge7  2 ï£¦ 9  4 â 2  4  7  9 3  8  6  1  â 1  3  8  67 ï£¦ 2 â 2  7 9  4  â 4  9 3  8  â 3  8 6  1  â 1  67 â 7 2 â 2 9 â 9 4 â 4 3 â 3 8 â 8 6 â 6 1 â 17  2  9  4 ï£¦ 3  8  6  1 â 1  2  3  4  6  7  8  9Merge Sort 15Execution Example (cont.)ï± Recursive call, â¦, base case, merge7  2 ï£¦ 9  4 â 2  4  7  9 3  8  6" .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_658> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_618> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_618>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "618"^^xsd:nonNegativeInteger ;
+        nif:isString    " 1  â 1  3  8  67 ï£¦ 2 â 2  7 9  4 â 4  9 3  8  â 3  8 6  1  â 1  67 â 7 2 â 2 3 â 3 8 â 8 6 â 6 1 â 17  2  9  4 ï£¦ 3  8  6  1 â 1  2  3  4  6  7  8  99 â 9 4 â 4Merge Sort 16Execution Example (cont.)ï± Merge7  2 ï£¦ 9  4 â 2  4  7  9 3  8  6  1  â 1  3  8  67 ï£¦ 2 â 2  7 9  4 â 4  9 3  8  â 3  8 6  1  â 1  67 â 7 2 â 2 9 â 9 4 â 4 3 â 3 8 â 8 6 â 6 1 â 17  2  9  4 ï£¦ 3  8  6  1 â 1  2  3  4  6  7  8  9Merge Sort 17Execution Example (cont.)ï± Recursive call, â¦, merge, merge7  2 ï£¦ 9  4 â 2  4  7  9 3  8  6  1 â 1  3  6  87 ï£¦ 2 â 2  7 9  4 â 4  9 3  8 â 3  8 6  1 â 1  67 â 7 2 â 2 9 â 9 4 â 4 3 â 3 8 â 8 6 â 6 1 â 17  2 " .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_437_439>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "A2" ;
+        nif:beginIndex          "437"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "439"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1090> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/RouteOfTransportation> , <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Infrastructure> , <http://www.wikidata.org/entity/Q34442> , <http://dbpedia.org/ontology/Road> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.6051247725195565"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/A2_autoroute> .
+
+<http://www.dbpedia-spotlight.com/#offset_741_743>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "A1" ;
+        nif:beginIndex          "741"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "743"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1090> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Infrastructure> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Road> , <http://schema.org/Place> , <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://dbpedia.org/ontology/Location> , <http://www.wikidata.org/entity/Q34442> , <http://dbpedia.org/ontology/RouteOfTransportation> ;
+        itsrdf:taConfidence     "0.9514797767823573"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/A1_autoroute> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1090> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_712_714>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "A2" ;
+        nif:beginIndex          "712"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "714"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1090> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/RouteOfTransportation> , <http://schema.org/Place> , <http://www.wikidata.org/entity/Q34442> , <http://dbpedia.org/ontology/Infrastructure> , <http://dbpedia.org/ontology/Road> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/ArchitecturalStructure> ;
+        itsrdf:taConfidence     "0.6051247725195565"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/A2_autoroute> .
+
+<http://www.dbpedia-spotlight.com/#offset_474_476>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "A2" ;
+        nif:beginIndex          "474"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "476"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1090> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Infrastructure> , <http://schema.org/Place> , <http://dbpedia.org/ontology/RouteOfTransportation> , <http://dbpedia.org/ontology/Road> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Location> , <http://www.wikidata.org/entity/Q34442> , <http://dbpedia.org/ontology/ArchitecturalStructure> ;
+        itsrdf:taConfidence     "0.6051247725195565"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/A2_autoroute> .
+
+<http://www.dbpedia-spotlight.com/#offset_627_629>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "A2" ;
+        nif:beginIndex          "627"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "629"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1090> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://dbpedia.org/ontology/Infrastructure> , <http://dbpedia.org/ontology/Road> , <http://dbpedia.org/ontology/RouteOfTransportation> , <http://www.wikidata.org/entity/Q34442> ;
+        itsrdf:taConfidence     "0.6051247725195565"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/A2_autoroute> .
+
+<http://www.dbpedia-spotlight.com/#offset_642_644>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "A1" ;
+        nif:beginIndex          "642"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "644"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1090> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Road> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Location> , <http://schema.org/Place> , <http://dbpedia.org/ontology/RouteOfTransportation> , <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://www.wikidata.org/entity/Q34442> , <http://dbpedia.org/ontology/Infrastructure> ;
+        itsrdf:taConfidence     "0.9514797767823573"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/A1_autoroute> .
+
+<http://www.dbpedia-spotlight.com/#offset_792_794>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "A2" ;
+        nif:beginIndex          "792"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "794"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1090> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://dbpedia.org/ontology/Infrastructure> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Road> , <http://dbpedia.org/ontology/RouteOfTransportation> , <http://www.wikidata.org/entity/Q34442> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Location> ;
+        itsrdf:taConfidence     "0.6051247725195565"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/A2_autoroute> .
+
+<http://www.dbpedia-spotlight.com/#offset_655_657>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "A2" ;
+        nif:beginIndex          "655"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "657"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1090> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Road> , <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/Place> , <http://www.wikidata.org/entity/Q34442> , <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://schema.org/Place> , <http://dbpedia.org/ontology/RouteOfTransportation> , <http://dbpedia.org/ontology/Infrastructure> ;
+        itsrdf:taConfidence     "0.6051247725195565"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/A2_autoroute> .
+
+<http://www.dbpedia-spotlight.com/#offset_610_612>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "A1" ;
+        nif:beginIndex          "610"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "612"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1090> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Road> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/RouteOfTransportation> , <http://www.wikidata.org/entity/Q34442> , <http://dbpedia.org/ontology/Infrastructure> , <http://dbpedia.org/ontology/Location> , <http://schema.org/Place> , <http://dbpedia.org/ontology/ArchitecturalStructure> ;
+        itsrdf:taConfidence     "0.9514797767823573"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/A1_autoroute> .
+
+<http://www.dbpedia-spotlight.com/#offset_584_586>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "A1" ;
+        nif:beginIndex          "584"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "586"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1090> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Infrastructure> , <http://www.wikidata.org/entity/Q34442> , <http://dbpedia.org/ontology/Road> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/RouteOfTransportation> ;
+        itsrdf:taConfidence     "0.9514797767823573"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/A1_autoroute> .
+
+<http://www.dbpedia-spotlight.com/#offset_330_343>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "The algorithm" ;
+        nif:beginIndex          "330"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "343"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1090> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Group> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Band> , <http://www.wikidata.org/entity/Q215380> , <http://www.wikidata.org/entity/Q24229398> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/MusicGroup> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.999999994739369"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_763_765>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "A1" ;
+        nif:beginIndex          "763"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "765"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1090> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Road> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://dbpedia.org/ontology/Infrastructure> , <http://schema.org/Place> , <http://dbpedia.org/ontology/RouteOfTransportation> , <http://www.wikidata.org/entity/Q34442> ;
+        itsrdf:taConfidence     "0.9514797767823573"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/A1_autoroute> .
+
+<http://www.dbpedia-spotlight.com/#offset_814_816>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "A2" ;
+        nif:beginIndex          "814"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "816"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1090> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/Place> , <http://www.wikidata.org/entity/Q34442> , <http://dbpedia.org/ontology/Road> , <http://dbpedia.org/ontology/RouteOfTransportation> , <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://dbpedia.org/ontology/Infrastructure> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.6051247725195565"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/A2_autoroute> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1090>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1090"^^xsd:nonNegativeInteger ;
+        nif:isString    "9  4 ï£¦ 3  8  6  1 â 1  2  3  4  6  7  8  9Merge Sort 18Execution Example (cont.)ï± Merge7  2 ï£¦ 9  4 â 2  4  7  9 3  8  6  1 â 1  3  6  87 ï£¦ 2 â 2  7 9  4 â 4  9 3  8 â 3  8 6  1 â 1  67 â 7 2 â 2 9 â 9 4 â 4 3 â 3 8 â 8 6 â 6 1 â 17  2  9  4 ï£¦ 3  8  6  1 â 1  2  3  4  6  7  8  9Merge Sort 19The Cost of Sorting Two Sorted Arraysï± The algorithm to merge 2 sorted arrays (possibly of different sizes) can be as follows:Algorithm merge(A1, A2, A)Input sorted sequences A 1 and A2 and emptysequence A with sufficient size; all are implemented as arraysOutput sorted sequence A containing A1 âª A2i â j â 0while i < A1.size()  â§ j < A2.size() doif A1.get(i) <= A2.get(j) thenS.addLast(A1.get(i))i â i + 1elseS.addLast(A2.get(j))j â j + 1while i < A1.size() doS.addLast(A1.get(i))i â i + 1while j < A2.size() doS.addLast(A2.get(j))j â j + 1Merge Sort 20The Cost of Sorting Two Sorted Arraysï± Example2 5 8 11 12 14 150 1 2 3 4 5 63 9 10 18 19 22 250 1 2 3 4 5 62 3 5 8 90 1 2 3 4 5 6 0 7 8 9 10 11 12ijA1A2Aï± We compare the two current elements at the head of the two arrays (which are pointed by i" .
+
+<http://www.dbpedia-spotlight.com/#offset_433_435>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "A1" ;
+        nif:beginIndex          "433"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "435"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1090> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Infrastructure> , <http://schema.org/Place> , <http://dbpedia.org/ontology/RouteOfTransportation> , <http://www.wikidata.org/entity/Q34442> , <http://dbpedia.org/ontology/Road> , <http://dbpedia.org/ontology/ArchitecturalStructure> ;
+        itsrdf:taConfidence     "0.9514797767823573"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/A1_autoroute> .
+
+<http://www.dbpedia-spotlight.com/#offset_679_681>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "A1" ;
+        nif:beginIndex          "679"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "681"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1090> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/RouteOfTransportation> , <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://dbpedia.org/ontology/Location> , <http://www.wikidata.org/entity/Q34442> , <http://dbpedia.org/ontology/Road> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Infrastructure> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9514797767823573"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/A1_autoroute> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_788_798>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Merge Sort" ;
+        nif:beginIndex          "788"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "798"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1563> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Merge_sort> .
+
+<http://www.dbpedia-spotlight.com/#offset_99_101>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "A1" ;
+        nif:beginIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1563> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://dbpedia.org/ontology/RouteOfTransportation> , <http://schema.org/Place> , <http://www.wikidata.org/entity/Q34442> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Infrastructure> , <http://dbpedia.org/ontology/Road> , <http://dbpedia.org/ontology/Location> ;
+        itsrdf:taConfidence     "0.7443351825067335"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/A1_autoroute> .
+
+<http://www.dbpedia-spotlight.com/#offset_168_178>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Merge Sort" ;
+        nif:beginIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1563> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Merge_sort> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1563> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_668_670>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "n1" ;
+        nif:beginIndex          "668"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "670"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1563> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999630828149"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Group_N> .
+
+<http://www.dbpedia-spotlight.com/#offset_1512_1522>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Merge Sort" ;
+        nif:beginIndex          "1512"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1522"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1563> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Merge_sort> .
+
+<http://www.dbpedia-spotlight.com/#offset_648_650>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "n1" ;
+        nif:beginIndex          "648"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "650"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1563> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999630828149"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Group_N> .
+
+<http://www.dbpedia-spotlight.com/#offset_219_232>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "The algorithm" ;
+        nif:beginIndex          "219"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1563> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q215380> , <http://dbpedia.org/ontology/Band> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q43229> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Group> , <http://schema.org/MusicGroup> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q24229398> ;
+        itsrdf:taConfidence     "0.999999997649752"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1248_1258>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparator" ;
+        nif:beginIndex          "1248"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1258"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1563> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparator> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1563>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1563"^^xsd:nonNegativeInteger ;
+        nif:isString    "& j) then insert the smaller one in the final array. ï± Hence, actual cost is O(n1) + O(n2) , where A1 has n1 elements and A2 has n2elements ï¨ total cost is hence O(n). Merge Sort 21The Cost of Sorting Two Sorted Listsï± The algorithm is quite similar to the one for arrays (see Page 5 of these slides). ï± Simply:ï® As long as the two lists are not empty, compare the two entries pointed by the head of the lists,ï® Pickup the smaller one and insert it at the tail/end of the new list; remove this item afterwardsï® If any of the two lists is still not empty, iterate on it and insert its remaining items at the tail of theï± Again, the actual cost is O(n1) + O(n2) , where n1 and n2 are the number of elements in the two lists. ï± Consequently, total cost to sort the two sorted lists is O(n). Merge Sort 22Analysis of Merge-Sortï± The height h of the merge-sort tree is O(log n)ï® at each recursive call we divide in half the sequence, ï± The overall amount or work done at the nodes of depth i is O(n)ï® we partition and merge 2i sequences of size n/2iï® we make 2i+1 recursive callsï± Thus, the total running time of merge-sort is O(n log n)depth # of sequencessize0 1 n1 2 n/2i 2i n/2iâ¦ â¦ â¦Merge Sort 23Merge-Sort vs. Heap-Sort ï± Like heap-sortï® It uses a comparatorï® It has O(n log n) running time. ï· The cost to sort the elements at each level is O(n) and we do that log n times. ï± Unlike heap-sortï® It does not use an auxiliary priority queueï® It accesses data in a sequential manner (suitable to sort data on a disk)Merge Sort 24Summary of Sorting AlgorithmsAlgorithm" .
+
+<http://www.dbpedia-spotlight.com/#offset_999_1008>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "partition" ;
+        nif:beginIndex          "999"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1008"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1563> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999903897105"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Partition_of_a_set> .
+
+<http://www.dbpedia-spotlight.com/#offset_1423_1437>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "priority queue" ;
+        nif:beginIndex          "1423"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1437"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1563> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_79_81>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "n1" ;
+        nif:beginIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "81"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1563> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999630828149"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Group_N> .
+
+<http://www.dbpedia-spotlight.com/#offset_1182_1192>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Merge Sort" ;
+        nif:beginIndex          "1182"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1192"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1563> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Merge_sort> .
+
+<http://www.dbpedia-spotlight.com/#offset_122_124>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "A2" ;
+        nif:beginIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "124"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1563> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Road> , <http://dbpedia.org/ontology/Infrastructure> , <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/RouteOfTransportation> , <http://schema.org/Place> , <http://www.wikidata.org/entity/Q34442> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/ArchitecturalStructure> ;
+        itsrdf:taConfidence     "0.7824542729771266"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bundesautobahn_2> .
+
+<http://www.dbpedia-spotlight.com/#offset_1160_1162>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "n1" ;
+        nif:beginIndex          "1160"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1563> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999630828149"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Group_N> .
+
+<http://www.dbpedia-spotlight.com/#offset_106_108>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "n1" ;
+        nif:beginIndex          "106"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "108"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1563> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999630828149"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Group_N> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_745_753>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "The Cost" ;
+        nif:beginIndex          "745"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "753"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_860> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/TelevisionEpisode> , <http://dbpedia.org/ontology/Work> , <http://schema.org/TVEpisode> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "0.556238967680672"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Cost_(The_Wire)> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_860> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_707_715>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "The Cost" ;
+        nif:beginIndex          "707"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "715"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_860> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/TelevisionEpisode> , <http://schema.org/TVEpisode> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "0.556238967680672"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Cost_(The_Wire)> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_860>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "860"^^xsd:nonNegativeInteger ;
+        nif:isString    "Time Notesselection-sort O(n2)ï§ slowï§ in-placeï§ for small data sets (< 1K)insertion-sort O(n2)ï§ slowï§ in-placeï§ for small data sets (< 1K)heap-sort O(n log n)ï§ fastï§ in-placeï§ for large data sets (1K â 1M)merge-sort O(n log n)ï§ fastï§ sequential data accessï§ for huge data sets (> 1M)\tMerge-Sort\tSlide Number 2\tDivide-and-Conquer\tMerge-Sort\tMerging Two Sorted Sequences\tMerge-Sort Tree\tMerge-Sort Tree\tMerge-Sort Tree\tExecution Example\tExecution Example (cont.)\tExecution Example (cont.)\tExecution Example (cont.)\tExecution Example (cont.)\tExecution Example (cont.)\tExecution Example (cont.)\tExecution Example (cont.)\tExecution Example (cont.)\tExecution Example (cont.)\tThe Cost of Sorting Two Sorted Arrays\tThe Cost of Sorting Two Sorted Arrays\tThe Cost of Sorting Two Sorted Lists\tAnalysis of Merge-Sort\tMerge-Sort vs. Heap-Sort \tSummary of Sorting Algorithms" .
+
+<http://www.dbpedia-spotlight.com/#offset_669_677>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "The Cost" ;
+        nif:beginIndex          "669"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "677"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_860> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/TelevisionEpisode> , <http://www.wikidata.org/entity/Q386724> , <http://schema.org/CreativeWork> , <http://schema.org/TVEpisode> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "0.556238967680672"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Cost_(The_Wire)> .

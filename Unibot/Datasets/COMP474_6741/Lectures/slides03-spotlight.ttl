@@ -1,0 +1,2418 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_2499_2504>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "2499"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2504"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3488> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999991966888"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_database> .
+
+<http://www.dbpedia-spotlight.com/#offset_1956_1962>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "primer" ;
+        nif:beginIndex          "1956"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1962"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3488> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9991781004812399"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Textbook> .
+
+<http://www.dbpedia-spotlight.com/#offset_1198_1204>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Herman" ;
+        nif:beginIndex          "1198"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1204"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3488> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> , <http://schema.org/CreativeWork> , <http://schema.org/Movie> , <http://dbpedia.org/ontology/Film> , <http://www.wikidata.org/entity/Q11424> ;
+        itsrdf:taConfidence     "0.9992839048965354"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Herman_and_Katnip> .
+
+<http://www.dbpedia-spotlight.com/#offset_1991_1997>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "primer" ;
+        nif:beginIndex          "1991"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1997"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3488> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9991781004812399"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Textbook> .
+
+<http://www.dbpedia-spotlight.com/#offset_1206_1209>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "W3C" ;
+        nif:beginIndex          "1206"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1209"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3488> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q24229398> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/World_Wide_Web_Consortium> .
+
+<http://www.dbpedia-spotlight.com/#offset_1095_1101>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Sameer" ;
+        nif:beginIndex          "1095"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3488> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999263309"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sameer_(lyricist)> .
+
+<http://www.dbpedia-spotlight.com/#offset_3008_3011>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF" ;
+        nif:beginIndex          "3008"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3011"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3488> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_2431_2433>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AI" ;
+        nif:beginIndex          "2431"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2433"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3488> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.99999999009151"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<http://www.dbpedia-spotlight.com/#offset_2890_2893>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "URI" ;
+        nif:beginIndex          "2890"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2893"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3488> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Uniform_Resource_Identifier> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_3488>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3488"^^xsd:nonNegativeInteger ;
+        nif:isString    "RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.1Lecture 3Vocabularies & OntologiesCOMP 474/6741, Winter 2022RenÃ© WitteDepartment of Computer Scienceand Software EngineeringConcordia UniversityRenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.2Outline1 Introduction2 RDF Schema3 Vocabularies4 Example: schema.org5 Notes and Further ReadingRenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.3Slides Creditâ¢ Includes slides from Jay Pujara & Sameer Singh, Mining Knowledge Graphsfrom Text, https://kgtutorial.github.io/â¢ Includes slides by Ivan Herman, W3C [Her]https://kgtutorial.github.io/RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.4Outline1 IntroductionReviewAnatomy of a URIBack to the bookstore example2 RDF Schema3 Vocabularies4 Example: schema.org5 Notes and Further ReadingRenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.5https://www.w3.org/TR/rdf11-primer/https://www.w3.org/TR/rdf11-primer/RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.6Why knowledge graphs?â¢ Humans:â¢Combat information overloadâ¢Explore via intuitive structureâ¢Tool for supporting knowledge-driven tasksâ¢ AIs:â¢Key ingredient for many AI tasksâ¢Bridge from data to human semanticsâ¢Use decades of work on graph analysis23RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.7(47) 47 }ï½â¯ An RDF Triple (s,p,o) is such that:Â§ï§â¯ âsâ, âpâ are URI-s, ie, resources on the Web; âoâ is a URI or a literalï¿½ïâ¯âsâ, âpâ, and âoâ stand for âsubjectâ, âpropertyâ, and âobjectâÂ§ï§â¯ here is the complete triple:}ï½â¯ RDF is a general model for such triples (with machine readable formats like RDF/XML, Turtle, N3, RDFa, Json, â¦)(<http://â¦isbnâ¦6682>, <http://â¦/original>, <http://â¦isbnâ¦409X>) RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.8(51) 51 <http://â¦/isbn/2020386682>  " .
+
+<http://www.dbpedia-spotlight.com/#offset_2466_2475>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semantics" ;
+        nif:beginIndex          "2466"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2475"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3488> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semantic_Web> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_3488> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1587_1590>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF" ;
+        nif:beginIndex          "1587"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1590"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3488> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_3101_3103>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "N3" ;
+        nif:beginIndex          "3101"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3488> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Notation3> .
+
+<http://www.dbpedia-spotlight.com/#offset_3105_3109>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDFa" ;
+        nif:beginIndex          "3105"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3109"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3488> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDFa> .
+
+<http://www.dbpedia-spotlight.com/#offset_3111_3115>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Json" ;
+        nif:beginIndex          "3111"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3488> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/JSON> .
+
+<http://www.dbpedia-spotlight.com/#offset_3084_3091>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF/XML" ;
+        nif:beginIndex          "3084"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3091"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3488> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XML> .
+
+<http://www.dbpedia-spotlight.com/#offset_705_708>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF" ;
+        nif:beginIndex          "705"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "708"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3488> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_2799_2809>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF Triple" ;
+        nif:beginIndex          "2799"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2809"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3488> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semantic_triple> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1518_1524>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "London" ;
+        nif:beginIndex          "1518"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1524"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q515> , <http://www.wikidata.org/entity/Q486972> , <http://dbpedia.org/ontology/Place> , <http://schema.org/City> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Location> ;
+        itsrdf:taConfidence     "0.9851300717309917"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/London> .
+
+<http://www.dbpedia-spotlight.com/#offset_1525_1539>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Harper Collins" ;
+        nif:beginIndex          "1525"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1539"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Company> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q43229> , <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Organisation> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Publisher> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/HarperCollins> .
+
+<http://www.dbpedia-spotlight.com/#offset_1557_1561>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "city" ;
+        nif:beginIndex          "1557"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1561"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.6835247274626597"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/City> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_3116>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3116"^^xsd:nonNegativeInteger ;
+        nif:isString    "  f:titre \"Le palais des mirroirs\"@fr ;     f:original <http://â¦/isbn/000651409X> .  http://â¦isbn/2020386682 Le palais des miroirs http://â¦isbn/000651409X RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.9Anatomy of a URIâ¢ A URI uniquely identifies a resource (e.g., person, book, class of things) on theWebâ¢ URI is not always the same as a URL (Uniform Resource Locator)â¢ For example,http://www.concordia.ca/comp474/lecture03/slide5is a valid URI, but not a URLâ¢ URIs have a generic syntax:schemeï¸·ï¸¸ï¸¸ï¸·http : //www.example.orgï¸¸ ï¸·ï¸· ï¸¸authority/pathï¸·ï¸¸ï¸¸ï¸·bob #meï¸¸ ï¸·ï¸· ï¸¸fragmentâ¢ Queries are also possible:scheme:[//authority]path[?query][#fragment]â¢ Namespaces are used to shorten URIs and prevent name clashes, e.g., ex:meâ¢ IRIs (âInternationalized Resource Identifier') are URIs with Unicode charactersRenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.10(27) 27 http://â¦isbn/000651409X Ghosh, Amitav Besse, Christianne Le palais des miroirs f:nom f:traducteur f:auteur http://â¦isbn/2020386682 f:nom http://â¦isbn/000651409X Ghosh, Amitav http://www.amitavghosh.com The Glass Palace 2000 London Harper Collins a:title a:year a:city a:p_name a:name a:homepage a:author RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.11From the first week's lecture. . .Common Issueâ¢ Data in Information SilosDocuments, databases,spreadsheets, emails, . . .â¢ Disconnected, missing knowledgeKnowledge Integrationâ¢ Connect silo-ed knowledgeâ¢ Leverage existing, externalKnowledge Basesâ¢ Freely available, many domainsâ¢ Continuously updatedRenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.12Photo credit ânepattersonâ, Flickr RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.13(28) 28 http://â¦isbn/000651409X Ghosh, Amitav Besse, Christianne Le palais des miroirs f:nom f:traducteur f:auteur http://â¦isbn/2020386682 f:nom http://â¦isbn/000651409X Ghosh, Amitav http://www.amitavghosh.com The Glass Palace 2000 London Harper Collins a:title a:year a:city a:p_name a:name a:homepage a:author Same URI! RenÃ© WitteIntroductionReviewAnatomy of a URIBack to" .
+
+<http://www.dbpedia-spotlight.com/#offset_1394_1400>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "auteur" ;
+        nif:beginIndex          "1394"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1400"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Auteur> .
+
+<http://www.dbpedia-spotlight.com/#offset_2851_2857>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "auteur" ;
+        nif:beginIndex          "2851"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2857"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Auteur> .
+
+<http://www.dbpedia-spotlight.com/#offset_998_1005>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Unicode" ;
+        nif:beginIndex          "998"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1005"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.7267640206104489"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Unicode> .
+
+<http://www.dbpedia-spotlight.com/#offset_2466_2472>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Flickr" ;
+        nif:beginIndex          "2466"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2472"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/WebSite> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Website> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Flickr> .
+
+<http://www.dbpedia-spotlight.com/#offset_528_531>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "URI" ;
+        nif:beginIndex          "528"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "531"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Uniform_Resource_Identifier> .
+
+<http://www.dbpedia-spotlight.com/#offset_2072_2080>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Leverage" ;
+        nif:beginIndex          "2072"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2080"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/TelevisionShow> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q15416> ;
+        itsrdf:taConfidence     "0.8317098377432884"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Leverage_(TV_series)> .
+
+<http://www.dbpedia-spotlight.com/#offset_1365_1372>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "miroirs" ;
+        nif:beginIndex          "1365"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1372"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999917208697"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Miroirs> .
+
+<http://www.dbpedia-spotlight.com/#offset_3060_3063>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "URI" ;
+        nif:beginIndex          "3060"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3063"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Uniform_Resource_Identifier> .
+
+<http://www.dbpedia-spotlight.com/#offset_3014_3018>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "city" ;
+        nif:beginIndex          "3014"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3018"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.6835247274626597"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/City> .
+
+<http://www.dbpedia-spotlight.com/#offset_123_130>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "miroirs" ;
+        nif:beginIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999917208697"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Miroirs> .
+
+<http://www.dbpedia-spotlight.com/#offset_703_709>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "syntax" ;
+        nif:beginIndex          "703"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "709"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999722604"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Syntax> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_2822_2829>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "miroirs" ;
+        nif:beginIndex          "2822"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2829"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999917208697"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Miroirs> .
+
+<http://www.dbpedia-spotlight.com/#offset_2975_2981>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "London" ;
+        nif:beginIndex          "2975"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2981"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/City> , <http://dbpedia.org/ontology/City> , <http://schema.org/Place> , <http://www.wikidata.org/entity/Q515> , <http://dbpedia.org/ontology/Place> , <http://www.wikidata.org/entity/Q486972> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/Location> ;
+        itsrdf:taConfidence     "0.9851300717309917"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/London> .
+
+<http://www.dbpedia-spotlight.com/#offset_2982_2996>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Harper Collins" ;
+        nif:beginIndex          "2982"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2996"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Publisher> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q4830453> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Company> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/HarperCollins> .
+
+<http://www.dbpedia-spotlight.com/#offset_663_666>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "URI" ;
+        nif:beginIndex          "663"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "666"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Uniform_Resource_Identifier> .
+
+<http://www.dbpedia-spotlight.com/#offset_944_981>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Internationalized Resource Identifier" ;
+        nif:beginIndex          "944"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "981"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Internationalized_Resource_Identifier> .
+
+<http://www.dbpedia-spotlight.com/#offset_560_563>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "URL" ;
+        nif:beginIndex          "560"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "563"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/URL> .
+
+<http://www.dbpedia-spotlight.com/#offset_1496_1512>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "The Glass Palace" ;
+        nif:beginIndex          "1496"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1512"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/WrittenWork> , <http://dbpedia.org/ontology/Work> , <Http://purl.org/ontology/bibo/Book> , <http://dbpedia.org/ontology/Book> , <http://www.wikidata.org/entity/Q386724> , <http://schema.org/Book> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q234460> , <http://www.wikidata.org/entity/Q571> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Glass_Palace> .
+
+<http://www.dbpedia-spotlight.com/#offset_2953_2969>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "The Glass Palace" ;
+        nif:beginIndex          "2953"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2969"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Book> , <Http://purl.org/ontology/bibo/Book> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q571> , <http://dbpedia.org/ontology/WrittenWork> , <http://schema.org/Book> , <http://www.wikidata.org/entity/Q234460> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Glass_Palace> .
+
+<http://www.dbpedia-spotlight.com/#offset_444_447>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "URI" ;
+        nif:beginIndex          "444"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "447"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Uniform_Resource_Identifier> .
+
+<http://www.dbpedia-spotlight.com/#offset_678_681>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "URL" ;
+        nif:beginIndex          "678"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "681"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/URL> .
+
+<http://www.dbpedia-spotlight.com/#offset_437_440>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "URI" ;
+        nif:beginIndex          "437"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "440"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Uniform_Resource_Identifier> .
+
+<http://www.dbpedia-spotlight.com/#offset_565_589>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Uniform Resource Locator" ;
+        nif:beginIndex          "565"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "589"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3116> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/URL> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_428_442>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Harper Collins" ;
+        nif:beginIndex          "428"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "442"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Publisher> , <http://www.wikidata.org/entity/Q4830453> , <http://www.wikidata.org/entity/Q43229> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Company> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/HarperCollins> .
+
+<http://www.dbpedia-spotlight.com/#offset_1853_1857>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skos" ;
+        nif:beginIndex          "1853"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1857"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#offset_321_327>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "auteur" ;
+        nif:beginIndex          "321"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "327"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Auteur> .
+
+<http://www.dbpedia-spotlight.com/#offset_2002_2006>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skos" ;
+        nif:beginIndex          "2002"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2006"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#offset_2769_2781>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "The Next Web" ;
+        nif:beginIndex          "2769"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2781"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/WebSite> , <http://dbpedia.org/ontology/Website> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Next_Web> .
+
+<http://www.dbpedia-spotlight.com/#offset_4233_4237>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDFS" ;
+        nif:beginIndex          "4233"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4237"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_4410>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "4410"^^xsd:nonNegativeInteger ;
+        nif:isString    "the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.14(29) 29 a:title Ghosh, Amitav Besse, Christianne Le palais des miroirs f:original f:nom f:traducteur f:auteur http://â¦isbn/2020386682 f:nom Ghosh, Amitav http://www.amitavghosh.com The Glass Palace 2000 London Harper Collins a:year a:city a:p_name a:name a:homepage a:author http://â¦isbn/000651409X RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.15SemanticsWhat's an âauthorâ?â¢ authorâ¢ auteurâ¢ Autorâ¢ book authorâ¢ writerâ¢ editorâ¢ ghostwriterâ¢ co-authorâ¢ bloggerâ¢ . . .Meaning? Relations?RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.16RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.17Library of CongressSKOS RDF Triples<http://id.loc.gov/authorities/subjects/sh85010023><http://www.w3.org/1999/02/22-rdf-syntax-ns#type><http://www.w3.org/2004/02/skos/core#Concept> .<http://id.loc.gov/authorities/subjects/sh85010023><http://www.w3.org/2004/02/skos/core#prefLabel>\"Authors and publishers\"@en .<http://id.loc.gov/authorities/subjects/sh85010023><http://www.w3.org/2004/02/skos/core#broader><http://id.loc.gov/authorities/subjects/sh85031620> .<http://id.loc.gov/authorities/subjects/sh85010023><http://www.w3.org/2004/02/skos/core#narrower><http://id.loc.gov/authorities/subjects/sh85109817> ....http://id.loc.gov/authorities/subjects/sh85010023.htmlhttp://id.loc.gov/authorities/subjects/sh85010023.htmlRenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.18Photo credit âkxllyâ, Flickr RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.19TBL at TED on âThe Next Webâ (2009)https://www.youtube.com/watch?v=OM6XIICm_qoâ Worksheet #2: Task 1https://www.youtube.com/watch?v=OM6XIICm_qoRenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.20Outline1 Introduction2 RDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummary3 Vocabularies4 Example: schema.org5 Notes and Further ReadingRenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.21Nexus Simulation Credit Erich Bremmer RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.22The W3C âLayer CakeâRenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.23RDF Schema (RDFS)W3C Recommendationâ¢ âRDF Vocabulary Description Language 1.0: RDF Schemaâ (RDFS 1.0)â¢ Current version (2014): âRDF Schema 1.1âUsed together with RDFâ¢ RDF provides âa way to" .
+
+<http://www.dbpedia-spotlight.com/#offset_1490_1493>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF" ;
+        nif:beginIndex          "1490"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1493"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999995453"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_869_880>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ghostwriter" ;
+        nif:beginIndex          "869"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "880"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ghostwriter> .
+
+<http://www.dbpedia-spotlight.com/#offset_1628_1632>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skos" ;
+        nif:beginIndex          "1628"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1632"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#offset_3935_3938>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "W3C" ;
+        nif:beginIndex          "3935"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3938"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://www.wikidata.org/entity/Q24229398> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://schema.org/Organization> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/World_Wide_Web_Consortium> .
+
+<http://www.dbpedia-spotlight.com/#offset_421_427>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "London" ;
+        nif:beginIndex          "421"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "427"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/Settlement> , <http://schema.org/City> , <http://www.wikidata.org/entity/Q486972> , <http://www.wikidata.org/entity/Q515> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9967602709761527"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/London> .
+
+<http://www.dbpedia-spotlight.com/#offset_4383_4386>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF" ;
+        nif:beginIndex          "4383"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4386"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999995453"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_4259_4262>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF" ;
+        nif:beginIndex          "4259"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4262"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999995453"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_4349_4359>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF Schema" ;
+        nif:beginIndex          "4349"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4359"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_2761_2764>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "TED" ;
+        nif:beginIndex          "2761"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2764"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.6217304179670667"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Turkish_Education_Association> .
+
+<http://www.dbpedia-spotlight.com/#offset_3940_3950>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Layer Cake" ;
+        nif:beginIndex          "3940"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3950"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q2095> , <http://dbpedia.org/ontology/Food> ;
+        itsrdf:taConfidence     "0.9999999999877218"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Layer_cake> .
+
+<http://www.dbpedia-spotlight.com/#offset_3190_3193>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF" ;
+        nif:beginIndex          "3190"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999995453"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_4238_4256>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "W3C Recommendation" ;
+        nif:beginIndex          "4238"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4256"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q24229398> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/World_Wide_Web_Consortium> .
+
+<http://www.dbpedia-spotlight.com/#offset_825_831>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "auteur" ;
+        nif:beginIndex          "825"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "831"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Auteur> .
+
+<http://www.dbpedia-spotlight.com/#offset_281_288>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "miroirs" ;
+        nif:beginIndex          "281"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "288"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999981500878"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Miroirs> .
+
+<http://www.dbpedia-spotlight.com/#offset_4388_4391>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF" ;
+        nif:beginIndex          "4388"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999995453"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_399_415>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "The Glass Palace" ;
+        nif:beginIndex          "399"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "415"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/WrittenWork> , <Http://purl.org/ontology/bibo/Book> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Book> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q234460> , <http://www.wikidata.org/entity/Q386724> , <http://schema.org/Book> , <http://www.wikidata.org/entity/Q571> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Glass_Palace> .
+
+<http://www.dbpedia-spotlight.com/#offset_4300_4310>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF Schema" ;
+        nif:beginIndex          "4300"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4310"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_2477_2483>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Flickr" ;
+        nif:beginIndex          "2477"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/WebSite> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Website> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Flickr> .
+
+<http://www.dbpedia-spotlight.com/#offset_452_456>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "city" ;
+        nif:beginIndex          "452"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "456"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9619369830032908"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/City> .
+
+<http://www.dbpedia-spotlight.com/#offset_1726_1730>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skos" ;
+        nif:beginIndex          "1726"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1730"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#offset_4313_4317>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDFS" ;
+        nif:beginIndex          "4313"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4317"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_4410> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_736_739>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "IRI" ;
+        nif:beginIndex          "736"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "739"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999955719845541"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Internationalized_Resource_Identifier> .
+
+<http://www.dbpedia-spotlight.com/#offset_1897_1900>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "1897"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1900"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_2822_2836>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "human-readable" ;
+        nif:beginIndex          "2822"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2836"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human-readable_medium> .
+
+<http://www.dbpedia-spotlight.com/#offset_1252_1256>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDFS" ;
+        nif:beginIndex          "1252"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1256"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_1401_1404>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "1401"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1404"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_1272_1275>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "1272"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_41_45>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDFS" ;
+        nif:beginIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_3049_3058>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Le Palais" ;
+        nif:beginIndex          "3049"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3058"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Settlement> , <http://www.wikidata.org/entity/Q486972> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Location> ;
+        itsrdf:taConfidence     "0.9999999999761258"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Le_Palais> .
+
+<http://www.dbpedia-spotlight.com/#offset_2309_2313>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDFS" ;
+        nif:beginIndex          "2309"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2313"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_1281_1285>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "1281"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1285"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_616_631>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "knowledge graph" ;
+        nif:beginIndex          "616"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "631"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Knowledge_Graph> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_3058>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3058"^^xsd:nonNegativeInteger ;
+        nif:isString    "make statements about resourcesâ (IRIs)â¢ RDFS provides semantics about what the IRIs stand for(Schemas aka Vocabularies aka Ontologies aka. . . )RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.24Classes and InstancesClassesâ¢ Resources may be divided into groups called classesâ¢ The members of a class are known as instances of the classâ¢ An instance can be member of more than one classWhat is a knowledge graph â PokÃ©mon edition: https://pieterheyvaert.com/blog/2019/12/27/kg-pkmn/Defining ClassesWe define that an IRI in a triple is a class using . . . a triple!(sounds weird the first time you hear it, but you get used to it)https://pieterheyvaert.com/blog/2019/12/27/kg-pkmn/RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.25Classes and Instances (contd.)Defining ClassesTo define that C (a resource) is an RDFS class, write:C rdf:type rdfs:Classwith rdfs defined as http://www.w3.org/2000/01/rdf-schema#Exampleex:Novel rdf:type rdfs:ClassTurtleIn Turtle, rdf:type can be abbreviated as aâ Worksheet #2: Task 2http://www.w3.org/2000/01/rdf-schema#RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.26Classes and Instances (contd.)InstancesTo define that I (a resource) is an instance of C (a class), write:I rdf:type C(or a instead of rdf:type in Turtle.)Example<http://...isbn/000651409X> rdf:type ex:NovelNoteThis is just another triple. . .â Worksheet #2: Task 3RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.27(71) 71 }ï½â¯ RDFS defines the meaning of these termsÂ§ï§â¯ (these are all special URI-s, we just use the namespace abbreviation)rdf:type #Novel http://â¦isbn/000651409X rdfs:Class RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.28Label & CommentHuman-Readable ContentBy convention, always provide:rdfs:label a human-readable labelrdfs:comment a short (one paragraph) descriptionusing language tags for multiple languages.Examples (dbpedia:The_Glass_Palace)<http://dbpedia.org/resource/The_Glass_Palace>rdfs:label \"The Glass Palace\"@en ,\"Le Palais" .
+
+<http://www.dbpedia-spotlight.com/#offset_3026_3042>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "The Glass Palace" ;
+        nif:beginIndex          "3026"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3042"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://schema.org/Book> , <http://www.wikidata.org/entity/Q571> , <http://dbpedia.org/ontology/WrittenWork> , <http://dbpedia.org/ontology/Book> , <http://www.wikidata.org/entity/Q234460> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> , <Http://purl.org/ontology/bibo/Book> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Glass_Palace> .
+
+<http://www.dbpedia-spotlight.com/#offset_2461_2465>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "2461"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2465"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_55_64>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semantics" ;
+        nif:beginIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "64"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semantic_Web> .
+
+<http://www.dbpedia-spotlight.com/#offset_1365_1368>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "1365"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_2809_2813>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "2809"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2813"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_1952_1955>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "1952"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1955"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_634_641>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PokÃ©mon" ;
+        nif:beginIndex          "634"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "641"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9732475343363088"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/PokÃ©mon> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_3014_3018>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "3014"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3018"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_2421_2424>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "2421"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2424"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_1870_1873>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "1870"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1873"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_498_509>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "The members" ;
+        nif:beginIndex          "498"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "509"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.wikidata.org/entity/Q215380> , <http://schema.org/MusicGroup> , <http://schema.org/Organization> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Band> , <http://dbpedia.org/ontology/Group> , <http://www.wikidata.org/entity/Q24229398> ;
+        itsrdf:taConfidence     "0.999999999883812"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Members> .
+
+<http://www.dbpedia-spotlight.com/#offset_1296_1300>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "1296"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1300"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_1374_1378>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "1374"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1378"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_4_11>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "miroirs" ;
+        nif:beginIndex          "4"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "11"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999964204562"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Miroirs> .
+
+<http://www.dbpedia-spotlight.com/#offset_31_47>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "The Glass Palace" ;
+        nif:beginIndex          "31"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <Http://purl.org/ontology/bibo/Book> , <http://www.wikidata.org/entity/Q571> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/WrittenWork> , <http://schema.org/Book> , <http://www.wikidata.org/entity/Q386724> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q234460> , <http://dbpedia.org/ontology/Book> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Glass_Palace> .
+
+<http://www.dbpedia-spotlight.com/#offset_1036_1040>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDFS" ;
+        nif:beginIndex          "1036"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1040"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_1742_1745>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vvv" ;
+        nif:beginIndex          "1742"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1745"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://www.wikidata.org/entity/Q43229> , <http://www.wikidata.org/entity/Q476028> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/SoccerClub> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/SportsClub> ;
+        itsrdf:taConfidence     "0.9999999675474106"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/VVV-Venlo> .
+
+<http://www.dbpedia-spotlight.com/#offset_516_520>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "516"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "520"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_2144_2147>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "2144"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999993189022"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_1687_1691>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "1687"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1691"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_17_21>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "21"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_1501_1511>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "entailment" ;
+        nif:beginIndex          "1501"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1511"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Logical_consequence> .
+
+<http://www.dbpedia-spotlight.com/#offset_2656_2660>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "2656"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2660"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_1711_1714>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vvv" ;
+        nif:beginIndex          "1711"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1714"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q476028> , <http://dbpedia.org/ontology/SoccerClub> , <http://dbpedia.org/ontology/SportsClub> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q43229> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.9999999675474106"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/VVV-Venlo> .
+
+<http://www.dbpedia-spotlight.com/#offset_1746_1749>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "1746"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1749"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999993189022"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_613_617>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "613"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "617"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_1022_1026>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDFS" ;
+        nif:beginIndex          "1022"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1026"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_1463_1472>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Semantics" ;
+        nif:beginIndex          "1463"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1472"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semantics> .
+
+<http://www.dbpedia-spotlight.com/#offset_2135_2138>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "2135"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2138"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999993189022"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_979_982>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF" ;
+        nif:beginIndex          "979"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "982"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999993189022"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_84_93>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Le Palais" ;
+        nif:beginIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://www.wikidata.org/entity/Q486972> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Location> ;
+        itsrdf:taConfidence     "0.9999999999761258"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Le_Palais> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_641_651>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transitive" ;
+        nif:beginIndex          "641"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "651"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999984864871"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transitive_relation> .
+
+<http://www.dbpedia-spotlight.com/#offset_1459_1462>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF" ;
+        nif:beginIndex          "1459"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1462"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999993189022"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_1715_1718>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "1715"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1718"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999993189022"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_1154_1157>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "1154"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1157"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999993189022"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_98_105>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "miroirs" ;
+        nif:beginIndex          "98"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999964204562"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Miroirs> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2706>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2706"^^xsd:nonNegativeInteger ;
+        nif:isString    "des miroirs\"@fr ;rdfs:comment \"The Glass Palace is a 2000 historical novel...\"@en ,\"Le Palais des miroirs est un roman...\"@fr ;â Worksheet #2: Task 4RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.29SubclassesDefining a subclassTo define that C1 (a class) is a subclass of C2 (a class), write:C1 rdfs:subClassOf C2SemanticsThis states that all the instances of C1 are also instances of C2.The rdfs:subClassOf property is transitive.â Worksheet #2: Task 5RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.30(75) 75 }ï½â¯ is not in the original RDF dataâ¦}ï½â¯ â¦but can be inferred from the RDFS rules}ï½â¯ RDFS environments return that triple, toordf:type #Novel http://â¦isbn/000651409X #Fiction (<http://â¦/isbn/000651409X> rdf:type #Fiction) RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.31(76) 76 }ï½â¯ The RDF Semantics document has a list of (33) entailment rules:Â§ï§â¯ âif such and such triples are in the graph, add this and thisâÂ§ï§â¯ do that recursively until the graph does not change}ï½â¯ The relevant rule for our example:If:   uuu rdfs:subClassOf xxx .   vvv rdf:type uuu . Then add:   vvv rdf:type xxx . â Worksheet #2: Task 6RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.32PropertiesDefining a PropertyTo define that P (a resource) is a property, write:P rdf:type rdf:PropertyProperties are used to define relations between subject resources and objectresources.Example<is a friend of> <type> <Property>â Worksheet #2: Task 7RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.33Domain and RangeDomainTo define a class C as the domain of a property P, write:P rdfs:domain CThis states that values of a property" .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_978_982>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "978"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "982"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2823>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2823"^^xsd:nonNegativeInteger ;
+        nif:isString    "are instances of one (or more) class(es).RangeTo define a class C as the range of a property P, write:P rdfs:range CThis states that any resource that has a given property is an instance of one (ormore) class(es).Noteâ¢ Properties are also resources (named with URIs)â¢ So we define properties of properties using. . . RDF properties!â¢ Again, you'll get used to it. . .â Worksheet #2: Task 8RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.34(79) 79 RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.35(80) 80 <rdf:Property rdf:ID=\"title\">   <rdfs:domain rdf:resource=\"#Fiction\"/>   <rdfs:range rdf:resource=\"http://...#Literal\"/> </rdf:Property> }ï½â¯ In RDF/XML::title   rdf:type    rdf:Property;   rdfs:domain :Fiction;   rdfs:range  rdfs:Literal.  }ï½â¯ In Turtle:RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.36SubpropertiesDefining a SubpropertyTo define that P1 (a property) is a subproperty of P2 (a property), write:P1 rdfs:subPropertyOf P2With a subproperty, we can state that all resources related by one property are alsorelated by another.ExampleLike inheritance for classes, we can have inheritance for properties:<is father of> <subPropertyOf> <is parent of>RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.37RDFS Utility VocabularySome âhelperâ constructsrdfs:seeAlso a property that links a resource to another for more information (canbe in any format)rdfs:isDefinedBy a property typically used to refer to a vocabulary (RDF Schema)defining the subject IRIThere are also some datastructures (bag, list etc.) â read more before using!Copyright 2014 by Manning Publications Co., [WZRH14]RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.38RDF Schema Constructs: SummaryRenÃ© WitteIntroductionReviewAnatomy of a URIBack" .
+
+<http://www.dbpedia-spotlight.com/#offset_317_320>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF" ;
+        nif:beginIndex          "317"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "320"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999836714647046"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_1118_1121>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "1118"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1121"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999836714647046"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_1170_1174>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "1170"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1174"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_1089_1096>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF/XML" ;
+        nif:beginIndex          "1089"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1096"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XML> .
+
+<http://www.dbpedia-spotlight.com/#offset_31_40>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "class(es)" ;
+        nif:beginIndex          "31"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Travel_class> .
+
+<http://www.dbpedia-spotlight.com/#offset_1019_1023>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "1019"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1023"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_946_949>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "946"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "949"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999836714647046"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_959_962>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "959"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "962"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999836714647046"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_1581_1585>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "1581"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1585"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_203_212>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "class(es)" ;
+        nif:beginIndex          "203"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Travel_class> .
+
+<http://www.dbpedia-spotlight.com/#offset_2242_2246>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "2242"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2246"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_1068_1071>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "1068"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1071"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999836714647046"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_1158_1162>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "1158"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_104_108>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "104"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "108"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_1134_1138>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "1134"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1138"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1030_1033>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "1030"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1033"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999836714647046"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_1106_1109>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "1106"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1109"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999836714647046"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_2311_2321>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF Schema" ;
+        nif:beginIndex          "2311"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2321"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_990_993>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "990"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "993"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999836714647046"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_2441_2461>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Manning Publications" ;
+        nif:beginIndex          "2441"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2461"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2823> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Company> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q4830453> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Publisher> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9999999998266276"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Manning_Publications> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_244_247>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF" ;
+        nif:beginIndex          "244"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "247"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3726> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999710099"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_1938_1958>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Manning Publications" ;
+        nif:beginIndex          "1938"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1958"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3726> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q43229> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Company> , <http://www.wikidata.org/entity/Q24229398> , <http://schema.org/Organization> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Publisher> , <http://dbpedia.org/ontology/Organisation> , <http://www.wikidata.org/entity/Q4830453> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Manning_Publications> .
+
+<http://www.dbpedia-spotlight.com/#offset_3511_3514>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "ACM" ;
+        nif:beginIndex          "3511"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3514"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3726> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> ;
+        itsrdf:taConfidence     "0.9990096464661823"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Association_for_Computing_Machinery> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_3726> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_724_728>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "FOAF" ;
+        nif:beginIndex          "724"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "728"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3726> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9854785984014248"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/FOAF_(ontology)> .
+
+<http://www.dbpedia-spotlight.com/#offset_3587_3594>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Web 2.0" ;
+        nif:beginIndex          "3587"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3594"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3726> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_2.0> .
+
+<http://www.dbpedia-spotlight.com/#offset_3077_3083>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Flickr" ;
+        nif:beginIndex          "3077"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3083"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3726> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/WebSite> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Website> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Flickr> .
+
+<http://www.dbpedia-spotlight.com/#offset_3668_3671>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF" ;
+        nif:beginIndex          "3668"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3671"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3726> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999710099"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_2321_2335>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "social network" ;
+        nif:beginIndex          "2321"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2335"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3726> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999980377175406"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Social_network> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_3726>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3726"^^xsd:nonNegativeInteger ;
+        nif:isString    "to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.39Outline1 Introduction2 RDF Schema3 VocabulariesIntroductionFOAFDublin CoreSKOSSummary4 Example: schema.org5 Notes and Further ReadingRenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.40VocabulariesGoal: Knowledge IntegrationTwo major principles:1 Reuse of vocabulariesE.g., always use FOAF to describe names, emails, etc., instead of making upyour own schema2 Make your data self-describingRenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.41Self-Describing DatasetsProvide useful information about new termsFor example, if we create our own proprietary term, like SmallMediumEnterprise,we could describe it as [HB11]:RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.42Reuse vocabularies whenever possibleCopyright 2014 by Manning Publications Co., [WZRH14]RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.43Core VocabulariesCopyright 2014 by Manning Publications Co., [WZRH14]RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.42FOAF (Friend-of-a-Friend) VocabularyFOAFModel people and theirconnections in a social network.<foaf:Person><foaf:name>Rene Witte</foaf:name><foaf:mbox_sha1sum>5d5705ff1b2142d62a38061f804f766ffaf806ef</foaf:mbox_sha1sum></foaf:Person>â Worksheet #2: Task 9RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.43Dublin CoreRenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.44Photo credit âscarletgreenâ, Flickr RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.45(228) 228 }ï½â¯ Represent and share classifications, glossaries, thesauri, etcÂ§ï§â¯ for example:â¢â¯ Dewey Decimal Classification, Art and Architecture Thesaurus, ACM classification of keywords and termsâ¦â¢â¯ classification/formalization of Web 2.0 type tags}ï½â¯ Define classes and properties to add those structures to an RDF universeÂ§ï§â¯ allow for a quick port of this traditional" .
+
+<http://www.dbpedia-spotlight.com/#offset_3449_3477>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Dewey Decimal Classification" ;
+        nif:beginIndex          "3449"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3477"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3726> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dewey_Decimal_Classification> .
+
+<http://www.dbpedia-spotlight.com/#offset_1599_1619>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Manning Publications" ;
+        nif:beginIndex          "1599"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1619"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3726> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q4830453> , <http://www.wikidata.org/entity/Q24229398> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Company> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Publisher> , <http://schema.org/Organization> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Manning_Publications> .
+
+<http://www.dbpedia-spotlight.com/#offset_3417_3425>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "thesauri" ;
+        nif:beginIndex          "3417"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3425"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3726> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thesaurus> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_2292_2308>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "The Glass Palace" ;
+        nif:beginIndex          "2292"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2308"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Book> , <http://www.wikidata.org/entity/Q234460> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/WrittenWork> , <http://schema.org/Book> , <http://www.wikidata.org/entity/Q571> , <Http://purl.org/ontology/bibo/Book> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Glass_Palace> .
+
+<http://www.dbpedia-spotlight.com/#offset_992_995>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISO" ;
+        nif:beginIndex          "992"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "995"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://www.wikidata.org/entity/Q43229> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Organization_for_Standardization> .
+
+<http://www.dbpedia-spotlight.com/#offset_2643_2647>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skos" ;
+        nif:beginIndex          "2643"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2647"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#offset_1516_1520>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skos" ;
+        nif:beginIndex          "1516"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1520"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#offset_1839_1843>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skos" ;
+        nif:beginIndex          "1839"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1843"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#offset_1018_1022>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SKOS" ;
+        nif:beginIndex          "1018"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1022"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#offset_1896_1899>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "1896"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1899"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999941155166757"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_1473_1477>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skos" ;
+        nif:beginIndex          "1473"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1477"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#offset_1450_1453>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "1450"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1453"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999941155166757"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_2694_2698>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skos" ;
+        nif:beginIndex          "2694"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2698"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#offset_1370_1374>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skos" ;
+        nif:beginIndex          "1370"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1374"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#offset_1459_1463>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skos" ;
+        nif:beginIndex          "1459"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1463"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#offset_897_900>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "LOC" ;
+        nif:beginIndex          "897"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "900"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/EducationalInstitution> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Library> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/EducationalOrganization> , <http://www.wikidata.org/entity/Q2385804> , <http://www.wikidata.org/entity/Q7075> , <http://schema.org/Library> ;
+        itsrdf:taConfidence     "0.9999819766332719"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Library_of_Congress> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_3227>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3227"^^xsd:nonNegativeInteger ;
+        nif:isString    "data, combine it with other dataRenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.46(229) 229 RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.47(230) 230 RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.48(231) 231 }ï½â¯ The structure of the LOC page is fairly typicalÂ§ï§â¯ label, alternate label, narrower, broader, â¦Â§ï§â¯ there is even an ISO standard for these}ï½â¯ SKOS provides a basic structure to create an RDF representation of theseRenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.49(232) 232 skos:Concept Fiction Metafiction Novels Literature Allegories Adventure stories rdf:type skos:narrower skos:broader skos:prefLabel skos:prefLabel skos:prefLabel http://id.loc.gov/â¦#concept RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.50(233) 233 skos:Concept Historical Fiction Fiction The Glass Palace rdf:type dc:subject skos:broader http:.//â¦/isbn/â¦ skos:prefLabel dc:title RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.51(234) 234 <http://â¦/isbn/000651409X>      dc:title \"The Glass Palace\"@en;     dc:subject <http://id.loc.gov/authorities/sh85061165#concept>;     ...  <http://id.loc.gov/authorities/sh85061165#concept>     a    skos:Concept;     skos:prefLabel \"Historical Fiction\"@en;     skos:broader <http://id.loc.gov/authorities/sh85048050#concept>;     ...  <http://id.loc.gov/authorities/sh85048050#concept>     a skos:Concept;     skos:prefLabel \"Fiction\"@en;     skos:narrower <http://id.loc.gov/authorities/sh85061165#concept>;     ...     RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.52(235) 235 }ï½â¯ Classes and Properties:Â§ï§â¯Basic description (Concept, ConceptScheme,â¦)Â§ï§â¯ Labeling (prefLabel, altLabel,â¦)Â§ï§â¯Documentation (definition, historyNote,â¦)Â§ï§â¯Semantic relations" .
+
+<http://www.dbpedia-spotlight.com/#offset_2468_2472>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skos" ;
+        nif:beginIndex          "2468"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2472"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1063_1066>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF" ;
+        nif:beginIndex          "1063"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1066"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999941155166757"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_1501_1505>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skos" ;
+        nif:beginIndex          "1501"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#offset_3209_3227>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Semantic relations" ;
+        nif:beginIndex          "3209"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3227"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ontology_components> .
+
+<http://www.dbpedia-spotlight.com/#offset_1391_1402>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Metafiction" ;
+        nif:beginIndex          "1391"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1402"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metafiction> .
+
+<http://www.dbpedia-spotlight.com/#offset_2450_2454>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skos" ;
+        nif:beginIndex          "2450"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2454"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#offset_1916_1920>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skos" ;
+        nif:beginIndex          "1916"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1920"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#offset_1879_1895>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "The Glass Palace" ;
+        nif:beginIndex          "1879"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1895"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q234460> , <http://www.wikidata.org/entity/Q571> , <Http://purl.org/ontology/bibo/Book> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/WrittenWork> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Book> , <http://dbpedia.org/ontology/Work> , <http://schema.org/Book> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Glass_Palace> .
+
+<http://www.dbpedia-spotlight.com/#offset_2661_2665>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skos" ;
+        nif:beginIndex          "2661"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2665"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#offset_1486_1490>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skos" ;
+        nif:beginIndex          "1486"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1490"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#offset_1946_1950>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skos" ;
+        nif:beginIndex          "1946"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1950"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#offset_2512_2516>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skos" ;
+        nif:beginIndex          "2512"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2516"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3227> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1108_1114>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "SPARQL" ;
+        nif:beginIndex          "1108"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3607> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q9143> , <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://schema.org/Language> , <http://www.wikidata.org/entity/Q315> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SPARQL> .
+
+<http://www.dbpedia-spotlight.com/#offset_1806_1809>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF" ;
+        nif:beginIndex          "1806"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1809"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3607> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_527_534>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "library" ;
+        nif:beginIndex          "527"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "534"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3607> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999990083302181"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Library> .
+
+<http://www.dbpedia-spotlight.com/#offset_409_413>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SKOS" ;
+        nif:beginIndex          "409"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "413"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3607> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_3607> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1479_1499>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Manning Publications" ;
+        nif:beginIndex          "1479"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1499"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3607> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://schema.org/Organization> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Company> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Publisher> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Manning_Publications> .
+
+<http://www.dbpedia-spotlight.com/#offset_595_599>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SKOS" ;
+        nif:beginIndex          "595"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "599"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3607> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#offset_570_573>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "LOC" ;
+        nif:beginIndex          "570"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "573"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3607> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q24229398> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/EducationalInstitution> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q43229> , <http://www.wikidata.org/entity/Q7075> , <http://schema.org/Library> , <http://www.wikidata.org/entity/Q2385804> , <http://schema.org/EducationalOrganization> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Library> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9999996501287044"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Library_of_Congress> .
+
+<http://www.dbpedia-spotlight.com/#offset_432_438>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bridge" ;
+        nif:beginIndex          "432"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "438"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3607> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8949738834225269"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Contract_bridge> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_3607>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3607"^^xsd:nonNegativeInteger ;
+        nif:isString    "(broader, narrower, related,â¦)Â§ï§â¯Collections (Collection, OrderedCollection,â¦)Â§ï§â¯Concept mappings (broadMatch, narrowMatch,â¦)RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.53(236) 236 }ï½â¯ SKOS provides a simple bridge between the âprint worldâ and the (Semantic) Web}ï½â¯ Thesauri, glossaries, etc, from the library community can be made availableÂ§ï§â¯ LOC is a good example}ï½â¯ SKOS can also be used to organize, eg, tags, annotate other vocabularies, â¦RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.54(237) 237 }ï½â¯ Anybody in the World can refer to common conceptsÂ§ï§â¯ they mean the same for everybody}ï½â¯ Applications may exploit the relationships among conceptsÂ§ï§â¯ eg, SPARQL queries may be issued on the library data+LOCRenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.55More authoritative vocabulariesCopyright 2014 by Manning Publications Co., [WZRH14]RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.56Outline1 Introduction2 RDF Schema3 Vocabularies4 Example: schema.org5 Notes and Further ReadingRenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.57(129) 129 RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.58RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.59RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.60RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.61RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.62(125) 125  <div itemscope itemtype=\"http://schema.org/Review\">     ...   <h1 itemprop=\"name\">Oscars" .
+
+<http://www.dbpedia-spotlight.com/#offset_1144_1151>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "library" ;
+        nif:beginIndex          "1144"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1151"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3607> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999990083302181"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Library> .
+
+<http://www.dbpedia-spotlight.com/#offset_3601_3607>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Oscars" ;
+        nif:beginIndex          "3601"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3607"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3607> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Award> , <http://www.wikidata.org/entity/Q618779> ;
+        itsrdf:taConfidence     "0.9909225532810717"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Academy_Awards> .
+
+<http://www.dbpedia-spotlight.com/#offset_3551_3561>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "schema.org" ;
+        nif:beginIndex          "3551"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3561"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3607> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Schema.org> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1920_1932>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Semantic Web" ;
+        nif:beginIndex          "1920"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1932"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semantic_Web> .
+
+<http://www.dbpedia-spotlight.com/#offset_588_594>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "schema" ;
+        nif:beginIndex          "588"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "594"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999892748326147"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XML_schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_2120_2130>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "David Wood" ;
+        nif:beginIndex          "2120"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Band> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q215380> , <http://dbpedia.org/ontology/Group> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/MusicGroup> , <http://dbpedia.org/ontology/Organisation> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> ;
+        itsrdf:taConfidence     "0.9999999985086561"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Straitjacket_Fits> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_3023>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3023"^^xsd:nonNegativeInteger ;
+        nif:isString    "2012: The Artist, review</h1>   <h2 itemprop=\"description\">The Artist, an utterly beguilingâ¦</h2>   ...       <span itemprop=\"ratingValue\" class=\"hidden\">5</span>   ... RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.63(126) 126  [ rdf:type schema:Review ;   schema:name \"Oscars 2012: The Artist, review\" ;   schema:description \"The Artist, an utterly beguilingâ¦\" ;   schema:ratingValue \"5\" ;   â¦ ]  RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.64Outline1 Introduction2 RDF Schema3 Vocabularies4 Example: schema.org5 Notes and Further ReadingRenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.65Reading MaterialRequiredâ¢ [Yu14, Chapter 4] (RDFS)â¢ [Yu14, Chapter 7] (FOAF)Supplementalâ¢ [Wor14] (RDF Primer)â¢ [Yu14, Chapter 10] (Schema.org)â¢ [WZRH14, Chapters 2, 4] (RDF, FOAF)RenÃ© WitteIntroductionReviewAnatomy of a URIBack to the bookstoreexampleRDF SchemaIntroductionClass and InstanceLabel & CommentSubclassPropertyRDFS Utility VocabularySummaryVocabulariesIntroductionFOAFDublin CoreSKOSSummaryExample: schema.orgNotes and FurtherReading3.66References[HB11] Tom Heath and Christian Bizer.Linked Data: Evolving the Web into a Global Data Space.Morgan & Claypool, 2011.https://concordiauniversity.on.worldcat.org/oclc/704257552.[Her] Ivan Herman.Tutorial on Semantic Web Technologies.http://www.w3.org/People/Ivan/CorePresentations/RDFTutorial/.[Wor14] World Wide Web Consortium (W3C).RDF 1.1 Primer.http://www.w3.org/TR/rdf11-primer/, 24 June 2014.[WZRH14] David Wood, Marsha Zaidman, Luke Ruth, and Michael Hausenblas.Linked Data: Structured Data on the Web.Manning, 2014.https://concordiauniversity.on.worldcat.org/oclc/871683907.[Yu14] Liyang Yu.A Developer's Guide to the Semantic Web.Springer-Verlag Berlin Heidelberg, 2nd edition, 2014.https://concordiauniversity.on.worldcat.org/oclc/897466408.https://concordiauniversity.on.worldcat.org/oclc/704257552http://www.w3.org/People/Ivan/CorePresentations/RDFTutorial/http://www.w3.org/TR/rdf11-primer/https://concordiauniversity.on.worldcat.org/oclc/871683907https://concordiauniversity.on.worldcat.org/oclc/897466408\tIntroduction\tIntroduction\tReview\tAnatomy of a URI\tBack to the bookstore example\tRDF Schema\tIntroduction\tClass and Instance\tLabel & Comment\tSubclass\tProperty\tRDFS Utility Vocabulary\tSummary\tVocabularies\tIntroduction\tFOAF\tDublin Core\tSKOS\tSummary\tExample: schema.org\tNotes and Further Reading" .
+
+<http://www.dbpedia-spotlight.com/#offset_2047_2050>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF" ;
+        nif:beginIndex          "2047"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2050"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_2779_2782>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "URI" ;
+        nif:beginIndex          "2779"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2782"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Uniform_Resource_Identifier> .
+
+<http://www.dbpedia-spotlight.com/#offset_2953_2964>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Dublin Core" ;
+        nif:beginIndex          "2953"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2964"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dublin_Core> .
+
+<http://www.dbpedia-spotlight.com/#offset_2148_2152>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Luke" ;
+        nif:beginIndex          "2148"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2152"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9874896577041656"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gospel_of_Luke> .
+
+<http://www.dbpedia-spotlight.com/#offset_479_485>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "schema" ;
+        nif:beginIndex          "479"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "485"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999892748326147"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XML_schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_59_69>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "The Artist" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "69"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q234460> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q1092563> , <http://www.wikidata.org/entity/Q386724> , <http://www.wikidata.org/entity/Q737498> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/WrittenWork> , <http://dbpedia.org/ontology/PeriodicalLiterature> , <http://dbpedia.org/ontology/AcademicJournal> ;
+        itsrdf:taConfidence     "0.9995537277269446"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Artist_and_Journal_of_Home_Culture> .
+
+<http://www.dbpedia-spotlight.com/#offset_2609_2615>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "primer" ;
+        nif:beginIndex          "2609"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2615"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999994189862317"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Textbook> .
+
+<http://www.dbpedia-spotlight.com/#offset_529_535>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "schema" ;
+        nif:beginIndex          "529"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "535"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999892748326147"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XML_schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_2089_2095>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "primer" ;
+        nif:beginIndex          "2089"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2095"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999994189862317"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Textbook> .
+
+<http://www.dbpedia-spotlight.com/#offset_1354_1357>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF" ;
+        nif:beginIndex          "1354"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1357"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_1736_1745>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Christian" ;
+        nif:beginIndex          "1736"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1745"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9896809844352051"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Christianity> .
+
+<http://www.dbpedia-spotlight.com/#offset_913_916>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF" ;
+        nif:beginIndex          "913"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "916"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_6_16>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "The Artist" ;
+        nif:beginIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "16"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q234460> , <http://www.wikidata.org/entity/Q737498> , <http://dbpedia.org/ontology/AcademicJournal> , <http://dbpedia.org/ontology/PeriodicalLiterature> , <http://www.wikidata.org/entity/Q386724> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/WrittenWork> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q1092563> ;
+        itsrdf:taConfidence     "0.9995537277269446"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Artist_and_Journal_of_Home_Culture> .
+
+<http://www.dbpedia-spotlight.com/#offset_492_498>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Oscars" ;
+        nif:beginIndex          "492"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "498"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q618779> , <http://dbpedia.org/ontology/Award> ;
+        itsrdf:taConfidence     "0.9762078753602759"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Academy_Awards> .
+
+<http://www.dbpedia-spotlight.com/#offset_2813_2823>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF Schema" ;
+        nif:beginIndex          "2813"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2823"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_452_455>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "452"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "455"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_2015_2046>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "World Wide Web Consortium (W3C)" ;
+        nif:beginIndex          "2015"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2046"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q24229398> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/World_Wide_Web_Consortium> .
+
+<http://www.dbpedia-spotlight.com/#offset_3016_3023>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Reading" ;
+        nif:beginIndex          "3016"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "3023"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999824769931"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reading> .
+
+<http://www.dbpedia-spotlight.com/#offset_1326_1330>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "FOAF" ;
+        nif:beginIndex          "1326"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1330"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9854785984015368"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/FOAF_(ontology)> .
+
+<http://www.dbpedia-spotlight.com/#offset_1425_1428>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF" ;
+        nif:beginIndex          "1425"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1428"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_2375_2385>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Heidelberg" ;
+        nif:beginIndex          "2375"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2385"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Town> , <http://dbpedia.org/ontology/Location> , <http://www.wikidata.org/entity/Q3957> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://www.wikidata.org/entity/Q486972> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Settlement> ;
+        itsrdf:taConfidence     "0.6436850904152159"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Heidelberg> .
+
+<http://www.dbpedia-spotlight.com/#offset_2987_2997>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "schema.org" ;
+        nif:beginIndex          "2987"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2997"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Schema.org> .
+
+<http://www.dbpedia-spotlight.com/#offset_2890_2894>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDFS" ;
+        nif:beginIndex          "2890"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2894"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_461_467>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "schema" ;
+        nif:beginIndex          "461"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "467"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999892748326147"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XML_schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_549_559>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "The Artist" ;
+        nif:beginIndex          "549"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "559"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q1092563> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> , <http://www.wikidata.org/entity/Q737498> , <http://dbpedia.org/ontology/AcademicJournal> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/PeriodicalLiterature> , <http://dbpedia.org/ontology/WrittenWork> , <http://www.wikidata.org/entity/Q234460> ;
+        itsrdf:taConfidence     "0.9995537277269446"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Artist_and_Journal_of_Home_Culture> .
+
+<http://www.dbpedia-spotlight.com/#offset_2965_2969>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SKOS" ;
+        nif:beginIndex          "2965"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2969"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simple_Knowledge_Organization_System> .
+
+<http://www.dbpedia-spotlight.com/#offset_1387_1397>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Schema.org" ;
+        nif:beginIndex          "1387"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1397"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Schema.org> .
+
+<http://www.dbpedia-spotlight.com/#offset_1430_1434>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "FOAF" ;
+        nif:beginIndex          "1430"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1434"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9854785984015368"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/FOAF_(ontology)> .
+
+<http://www.dbpedia-spotlight.com/#offset_2302_2308>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Liyang" ;
+        nif:beginIndex          "2302"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2308"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/City> , <http://schema.org/City> , <http://dbpedia.org/ontology/Location> , <http://schema.org/Place> , <http://www.wikidata.org/entity/Q515> , <http://www.wikidata.org/entity/Q486972> , <http://dbpedia.org/ontology/Settlement> ;
+        itsrdf:taConfidence     "0.9999999013480241"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Liyang> .
+
+<http://www.dbpedia-spotlight.com/#offset_2948_2952>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "FOAF" ;
+        nif:beginIndex          "2948"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2952"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9854785984015368"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/FOAF_(ontology)> .
+
+<http://www.dbpedia-spotlight.com/#offset_505_515>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "The Artist" ;
+        nif:beginIndex          "505"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "515"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/WrittenWork> , <http://www.wikidata.org/entity/Q1092563> , <http://www.wikidata.org/entity/Q234460> , <http://dbpedia.org/ontology/AcademicJournal> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q737498> , <http://dbpedia.org/ontology/PeriodicalLiterature> ;
+        itsrdf:taConfidence     "0.9995537277269446"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Artist_and_Journal_of_Home_Culture> .
+
+<http://www.dbpedia-spotlight.com/#offset_1314_1323>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Chapter 7" ;
+        nif:beginIndex          "1314"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1323"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9809061487138375"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chapter_VII_of_the_United_Nations_Charter> .
+
+<http://www.dbpedia-spotlight.com/#offset_2368_2374>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Berlin" ;
+        nif:beginIndex          "2368"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2374"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q3918> , <http://dbpedia.org/ontology/EducationalInstitution> , <http://www.wikidata.org/entity/Q2385804> , <http://www.wikidata.org/entity/Q43229> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/University> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://schema.org/EducationalOrganization> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/CollegeOrUniversity> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.8982740959329467"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Humboldt_University_of_Berlin> .
+
+<http://www.dbpedia-spotlight.com/#offset_1300_1304>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDFS" ;
+        nif:beginIndex          "1300"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1304"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_3023> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

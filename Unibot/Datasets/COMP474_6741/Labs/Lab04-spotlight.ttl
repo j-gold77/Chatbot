@@ -1,0 +1,761 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1564_1570>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Berlin" ;
+        nif:beginIndex          "1564"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1570"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://www.wikidata.org/entity/Q515> , <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/Settlement> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://schema.org/City> , <http://www.wikidata.org/entity/Q486972> ;
+        itsrdf:taConfidence     "0.7507342944665939"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Berlin> .
+
+<http://www.dbpedia-spotlight.com/#offset_555_561>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SPARQL" ;
+        nif:beginIndex          "555"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "561"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q315> , <http://www.wikidata.org/entity/Q9143> , <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> , <http://dbpedia.org/ontology/ProgrammingLanguage> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SPARQL> .
+
+<http://www.dbpedia-spotlight.com/#offset_84_90>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "SPARQL" ;
+        nif:beginIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "90"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://schema.org/Language> , <http://www.wikidata.org/entity/Q315> , <http://dbpedia.org/ontology/Language> , <http://www.wikidata.org/entity/Q9143> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SPARQL> .
+
+<http://www.dbpedia-spotlight.com/#offset_91_105>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "query language" ;
+        nif:beginIndex          "91"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Query_language> .
+
+<http://www.dbpedia-spotlight.com/#offset_725_731>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SPARQL" ;
+        nif:beginIndex          "725"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "731"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q9143> , <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> , <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://www.wikidata.org/entity/Q315> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SPARQL> .
+
+<http://www.dbpedia-spotlight.com/#offset_1444_1450>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Berlin" ;
+        nif:beginIndex          "1444"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1450"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q515> , <http://schema.org/City> , <http://dbpedia.org/ontology/Place> , <http://www.wikidata.org/entity/Q486972> , <http://dbpedia.org/ontology/Location> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.7507342944665939"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Berlin> .
+
+<http://www.dbpedia-spotlight.com/#offset_372_378>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "schema" ;
+        nif:beginIndex          "372"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "378"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9914324195139763"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Database_schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_838_854>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "public knowledge" ;
+        nif:beginIndex          "838"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "854"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Organisation> , <http://www.wikidata.org/entity/Q43229> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q24229398> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public_Knowledge> .
+
+<http://www.dbpedia-spotlight.com/#offset_1384_1391>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "DBpedia" ;
+        nif:beginIndex          "1384"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> , <http://www.wikidata.org/entity/Q7397> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/DBpedia> .
+
+<http://www.dbpedia-spotlight.com/#offset_46_55>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "This week" ;
+        nif:beginIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "55"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q15416> , <http://dbpedia.org/ontology/TelevisionShow> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "0.5821253254270942"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/This_Week_(American_TV_program)> .
+
+<http://www.dbpedia-spotlight.com/#offset_580_586>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SPARQL" ;
+        nif:beginIndex          "580"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "586"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://www.wikidata.org/entity/Q315> , <http://schema.org/Language> , <http://www.wikidata.org/entity/Q9143> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SPARQL> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1401_1407>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "SPARQL" ;
+        nif:beginIndex          "1401"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1407"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> , <http://www.wikidata.org/entity/Q315> , <http://www.wikidata.org/entity/Q9143> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SPARQL> .
+
+<http://www.dbpedia-spotlight.com/#offset_879_885>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "SPARQL" ;
+        nif:beginIndex          "879"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "885"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q315> , <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> , <http://www.wikidata.org/entity/Q9143> , <http://dbpedia.org/ontology/ProgrammingLanguage> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SPARQL> .
+
+<http://www.dbpedia-spotlight.com/#offset_522_528>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Moodle" ;
+        nif:beginIndex          "522"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "528"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> , <http://www.wikidata.org/entity/Q7397> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Moodle> .
+
+<http://www.dbpedia-spotlight.com/#offset_1653_1657>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "1653"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1657"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_909_915>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SPARQL" ;
+        nif:beginIndex          "909"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "915"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://www.wikidata.org/entity/Q315> , <http://www.wikidata.org/entity/Q9143> , <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SPARQL> .
+
+<http://www.dbpedia-spotlight.com/#offset_1313_1318>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "1313"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1318"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999913475079739"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_database> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1684>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1684"^^xsd:nonNegativeInteger ;
+        nif:isString    "Lab Session #04IntroductionWelcome to lab #4. This week's lab is about learning the SPARQL query language for knowledge graphs. As always, if you did not finish any of the tasks from the previous week(s), make sure you catch up with any remaining tasks, since some of the new tasks build on previous work.Follow-up Lab #3Here's an example solution for the FOCU university schema & data from the previous lab. Of course, your solution might look slightly different. If you're confused about any part of it, just ask in the Moodle Discussion forum!Task #1: SPARQL 101Here is a nice SPARQL cheat sheet (well, more like cheat slides) that are helpful for getting a quick overview (note that we did not discuss all the details of SPARQL in class). To learn SPARQL it's best to experiment with a number of different queries. Many (but not all) public knowledge graphs provide a public SPARQL interface (a so-called SPARQL endpoint), for example this one at DBpedia.Note that these public, open endpoints are typically very restrictive in terms of query result size, execution time, and query memory use, so don't be surprised if you get an error message instead of a result. Sometimes it helps to retry a query or limiting the result size (e.g., with a LIMIT 50).Task #1.1: DBpediaTo gain an impression on how powerful graph queries can be, here are two examples that you can try out using DBpedia's public SPARQL endpoint:Musicians who were born in Berlin:SELECT ?name ?birth ?description ?person WHERE {      ?person a dbo:MusicalArtist .      ?person dbo:birthPlace :Berlin .      ?person dbo:birthDate ?birth .      ?person foaf:name ?name .      ?person rdfs:comment ?description .    " .
+
+<http://www.dbpedia-spotlight.com/#offset_752_758>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "SPARQL" ;
+        nif:beginIndex          "752"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "758"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q315> , <http://dbpedia.org/ontology/Language> , <http://www.wikidata.org/entity/Q9143> , <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SPARQL> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1498_1504>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "SPARQL" ;
+        nif:beginIndex          "1498"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1504"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1658> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> , <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://www.wikidata.org/entity/Q9143> , <http://www.wikidata.org/entity/Q315> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SPARQL> .
+
+<http://www.dbpedia-spotlight.com/#offset_1633_1644>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "open source" ;
+        nif:beginIndex          "1633"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1644"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1658> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9990216737816594"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Open_source> .
+
+<http://www.dbpedia-spotlight.com/#offset_488_498>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Goalkeeper" ;
+        nif:beginIndex          "488"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "498"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1658> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9955392006532957"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Goalkeeper> .
+
+<http://www.dbpedia-spotlight.com/#offset_1349_1356>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "1349"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1356"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1658> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://www.wikidata.org/entity/Q315> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9998887208090885"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<http://www.dbpedia-spotlight.com/#offset_1263_1283>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia University" ;
+        nif:beginIndex          "1263"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1283"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1658> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9387263140817251"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Main_Page> .
+
+<http://www.dbpedia-spotlight.com/#offset_1001_1005>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Siri" ;
+        nif:beginIndex          "1001"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1005"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1658> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "0.9999999994552127"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Siri> .
+
+<http://www.dbpedia-spotlight.com/#offset_1007_1012>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Alexa" ;
+        nif:beginIndex          "1007"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1012"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1658> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "0.9991761940146076"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Amazon_Alexa> .
+
+<http://www.dbpedia-spotlight.com/#offset_1594_1600>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SPARQL" ;
+        nif:beginIndex          "1594"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1600"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1658> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> , <http://www.wikidata.org/entity/Q9143> , <http://www.wikidata.org/entity/Q315> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SPARQL> .
+
+<http://www.dbpedia-spotlight.com/#offset_1652_1658>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Fuseki" ;
+        nif:beginIndex          "1652"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1658"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1658> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fuseki> .
+
+<http://www.dbpedia-spotlight.com/#offset_149_159>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "goalkeeper" ;
+        nif:beginIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1658> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Activity> , <http://dbpedia.org/ontology/Sport> , <http://www.wikidata.org/entity/Q349> , <http://www.wikidata.org/entity/Q1914636> , <Http://www.ontologydesignpatterns.org/ont/d0.owl#Activity> ;
+        itsrdf:taConfidence     "0.999994555565805"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Association_football> .
+
+<http://www.dbpedia-spotlight.com/#offset_1411_1415>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Alma" ;
+        nif:beginIndex          "1411"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1415"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1658> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q24229398> , <http://schema.org/Person> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson> , <http://dbpedia.org/ontology/Person> , <http://www.wikidata.org/entity/Q215627> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <Http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q5> ;
+        itsrdf:taConfidence     "0.6627270077789322"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Alma_Mahler> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1658>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1658"^^xsd:nonNegativeInteger ;
+        nif:isString    " FILTER (LANG(?description) = 'en') . } ORDER BY ?nameSoccer players, who are born in a country with more than 10 million inhabitants, who played as goalkeeper for a club that has a stadium with more than 30.000 seats and where the club's country is different from the player's birth country:SELECT DISTINCT ?soccerplayer ?countryOfBirth ?team ?countryOfTeam ?stadiumcapacityWHERE {      ?soccerplayer a dbo:SoccerPlayer ;           dbo:position|dbp:position <http://dbpedia.org/resource/Goalkeeper_(association_football)>;           dbo:birthPlace/dbo:country* ?countryOfBirth ;           dbo:team ?team .     ?team dbo:capacity ?stadiumcapacity ;            dbo:ground ?countryOfTeam .      ?countryOfBirth a dbo:Country ;            dbo:populationTotal ?population .     ?countryOfTeam a dbo:Country .     FILTER (?countryOfTeam != ?countryOfBirth)     FILTER (?stadiumcapacity > 30000)     FILTER (?population > 10000000)} ORDER BY ?soccerplayerYou can see how intelligent assistants like Watson, Siri, Alexa etc. are able to answer so many questions, by querying their knowledge graphs.Now, try to write your own queries to determine:All universities located in Canada, with their city and optionally (if it exists) their home page.All people who studied at Concordia University (and are listed in DBpedia), together with their description (in English or any other language you prefer). Hint: look for the Alma Mater predicate and make sure you understand its domain & range.Task #2: Your own SPARQL ServerAs discussed in the lecture, there are a number of options for setting up your own SPARQL endpoint; here, we will use the open source Apache Fuseki" .
+
+<http://www.dbpedia-spotlight.com/#offset_1303_1310>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DBpedia" ;
+        nif:beginIndex          "1303"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1310"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1658> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/DBpedia> .
+
+<http://www.dbpedia-spotlight.com/#offset_1645_1651>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Apache" ;
+        nif:beginIndex          "1645"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1651"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1658> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q7397> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "0.9811127812086635"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Apache_HTTP_Server> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1658> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1422_1431>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "predicate" ;
+        nif:beginIndex          "1422"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1431"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1658> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q315> , <http://schema.org/Language> , <http://www.wikidata.org/entity/Q9143> , <http://dbpedia.org/ontology/Language> , <http://dbpedia.org/ontology/ProgrammingLanguage> ;
+        itsrdf:taConfidence     "0.9947774343410839"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SQL> .
+
+<http://www.dbpedia-spotlight.com/#offset_1167_1173>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Canada" ;
+        nif:beginIndex          "1167"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1173"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1658> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://www.wikidata.org/entity/Q6256> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Location> ;
+        itsrdf:taConfidence     "0.9927089154122278"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canada> .
+
+<http://www.dbpedia-spotlight.com/#offset_1186_1190>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "city" ;
+        nif:beginIndex          "1186"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1190"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1658> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.939306962979129"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/City> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_70_76>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fuseki" ;
+        nif:beginIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fuseki> .
+
+<http://www.dbpedia-spotlight.com/#offset_1675_1681>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SPARQL" ;
+        nif:beginIndex          "1675"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1681"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> , <http://www.wikidata.org/entity/Q315> , <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://www.wikidata.org/entity/Q9143> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SPARQL> .
+
+<http://www.dbpedia-spotlight.com/#offset_351_354>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "JDK" ;
+        nif:beginIndex          "351"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "354"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_Development_Kit> .
+
+<http://www.dbpedia-spotlight.com/#offset_606_612>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fuseki" ;
+        nif:beginIndex          "606"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "612"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fuseki> .
+
+<http://www.dbpedia-spotlight.com/#offset_2028_2032>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "FOAF" ;
+        nif:beginIndex          "2028"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2032"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9854785984015368"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/FOAF_(ontology)> .
+
+<http://www.dbpedia-spotlight.com/#offset_274_279>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "chmod" ;
+        nif:beginIndex          "274"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "279"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q7397> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chmod> .
+
+<http://www.dbpedia-spotlight.com/#offset_435_441>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Fuseki" ;
+        nif:beginIndex          "435"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "441"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fuseki> .
+
+<http://www.dbpedia-spotlight.com/#offset_1438_1444>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SPARQL" ;
+        nif:beginIndex          "1438"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1444"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://www.wikidata.org/entity/Q9143> , <http://www.wikidata.org/entity/Q315> , <http://dbpedia.org/ontology/Language> , <http://dbpedia.org/ontology/ProgrammingLanguage> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SPARQL> .
+
+<http://www.dbpedia-spotlight.com/#offset_176_182>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "server" ;
+        nif:beginIndex          "176"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "182"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999989879598"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_server> .
+
+<http://www.dbpedia-spotlight.com/#offset_1461_1467>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "server" ;
+        nif:beginIndex          "1461"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1467"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999989879598"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_server> .
+
+<http://www.dbpedia-spotlight.com/#offset_77_96>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary distribution" ;
+        nif:beginIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999934375763819"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_distribution> .
+
+<http://www.dbpedia-spotlight.com/#offset_1660_1662>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Go" ;
+        nif:beginIndex          "1660"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1662"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <Http://www.ontologydesignpatterns.org/ont/d0.owl#Activity> , <http://dbpedia.org/ontology/Game> , <http://dbpedia.org/ontology/Activity> , <http://www.wikidata.org/entity/Q11410> , <http://www.wikidata.org/entity/Q1914636> ;
+        itsrdf:taConfidence     "0.978533188220243"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Go_(game)> .
+
+<http://www.dbpedia-spotlight.com/#offset_874_880>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "server" ;
+        nif:beginIndex          "874"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "880"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999989879598"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_server> .
+
+<http://www.dbpedia-spotlight.com/#offset_1652_1658>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "server" ;
+        nif:beginIndex          "1652"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1658"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999989879598"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_server> .
+
+<http://www.dbpedia-spotlight.com/#offset_1570_1576>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "SPARQL" ;
+        nif:beginIndex          "1570"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1576"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://www.wikidata.org/entity/Q315> , <http://www.wikidata.org/entity/Q9143> , <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SPARQL> .
+
+<http://www.dbpedia-spotlight.com/#offset_910_919>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "localhost" ;
+        nif:beginIndex          "910"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "919"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Localhost> .
+
+<http://www.dbpedia-spotlight.com/#offset_510_516>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fuseki" ;
+        nif:beginIndex          "510"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "516"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fuseki> .
+
+<http://www.dbpedia-spotlight.com/#offset_317_323>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "server" ;
+        nif:beginIndex          "317"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "323"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999989879598"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_server> .
+
+<http://www.dbpedia-spotlight.com/#offset_1715_1719>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Jena" ;
+        nif:beginIndex          "1715"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1719"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "0.923069233215447"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Apache_Jena> .
+
+<http://www.dbpedia-spotlight.com/#offset_423_429>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Apache" ;
+        nif:beginIndex          "423"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "429"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q7397> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "0.9985764385299669"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Apache_HTTP_Server> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1577_1583>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "server" ;
+        nif:beginIndex          "1577"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1583"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999989879598"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_server> .
+
+<http://www.dbpedia-spotlight.com/#offset_1776_1782>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "SPARQL" ;
+        nif:beginIndex          "1776"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1782"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> , <http://www.wikidata.org/entity/Q315> , <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://www.wikidata.org/entity/Q9143> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SPARQL> .
+
+<http://www.dbpedia-spotlight.com/#offset_430_434>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Jena" ;
+        nif:beginIndex          "430"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "434"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q386724> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q7397> ;
+        itsrdf:taConfidence     "0.923069233215447"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Apache_Jena> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2069>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2069"^^xsd:nonNegativeInteger ;
+        nif:isString    "server.Task #2.1: Getting started with FusekiStart by downloading the fuseki binary distribution from https://jena.apache.org/download/index.cgiUnpack the archive and make the server script executable:> tar xf apache-jena-fuseki-3.17.0.tar.gz> cd apache-jena-fuseki-3.17.0> chmod u+x fuseki-serverNow you can run the server (note that you must have a JDK installed):> ./fuseki-server [2020-02-09 09:55:15] Server     INFO  Apache Jena Fuseki 3.17.0[2020-02-09 09:55:15] Config     INFO  FUSEKI_HOME=/home/rene/fuseki/apache-jena-fuseki-3.17.0/.[2020-02-09 09:55:15] Config     INFO  FUSEKI_BASE=/home/rene/fuseki/apache-jena-fuseki-3.17.0/run[2020-02-09 09:55:15] Config     INFO  Shiro file: file:///home/rene/fuseki/apache-jena-fuseki-3.17.0/run/shiro.ini[2020-02-09 09:55:17] Server     INFO  Started 2020/02/09 09:55:17 EST on port 3030As you can see, it starts a local server on port 3030, so open http://localhost:3030/ in your browser. You should see the main page:Before you can do anything else, you must create a Dataset, so select the first open above:Give your dataset a name and use the \"In-memory\" option (this means your triples will not be stored persistently, but this is fine for some first experiments).You should now see your new dataset under \"existing datasets\" and can start to upload triples. Use your university (FOAF/FOCU) triples from two weeks ago (or any other triple file you have):Now you are ready to send SPARQL queries to your server: go to the query tab and start querying your data:Task #2.2: Learning SPARQL with FusekiWith your own SPARQL server, you can now experiment with queries without relying on an external server. Go through the SPARQL Tutorial available on the Apache Jena, which comes with datasets and query exercises.Task #3: SPARQL with PythonThis task builds on the code you've previously developed with RDFlib.Task #3.1: RDFlibContinue the RDFlib introduction at Querying with SPARQL.Task #3.2: Query University DataLoad some of the triples you created in the lab last week (FOAF/FOCU) into your program and query it" .
+
+<http://www.dbpedia-spotlight.com/#offset_1708_1714>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Apache" ;
+        nif:beginIndex          "1708"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1714"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q386724> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "0.9985764385299669"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Apache_HTTP_Server> .
+
+<http://www.dbpedia-spotlight.com/#offset_190_200>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "executable" ;
+        nif:beginIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "200"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999998997282"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Executable> .
+
+<http://www.dbpedia-spotlight.com/#offset_711_717>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fuseki" ;
+        nif:beginIndex          "711"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "717"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fuseki> .
+
+<http://www.dbpedia-spotlight.com/#offset_207_209>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "xf" ;
+        nif:beginIndex          "207"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "209"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MeanOfTransportation> , <http://dbpedia.org/ontology/Automobile> , <http://schema.org/Product> ;
+        itsrdf:taConfidence     "0.9999900329875017"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Jaguar_XF> .
+
+<http://www.dbpedia-spotlight.com/#offset_1338_1342>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "FOAF" ;
+        nif:beginIndex          "1338"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1342"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9854785984015368"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/FOAF_(ontology)> .
+
+<http://www.dbpedia-spotlight.com/#offset_1538_1544>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SPARQL" ;
+        nif:beginIndex          "1538"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1544"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://www.wikidata.org/entity/Q9143> , <http://www.wikidata.org/entity/Q315> , <http://dbpedia.org/ontology/Language> , <http://dbpedia.org/ontology/ProgrammingLanguage> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SPARQL> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_6_12>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "SPARQL" ;
+        nif:beginIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "12"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_400> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://www.wikidata.org/entity/Q315> , <http://www.wikidata.org/entity/Q9143> , <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SPARQL> .
+
+<http://www.dbpedia-spotlight.com/#offset_318_324>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SPARQL" ;
+        nif:beginIndex          "318"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_400> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q315> , <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> , <http://www.wikidata.org/entity/Q9143> , <http://dbpedia.org/ontology/ProgrammingLanguage> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SPARQL> .
+
+<http://www.dbpedia-spotlight.com/#offset_207_212>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Smart" ;
+        nif:beginIndex          "207"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_400> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q4830453> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Company> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.wikidata.org/entity/Q43229> ;
+        itsrdf:taConfidence     "0.9243863030985104"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Smart_Communications> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_400> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_400>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "400"^^xsd:nonNegativeInteger ;
+        nif:isString    "using SPARQL. Write queries to:List all students, sorted by ageFind all predicates and objects for a given student, searching by first name (e.g., \"Joe\")Print a count of all students by universityTask #3.3: Smart University Agent v1.1Modify the code for your intelligent university agent from the previous week to use SPARQL queries, rather than manually traversing the graph.That's all for this lab!" .

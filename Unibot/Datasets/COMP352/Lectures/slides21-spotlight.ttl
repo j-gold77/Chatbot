@@ -1,0 +1,958 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_52_57>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "57"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_1316_1324>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "1316"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.7854546313902342"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_theory> .
+
+<http://www.dbpedia-spotlight.com/#offset_96_116>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Software Engineering" ;
+        nif:beginIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_engineering> .
+
+<http://www.dbpedia-spotlight.com/#offset_293_298>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Wiley" ;
+        nif:beginIndex          "293"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "298"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Publisher> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Company> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> ;
+        itsrdf:taConfidence     "0.9998561488198695"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wiley-Blackwell> .
+
+<http://www.dbpedia-spotlight.com/#offset_269_273>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "269"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "273"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9338347491419736"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_1394_1414>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Breadth-First Search" ;
+        nif:beginIndex          "1394"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1414"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Breadth-first_search> .
+
+<http://www.dbpedia-spotlight.com/#offset_1256_1264>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "1256"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1264"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.7854546313902342"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_theory> .
+
+<http://www.dbpedia-spotlight.com/#offset_1798_1806>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "1798"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1806"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.7854546313902342"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_theory> .
+
+<http://www.dbpedia-spotlight.com/#offset_1708_1716>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "1708"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1716"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.7854546313902342"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_theory> .
+
+<http://www.dbpedia-spotlight.com/#offset_618_623>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "618"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "623"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_400_407>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Collins" ;
+        nif:beginIndex          "400"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "407"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> , <http://www.wikidata.org/entity/Q24229398> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Organisation> , <http://www.wikidata.org/entity/Q4830453> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Publisher> ;
+        itsrdf:taConfidence     "0.9999247158286935"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/HarperCollins> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1861_1869>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "1861"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1869"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.7854546313902342"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_theory> .
+
+<http://www.dbpedia-spotlight.com/#offset_815_818>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DFS" ;
+        nif:beginIndex          "815"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "818"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Depth-first_search> .
+
+<http://www.dbpedia-spotlight.com/#offset_1760_1768>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "1760"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1768"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.7854546313902342"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_theory> .
+
+<http://www.dbpedia-spotlight.com/#offset_312_316>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "312"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "316"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_139_147>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Montreal" ;
+        nif:beginIndex          "139"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/Place> , <http://schema.org/City> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://www.wikidata.org/entity/Q515> , <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/Settlement> , <http://schema.org/Place> , <http://www.wikidata.org/entity/Q486972> ;
+        itsrdf:taConfidence     "0.999984128855641"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Montreal> .
+
+<http://www.dbpedia-spotlight.com/#offset_421_425>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "421"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "425"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_77_93>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Computer Science" ;
+        nif:beginIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_science> .
+
+<http://www.dbpedia-spotlight.com/#offset_359_385>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java Collections Framework" ;
+        nif:beginIndex          "359"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "385"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_collections_framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_117_137>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia University" ;
+        nif:beginIndex          "117"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9925141865655125"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concordia_University> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1900>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1900"^^xsd:nonNegativeInteger ;
+        nif:isString    "Analysis of AlgorithmsBreadth-First Search (BFS)Dr. Aiman HannaDepartment of Computer Science & Software Engineering Concordia University, Montreal, CanadaThese slides have been extracted, modified and updated from original slides of :Data Structures and Algorithms in Java, 5th edition. John Wiley& Sons, 2010. ISBN 978-0-470-38326-1.Data Structures and the Java Collections Framework by William J. Collins, 3rdedition, ISBN 978-0-470-48267-4. Both books are published by Wiley.Copyright Â© 2010-2011 WileyCopyright Â© 2010 Michael  T. Goodrich, Roberto TamassiaCopyright Â© 2011 William J. CollinsCopyright Â© 2011-2021 Aiman Hanna All rights reserved Coverageï± Graph Traversal ï± Breath-First Search (BFS)2CBAEDL0L1FL2Breadth-First SearchBreadth-First Search 3Breadth-First Search (BFS)ï± BFS is less adventurous than DFS, in the sense that it does not travel far, at any point of time, from where it starts ï± The idea is similar to travelling between cities. First go and visit all the cities that are closest to you. If this goes fine, think about travelling to cities that are further. If this goes fine, go and travel to the ones that are even further! By the time you are adventurous, there are no more cities to visit!ï± Consequently, BFS subdivides the vertices into levelsand goes âas ifâ in rounds to visit the vertices (Still, equipment needed are a rolled robe, and can of paint spray). Breadth-First Search 4BFSï± BFS performs as follows:  ï® Start at some vertex s, which is considered as level 0. This vertex is also referred to as the âanchorâ (All following explorations will be based on a distance from that anchor)ï® Unroll the robe with length equivalent to the length of one edge. Go to all the vertices that you can reach with that length. These vertices belong to level 1. Paint the vertices that you visit (to mark them as VISTED)ï® Once all the vertices in level 1 are visited, unroll" .
+
+<http://www.dbpedia-spotlight.com/#offset_1694_1696>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Go" ;
+        nif:beginIndex          "1694"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1696"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1900> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q11410> , <http://dbpedia.org/ontology/Game> , <http://www.wikidata.org/entity/Q1914636> , <http://dbpedia.org/ontology/Activity> , <Http://www.ontologydesignpatterns.org/ont/d0.owl#Activity> ;
+        itsrdf:taConfidence     "0.978533188220243"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Go_(game)> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_2125_2134>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Discovery" ;
+        nif:beginIndex          "2125"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2134"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2186> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q48806> , <http://dbpedia.org/ontology/MeanOfTransportation> , <http://dbpedia.org/ontology/SpaceShuttle> ;
+        itsrdf:taConfidence     "0.7085812013598887"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Space_Shuttle_Discovery> .
+
+<http://www.dbpedia-spotlight.com/#offset_2148_2161>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spanning tree" ;
+        nif:beginIndex          "2148"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2186> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spanning_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_2072_2092>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Breadth-First Search" ;
+        nif:beginIndex          "2072"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2092"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2186> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Breadth-first_search> .
+
+<http://www.dbpedia-spotlight.com/#offset_908_910>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Li" ;
+        nif:beginIndex          "908"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "910"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2186> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://www.wikidata.org/entity/Q11173> , <http://dbpedia.org/ontology/ChemicalSubstance> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ChemicalObject> ;
+        itsrdf:taConfidence     "0.9986344369591252"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lithium> .
+
+<http://www.dbpedia-spotlight.com/#offset_80_88>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "88"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2186> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8404266502242522"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Glossary_of_graph_theory_terms> .
+
+<http://www.dbpedia-spotlight.com/#offset_1172_1177>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "1172"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1177"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2186> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999886293837"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_theory> .
+
+<http://www.dbpedia-spotlight.com/#offset_1555_1559>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "POBA" ;
+        nif:beginIndex          "1555"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1559"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2186> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9999996449448139"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/POBA> .
+
+<http://www.dbpedia-spotlight.com/#offset_1229_1237>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "1229"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1237"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2186> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8404266502242522"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Glossary_of_graph_theory_terms> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2186> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1762_1765>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "3BA" ;
+        nif:beginIndex          "1762"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1765"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2186> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q24229398> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/RadioStation> , <http://schema.org/RadioStation> , <http://www.wikidata.org/entity/Q43229> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q15265344> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Broadcaster> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9999999902914851"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/3BA> .
+
+<http://www.dbpedia-spotlight.com/#offset_724_737>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "The algorithm" ;
+        nif:beginIndex          "724"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "737"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2186> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.wikidata.org/entity/Q43229> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Group> , <http://schema.org/MusicGroup> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Band> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q215380> ;
+        itsrdf:taConfidence     "0.9999999984470378"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1104_1106>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Li" ;
+        nif:beginIndex          "1104"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1106"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2186> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ChemicalObject> , <http://www.wikidata.org/entity/Q11173> ;
+        itsrdf:taConfidence     "0.9986344369591252"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lithium> .
+
+<http://www.dbpedia-spotlight.com/#offset_133_141>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "133"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "141"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2186> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8404266502242522"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Glossary_of_graph_theory_terms> .
+
+<http://www.dbpedia-spotlight.com/#offset_1212_1221>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "partition" ;
+        nif:beginIndex          "1212"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1221"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2186> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999998963257948"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Partition_of_a_set> .
+
+<http://www.dbpedia-spotlight.com/#offset_355_363>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "355"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "363"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2186> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8404266502242522"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Glossary_of_graph_theory_terms> .
+
+<http://www.dbpedia-spotlight.com/#offset_383_403>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Breadth-First Search" ;
+        nif:beginIndex          "383"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "403"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2186> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Breadth-first_search> .
+
+<http://www.dbpedia-spotlight.com/#offset_791_799>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "791"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "799"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2186> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8404266502242522"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Glossary_of_graph_theory_terms> .
+
+<http://www.dbpedia-spotlight.com/#offset_828_830>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "L0" ;
+        nif:beginIndex          "828"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "830"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2186> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9586683942224423"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Haplogroup_L0_(mtDNA)> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2186>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2186"^^xsd:nonNegativeInteger ;
+        nif:isString    "the robe further to twice the length of an edge. Similarly go and visit all the vertices that you can reach with that length.  These vertices form level 2. If the exploration through an edge leads to an already visited vertex, mark that edge as âcrossâ; otherwise mark it as âdiscoveryâï® Repeat the above operation, visiting further levels, until no more vertices are there to visit Breadth-First Search 5BFS Example1CBAEDdiscovery edgecross edgeA visited vertexA unexplored vertexunexplored edgeL0L1FCBAEDL0L1FCBAEDL0L1FBreadth-First Search 6BFS Example1 (cont.)CBAEDL0L1FCBAEDL0L1FL2CBAEDL0L1FL2CBAEDL0L1FL2Breadth-First Search 7BFS Example1 (cont.)CBAEDL0L1FL2CBAEDL0L1FL2CBAEDL0L1FL2Breadth-First Search 8BFS Algorithmï± The algorithm uses a mechanism for setting and getting âlabelsâ of vertices and edgesAlgorithm BFS(G, s)L0 â new empty sequenceL0.addLast(s)setLabel(s, VISITED)i â 0while Â¬Li.isEmpty()Li +1 â new empty sequencefor all v â Li.elements() for all e â G.incidentEdges(v)if getLabel(e) = UNEXPLOREDw â opposite(v,e)if  getLabel(w) = UNEXPLOREDsetLabel(e, DISCOVERY)setLabel(w, VISITED)Li +1.addLast(w)elsesetLabel(e, CROSS)i â i +1Algorithm BFS(G)Input graph GOutput labeling of the edges and partition of the vertices  of G for all u â G.vertices()setLabel(u, UNEXPLORED)for all e â G.edges()setLabel(e, UNEXPLORED)for all v â G.vertices()if getLabel(v) = UNEXPLOREDBFS(G, v)Breadth-First Search9BFS Example2cross edgediscovery edgeA visited vertex (Thicker one indicates the anchor)A unexplored vertexunexplored edgeBA DCFE HGJI LKNM POBA DCFE HGJI LKNM PO0 1BA DCFE HGJI LKNM PO0 1 210BFS Example2 (cont.)cross edgediscovery edgeA visited vertex (Thicker one indicates the anchor)A unexplored vertexunexplored edgeBA DCFE HGJI LKNM PO0 1 2 3BA DCFE HGJI LKNM PO0 1 2 34BA DCFE HGJI LKNM PO0 1 2 34511BFS Example2 (cont.)cross edgediscovery edgeA visited vertex (Thicker one indicates the anchor)A unexplored vertexunexplored edgeBA DCFE HGJI LKNM PO0 1 2 345BA DCFE HGJI LKNM PO0 1 2 345Nothing is added to Level 6. So, terminate as Level 6 is empty Breadth-First Search 12BFS Analysis ï± Notice that: ï· Discovery edges form a spanning tree, which is referred to as" .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1265_1269>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "1265"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1269"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_640_648>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "640"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "648"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9921901340898432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Glossary_of_graph_theory_terms> .
+
+<http://www.dbpedia-spotlight.com/#offset_757_772>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spanning forest" ;
+        nif:beginIndex          "757"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "772"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spanning_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_1563_1568>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "1563"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1568"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999995684448"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_theory> .
+
+<http://www.dbpedia-spotlight.com/#offset_1465_1467>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Li" ;
+        nif:beginIndex          "1465"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1467"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ChemicalObject> , <http://dbpedia.org/ontology/ChemicalCompound> , <http://www.wikidata.org/entity/Q11173> ;
+        itsrdf:taConfidence     "0.9996656154990435"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lithium> .
+
+<http://www.dbpedia-spotlight.com/#offset_35_43>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9921901340898432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Glossary_of_graph_theory_terms> .
+
+<http://www.dbpedia-spotlight.com/#offset_435_440>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "435"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "440"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999995684448"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_theory> .
+
+<http://www.dbpedia-spotlight.com/#offset_707_720>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spanning tree" ;
+        nif:beginIndex          "707"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "720"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spanning_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_123_131>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9921901340898432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Glossary_of_graph_theory_terms> .
+
+<http://www.dbpedia-spotlight.com/#offset_1160_1165>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "1160"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1165"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999995684448"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_theory> .
+
+<http://www.dbpedia-spotlight.com/#offset_1030_1034>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sand" ;
+        nif:beginIndex          "1030"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1034"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9997961628471151"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sand> .
+
+<http://www.dbpedia-spotlight.com/#offset_1173_1181>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "1173"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9921901340898432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Glossary_of_graph_theory_terms> .
+
+<http://www.dbpedia-spotlight.com/#offset_1591_1605>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "adjacency list" ;
+        nif:beginIndex          "1591"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1605"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adjacency_list> .
+
+<http://www.dbpedia-spotlight.com/#offset_823_828>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "823"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "828"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999995684448"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_theory> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_842_862>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "connected components" ;
+        nif:beginIndex          "842"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "862"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Connected_space> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1684>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1684"^^xsd:nonNegativeInteger ;
+        nif:isString    "BFS treeï· Edges to already visited vertices are called âcrossâ edges and not âbackâ edges since these edges do not connect vertices to their ancestors. In fact all of these (non-tree) edges neither connect a vertex to its ancestor, nor to its descendant on the BFS treeï·We never go back to the anchor; instead we always start from the nodes of leveli to go to leveli+1Breadth-First Search 13BFS Analysis ï± Using a BFS traversal over a graph G, it is possible to solve the following problems: (note: that is actually done using algorithms and subroutines that are slightly different than the above simplified shown algorithm)ï® Visit all the vertices and edges of Gï® Determine whether G is connectedï® Compute spanning tree of G is G is connectedï® Compute the spanning forest of G (all spanning trees) if G is a non-connected graphï® Compute the connected components of Gï® Find a cycle of G, or report that G has no cyclesï® Given a start vertex s of G, compute for every vertex v of G, a path with the minimum number of edges between sand v, or report that no such path existsï± However, what is the complexity of BFS? Breadth-First Search14BFS Analysis ï± BFS on a graph with n vertices and m edges takes O(n + m ) time since:ï· Setting/getting a vertex/edge label takes O(1) timeï· Each vertex is labeled twice ï® once as UNEXPLOREDï® once as VISITEDï· Each edge is labeled twiceï® once as UNEXPLOREDï® once as DISCOVERY or CROSSï· Each vertex is inserted once into a sequence Liï· Method incidentEdges() is called once for each vertexï¨ BFS runs in O(n + m) time provided the graph is represented by the adjacency list structureï± The other problems that BFS can solve can also be achieved in O(n +" .
+
+<http://www.dbpedia-spotlight.com/#offset_614_623>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "614"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "623"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1684> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1427_1432>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "1427"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1432"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999858310958"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_theory> .
+
+<http://www.dbpedia-spotlight.com/#offset_1258_1279>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "articulation vertices" ;
+        nif:beginIndex          "1258"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1279"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biconnected_component> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1996>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1996"^^xsd:nonNegativeInteger ;
+        nif:isString    "m )Breadth-First Search 15BFS PropertiesNotationGs: connected component of sProperty 1BFS(G, s) visits all the vertices and edges of GsProperty 2The discovery edges labeled by BFS(G, s) form a spanning tree Tsof GsProperty 3For each vertex v in Liï® The path of  Ts from s to v has iedges ï® Every path from s to v in Gs has the least number of edges connecting s to v (i.e., shortest path from s to v )CBAEDL0L1FL2CBAEDFBreadth-First Search 16DFS vs. BFSCBAEDL0L1FL2CBAEDFDFS BFSApplications DFS BFSSpanning forest, connected components, paths, cycles â âShortest paths âBiconnected components(See next slide for more details)âDFS vs. BFS (cont.)Biconnected components: Two biconnected components of a graph share at most one vertex in common. A vertex is an articulation point if and only if it is common to more than one biconnected component. Example*:17*Source: wikipedia.orgEach color corresponds toa biconnected component. Multi-colored vertices are cut vertices, and thus belong to multiple biconnected components*http://en.wikipedia.org/wiki/Biconnected_componentDFS vs. BFS (cont.)Biconnected componentsAn articulation vertex (or cut vertex) is a vertex whose removal increases the number of connected components. A graph is biconnected if it has no articulation vertices. Articulation points are important for networks since they represent single point of failure. DFS can be used to find the articulation points in a graph and compute its disconnected components in O(n + m) time. Click here for more details (see also the notes section of this slide). Many other good sources are also available both online and offline. CBGADFThe graph has three biconnectedcomponents:{B, C, G},{C, F, D}, and {A, G}C & G are articulation points 18http://en.wikipedia.org/wiki/Biconnected_componentBreadth-First Search 19DFS vs. BFS (cont.)Back edge (v,w)ï® w is an ancestor of v in the tree of discovery edges. For example, A is an ancestor of C (there is a back edge form C to A)Cross edge (v,w)ï® w is" .
+
+<http://www.dbpedia-spotlight.com/#offset_758_776>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "articulation point" ;
+        nif:beginIndex          "758"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "776"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biconnected_component> .
+
+<http://www.dbpedia-spotlight.com/#offset_1374_1377>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DFS" ;
+        nif:beginIndex          "1374"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1377"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Depth-first_search> .
+
+<http://www.dbpedia-spotlight.com/#offset_997_1008>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "biconnected" ;
+        nif:beginIndex          "997"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1008"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biconnected_graph> .
+
+<http://www.dbpedia-spotlight.com/#offset_1974_1984>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Cross edge" ;
+        nif:beginIndex          "1974"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1984"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q7397> , <http://www.wikidata.org/entity/Q7889> , <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/VideoGame> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "0.9999999930448666"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cross_Edge> .
+
+<http://www.dbpedia-spotlight.com/#offset_1114_1133>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "articulation vertex" ;
+        nif:beginIndex          "1114"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1133"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biconnected_component> .
+
+<http://www.dbpedia-spotlight.com/#offset_822_843>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "biconnected component" ;
+        nif:beginIndex          "822"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "843"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biconnected_component> .
+
+<http://www.dbpedia-spotlight.com/#offset_491_494>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DFS" ;
+        nif:beginIndex          "491"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "494"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Depth-first_search> .
+
+<http://www.dbpedia-spotlight.com/#offset_959_967>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "959"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "967"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999949411216627"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Glossary_of_graph_theory_terms> .
+
+<http://www.dbpedia-spotlight.com/#offset_626_629>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DFS" ;
+        nif:beginIndex          "626"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "629"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Depth-first_search> .
+
+<http://www.dbpedia-spotlight.com/#offset_1224_1229>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "1224"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1229"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999858310958"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_theory> .
+
+<http://www.dbpedia-spotlight.com/#offset_1138_1148>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cut vertex" ;
+        nif:beginIndex          "1138"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biconnected_component> .
+
+<http://www.dbpedia-spotlight.com/#offset_515_535>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "connected components" ;
+        nif:beginIndex          "515"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "535"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Connected_space> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_701_706>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "701"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "706"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999858310958"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_theory> .
+
+<http://www.dbpedia-spotlight.com/#offset_1233_1244>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "biconnected" ;
+        nif:beginIndex          "1233"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1244"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biconnected_graph> .
+
+<http://www.dbpedia-spotlight.com/#offset_942_950>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "942"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "950"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999949411216627"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Glossary_of_graph_theory_terms> .
+
+<http://www.dbpedia-spotlight.com/#offset_245_247>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Li" ;
+        nif:beginIndex          "245"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "247"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://www.wikidata.org/entity/Q11173> , <http://dbpedia.org/ontology/ChemicalCompound> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ChemicalObject> ;
+        itsrdf:taConfidence     "0.9997454939510201"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lithium> .
+
+<http://www.dbpedia-spotlight.com/#offset_111_119>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "111"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "119"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999949411216627"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Glossary_of_graph_theory_terms> .
+
+<http://www.dbpedia-spotlight.com/#offset_1641_1646>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "1641"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1646"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999858310958"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_theory> .
+
+<http://www.dbpedia-spotlight.com/#offset_52_71>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "connected component" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "71"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Connected_space> .
+
+<http://www.dbpedia-spotlight.com/#offset_1200_1220>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "connected components" ;
+        nif:beginIndex          "1200"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Connected_space> .
+
+<http://www.dbpedia-spotlight.com/#offset_193_206>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spanning tree" ;
+        nif:beginIndex          "193"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "206"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spanning_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_3_23>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Breadth-First Search" ;
+        nif:beginIndex          "3"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Breadth-first_search> .
+
+<http://www.dbpedia-spotlight.com/#offset_905_926>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "biconnected component" ;
+        nif:beginIndex          "905"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "926"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biconnected_component> .
+
+<http://www.dbpedia-spotlight.com/#offset_673_684>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "biconnected" ;
+        nif:beginIndex          "673"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "684"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biconnected_graph> .
+
+<http://www.dbpedia-spotlight.com/#offset_374_387>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "shortest path" ;
+        nif:beginIndex          "374"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "387"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1996> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Shortest_path_problem> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_455> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_436_439>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DFS" ;
+        nif:beginIndex          "436"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "439"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_455> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999987779"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Depth-first_search> .
+
+<http://www.dbpedia-spotlight.com/#offset_416_419>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DFS" ;
+        nif:beginIndex          "416"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "419"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_455> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999987779"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Depth-first_search> .
+
+<http://www.dbpedia-spotlight.com/#offset_172_192>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Breadth-First Search" ;
+        nif:beginIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "192"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_455> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Breadth-first_search> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_455>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "455"^^xsd:nonNegativeInteger ;
+        nif:isString    "in the same level as v or in the next level. wand w are neither ancestors nor descendent in the BFS treeCBAEDL0L1FL2CBAEDFDFS BFS\tBreadth-First Search (BFS)\tSlide Number 2\tBreadth-First Search (BFS)\tBFS\tBFS Example1\tBFS Example1 (cont.)\tBFS Example1 (cont.)\tBFS Algorithm\tBFS Example2\tBFS Example2 (cont.)\tBFS Example2 (cont.)\tBFS Analysis \tBFS Analysis \tBFS Analysis \tBFS Properties\tDFS vs. BFS\tDFS vs. BFS (cont.)\tDFS vs. BFS (cont.)\tDFS vs. BFS (cont.)" .
+
+<http://www.dbpedia-spotlight.com/#offset_130_150>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Breadth-First Search" ;
+        nif:beginIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_455> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Breadth-first_search> .
+
+<http://www.dbpedia-spotlight.com/#offset_384_387>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DFS" ;
+        nif:beginIndex          "384"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "387"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_455> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999987779"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Depth-first_search> .
+
+<http://www.dbpedia-spotlight.com/#offset_396_399>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DFS" ;
+        nif:beginIndex          "396"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "399"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_455> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999987779"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Depth-first_search> .

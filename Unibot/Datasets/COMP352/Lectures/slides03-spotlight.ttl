@@ -1,0 +1,1429 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1708_1713>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "1708"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1713"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_1270_1273>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1270"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1273"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_723_737>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "data structure" ;
+        nif:beginIndex          "723"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "737"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_structure> .
+
+<http://www.dbpedia-spotlight.com/#offset_598_603>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "598"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "603"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_669_687>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "abstract data type" ;
+        nif:beginIndex          "669"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "687"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1936_1939>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1936"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1939"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1001_1014>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stock trading" ;
+        nif:beginIndex          "1001"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1014"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stock_trader> .
+
+<http://www.dbpedia-spotlight.com/#offset_2036_2041>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "2036"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2041"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_119_127>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Montreal" ;
+        nif:beginIndex          "119"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/City> , <http://schema.org/City> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://www.wikidata.org/entity/Q486972> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Settlement> , <http://www.wikidata.org/entity/Q515> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Location> ;
+        itsrdf:taConfidence     "0.9999606724975851"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Montreal> .
+
+<http://www.dbpedia-spotlight.com/#offset_743_761>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "abstract data type" ;
+        nif:beginIndex          "743"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "761"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1371_1375>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "LIFO" ;
+        nif:beginIndex          "1371"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1375"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/FIFO_and_LIFO_accounting> .
+
+<http://www.dbpedia-spotlight.com/#offset_401_405>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "401"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "405"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_339_365>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java Collections Framework" ;
+        nif:beginIndex          "339"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "365"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_collections_framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_97_117>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia University" ;
+        nif:beginIndex          "97"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "117"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999994883054514"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Main_Page> .
+
+<http://www.dbpedia-spotlight.com/#offset_380_387>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Collins" ;
+        nif:beginIndex          "380"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "387"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q43229> , <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Publisher> ;
+        itsrdf:taConfidence     "0.9975013672273023"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/HarperCollins> .
+
+<http://www.dbpedia-spotlight.com/#offset_1440_1445>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "1440"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1445"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_1452_1455>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1452"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1455"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_689_692>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "689"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "692"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_979_982>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "979"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "982"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_76_96>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Software Engineering" ;
+        nif:beginIndex          "76"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_engineering> .
+
+<http://www.dbpedia-spotlight.com/#offset_292_296>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "292"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "296"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_1543_1546>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pop" ;
+        nif:beginIndex          "1543"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1546"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/TopicalConcept> , <http://www.wikidata.org/entity/Q188451> , <http://dbpedia.org/ontology/Genre> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> , <http://dbpedia.org/ontology/MusicGenre> ;
+        itsrdf:taConfidence     "0.9976428186229304"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pop_music> .
+
+<http://www.dbpedia-spotlight.com/#offset_1979_1984>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "1979"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1984"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_840_843>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "840"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "843"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2134>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2134"^^xsd:nonNegativeInteger ;
+        nif:isString    "Analysis of AlgorithmsStacksDr. Aiman HannaDepartment of Computer Science & Software Engineering Concordia University, Montreal, CanadaThese slides have been extracted, modified and updated from original slides of :Data Structures and Algorithms in Java, 5th edition. John Wiley& Sons, 2010. ISBN 978-0-470-38326-1.Data Structures and the Java Collections Framework by William J. Collins, 3rdedition, ISBN 978-0-470-48267-4. Both books are published by Wiley.Copyright Â© 2010-2011 WileyCopyright Â© 2010 Michael  T. Goodrich, Roberto TamassiaCopyright Â© 2011 William J. CollinsCopyright Â© 2011-2021 Aiman Hanna All rights reserved Stacks 2Abstract Data Types (ADTs)ï± An abstract data type (ADT) is an abstraction/model of a data structure.ï± An abstract data type is defined indirectly, only by the operations that may be performed on it. An ADT specifies:ï·Data storedï·Operations on the dataï· Error conditions associated with operationsStacks 3Abstract Data Types (ADTs)ï± Example: ADT modeling a simple stock trading systemï® The data stored are buy/sell ordersï® The operations supported areï· order buy(stock, shares, price)ï· order sell(stock, shares, price)ï· void cancel(order)ï® Error conditions:ï· Buy/sell a nonexistent stockï· Cancel a nonexistent orderStacks 4The Stack ADTï± The Stack ADT stores arbitrary objects.ï± Insertions and deletions follow the last-in first-out (LIFO) scheme. Think of a spring-loaded plate dispenser.ï± Formally, a stack is an ADT that supports the following main operations:ï® push(object): inserts an elementï® object pop(): removes and returns the last inserted elementï± Examples: operations of âBackâ button on a browser or âundoâ on text editors. Stacks 5The Stack ADTï± Secondary stack operations include:ï® object top(): returns the last inserted element without removing itï® integer size(): returns the number of elements storedï® boolean isEmpty(): indicates whether no elements are storedStacks 6The Stack ADTï± The following table shows a series of stack operations and their effects on an initially empty stack of integers: Operation Output Stack Contentspush(5) -- [5]push(2) -- [5, 2]push(8) -- [5, 2," .
+
+<http://www.dbpedia-spotlight.com/#offset_32_37>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_1693_1696>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1693"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1696"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1285_1288>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1285"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1288"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_273_278>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Wiley" ;
+        nif:beginIndex          "273"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "278"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Publisher> , <http://www.wikidata.org/entity/Q24229398> , <http://www.wikidata.org/entity/Q4830453> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q43229> ;
+        itsrdf:taConfidence     "0.9999996495412847"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wiley-Blackwell> .
+
+<http://www.dbpedia-spotlight.com/#offset_1804_1811>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "1804"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1811"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999999955835393"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.dbpedia-spotlight.com/#offset_249_253>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "249"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "253"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999957868256012"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_57_73>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Computer Science" ;
+        nif:beginIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_science> .
+
+<http://www.dbpedia-spotlight.com/#offset_1275_1284>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "The Stack" ;
+        nif:beginIndex          "1275"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1284"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2134> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/RoadJunction> , <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://dbpedia.org/ontology/RouteOfTransportation> , <http://dbpedia.org/ontology/Infrastructure> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9999999966548785"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Stack> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_189_194>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "189"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "194"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999852207"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_1647_1652>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "1647"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1652"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999852207"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_155_159>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "155"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999376996"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_926_931>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "926"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "931"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999852207"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_73_76>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "pop" ;
+        nif:beginIndex          "73"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q188451> , <http://dbpedia.org/ontology/TopicalConcept> , <http://dbpedia.org/ontology/MusicGenre> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> , <http://dbpedia.org/ontology/Genre> ;
+        itsrdf:taConfidence     "0.9999962868697182"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pop_music> .
+
+<http://www.dbpedia-spotlight.com/#offset_1921_1924>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1921"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1924"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1238_1252>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "data structure" ;
+        nif:beginIndex          "1238"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1252"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_structure> .
+
+<http://www.dbpedia-spotlight.com/#offset_1473_1478>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "1473"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1478"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999852207"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_715_718>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "715"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "718"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_267_270>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pop" ;
+        nif:beginIndex          "267"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "270"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MusicGenre> , <http://dbpedia.org/ontology/TopicalConcept> , <http://dbpedia.org/ontology/Genre> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> , <http://www.wikidata.org/entity/Q188451> ;
+        itsrdf:taConfidence     "0.9999962868697182"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pop_music> .
+
+<http://www.dbpedia-spotlight.com/#offset_971_974>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "pop" ;
+        nif:beginIndex          "971"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "974"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/TopicalConcept> , <http://dbpedia.org/ontology/MusicGenre> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> , <http://www.wikidata.org/entity/Q188451> , <http://dbpedia.org/ontology/Genre> ;
+        itsrdf:taConfidence     "0.9999962868697182"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pop_music> .
+
+<http://www.dbpedia-spotlight.com/#offset_2_5>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pop" ;
+        nif:beginIndex          "2"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "5"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> , <http://dbpedia.org/ontology/Genre> , <http://dbpedia.org/ontology/MusicGenre> , <http://www.wikidata.org/entity/Q188451> , <http://dbpedia.org/ontology/TopicalConcept> ;
+        itsrdf:taConfidence     "0.9999962868697182"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pop_music> .
+
+<http://www.dbpedia-spotlight.com/#offset_1363_1366>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "JVM" ;
+        nif:beginIndex          "1363"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1366"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_1141_1152>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "text editor" ;
+        nif:beginIndex          "1141"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1152"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Text_editor> .
+
+<http://www.dbpedia-spotlight.com/#offset_63_66>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pop" ;
+        nif:beginIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q188451> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> , <http://dbpedia.org/ontology/TopicalConcept> , <http://dbpedia.org/ontology/MusicGenre> , <http://dbpedia.org/ontology/Genre> ;
+        itsrdf:taConfidence     "0.9999962868697182"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pop_music> .
+
+<http://www.dbpedia-spotlight.com/#offset_52_55>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "pop" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "55"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MusicGenre> , <http://dbpedia.org/ontology/Genre> , <http://www.wikidata.org/entity/Q188451> , <http://dbpedia.org/ontology/TopicalConcept> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> ;
+        itsrdf:taConfidence     "0.9999962868697182"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pop_music> .
+
+<http://www.dbpedia-spotlight.com/#offset_887_890>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "pop" ;
+        nif:beginIndex          "887"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "890"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MusicGenre> , <http://dbpedia.org/ontology/TopicalConcept> , <http://dbpedia.org/ontology/Genre> , <http://www.wikidata.org/entity/Q188451> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> ;
+        itsrdf:taConfidence     "0.9999962868697182"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pop_music> .
+
+<http://www.dbpedia-spotlight.com/#offset_305_308>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pop" ;
+        nif:beginIndex          "305"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "308"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q188451> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> , <http://dbpedia.org/ontology/TopicalConcept> , <http://dbpedia.org/ontology/Genre> , <http://dbpedia.org/ontology/MusicGenre> ;
+        itsrdf:taConfidence     "0.9999962868697182"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pop_music> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1956>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1956"^^xsd:nonNegativeInteger ;
+        nif:isString    "8]pop() 8 [5, 2]isEmpty() false [5, 2]top() 2 [5, 2]pop() 2 [5]pop() 5 []pop() âerrorâ []Stacks 7The Java Built-in Stack Classï± Because of its importance, Java has a built-in class for the stack (java.util.Stack).ï± The class has various methods, including: ï® push(), pop(), peek(), empty(), and size(). ï± pop() and peek() throw EmptyStackException if operations are attempted on an empty stack. .ï± While this class is convenient, it is very important to know how to design and implement a Stack class from scratch. http://docs.oracle.com/javase/7/docs/api/java/util/Stack.htmlhttp://docs.oracle.com/javase/7/docs/api/java/util/EmptyStackException.htmlStacks 8Exceptionsï± Attempting the execution of an operation of ADT may sometimes cause an error condition, called an exception.ï± Exceptions are said to be âthrownâ by an operation that cannot be executed.ï± In the Stack ADT, operations pop and top cannot be performed if the stack is empty.ï± Attempting the execution of pop or top on an empty stack throws an EmptyStackException.Stacks 9Applications of Stacksï± Direct applicationsï® Page-visited history in a Web browserï® Undo sequence in a text editorï® Chain of method calls in the Java Virtual Machineï± Indirect applicationsï® Auxiliary data structure for algorithmsï® Component of other data structuresStacks 10Method Stack in the JVMï± The Java Virtual Machine (JVM) keeps track of the chain of active methods with a stack.ï± When a method is called, the JVM pushes on the stack a frame containingï® Local variables and return valueï® Program counter, keeping track of the statement being executed ï± When a method ends, its frame is popped from the stack and control is passed to the method on top of the stack.ï± Allows for recursion.main() {int i = 5;foo(i);}foo(int j) {int k;k = j+1;bar(k);}bar(int m) {â¦}barPC = 1m = 6fooPC = 3j = 5k = 6mainPC = 2i = 5Stacks 11Array-based Stackï± A simple way of implementing the Stack ADT uses an array.ï± We add elements" .
+
+<http://www.dbpedia-spotlight.com/#offset_101_105>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999376996"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_1418_1423>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "1418"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1423"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999852207"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_1183_1203>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java Virtual Machine" ;
+        nif:beginIndex          "1183"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_388_393>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "388"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "393"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999852207"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1703_1708>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "1703"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1708"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999852207"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_1455_1458>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "JVM" ;
+        nif:beginIndex          "1455"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1458"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_1341_1361>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java Virtual Machine" ;
+        nif:beginIndex          "1341"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1361"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_1533_1548>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Program counter" ;
+        nif:beginIndex          "1533"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1548"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Program_counter> .
+
+<http://www.dbpedia-spotlight.com/#offset_1109_1120>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Web browser" ;
+        nif:beginIndex          "1109"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_browser> .
+
+<http://www.dbpedia-spotlight.com/#offset_994_999>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "994"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "999"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999852207"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_871_874>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "871"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "874"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1332_1335>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "JVM" ;
+        nif:beginIndex          "1332"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1335"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1956> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_103_108>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "108"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2012> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9989372140645825"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_747_751>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "747"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "751"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2012> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_1191_1194>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "pop" ;
+        nif:beginIndex          "1191"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1194"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2012> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> , <http://dbpedia.org/ontology/MusicGenre> , <http://dbpedia.org/ontology/TopicalConcept> , <http://dbpedia.org/ontology/Genre> , <http://www.wikidata.org/entity/Q188451> ;
+        itsrdf:taConfidence     "0.9999968532544642"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pop_music> .
+
+<http://www.dbpedia-spotlight.com/#offset_1739_1754>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Time complexity" ;
+        nif:beginIndex          "1739"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1754"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2012> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<http://www.dbpedia-spotlight.com/#offset_964_968>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "964"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "968"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2012> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_1323_1341>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "garbage collection" ;
+        nif:beginIndex          "1323"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1341"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2012> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Write_amplification> .
+
+<http://www.dbpedia-spotlight.com/#offset_1457_1461>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "1457"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1461"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2012> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2012>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2012"^^xsd:nonNegativeInteger ;
+        nif:isString    "from left to right.ï± A variable keeps track of the  index of the top element. ï® Initialized to -1 when stack is created.S0 1 2 tâ¦Algorithm size()return t + 1Algorithm pop()if isEmpty() thenthrow EmptyStackExceptionelse t â t â 1return S[t + 1]Stacks 12Array-based Stack (cont.)ï± The array storing the stack elements may become full.ï± A push operation will then throw a FullStackExceptionï® Limitation of the array-based  implementationï® We need to define this class; it is not intrinsic to the Stack ADTS0 1 2 tâ¦Algorithm push(o)if t = S.length â 1 thenthrow FullStackExceptionelse t â t + 1S[t] â oStacks 13Performance and Limitationsï± Performanceï® Let n be the number of elements in the stackï® The space used is O(n)ï® Each operation runs in time O(1)ï± Limitationsï® The maximum size of the stack must be defined a priori and cannot be changedï® Trying to push a new element into a full stack causes an implementation-specific exceptionStacks 14Array-based Stack in Java*public class ArrayStack<E>implements Stack<E> {// holds the stack elementsprivate E S[ ];// index to top elementprivate int top = -1;// constructorpublic ArrayStack(int capacity) {S = (E[]) new Object[capacity]);}public E pop()throws EmptyStackException {if isEmpty()throw new EmptyStackException(âEmpty stack: cannot popâ);E temp = S[top];// facilitate garbage collection:S[top] = null;top = top â 1;return temp;}â¦  (other methods of Stack interface)* Notice that this is not a built-in Java implementation Stacks 15Example use in Java/** A non-recursive generic method for reversing an array */public static <E> void reverse(E[] a){Stack<E> s = new ArrayStack<E>(a.length);for(int i = 0; i < a.length; i++)s.push(a[i]);for(int i = 0; i < a.length; i++)a[i] = s.pop();}Time complexity is: O(  )Space complexity is: O(  )nnStacks 16Example use in Javapublic class Tester {// â¦ other methodspublic intReverse(Integer a[]) {Stack<Integer> s;s = new ArrayStack<Integer>();â¦ (code to reverse array a) â¦}public floatReverse(Float f[]) {Stack<Float>" .
+
+<http://www.dbpedia-spotlight.com/#offset_1029_1034>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "1029"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1034"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2012> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9989372140645825"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_688_693>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "688"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "693"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2012> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9989372140645825"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_1287_1290>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pop" ;
+        nif:beginIndex          "1287"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1290"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2012> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MusicGenre> , <http://www.wikidata.org/entity/Q188451> , <http://dbpedia.org/ontology/Genre> , <http://dbpedia.org/ontology/TopicalConcept> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> ;
+        itsrdf:taConfidence     "0.9999968532544642"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pop_music> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2012> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1501_1505>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "1501"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2012> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_790_795>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "790"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "795"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2012> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9989372140645825"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_1273_1278>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "1273"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1278"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2012> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9989372140645825"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_167_170>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pop" ;
+        nif:beginIndex          "167"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2012> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q188451> , <http://dbpedia.org/ontology/Genre> , <http://dbpedia.org/ontology/TopicalConcept> , <http://dbpedia.org/ontology/MusicGenre> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> ;
+        itsrdf:taConfidence     "0.9999968532544642"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pop_music> .
+
+<http://www.dbpedia-spotlight.com/#offset_301_306>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "306"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2012> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9989372140645825"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_1764_1780>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Space complexity" ;
+        nif:beginIndex          "1764"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1780"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2012> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Space_complexity> .
+
+<http://www.dbpedia-spotlight.com/#offset_885_890>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "885"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "890"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2012> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9989372140645825"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1444_1452>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stowaway" ;
+        nif:beginIndex          "1444"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1452"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1926> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stowaway> .
+
+<http://www.dbpedia-spotlight.com/#offset_680_690>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "arithmetic" ;
+        nif:beginIndex          "680"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "690"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1926> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9745700745220653"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Floating-point_arithmetic> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1926> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_230_233>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "pop" ;
+        nif:beginIndex          "230"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1926> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/TopicalConcept> , <http://dbpedia.org/ontology/MusicGenre> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> , <http://www.wikidata.org/entity/Q188451> , <http://dbpedia.org/ontology/Genre> ;
+        itsrdf:taConfidence     "0.9999831013919827"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pop_music> .
+
+<http://www.dbpedia-spotlight.com/#offset_1593_1598>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Naomi" ;
+        nif:beginIndex          "1593"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1598"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1926> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <Http://xmlns.com/foaf/0.1/Person> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Model> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.wikidata.org/entity/Q5> , <http://www.wikidata.org/entity/Q215627> , <http://dbpedia.org/ontology/Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson> , <http://www.wikidata.org/entity/Q4610556> , <http://schema.org/Person> ;
+        itsrdf:taConfidence     "0.9999997566010576"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Naomi_Campbell> .
+
+<http://www.dbpedia-spotlight.com/#offset_1816_1824>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stowaway" ;
+        nif:beginIndex          "1816"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1824"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1926> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stowaway> .
+
+<http://www.dbpedia-spotlight.com/#offset_1322_1337>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "washing machine" ;
+        nif:beginIndex          "1322"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1337"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1926> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Washing_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1926>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1926"^^xsd:nonNegativeInteger ;
+        nif:isString    "s;s = new ArrayStack<Float>();â¦ (code to reverse array f) â¦}Stacks 17Better Stack Implementationï± Use linked lists instead of arrays.ï± No need to define a maximum size.ï± When push(), add new element/node at the tail of the list.ï± pop() removes the node at the tail of the list. What is the complexity?Stacks 18Parentheses Matchingï± Each â(â, â{â, or â[â must be paired with a matching â)â, â}â, or â[âï® correct: ( )(( )){([( )])}ï® correct: ((( )(( )){([( )])}ï® incorrect: )(( )){([( )])}ï® incorrect: ({[ ])}ï® incorrect: (Is it?Stacks 19Parentheses Matching AlgorithmAlgorithm ParenMatch(X,n):Input: An array X of n tokens, each of which is either a grouping symbol, avariable, an arithmetic operator, or a numberOutput: true if and only if all the grouping symbols in X matchLet S be an empty stackfor i=0 to n-1 doif X[i] is an opening grouping symbol thenS.push(X[i])else if X[i] is a closing grouping symbol thenif S.isEmpty() thenreturn false {nothing to match with} if S.pop() does not match the type of X[i] thenreturn false {wrong type} if S.isEmpty() thenreturn true {every symbol matched} else return false {some symbols were never matched}Notice that item is removed hereStacks 20HTML Tag Matching<body><center><h1> The Little Boat </h1></center><p> The storm tossed the littleboat like a cheap sneaker in anold washing machine. The threedrunken fishermen were used tosuch treatment, of course, butnot the tree salesman, who even asa stowaway now felt that hehad overpaid for the voyage. </p><ol><li> Will the salesman die? </li><li> What color is the boat? </li><li> And what about Naomi? </li></ol></body>The Little BoatThe storm tossed the little boatlike a cheap sneaker in an oldwashing machine. The threedrunken fishermen were used tosuch treatment, of course, but notthe tree salesman, who even asa stowaway now felt that he hadoverpaid for the voyage.1. Will the salesman die?2. What color is the boat?3. And" .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1358_1360>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "F$" ;
+        nif:beginIndex          "1358"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1360"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1885> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Currency> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fijian_dollar> .
+
+<http://www.dbpedia-spotlight.com/#offset_949_959>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "arithmetic" ;
+        nif:beginIndex          "949"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "959"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1885> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9577780357467635"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Floating-point_arithmetic> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1885> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1885>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1885"^^xsd:nonNegativeInteger ;
+        nif:isString    "what about Naomi?For fully-correct HTML, each <name> should pair with a matching </name>Stacks 21Evaluating Arithmetic Expressions14 â 3 * 2 + 7 = (14 â (3 * 2) ) + 7 Operator precedence* has precedence over +/âExample: x + y * z is:  x + (y * z) rather than (x + y) * zAssociativityoperators of the same precedence groupevaluated from left to rightExample: x â y + z is:  (x â y) + z rather than x â (y + z)Idea: push each operator on the stack, but first pop and perform higher and equal precedence operations.Slide by Matt Stallmann included with permission.Algorithm for Evaluating Expressions22StacksTwo stacks:ï± opStk holds operatorsï± Use $ to hold a special âend of inputâ token with lowest precedenceAlgorithm doOp()x â valStk.pop();y â valStk.pop();op â opStk.pop();valStk.push( y op x )Algorithm repeatOps( refOp )while ( valStk.size() > 1 â§prec(refOp) â¤prec(opStk.top()) doOp()Algorithm EvalExp()Input: a stream of tokens representing an arithmetic expression (with numbers)Output: the value of the expressionwhile there's another token zif isNumber(z) then valStk.push(z)else repeatOps(z); opStk.push(z)repeatOps($);    return valStk.top()Force the execution of all remaining operators Stacks 23Algorithm on an Example Expression14  â¤ 4  â 3  *  2  +  7 Operator â¤ has lower precedence than +/âââ¤144*3ââ¤1442*3ââ¤144+2*3ââ¤144+6ââ¤144 +â¤14-2$7+â¤14-2$F$â¤145Slide by Matt Stallmann included with permission.Stacks 24Computing Spans (not in book)ï± Using a stack as an auxiliary data structure in an algorithmï± Given an array X, the spanS[i] of X[i] is the maximum number of consecutive elements X[j] immediately preceding X[i] and such that X[j] â¤ X[i]ï± Spans have applications to financial analysisï® E.g., stock at 52-week high 6 3 4 5 21 1 2 3 1S012345670 1 2 3 4XStacks 25Quadratic AlgorithmAlgorithm spans1(X, n)Input array X of n integersOutput array S of spans of X #S â new" .
+
+<http://www.dbpedia-spotlight.com/#offset_11_16>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Naomi" ;
+        nif:beginIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "16"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1885> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Model> , <http://www.wikidata.org/entity/Q24229398> , <Http://xmlns.com/foaf/0.1/Person> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson> , <http://schema.org/Person> , <http://www.wikidata.org/entity/Q215627> , <http://www.wikidata.org/entity/Q4610556> , <http://www.wikidata.org/entity/Q5> ;
+        itsrdf:taConfidence     "0.9999972699784824"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Naomi_Campbell> .
+
+<http://www.dbpedia-spotlight.com/#offset_1461_1466>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "1461"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1466"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1885> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8805427017940843"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stack-based_memory_allocation> .
+
+<http://www.dbpedia-spotlight.com/#offset_440_445>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "440"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "445"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1885> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8805427017940843"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stack-based_memory_allocation> .
+
+<http://www.dbpedia-spotlight.com/#offset_1483_1497>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "data structure" ;
+        nif:beginIndex          "1483"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1497"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1885> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_structure> .
+
+<http://www.dbpedia-spotlight.com/#offset_960_970>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "expression" ;
+        nif:beginIndex          "960"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "970"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1885> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999905502496333"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gene_expression> .
+
+<http://www.dbpedia-spotlight.com/#offset_1504_1513>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "1504"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1513"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1885> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999636022501"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_457_460>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "pop" ;
+        nif:beginIndex          "457"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "460"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1885> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> , <http://www.wikidata.org/entity/Q188451> , <http://dbpedia.org/ontology/MusicGenre> , <http://dbpedia.org/ontology/TopicalConcept> , <http://dbpedia.org/ontology/Genre> ;
+        itsrdf:taConfidence     "0.9999452950460426"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pop_music> .
+
+<http://www.dbpedia-spotlight.com/#offset_35_39>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "HTML" ;
+        nif:beginIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "39"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1885> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9938762158351203"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/HTML> .
+
+<http://www.dbpedia-spotlight.com/#offset_851_855>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prec" ;
+        nif:beginIndex          "851"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "855"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1885> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9850384710407184"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Processo_RevolucionÃ¡rio_Em_Curso> .
+
+<http://www.dbpedia-spotlight.com/#offset_864_868>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prec" ;
+        nif:beginIndex          "864"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "868"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1885> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9850384710407184"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Processo_RevolucionÃ¡rio_Em_Curso> .
+
+<http://www.dbpedia-spotlight.com/#offset_1048_1051>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "zif" ;
+        nif:beginIndex          "1048"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1051"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1885> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Location> , <http://www.wikidata.org/entity/Q486972> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9156291314267133"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Zif,_Hebron> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_547_552>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "547"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "552"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1496> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999435751548009"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1496> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1015_1024>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "1015"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1024"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1496> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9996737502086933"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_235_240>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "235"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1496> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999435751548009"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_507_512>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "507"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "512"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1496> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999435751548009"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_1491_1496>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "thenA" ;
+        nif:beginIndex          "1491"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1496"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1496> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/FictionalCharacter> , <http://dbpedia.org/ontology/ComicsCharacter> , <http://www.wikidata.org/entity/Q95074> , <http://www.wikidata.org/entity/Q24229398> ;
+        itsrdf:taConfidence     "0.9999999976009804"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thena> .
+
+<http://www.dbpedia-spotlight.com/#offset_1123_1128>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "1123"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1128"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1496> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999435751548009"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Call_stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1496>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1496"^^xsd:nonNegativeInteger ;
+        nif:isString    "array of n integers nfor i â 0 to n â 1 do ns â 1 nwhile s â¤ i â§ X[i â s] â¤ X[i] 1 + 2 + â¦+ (n â 1)s â s + 1 1 + 2 + â¦+ (n â 1)S[i] â s nreturn S 1Algorithm spans1 runs in O(n2) time Stacks 26Computing Spans with a Stackï± We keep in a stack the indices of the elements visible when âlooking backâï± We scan the array from left to rightï® Let i be the current indexï® We push the index as long as the one prior to it has a smaller valueï® We pop all elements otherwiseEach index of the arrayï® Is pushed into the stack exactly once ï® Is popped from the stack at most onceï± Stack height for the pushed index represents the needed value012345670 1 2 3 4Stacks 27Computing Spans with a Stackï± ExampleSX0 1 2 3 4 5 6 7 860 30 40 50 20 70 30 80 201 1 2 3 1 2 1 2 10 1indexValue2132121 1 454 4 676 6 8Stacks 28Linear AlgorithmWe iterate on the array n timesEach index is then pushed and popped at most once, which totals to n + nWe record the value at each index of the resulted Span array, which totals to n timesConsequently algorithm spans2 has a complexity of O(n)Stacks 29Growable Array-based Stackï± In a push() operation, if the stack is full (no more empty locations in the array), we can throw an exception and abort/reject the operation. ï± Alternatively, we can extend the array; which is actually replacing it with a larger one.ï± How large should the new array be?ï® Incremental strategy: increase the size by a constant cï® Doubling strategy: double the sizeAlgorithm add(o)if t = S.length â 1 thenA" .
+
+<http://www.dbpedia-spotlight.com/#offset_20_24>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "nfor" ;
+        nif:beginIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1496> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/SoccerPlayer> , <http://www.wikidata.org/entity/Q24229398> , <http://schema.org/Person> , <http://www.wikidata.org/entity/Q937857> , <Http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Athlete> , <http://dbpedia.org/ontology/Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.wikidata.org/entity/Q5> , <http://www.wikidata.org/entity/Q215627> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson> ;
+        itsrdf:taConfidence     "0.999999973917966"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ernest_Webnje_Nfor> .
+
+<http://www.dbpedia-spotlight.com/#offset_437_440>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pop" ;
+        nif:beginIndex          "437"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "440"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1496> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q188451> , <http://dbpedia.org/ontology/Genre> , <http://dbpedia.org/ontology/TopicalConcept> , <http://dbpedia.org/ontology/MusicGenre> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> ;
+        itsrdf:taConfidence     "0.9999812456331856"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pop_music> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_293_298>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stack" ;
+        nif:beginIndex          "293"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "298"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1518> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.5880977387992613"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stack-based_memory_allocation> .
+
+<http://www.dbpedia-spotlight.com/#offset_1177_1179>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "k2" ;
+        nif:beginIndex          "1177"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1518> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Event> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event> , <http://dbpedia.org/ontology/SpaceMission> , <http://dbpedia.org/ontology/SocietalEvent> , <http://dbpedia.org/ontology/Event> , <http://www.wikidata.org/entity/Q2133344> , <http://www.wikidata.org/entity/Q1656682> ;
+        itsrdf:taConfidence     "0.990430243752974"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kepler_space_telescope> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1518> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1388_1392>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "log2" ;
+        nif:beginIndex          "1388"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1392"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1518> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_logarithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1127_1129>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ck" ;
+        nif:beginIndex          "1127"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1129"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1518> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Smoothness> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1518>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1518"^^xsd:nonNegativeInteger ;
+        nif:isString    "â new array ofsize â¦for i â 0 to t doA[i] â S[i]S â At â t + 1S[t] â oStacks 30Comparison of the Strategiesï± We compare the incremental strategy and the doubling strategy by analyzing the total time T(n)needed to perform a series of n push() operations.ï± We assume that we start with an empty stack represented by an array of size 1.ï± We refer to the average time taken by a push() operations over the series of operations, i.e.,  T(n)/n, the amortized time of a push() operation.Stacks 31Incremental Strategy Analysis ï± We need to find the amortized time to perform one push() operation. ï® That is the total time to perform n push() operations / n.ï± In general, we need to replace the array k = n/c times for all n push() to take place.ï® For instance if n = 100, and c = 4, we need to go through 25 (100/4) replacements for all push() operations to take place.  ï® Notice also that each replacement is larger than the previous one by c. Stacks 32Incremental Strategy Analysis ï± Consequently, the total time T(n) of a series of n push() operations is proportional to:n + c + 2c + 3c + 4c + â¦ + kc =n + c(1 + 2 + 3 + â¦ + k) =n + ck(k + 1)/2ï± Since c is a constant, T(n) is O(n + k2), i.e., O(n2). That is ï± T(n) is the complexity to perform n push() operations. Hence, the amortized time of one single push() operation is O(n). Stacks 33Doubling Strategy Analysisï± We replace the array k = log2 n times.ï® For instance, to perform 1000 push() operations, we need to expand the array 10 times (1 -> 2 -> 4 -> 8 -> 16 -> 32" .
+
+<http://www.dbpedia-spotlight.com/#offset_1271_1280>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "amortized" ;
+        nif:beginIndex          "1271"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1280"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1518> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Amortized_analysis> .
+
+<http://www.dbpedia-spotlight.com/#offset_541_550>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "amortized" ;
+        nif:beginIndex          "541"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "550"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1518> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Amortized_analysis> .
+
+<http://www.dbpedia-spotlight.com/#offset_443_452>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "amortized" ;
+        nif:beginIndex          "443"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "452"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1518> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Amortized_analysis> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_491_494>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "491"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "494"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1225> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_364_368>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "364"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1225> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_453_462>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "The Stack" ;
+        nif:beginIndex          "453"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "462"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1225> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://dbpedia.org/ontology/Infrastructure> , <http://dbpedia.org/ontology/RouteOfTransportation> , <http://dbpedia.org/ontology/RoadJunction> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Location> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Stack> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1225> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1225>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1225"^^xsd:nonNegativeInteger ;
+        nif:isString    "-> 64 -> 128 -> 256 -> 512 -> 1024). ï± The total time T(n) of a series of nadd operations is proportional ton + 1 + 2 + 4 + 8 + â¦+ 2k =n + 2k + 1 â 1 = n + 2n -1 =3n â 1.geometric series12148Stacks 34Doubling Strategy Analysisï± Consequently, T(n) (which is needed to perform n push() operations) is O(n).ï± Hence, the amortized time of a single push() operation is O(1). geometric series12148\tStacks\tAbstract Data Types (ADTs)\tAbstract Data Types (ADTs)\tThe Stack ADT\tThe Stack ADT\tThe Stack ADT\tThe Java Built-in Stack Class\tExceptions\tApplications of Stacks\tMethod Stack in the JVM\tArray-based Stack\tArray-based Stack (cont.)\tPerformance and Limitations\tArray-based Stack in Java*\tExample use in Java\tExample use in Java\tBetter Stack Implementation\tParentheses Matching\tParentheses Matching Algorithm\tHTML Tag Matching\tEvaluating Arithmetic ï¿½Expressions\tAlgorithm for ï¿½Evaluating Expressions\tAlgorithm on an ï¿½Example Expression\tComputing Spans (not in book)\tQuadratic Algorithm\tComputing Spans with a Stack\tComputing Spans with a Stack\tLinear Algorithm\tGrowable Array-based Stack\tComparison of the Strategies\tIncremental Strategy Analysis \tIncremental Strategy Analysis \tDoubling Strategy Analysis\tDoubling Strategy Analysis" .
+
+<http://www.dbpedia-spotlight.com/#offset_959_968>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Quadratic" ;
+        nif:beginIndex          "959"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "968"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1225> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quadratic_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_697_701>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "697"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "701"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1225> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999795494434"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_676_680>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "676"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "680"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1225> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999795494434"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_802_806>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "HTML" ;
+        nif:beginIndex          "802"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "806"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1225> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999968849828833"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/HTML> .
+
+<http://www.dbpedia-spotlight.com/#offset_477_480>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "477"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "480"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1225> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_579_582>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "JVM" ;
+        nif:beginIndex          "579"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "582"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1225> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_481_490>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "The Stack" ;
+        nif:beginIndex          "481"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "490"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1225> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://dbpedia.org/ontology/RoadJunction> , <http://dbpedia.org/ontology/RouteOfTransportation> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/Infrastructure> ;
+        itsrdf:taConfidence     "0.9999999966547648"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_317_326>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "amortized" ;
+        nif:beginIndex          "317"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "326"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1225> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999994316"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Amortized_analysis> .
+
+<http://www.dbpedia-spotlight.com/#offset_463_466>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "463"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "466"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1225> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_467_476>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "The Stack" ;
+        nif:beginIndex          "467"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "476"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1225> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/RoadJunction> , <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/Infrastructure> , <http://schema.org/Place> , <http://dbpedia.org/ontology/RouteOfTransportation> , <http://dbpedia.org/ontology/ArchitecturalStructure> ;
+        itsrdf:taConfidence     "0.9999999966547648"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Stack> .
+
+<http://www.dbpedia-spotlight.com/#offset_717_721>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "717"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "721"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1225> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999795494434"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_499_503>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "499"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "503"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1225> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999795494434"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .

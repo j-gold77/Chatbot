@@ -1,0 +1,171 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_472_478>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Python" ;
+        nif:beginIndex          "472"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "478"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1441> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/ComedyGroup> , <http://dbpedia.org/ontology/Group> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> ;
+        itsrdf:taConfidence     "0.9887185229712616"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monty_Python> .
+
+<http://www.dbpedia-spotlight.com/#offset_404_411>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Windows" ;
+        nif:beginIndex          "404"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "411"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1441> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q7397> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "0.9999995143034581"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microsoft_Windows> .
+
+<http://www.dbpedia-spotlight.com/#offset_1396_1402>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Corona" ;
+        nif:beginIndex          "1396"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1402"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1441> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9328594150403292"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Corona> .
+
+<http://www.dbpedia-spotlight.com/#offset_1365_1374>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia" ;
+        nif:beginIndex          "1365"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1374"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1441> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9971284264300384"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concordia_University> .
+
+<http://www.dbpedia-spotlight.com/#offset_1066_1072>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "GitHub" ;
+        nif:beginIndex          "1066"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1072"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1441> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Website> , <http://schema.org/WebSite> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/GitHub> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1441> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_376_390>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cross-platform" ;
+        nif:beginIndex          "376"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "390"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1441> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999999999924853"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cross-platform_software> .
+
+<http://www.dbpedia-spotlight.com/#offset_1048_1054>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Python" ;
+        nif:beginIndex          "1048"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1054"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1441> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/ComedyGroup> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Group> , <http://dbpedia.org/ontology/Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Organisation> , <http://www.wikidata.org/entity/Q24229398> , <http://www.wikidata.org/entity/Q43229> ;
+        itsrdf:taConfidence     "0.9887185229712616"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monty_Python> .
+
+<http://www.dbpedia-spotlight.com/#offset_724_731>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chatbot" ;
+        nif:beginIndex          "724"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "731"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1441> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chatbot> .
+
+<http://www.dbpedia-spotlight.com/#offset_1300_1306>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "python" ;
+        nif:beginIndex          "1300"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1306"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1441> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9955354419894862"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pythonidae> .
+
+<http://www.dbpedia-spotlight.com/#offset_313_318>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Linux" ;
+        nif:beginIndex          "313"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "318"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1441> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q7397> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "0.999980227048755"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linux> .
+
+<http://www.dbpedia-spotlight.com/#offset_1126_1135>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia" ;
+        nif:beginIndex          "1126"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1441> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9971284264300384"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concordia_University> .
+
+<http://www.dbpedia-spotlight.com/#offset_732_749>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "intelligent agent" ;
+        nif:beginIndex          "732"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "749"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1441> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Intelligent_agent> .
+
+<http://www.dbpedia-spotlight.com/#offset_392_397>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Linux" ;
+        nif:beginIndex          "392"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "397"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1441> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q386724> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "0.999980227048755"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linux> .
+
+<http://www.dbpedia-spotlight.com/#offset_220_222>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "TA" ;
+        nif:beginIndex          "220"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "222"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1441> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.6498774351233224"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Teaching_assistant> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1441>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1441"^^xsd:nonNegativeInteger ;
+        nif:isString    "Lab Session #01IntroductionWelcome to the COMP474/6741 lab sessions! The goal of these labs is to:learn how to apply the material from the lectures in practice; anddiscuss the course project with your team mates and the TA (as well as demo the results).Most of the examples provided in the lecture assume you run Linux. But generally, the material covered in the course works cross-platform (Linux, Mac, Windows).Task #1: PythonThe first task is to become acquainted with Python, in case you haven't worked with it before. There is a separate intro Lab #00, as well as a \"mini-assignment\" practice exercise you have to submit.Task #2: Hello, Eliza!In the lecture you've seen Eliza, which is probably the oldest example of a chatbot/intelligent agent:Find some version of Eliza and try it out: There are many implementations you can run online or offline, like this one or this one (note that not all versions you will find use the original DOCTOR script);Make sure you understand how Eliza works;Here's a simplified version of Eliza implemented in Python. Clone the GitHub repo so that you can modify and run it locally. Add \"Concordia\" as a new keyword, together with some suitable decomposition & reassembly rules and try it out, so you can have a conversation similar to this:  is:~/eliza-master> python eliza.py  How do you do.  Please tell me your problem.  > Concordia is closed because of Corona!  Please tell me more about Concordia!" .
+
+<http://www.dbpedia-spotlight.com/#offset_1431_1440>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia" ;
+        nif:beginIndex          "1431"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1440"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1441> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9971284264300384"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concordia_University> .

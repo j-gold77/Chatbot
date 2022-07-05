@@ -1,0 +1,8 @@
+Course ID,Subject,Catalog,Long Title,Class Units,Component Code,Component Descr,Pre Requisite Description,Career,Equivalent Courses
+26,ACCO,220,Financial and Managerial Accounting,3,LEC,Lecture,"   Never Taken/Not Registered: ACCO213, ACCO218, ACCO230, ACCO240",UGRD,
+27,ACCO,230,Introduction to Financial Accounting,3,LEC,Lecture,"   Never Taken/Not Registered: ACCO213, ACCO220, COMM217; Never Taken: ACCO240, ACCO340, ACCO345, ACCO365, ACCO455, ACCO470F, ACCO470I, ACCO470S, ACCO470T, COMM305, COMM308, IBUS471I",UGRD,
+28,ACCO,240,Introduction to Managerial Accounting,3,LEC,Lecture,"   Never Taken/Not Registered: ACCO218, ACCO220, COMM305; Never Taken: ACCO310, ACCO330, ACCO350, ACCO355, ACCO470I, IBUS462, IBUS471I, MARK462 You must complete 1 of the following rules   Course Prerequisite: ACCO213, ACCO230",UGRD,
+53,ACCO,330,Cost and Management Accounting,3,LEC,Lecture,"Course Prerequisite: One of (ACCO218, COMM305, ACCO240) Never Taken ACCO303; ACCO430, ACCO470A",UGRD,ACCO 303 = ACCO 330
+58,ACCO,355,Analysis of Financial Statements,3,LEC,Lecture,,UGRD,
+86,ACCO,420,Financial Reporting III,3,LEC,Lecture,"Course Prerequisite: One of (ACCO320, ACCO326) Never Taken ACCO335; ACCO480",UGRD,ACCO 335 = ACCO 420
+89,ACCO,425,FINANCIAL REPORTING IV,3,LEC,Lecture,"Course Prerequisite: One of (ACCO320, ACCO326) Never Taken: ACCO410",UGRD,

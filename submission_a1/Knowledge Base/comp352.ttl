@@ -1,0 +1,493 @@
+
+@prefix focudata: <http://focu.io/data#> .
+@prefix focu: <http://focu.io/schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix teach: <http://linkedscience.org/teach/ns#> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+
+<file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment1.pdf>
+    a focu:LectureContentOther;
+    rdfs:label "COMP 352 Assignment 1"@en.
+            
+<file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment2.pdf>
+    a focu:LectureContentOther;
+    rdfs:label "COMP 352 Assignment 2"@en.
+            
+<file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Combined-Assignment-3-and-4.pdf>
+    a focu:LectureContentOther;
+    rdfs:label "COMP 352 Assignment 3"@en.
+            
+focudata:COMP352
+    a vivo:Course ;
+    vivo:courseCredits "3.0"^^xsd:float ;
+    rdfs:label "Data Structures and Algorithms"@en ;
+    focu:courseDescription "Description: Abstract data types: stacks and queues, trees, priority queues, dictionaries. Data structures: arrays, linked lists, heaps, hash tables, search trees. Design and analysis of algorithms: asymptotic notation, recursive algorithms, searching and sorting, tree traversal, graph algorithms. Lectures: three hours per week. Tutorial: one hour per week.Prerequisite: COMP 232 previously or concurrently; COMP 249.NOTE: Students who have received credit for COEN 352 may not take this course for credit. Prerequisite: Prerequisite: COMP 249; Co-requisite COMP 232, Degree: None, Career: UGRD, Program: None, Department: None, Faculty: None."@en ;
+    focu:hasTitle focudata:COMP352-Title ;
+    focu:taughtAt focudata:ConcordiaUniversity;
+    focu:courseOutline <file:///home/Unibot/Datasets/COMP352/Course_Outline/Comp352_F21_Course_Outline.pdf>;
+    focu:hasTopic focudata:Topic-Analysis-of-Algorithms, focudata:Topic-Recursion, focudata:Topic-Stacks, focudata:Topic-Queues, focudata:Topic-LinkedLists_and_Iterators, focudata:Topic-ArrayLists_NodeLists_and_Sequences, focudata:Topic-Trees, focudata:Topic-PriorityQueues, focudata:Topic-Heaps, focudata:Topic-Maps, focudata:Topic-HashTables, focudata:Topic-OrderedMaps_and_Dictionaries, focudata:Topic-BinarySearchTrees, focudata:Topic-AVLTrees, focudata:Topic-MergeSort, focudata:Topic-QuickSort, focudata:Topic-Sorting-LowerBound, focudata:Topic-Bucket-Sort_and_Radix-Sort, focudata:Topic-Graphs, focudata:Topic-DFS, focudata:Topic-BFS, focudata:Topic-DiGraphs, focudata:Topic-ShortestPaths ;
+    rdfs:seeAlso <http://aimanhanna.com/concordia/comp352/index.htm>.
+
+<file:///home/Unibot/Datasets/COMP352/Course_Outline/Comp352_F21_Course_Outline.pdf>
+    a rdfs:Resource ;
+    rdfs:label "COMP352 Course Outline"@en ;
+    rdfs:comment "The Fall 2021 semester COMP 352 course outline."@en.
+
+focudata:COMP352-Title
+    a focu:CourseTitle ;
+    focu:courseSubject "COMP"@en ;
+    focu:courseNumber "352" .
+
+focudata:COMP352-Lecture1
+    a teach:Lecture ;
+    rdfs:label "Introduction"@en ;
+    focu:lectureNumber 1 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment1.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides01.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Analysis-of-Algorithms"@en .
+
+focudata:Topic-Analysis-of-Algorithms
+    a focu:Topic ;
+    rdfs:label "Analysis-of-Algorithms"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture1;
+    focu:dbpediaLink dbr:Algorithm .
+
+focudata:COMP352-Lecture2
+    a teach:Lecture ;
+    rdfs:label "Introduction"@en ;
+    focu:lectureNumber 2 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_1.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides02.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Recursion"@en .
+
+focudata:Topic-Recursion
+    a focu:Topic ;
+    rdfs:label "Recursion"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture2;
+    focu:dbpediaLink dbr:Recursion .
+
+focudata:COMP352-Lecture3
+    a teach:Lecture ;
+    rdfs:label "Analysis-of-Algorithms"@en ;
+    focu:lectureNumber 3 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides03.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Stacks"@en .
+
+focudata:Topic-Stacks
+    a focu:Topic ;
+    rdfs:label "Stacks"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture3;
+    focu:dbpediaLink dbr:Call_stack .
+
+focudata:COMP352-Lecture4
+    a teach:Lecture ;
+    rdfs:label "Analysis-of-Algorithms"@en ;
+    focu:lectureNumber 4 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_2.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides04.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Queues"@en .
+
+focudata:Topic-Queues
+    a focu:Topic ;
+    rdfs:label "Queues"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture4;
+    focu:dbpediaLink <http://dbpedia.org/resource/Queue_(abstract_data_type)> .
+
+focudata:COMP352-Lecture5
+    a teach:Lecture ;
+    rdfs:label "Recursion"@en ;
+    focu:lectureNumber 5 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Assignment2.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides05.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "LinkedLists_and_Iterators"@en .
+
+focudata:Topic-LinkedLists_and_Iterators
+    a focu:Topic ;
+    rdfs:label "LinkedLists_and_Iterators"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture5;
+    focu:dbpediaLink dbr:Linked_list .
+
+focudata:COMP352-Lecture6
+    a teach:Lecture ;
+    rdfs:label "Recursion"@en ;
+    focu:lectureNumber 6 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_3.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides06.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "ArrayLists_NodeLists_and_Sequences"@en .
+
+focudata:Topic-ArrayLists_NodeLists_and_Sequences
+    a focu:Topic ;
+    rdfs:label "ArrayLists_NodeLists_and_Sequences"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture6;
+    focu:dbpediaLink dbr:Array_data_structure .
+
+focudata:COMP352-Lecture7
+    a teach:Lecture ;
+    rdfs:label "Stacks and Queues"@en ;
+    focu:lectureNumber 7 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Assignments/COMP352_F21_Combined-Assignment-3-and-4.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides07.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Trees"@en .
+
+focudata:Topic-Trees
+    a focu:Topic ;
+    rdfs:label "Trees"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture7;
+    focu:dbpediaLink <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+focudata:COMP352-Lecture8
+    a teach:Lecture ;
+    rdfs:label "Stacks and Queues"@en ;
+    focu:lectureNumber 8 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_4.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides08.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "PriorityQueues"@en .
+
+focudata:Topic-PriorityQueues
+    a focu:Topic ;
+    rdfs:label "PriorityQueues"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture8;
+    focu:dbpediaLink dbr:Priority_queue .
+
+focudata:COMP352-Lecture9
+    a teach:Lecture ;
+    rdfs:label "LinkedLists_and_Iterators"@en ;
+    focu:lectureNumber 9 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides09.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Heaps"@en .
+
+focudata:Topic-Heaps
+    a focu:Topic ;
+    rdfs:label "Heaps"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture9;
+    focu:dbpediaLink <http://dbpedia.org/resource/Heap_(data_structure)> .
+
+focudata:COMP352-Lecture10
+    a teach:Lecture ;
+    rdfs:label "LinkedLists_and_Iterators"@en ;
+    focu:lectureNumber 10 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides10.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_5.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides10.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Maps"@en .
+
+focudata:Topic-Maps
+    a focu:Topic ;
+    rdfs:label "Maps"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture10;
+    focu:dbpediaLink dbr:Associative_array .
+
+focudata:COMP352-Lecture11
+    a teach:Lecture ;
+    rdfs:label "ArrayLists_NodeLists_Sequences and Trees"@en ;
+    focu:lectureNumber 11 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides11.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "HashTables"@en .
+
+focudata:Topic-HashTables
+    a focu:Topic ;
+    rdfs:label "HashTables"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture11;
+    focu:dbpediaLink dbr:Hash_table .
+
+focudata:COMP352-Lecture12
+    a teach:Lecture ;
+    rdfs:label "ArrayLists_NodeLists_Sequences and Trees"@en ;
+    focu:lectureNumber 12 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_6.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides12.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "OrderedMaps_and_Dictionaries"@en .
+
+focudata:Topic-OrderedMaps_and_Dictionaries
+    a focu:Topic ;
+    rdfs:label "OrderedMaps_and_Dictionaries"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture12;
+    focu:dbpediaLink dbr:Data_dictionary .
+
+focudata:COMP352-Lecture13
+    a teach:Lecture ;
+    rdfs:label "PriorityQueues and Heaps"@en ;
+    focu:lectureNumber 13 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides13.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides13.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "BinarySearchTrees"@en .
+
+focudata:Topic-BinarySearchTrees
+    a focu:Topic ;
+    rdfs:label "BinarySearchTrees"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture13;
+    focu:dbpediaLink dbr:Binary_tree .
+
+focudata:COMP352-Lecture14
+    a teach:Lecture ;
+    rdfs:label "PriorityQueues and Heaps"@en ;
+    focu:lectureNumber 14 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_7.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides14.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "AVLTrees"@en .
+
+focudata:Topic-AVLTrees
+    a focu:Topic ;
+    rdfs:label "AVLTrees"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture14;
+    focu:dbpediaLink dbr:AVL_tree .
+
+focudata:COMP352-Lecture15
+    a teach:Lecture ;
+    rdfs:label "Maps_HashTables_OrderedMaps_and_Dictionaries"@en ;
+    focu:lectureNumber 15 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides15.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "MergeSort"@en .
+
+focudata:Topic-MergeSort
+    a focu:Topic ;
+    rdfs:label "MergeSort"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture15;
+    focu:dbpediaLink dbr:Merge_sort .
+
+focudata:COMP352-Lecture16
+    a teach:Lecture ;
+    rdfs:label "Maps_HashTables_OrderedMaps_and_Dictionaries"@en ;
+    focu:lectureNumber 16 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_8.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides16.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "QuickSort"@en .
+
+focudata:Topic-QuickSort
+    a focu:Topic ;
+    rdfs:label "QuickSort"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture16;
+    focu:dbpediaLink dbr:Quicksort .
+
+focudata:COMP352-Lecture17
+    a teach:Lecture ;
+    rdfs:label "BinarySearchTrees_AVLTrees_MergeSort and QuickSort"@en ;
+    focu:lectureNumber 17 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides17.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Sorting-LowerBound"@en .
+
+focudata:Topic-Sorting-LowerBound
+    a focu:Topic ;
+    rdfs:label "Sorting-LowerBound"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture17;
+    focu:dbpediaLink dbr:Sorting_algorithm .
+
+focudata:COMP352-Lecture18
+    a teach:Lecture ;
+    rdfs:label "BinarySearchTrees_AVLTrees_MergeSort and QuickSort"@en ;
+    focu:lectureNumber 18 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_9.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides18.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Bucket-Sort_and_Radix-Sort"@en .
+
+focudata:Topic-Bucket-Sort_and_Radix-Sort
+    a focu:Topic ;
+    rdfs:label "Bucket-Sort_and_Radix-Sort"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture18;
+    focu:dbpediaLink dbr:Bucket_sort .
+
+focudata:COMP352-Lecture19
+    a teach:Lecture ;
+    rdfs:label "Sorting-LowerBound_Bucket-Sort_Radix-Sort _Graphs and DFS"@en ;
+    focu:lectureNumber 19 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides19.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Graphs"@en .
+
+focudata:Topic-Graphs
+    a focu:Topic ;
+    rdfs:label "Graphs"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture19;
+    focu:dbpediaLink dbr:Graph_theory .
+
+focudata:COMP352-Lecture20
+    a teach:Lecture ;
+    rdfs:label "Sorting-LowerBound_Bucket-Sort_Radix-Sort _Graphs and DFS"@en ;
+    focu:lectureNumber 20 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_10.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides20.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "DFS"@en .
+
+focudata:Topic-DFS
+    a focu:Topic ;
+    rdfs:label "DFS"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture20;
+    focu:dbpediaLink dbr:Depth-first_search .
+
+focudata:COMP352-Lecture21
+    a teach:Lecture ;
+    rdfs:label "BFS_DiGraphs"@en ;
+    focu:lectureNumber 21 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides21.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "BFS"@en .
+
+focudata:Topic-BFS
+    a focu:Topic ;
+    rdfs:label "BFS"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture21;
+    focu:dbpediaLink dbr:Breadth-first_search .
+
+focudata:COMP352-Lecture22
+    a teach:Lecture ;
+    rdfs:label "BFS_DiGraphs"@en ;
+    focu:lectureNumber 22 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf>;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_11.pdf>.
+    
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides22.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "DiGraphs"@en .
+
+focudata:Topic-DiGraphs
+    a focu:Topic ;
+    rdfs:label "DiGraphs"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture22;
+    focu:dbpediaLink dbr:Directed_graph .
+
+focudata:COMP352-Lecture23
+    a teach:Lecture ;
+    rdfs:label "ShortestPaths"@en ;
+    focu:lectureNumber 23 ;
+    focu:partOfCourse focudata:COMP352 ;
+    focu:hasContent <file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf>.
+
+<file:///home/Unibot/Datasets/COMP352/Lectures/slides23.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "ShortestPaths"@en .
+
+focudata:Topic-ShortestPaths
+    a focu:Topic ;
+    rdfs:label "ShortestPaths"@en ;
+    focu:topicProvenance focudata:COMP352-Lecture23;
+    focu:dbpediaLink dbr:Shortest_path_problem .
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_1.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Analysis-of-Algorithms"@en.
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_2.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Recursion"@en.
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_3.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Stacks and Queues"@en.
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_4.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "LinkedLists_and_Iterators"@en.
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_5.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "ArrayLists_NodeLists_Sequences and Trees"@en.
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_6.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "PriorityQueues and Heaps"@en.
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_7.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Maps_HashTables_OrderedMaps_and_Dictionaries"@en.
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_8.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "BinarySearchTrees_AVLTrees_MergeSort and QuickSort"@en.
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_9.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "Sorting-LowerBound_Bucket-Sort_Radix-Sort _Graphs and DFS"@en.
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_10.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "BFS_DiGraphs"@en.
+
+<file:///home/Unibot/Datasets/COMP352/Tutorial/Tutorial_11.pdf>
+    a focu:LectureContentSlides ;
+    rdfs:label "ShortestPaths"@en.

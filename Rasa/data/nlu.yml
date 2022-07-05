@@ -1,0 +1,524 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+# 1. What is [course] about?
+- intent: about_course
+  examples: |
+    - What is [Comp 474](course) about?
+    - What is [Comp 6741](course) about?
+    - What is [Comp 352](course) about?
+    - What is [encs 282](course) about?
+    - What is [mast 218](course) about?
+    - What is [HISW 203](course) about?
+    - What is [hisw 203](course) about?
+    - What is [poli 325](course) about?
+    - What is [engr 213](course) about?
+    - What is [Engr 213](course) about?
+    - What is [GEOL 498](course) about?
+    - What is [DANC 450](course) about?
+    - What is [RELI 402](course) about?
+    - What is [MATH 894](course) about?
+    - What is [POLI 898I](course) about?
+    - What is __OOV__ about?
+    - what is this course about?
+    - what is it about?
+    - Can you tell me about [Comp 474](course)?
+    - Can you tell me about [Comp 6741](course)?
+    - Can you tell me about [Comp 352](course)?
+    - Can you tell me about [encs 282](course)?
+    - Can you tell me about [mast 218](course)?
+    - Can you tell me about [HISW 203](course)?
+    - Can you tell me about [hisw 203](course)?
+    - Can you tell me about [poli 325](course)?
+    - Can you tell me about [engr 213](course)?
+    - Can you tell me about [Engr 213](course)?
+    - Can you tell me about [GEOL 498](course)?
+    - Can you tell me about [DANC 450](course)?
+    - Can you tell me about [RELI 402](course)?
+    - Can you tell me about [MATH 894](course)?
+    - Can you tell me about [POLI 898I](course)?
+    - Can you tell me about __OOV__?
+    - Can you tell me about this course?
+    - Can you tell me about it?
+    - Can you explain what [COMP 474](course) is about?
+    - Can you explain what [COMP 6741](course) is about?
+    - Can you explain what [COMP 352](course) is about?
+    - Can you explain what [encs 282](course) is about?
+    - Can you explain what [mast 218](course) is about?
+    - Can you explain what [HISW 203](course) is about?
+    - Can you explain what [hisw 203](course) is about?
+    - Can you explain what [poli 325](course) is about?
+    - Can you explain what [engr 213](course) is about?
+    - Can you explain what [Engr 213](course) is about?
+    - Can you explain what [GEOL 498](course) is about?
+    - Can you explain what [DANC 450](course) is about?
+    - Can you explain what [RELI 402](course) is about?
+    - Can you explain what [MATH 894](course) is about?
+    - Can you explain what [POLI 898I](course) is about?
+    - Can you explain what __OOV__ is about?
+
+# 2. Which [topics] is [student] competent in?
+- intent: about_student_competentcies
+  examples: |
+    - What topics has [Bertrand Oliver](student) studied?
+    - What topics has [Marceau Leblanc](student) studied?
+    - What topics has [Roxanne Ninon](student) studied?
+    - What topics has [Jon Doe](student) studied?
+    - What topics has [Gracie Foster](student) studied?
+    - What topics has [Stephen Hooper](student) studied?
+    - What topics has [Sandra Bauer](student) studied?
+    - What topics has [Sion Tait](student) studied?
+    - What topics has [Jeremy Hickman](student) studied?
+    - What topics has [Jill Oneil](student) studied?
+    - What topics has [Andrew Stark](student) studied?
+    - What topics has __OOV__ studied?
+    - Can you tell me about [Michael Scott](student) competentcies?
+    - Can you tell me about [Ludovic Leclerc](student) competentcies?
+    - Can you tell me about [Jennifer Stilton](student) competentcies?
+    - Can you tell me about [Jon Doe](student) competentcies?
+    - Can you tell me about [Gracie Williams](student) competentcies?
+    - Can you tell me about [Stephen Hooper](student) competentcies?
+    - Can you tell me about [Sandra Bauer](student) competentcies?
+    - Can you tell me about [Sion Tait](student) competentcies?
+    - Can you tell me about [Jeremy Hickman](student) competentcies?
+    - Can you tell me about [Jill Oneil](student) competentcies?
+    - Can you tell me about [Andrew Stark](student) competentcies?
+    - Can you tell me about __OOV__ competentcies?
+    - what are her competentcies?
+    - can you tell me about them?
+    - What are the some of the competentcies of [Sarah Jane](student)?
+    - What are the some of the competentcies of [Michael Boter](student)?
+    - What are the some of the competentcies of [Bailey Dore](student)?
+    - What are the some of the competentcies of [Jon Doe](student)?
+    - What are the some of the competentcies of [Gracie Jerey](student)?
+    - What are the some of the competentcies of [Stephen Hooper](student)?
+    - What are the some of the competentcies of [Sandra Bauer](student)?
+    - What are the some of the competentcies of [Sion Tait](student)?
+    - What are the some of the competentcies of [Jeremy Hickman](student)?
+    - What are the some of the competentcies of [Jill Oneil](student)?
+    - What are the some of the competentcies of [Andrew Stark](student)?
+    - What are the some of the competentcies of __OOV__?
+
+# 3. Which [courses] in [university] cover [topic]?
+- intent: about_course_topics_at_university
+  examples: |
+    - which course at [concordia university](university) covers [SPARQL](topic)?
+    - which course at [concordia university](university) covers [AI](topic)?
+    - which course at [concordia](university) covers [SPARQL](topic)?
+    - which course at [concordia](university) covers [Algorithm](topic)?
+    - which course at [concordia](university) covers [Intelligent Systems](topic)?
+    - which course at [concordia](university) covers [SPARQL](topic)?
+    - which course at [concordia](university) covers [Machine Learning](topic)?
+    - which course at [concordia](university) covers [Ontologies](topic)?
+    - which course at __OOV__ covers __OOV__?
+    - Does [Concordia](university) cover [SPARQL](topic)?
+    - Does [Concordia University](university) cover [Algorithm](topic)?
+    - Does [Concordia](university) cover [Intelligent Systems](topic) ?
+    - Does [Concordia University](university) cover [SPARQL](topic) ?
+    - Does [concordia University](university) cover [Machine Learning](topic) ?
+    - Does [concordia](university) cover [Ontologies](topic) ?
+    - Does __OOV__ cover __OOV__?
+    - Does [Intelligent Systems](topic) get covered at [concordia](university)?
+    - Does [SPARQL](topic) get covered at [Concordia unversity](university)?
+    - Does [Recursion](topic) get covered at [Concordia](university)?
+    - Does [SPARQL](topic) get covered at [Concordia University](university)?
+    - Does [Algorithm](topic) get covered at [Concordia](university)?
+    - Does [Intelligent Systems](topic) get covered at [Concordia University](university)?
+    - Does [SPARQL](topic) get covered at [Concordia](university)?
+    - Does [Machine Learning](topic) get covered at [Concordia](university)?
+    - Does [Ontologies](topic) get covered at [Concordia](university)?
+    - Does __OOV__ get covered at __OOV__?
+
+# 4. What is the [email] of [student]?
+- intent: about_student_email
+  examples: |
+    - What is the email of [45114154](student_id)?
+    - What is the email of [48356170](student_id)?
+    - What is the email of [46870226](student_id)?
+    - What is the email of __OOV__?
+    - What's his email?
+    - Can you tell me [48120078](student_id) email?
+    - Can you tell me [42116118](student_id) email?
+    - Can you tell me __OOV__ email?
+    - Can you tell me her email?
+    - What email does [45114154](student_id) have?
+    - What email does [42116118](student_id) have?
+    - What email does [45279533](student_id) have?
+    - What email does [42989625](student_id) have?
+
+# 5. What are the [courses] [student] S has completed?
+- intent: about_student_course_completions
+  examples: |
+    - What course has [48120078](student_id) completed?
+    - What course has [46654420](student_id) completed?
+    - What course has __OOV__ completed?
+    - What course has he completed?
+    - Which courses have [48356170](student_id) completed?
+    - which courses have [42116118](student_id) completed?
+    - which courses have [46654420](student_id) completed?
+    - which courses have __OOV__ completed?
+    - [46654420](student_id) has completed which courses?
+    - [48356170](student_id) has completed which courses?
+    - [46654420](student_id) has completed which courses?
+    - __OOV__ has completed which courses?
+
+# 6. Which [courses] are offered at [university] X?
+- intent: about_courses_offered_at_university
+  examples: |
+    - What courses are offered at [Concordia](university)?
+    - What courses are offered at [concordia university](university)?
+    - What courses are offered at [concordia](university)?
+    - What courses are offered at [McGill](university)?
+    - What courses are offered at [McGill University](university)?
+    - What courses are offered at [Vanier](university)?
+    - What courses are offered at __OOV__?
+    - What are some courses offered at [Concordia](university)?
+    - What are some courses offered at [concordia university](university)?
+    - What are some courses offered at [concordia](university)?
+    - What are some courses offered at [McGill](university)?
+    - What are some courses offered at [McGill University](university)?
+    - What are some courses offered at [Vanier](university)?
+    - What are some courses offered at __OOV__?
+    - Which courses are offered at [Concordia][university] ?
+    - Which courses are offered at [concordia university][university] ?
+    - Which courses are offered at [concordia][university] ?
+    - Which courses are offered at [McGill][university] ?
+    - Which courses are offered at [McGill University][university] ?
+    - Which courses are offered at [Vanier][university] ?
+    - Which courses are offered at __OOV__[university] ?
+    - [Concordia](university) offer which courses?
+    - [concordia university](university) offer which courses?
+    - [concordia](university) offer which courses?
+    - [McGill](university) offer which courses?
+    - [McGill University](university) offer which courses?
+    - [Vanier](university) offer which courses?
+    - __OOV__ offer which courses?
+
+
+# 7. What [lecture] in [course] has the most [lecture content]?
+- intent: about_most_lecture_content_in_course
+  examples: | 
+    - What lecture in [COMP 352](course) has the most lecture content?
+    - What lecture in [COMP 474](course) has the most lecture content?
+    - What lecture in [COMP 6741](course) has the most lecture content?
+    - What lecture in [encs 282](course) has the most lecture content?
+    - What lecture in [mast 218](course) has the most lecture content?
+    - What lecture in [HISW 203](course) has the most lecture content?
+    - What lecture in [hisw 203](course) has the most lecture content?
+    - What lecture in [poli 325](course) has the most lecture content?
+    - What lecture in [engr 213](course) has the most lecture content?
+    - What lecture in [Engr 213](course) has the most lecture content?
+    - What lecture in [GEOL 498](course) has the most lecture content?
+    - What lecture in __OOV__ has the most lecture content?
+    - What is it that has the most lecture content in [COMP 352](course)? 
+    - What is it that has the most lecture content in [COMP 474](course)? 
+    - What is it that has the most lecture content in [COMP 6741](course)? 
+    - What is it that has the most lecture content in [encs 282](course)? 
+    - What is it that has the most lecture content in [mast 218](course)? 
+    - What is it that has the most lecture content in [HISW 203](course)? 
+    - What is it that has the most lecture content in [hisw 203](course)? 
+    - What is it that has the most lecture content in [poli 325](course)? 
+    - What is it that has the most lecture content in [engr 213](course)? 
+    - What is it that has the most lecture content in [Engr 213](course)? 
+    - What is it that has the most lecture content in [GEOL 498](course)? 
+    - What is it that has the most lecture content in __OOV__? 
+    - In [COMP 352](course), what lecture has the most lecture content?
+    - In [COMP 474](course), what lecture has the most lecture content?
+    - In [COMP 6741](course), what lecture has the most lecture content?
+    - In [encs 282](course), what lecture has the most lecture content?
+    - In [mast 218](course), what lecture has the most lecture content?
+    - In [HISW 203](course), what lecture has the most lecture content?
+    - In [hisw 203](course), what lecture has the most lecture content?
+    - In [poli 325](course), what lecture has the most lecture content?
+    - In [engr 213](course), what lecture has the most lecture content?
+    - In [Engr 213](course), what lecture has the most lecture content?
+    - In [GEOL 498](course), what lecture has the most lecture content?
+    - In __OOV__, what lecture has the most lecture content?
+    - Can you tell me about that lecture?
+
+# 8. What [lectures] do I need to attend for [course]?
+- intent: about_course_attendance_lecture
+  examples: | 
+    - What lectures do i need to attend for [COMP 352](course)?
+    - What lectures do i need to attend for [COMP 474](course)?
+    - What lectures do i need to attend for [COMP 6741](course)?
+    - What lectures do i need to attend for [encs 282](course)?
+    - What lectures do i need to attend for [mast 218](course)?
+    - What lectures do i need to attend for [HISW 203](course)?
+    - What lectures do i need to attend for [hisw 203](course)?
+    - What lectures do i need to attend for [poli 325](course)?
+    - What lectures do i need to attend for [engr 213](course)?
+    - What lectures do i need to attend for [Engr 213](course)?
+    - What lectures do i need to attend for [GEOL 498](course)?
+    - What lectures do i need to attend for __OOV__?
+    - [COMP 352](course) requires which lectures?
+    - [COMP 474](course) requires which lectures?
+    - [COMP 6741](course) requires which lectures?
+    - [encs 282](course) requires which lectures?
+    - [mast 218](course) requires which lectures?
+    - [HISW 203](course) requires which lectures?
+    - [hisw 203](course) requires which lectures?
+    - [poli 325](course) requires which lectures?
+    - [engr 213](course) requires which lectures?
+    - [Engr 213](course) requires which lectures?
+    - [GEOL 498](course) requires which lectures?
+    - __OOV__ requires which lectures?
+    - What are the lectures required for [COMP 352](course)?
+    - What are the lectures required for [COMP 474](course)?
+    - What are the lectures required for [COMP 6741](course)?
+    - What are the lectures required for [encs 282](course)?
+    - What are the lectures required for [mast 218](course)?
+    - What are the lectures required for [HISW 203](course)?
+    - What are the lectures required for [hisw 203](course)?
+    - What are the lectures required for [poli 325](course)?
+    - What are the lectures required for [engr 213](course)?
+    - What are the lectures required for [Engr 213](course)?
+    - What are the lectures required for [GEOL 498](course)?
+    - What are the lectures required for __OOV__?
+    - What lectures do i need to have for [COMP 352](course)?
+    - What lectures do i need to have for [COMP 474](course)?
+    - What lectures do i need to have for [COMP 6741](course)?
+    - What lectures do i need to have for [encs 282](course)?
+    - What lectures do i need to have for [mast 218](course)?
+    - What lectures do i need to have for [HISW 203](course)?
+    - What lectures do i need to have for [hisw 203](course)?
+    - What lectures do i need to have for [poli 325](course)?
+    - What lectures do i need to have for [engr 213](course)?
+    - What lectures do i need to have for [Engr 213](course)?
+    - What lectures do i need to have for [GEOL 498](course)?
+    - What lectures do i need to have for __OOV__?
+
+
+# 9. Where in [course] was [topic] introduced?
+- intent: about_topic_in_course
+  examples: | 
+    - Where in [COMP 352](course) was [Recursion](topic) covered?
+    - Where in [COMP 352](course) was [Heaps](topic) covered?
+    - Where in [COMP 474](course) was [Linked Data](topic) covered?
+    - Where in [encs 282](course) was [Linked Data](topic) covered?
+    - Where in [mast 218](course) was [Linked Data](topic) covered?
+    - Where in [HISW 203](course) was [Linked Data](topic) covered?
+    - Where in [hisw 203](course) was [Linked Data](topic) covered?
+    - Where in [poli 325](course) was [Linked Data](topic) covered?
+    - Where in [engr 213](course) was [Linked Data](topic) covered?
+    - Where in [Engr 213](course) was [Linked Data](topic) covered?
+    - Where in [GEOL 498](course) was [Linked Data](topic) covered?
+    - Where in __OOV__ was __OOV__ covered?
+    - [Trees](topic) was covered where in [COMP 352](course)?
+    - [SPARQL](topic) was covered where in [COMP 474](course)?
+    - [Machine Learning](topic) was covered where in [COMP 474](course)?
+    - [Machine Learning](topic) was covered where in [encs 282](course)?
+    - [Machine Learning](topic) was covered where in [mast 218](course)?
+    - [Machine Learning](topic) was covered where in [HISW 203](course)?
+    - [Machine Learning](topic) was covered where in [hisw 203](course)?
+    - [Machine Learning](topic) was covered where in [poli 325](course)?
+    - [Machine Learning](topic) was covered where in [engr 213](course)?
+    - [Machine Learning](topic) was covered where in [Engr 213](course)?
+    - [Machine Learning](topic) was covered where in [GEOL 498](course)?
+    - __OOV__ was covered where in __OOV__?
+    - In [COMP 352](course), where was [Recursion](topic) introduced?
+    - In [COMP 352](course), where was [LinkedLists_and_Iterators](topic) introduced?
+    - In [COMP 474](course), where was [SPARQL](topic) introduced?
+    - In [COMP 474](course), where was [Intelligent Systems](topic) introduced?
+    - In [encs 282](course), where was [Intelligent Systems](topic) introduced?
+    - In [mast 218](course), where was [Intelligent Systems](topic) introduced?
+    - In [HISW 203](course), where was [Intelligent Systems](topic) introduced?
+    - In [hisw 203](course), where was [Intelligent Systems](topic) introduced?
+    - In [poli 325](course), where was [Intelligent Systems](topic) introduced?
+    - In [engr 213](course), where was [Intelligent Systems](topic) introduced?
+    - In [Engr 213](course), where was [Intelligent Systems](topic) introduced?
+    - In [GEOL 498](course), where was [Intelligent Systems](topic) introduced?
+    - In __OOV__, where was __OOV__ introduced?
+    - Can you tell me about it?
+
+# 10. Which [university] does [student] study at?
+- intent: about_student_at_university
+  examples: | 
+    - What university does [45279533](student_id) study at?
+    - What university does [48120078](student_id) study at?
+    - What university does [42116118](student_id) study at?
+    - What university does __OOV__ study at?
+    - Where does [42989625](student_id) study at?
+    - Where does [45114154](student_id) study at?
+    - Where does __OOV__ study at?
+    - Which university does [46654420](student_id) study at?
+    - Which university does [48120078](student_id) study at?
+    - Which university does __OOV__ study at?
+    - [48356170](student_id) attend's what university?
+    - [42989625](student_id) attend's what university?
+    - [46654420](student_id) attend's what university?
+    - __OOV__ attend's what university?
+    - What university is it?
+    - Which university is it?
+
+# 11. Which topics are covered in [course_event]? topics with resource URI
+- intent: about_topics_covered_course_event
+  examples: |
+    - Which topics are covered in [COMP 474_6741 worksheet 3 for lecture 4](course_event) for [COMP 474](course)?
+    - Which topics are covered in [COMP 474_6741 Lab 1](course_event) for [COMP 474](course)?
+    - Which topics are covered in [COMP 474_6741 Lab 5](course_event) for [COMP 474](course)?
+    - Which topics are covered in [COMP 474_6741 Lab 8](course_event) for [COMP 474](course)?
+    - Which topics are covered in [COMP 474_6741 Lab 3](course_event) for [COMP 474](course)?
+    - Which topics are covered in [COMP 474_6741 Lab 2](course_event) for [COMP 474](course)?
+    - Which topics are covered in [COMP 474_6741 Lab 6](course_event) for [COMP 474](course)?
+    - Which topics are covered in [COMP 352 Assignment 1](course_event) for [COMP 352](course)?
+    - Which topics are covered in [COMP 352 Assignment 2](course_event) for [COMP 352](course)?
+    - Which topics are covered in [COMP 352 Assignment 3](course_event) for [COMP 352](course)?
+    - Which topics are covered in __OOV__ for __OOV__?
+    - What are the topics that are part of [COMP 474_6741 worksheet 3 for lecture 4](course_event) for [COMP 474](course)?
+    - What are the topics that are part of [COMP 474_6741 Lab 1](course_event) for [COMP 474](course)?
+    - What are the topics that are part of [COMP 474_6741 Lab 2](course_event) for [COMP 474](course)?
+    - What are the topics that are part of [COMP 474_6741 Lab 3](course_event) for [COMP 474](course)?
+    - What are the topics that are part of [COMP 474_6741 Lab 5](course_event) for [COMP 474](course)?
+    - What are the topics that are part of [COMP 474_6741 Lab 6](course_event) for [COMP 474](course)?
+    - What are the topics that are part of [COMP 474_6741 Lab 8](course_event) for [COMP 474](course)?
+    - What are the topics that are part of [COMP 352 Assignment 1](course_event) for [COMP 352](course)?
+    - What are the topics that are part of [COMP 352 Assignment 2](course_event) for [COMP 352](course)?
+    - What are the topics that are part of [COMP 352 Assignment 3](course_event) for [COMP 352](course)?
+    - What are the topics that are part of __OOV__ for __OOV__?
+    - Give me the topics covered in [COMP 474_6741 worksheet 3 for lecture 4](course_event) for [COMP 474](course).
+    - Give me the topics covered in [COMP 474_6741 Lab 1](course_event) for [COMP 474](course).
+    - Give me the topics covered in [COMP 474_6741 Lab 2](course_event) for [COMP 474](course).
+    - Give me the topics covered in [COMP 474_6741 Lab 3](course_event) for [COMP 474](course).
+    - Give me the topics covered in [COMP 474_6741 Lab 5](course_event) for [COMP 474](course).
+    - Give me the topics covered in [COMP 474_6741 Lab 6](course_event) for [COMP 474](course).
+    - Give me the topics covered in [COMP 474_6741 Lab 8](course_event) for [COMP 474](course).
+    - Give me the topics covered in [COMP 352 Assignment 1](course_event) for [COMP 352](course).
+    - Give me the topics covered in [COMP 352 Assignment 2](course_event) for [COMP 352](course).
+    - Give me the topics covered in [COMP 352 Assignment 3](course_event) for [COMP 352](course).
+    - Give me the topics covered in __OOV__ for __OOV__.
+
+# 12. which courses cover (topic)? lists all courses that include this topic sorted by frq. of topic
+- intent: about_courses_cover_topic
+  examples: |
+    - Which courses cover [Recursion](topic)?
+    - Which courses cover [SPARQL](topic)?
+    - Which courses cover [Linked Data](topic)?
+    - Which courses cover [Machine Learning](topic)?
+    - Which courses cover [Knowledge Graphs](topic)?
+    - Which courses cover [MergeSort](topic)?
+    - Which courses cover [Sorting-LowerBound](topic)?
+    - Which courses cover [Bucket-Sort_and_Radix-Sort](topic)?
+    - Which courses cover [DFS](topic)?
+    - Which courses cover [DiGraphs](topic)?
+    - Which courses cover [ShortestPaths](topic)?
+    - Which courses cover [QuickSort](topic)?
+    - Which courses cover [Graphs](topic)?
+    - Which courses cover __OOV__?
+    - What are some of the courses that cover [Recursion](topic)?
+    - What are some of the courses that cover [SPARQL](topic)?
+    - What are some of the courses that cover [Linked Data](topic)?
+    - What are some of the courses that cover [Machine Learning](topic)?
+    - What are some of the courses that cover [Knowledge Graphs](topic)?
+    - What are some of the courses that cover [MergeSort](topic)?
+    - What are some of the courses that cover [Sorting-LowerBound](topic)?
+    - What are some of the courses that cover [Bucket-Sort_and_Radix-Sort](topic)?
+    - What are some of the courses that cover [DFS](topic)?
+    - What are some of the courses that cover [DiGraphs](topic)?
+    - What are some of the courses that cover [ShortestPaths](topic)?
+    - What are some of the courses that cover [QuickSort](topic)?
+    - What are some of the courses that cover [Graphs](topic)?
+    - What are some of the courses that cover __OOV__?
+    - [Recursion](topic) is covered in what courses?
+    - [SPARQL](topic) is covered in what courses?
+    - [Linked Data](topic) is covered in what courses?
+    - [Machine Learning](topic) is covered in what courses?
+    - [Knowledge Graphs](topic) is covered in what courses?
+    - [MergeSort](topic) is covered in what courses?
+    - [Sorting-LowerBound](topic) is covered in what courses?
+    - [Bucket-Sort_and_Radix-Sort](topic) is covered in what courses?
+    - [DFS](topic) is covered in what courses?
+    - [DiGraphs](topic) is covered in what courses?
+    - [ShortestPaths](topic) is covered in what courses?
+    - [QuickSort](topic) is covered in what courses?
+    - [Graphs](topic) is covered in what courses?
+    - __OOV__ is covered in what courses?

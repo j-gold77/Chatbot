@@ -1,0 +1,193 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_378_385>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Collins" ;
+        nif:beginIndex          "378"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "385"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1899> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/Publisher> , <http://dbpedia.org/ontology/Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Company> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Organisation> , <http://www.wikidata.org/entity/Q43229> , <http://www.wikidata.org/entity/Q4830453> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> ;
+        itsrdf:taConfidence     "0.9063350254605076"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/HarperCollins> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1899> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_290_294>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "290"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "294"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1899> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1899>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1899"^^xsd:nonNegativeInteger ;
+        nif:isString    "Analysis of AlgorithmsMapsDr. Aiman HannaDepartment of Computer Science & Software Engineering Concordia University, Montreal, CanadaThese slides have been extracted, modified and updated from original slides of :Data Structures and Algorithms in Java, 5th edition. John Wiley& Sons, 2010. ISBN 978-0-470-38326-1.Data Structures and the Java Collections Framework by William J. Collins, 3rdedition, ISBN 978-0-470-48267-4. Both books are published by Wiley.Copyright Â© 2010-2011 WileyCopyright Â© 2010 Michael  T. Goodrich, Roberto TamassiaCopyright Â© 2011 William J. CollinsCopyright Â© 2011-2021 Aiman Hanna All rights reserved Coverageï± Maps2Cabinet (Map)Label(Unique Key)Folders(Values)MapsMaps 3Mapsï± A map models a searchable collection of key-value entries.ï± A map allows us to store elements in a way that attempts to speed up the process of locating them, through the utilization of keys. ï± The main operations of a map are searching, inserting, and deleting items.ï± Multiple entries with the same key are not allowed. In other words, the keys in a map are unique. ï± Applications:ï® address bookï® student-record databaseMaps 4The Map ADTï± A map supports the following methods:ï® get(k): if a map M has an entry with key k, return its associated value; else, return null ï® put(k, v): insert entry (k, v) into the map M; if key k is not already in M, then return null; else, replace the value associated with k with v and return the old value ï® remove(k): if the map M has an entry with key k, remove it from M and return its associated value; else, return null ï® entrySet(): return an iterable collection containing all the key-value entries in MMaps 5The Map ADTï± A map supports the following methods (continues):ï® keySet(): return an iterable collection of all the keys in Mï® values(): return an iterable collection of all the values in Mï® size(): return the number of entries in Mï® isEmpty():" .
+
+<http://www.dbpedia-spotlight.com/#offset_271_276>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Wiley" ;
+        nif:beginIndex          "271"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "276"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1899> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Company> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Publisher> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q4830453> , <http://www.wikidata.org/entity/Q43229> ;
+        itsrdf:taConfidence     "0.9999814007425636"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wiley-Blackwell> .
+
+<http://www.dbpedia-spotlight.com/#offset_337_363>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java Collections Framework" ;
+        nif:beginIndex          "337"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "363"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1899> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_collections_framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_1664_1667>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1664"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1667"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1899> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_30_35>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1899> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_1140_1143>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1140"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1143"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1899> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_596_601>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "596"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "601"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1899> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_117_125>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Montreal" ;
+        nif:beginIndex          "117"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1899> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/City> , <http://www.wikidata.org/entity/Q486972> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Location> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://www.wikidata.org/entity/Q515> ;
+        itsrdf:taConfidence     "0.999852101690517"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Montreal> .
+
+<http://www.dbpedia-spotlight.com/#offset_95_115>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia University" ;
+        nif:beginIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1899> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999781409613322"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Main_Page> .
+
+<http://www.dbpedia-spotlight.com/#offset_74_94>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Software Engineering" ;
+        nif:beginIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1899> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_engineering> .
+
+<http://www.dbpedia-spotlight.com/#offset_399_403>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "399"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "403"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1899> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_55_71>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Computer Science" ;
+        nif:beginIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "71"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1899> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_science> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2181> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_2034_2037>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "2034"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2037"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2181> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999980673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_2046_2049>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "2046"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2049"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2181> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999980673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2181>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2181"^^xsd:nonNegativeInteger ;
+        nif:isString    "test whether M is emptyMaps 6ExampleOperation Output MapisEmpty() true Ãput(5,A) null (5,A)put(7,B) null (5,A),(7,B)put(2,C) null (5,A),(7,B),(2,C)put(8,D) null (5,A),(7,B),(2,C),(8,D)put(2,E) C (5,A),(7,B),(2,E),(8,D)get(7) B (5,A),(7,B),(2,E),(8,D)get(4) null (5,A),(7,B),(2,E),(8,D)get(2) E (5,A),(7,B),(2,E),(8,D)size() 4 (5,A),(7,B),(2,E),(8,D)remove(5) A (7,B),(2,E),(8,D)remove(2) E (7,B),(8,D)get(2) null (7,B),(8,D)isEmpty() false (7,B),(8,D)Maps 7A Simple List-Based Mapï± We can efficiently implement a map using an unsorted list ï® We store the items of the map in a list S (based on a doubly-linked list), in arbitrary ordertrailerheader nodes/positionsentries9 c 6 c 5 c 8 cMaps 8The get(k) AlgorithmAlgorithm get(k):B = S.positions() {B is an iterator of the positions in S}while B.hasNext() dop = B.next() { the next position in B }if p.element().getKey() = k thenreturn p.element().getValue()return null {there is no entry with key equal to k}Maps 9The put(k,v) AlgorithmAlgorithm put(k,v):B = S.positions()while B.hasNext() dop = B.next()if p.element().getKey() = k  thent = p.element().getValue()S.set(p,(k,v))return t {return the old value}S.addLast((k,v))n = n + 1 {increment variable storing number of entries}return null { there was no entry with key equal to k }Maps 10The remove(k) AlgorithmAlgorithm remove(k):B =S.positions()while B.hasNext() dop = B.next()if p.element().getKey() = k  thent = p.element().getValue()S.remove(p)n = n â 1 {decrement number of entries}return t {return the removed value}return null {there is no entry with key equal to k}Maps 11Performance of a List-Based Mapï± Performance:ï® put takes O(n) time since we need to find out before adding the item if an entry with the key exists (in such case we only replace the value)ï® get and remove take O(n) time since in the worst case (the item is not found) we traverse the entire sequence to look for an item with the given keyï± The unsorted list implementation is effective only for maps of small sizes. \tMaps\tSlide Number 2\tMaps\tThe Map ADT\tThe Map ADT\tExample\tA Simple List-Based Map\tThe get(k) Algorithm\tThe put(k,v) Algorithm\tThe remove(k) Algorithm\tPerformance of a List-Based Map" .
+
+<http://www.dbpedia-spotlight.com/#offset_756_764>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "iterator" ;
+        nif:beginIndex          "756"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "764"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2181> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Iterator> .

@@ -1,0 +1,1403 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1176> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_151_157>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Mellah" ;
+        nif:beginIndex          "151"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "157"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1176> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999995453"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mellah> .
+
+<http://www.dbpedia-spotlight.com/#offset_728_730>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ER" ;
+        nif:beginIndex          "728"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "730"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1176> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9334933793957406"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Emergency_medical_services> .
+
+<http://www.dbpedia-spotlight.com/#offset_559_561>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AM" ;
+        nif:beginIndex          "559"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "561"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1176> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.905573150146729"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AM_broadcasting> .
+
+<http://www.dbpedia-spotlight.com/#offset_49_53>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "COMP" ;
+        nif:beginIndex          "49"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1176> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://www.wikidata.org/entity/Q206229> , <http://www.wikidata.org/entity/Q7187> , <http://dbpedia.org/ontology/Gene> , <http://dbpedia.org/ontology/HumanGene> ;
+        itsrdf:taConfidence     "0.9260169723731335"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cartilage_oligomeric_matrix_protein> .
+
+<http://www.dbpedia-spotlight.com/#offset_980_984>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "COMP" ;
+        nif:beginIndex          "980"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "984"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1176> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://www.wikidata.org/entity/Q7187> , <http://dbpedia.org/ontology/Gene> , <http://www.wikidata.org/entity/Q206229> , <http://dbpedia.org/ontology/HumanGene> ;
+        itsrdf:taConfidence     "0.9260169723731335"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cartilage_oligomeric_matrix_protein> .
+
+<http://www.dbpedia-spotlight.com/#offset_548_550>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AM" ;
+        nif:beginIndex          "548"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "550"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1176> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.905573150146729"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AM_broadcasting> .
+
+<http://www.dbpedia-spotlight.com/#offset_145_150>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Hakim" ;
+        nif:beginIndex          "145"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1176> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q215627> , <http://dbpedia.org/ontology/Royalty> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <Http://xmlns.com/foaf/0.1/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Person> , <http://www.wikidata.org/entity/Q5> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson> ;
+        itsrdf:taConfidence     "0.8216525360869615"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Al-Hakim_bi-Amr_Allah> .
+
+<http://www.dbpedia-spotlight.com/#offset_692_694>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "FF" ;
+        nif:beginIndex          "692"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "694"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1176> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q7397> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "0.9999696629751905"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Firefox> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1176>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1176"^^xsd:nonNegativeInteger ;
+        nif:isString    "Comp 352 â Fall 2021  Course Outline â Page 1    COMP 352 Data Structures and Algorithms  Course Outline - Fall 2021   Instructor Section G: Dr. Hakim Mellah     -   Office: H-961-15 E-mail: hakim.mellah@concordia.ca         Tel:  (514) 848-2424 ext. 8060 Lecture:              Wednesday - Friday 1:15 PM - 2:30 PM at H-820 Office Hours: TBA Instructor Sections D & H: Dr. Hadeel El-Kassabi    -   Office: H-961-21 E-mail: hadeel.elkassabi@concordia.ca     Tel:  (514) 848-2424 ext. 8743 Lectures:               Section D: Wednesday - Friday 10:15 AM - 11:30 AM at H-920              Section H: Wednesday - Friday 1:15 PM - 2:30 PM at H-553 Office Hours: TBA Instructor & Coordinator Section FF: Dr. Aiman Hanna     -   Office: ER_1103                       E-mail:  contact@AimanHanna.com     Tel:  (514) 848-2424 ext. 7878 Lecture:                Monday 5:45 PM - 8:15 PM at H-520 Office Hours:  1) Tuesday 2:00 PM â 3:00 PM;         2) By appointment anytime.  Pre-Requisites: COMP 232 or COEN 231; COMP 249 or BCEE 231.  Topics: Abstract data types: stacks and queues, trees, priority queues, dictionaries. Data structures: arrays, linked lists, heaps, hash tables, search" .
+
+<http://www.dbpedia-spotlight.com/#offset_1002_1006>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "COMP" ;
+        nif:beginIndex          "1002"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1006"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1176> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/HumanGene> , <http://dbpedia.org/ontology/Biomolecule> , <http://www.wikidata.org/entity/Q206229> , <http://dbpedia.org/ontology/Gene> , <http://www.wikidata.org/entity/Q7187> ;
+        itsrdf:taConfidence     "0.9260169723731335"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cartilage_oligomeric_matrix_protein> .
+
+<http://www.dbpedia-spotlight.com/#offset_1157_1161>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash" ;
+        nif:beginIndex          "1157"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1176> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9444793655040378"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Associative_array> .
+
+<http://www.dbpedia-spotlight.com/#offset_700_705>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "700"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "705"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1176> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1775> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_678_687>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eTextbook" ;
+        nif:beginIndex          "678"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "687"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1775> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999765805"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Digital_textbook> .
+
+<http://www.dbpedia-spotlight.com/#offset_156_159>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "POD" ;
+        nif:beginIndex          "156"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1775> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999672170461942"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Print_on_demand> .
+
+<http://www.dbpedia-spotlight.com/#offset_124_140>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph algorithms" ;
+        nif:beginIndex          "124"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "140"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1775> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_theory> .
+
+<http://www.dbpedia-spotlight.com/#offset_237_240>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "POD" ;
+        nif:beginIndex          "237"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1775> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999672170461942"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Print_on_demand> .
+
+<http://www.dbpedia-spotlight.com/#offset_398_415>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "John Wiley & Sons" ;
+        nif:beginIndex          "398"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "415"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1775> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q24229398> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Publisher> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wiley_(publisher)> .
+
+<http://www.dbpedia-spotlight.com/#offset_1739_1749>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Final Exam" ;
+        nif:beginIndex          "1739"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1749"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1775> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.841430908197241"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Final_Exam_(1981_film)> .
+
+<http://www.dbpedia-spotlight.com/#offset_423_427>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "423"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "427"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1775> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_700_709>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eTextbook" ;
+        nif:beginIndex          "700"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "709"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1775> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999765805"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Digital_textbook> .
+
+<http://www.dbpedia-spotlight.com/#offset_332_342>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Goldwasser" ;
+        nif:beginIndex          "332"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "342"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1775> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <Http://xmlns.com/foaf/0.1/Person> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson> , <http://www.wikidata.org/entity/Q24229398> , <http://www.wikidata.org/entity/Q215627> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Scientist> , <http://www.wikidata.org/entity/Q5> , <http://www.wikidata.org/entity/Q901> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Shafi_Goldwasser> .
+
+<http://www.dbpedia-spotlight.com/#offset_108_122>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tree traversal" ;
+        nif:beginIndex          "108"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1775> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_traversal> .
+
+<http://www.dbpedia-spotlight.com/#offset_42_61>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic notation" ;
+        nif:beginIndex          "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "61"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1775> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_710_713>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "URL" ;
+        nif:beginIndex          "710"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "713"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1775> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/URL> .
+
+<http://www.dbpedia-spotlight.com/#offset_378_382>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "378"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "382"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1775> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9870655781195374"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_1222_1231>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "1222"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1231"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1775> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1775>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1775"^^xsd:nonNegativeInteger ;
+        nif:isString    "trees. Design and analysis of algorithms: asymptotic notation, recursive algorithms, searching and sorting, tree traversal, graph algorithms.   Tutorials & POD Schedule: Please see your instructor website for full details. Tutorials and POD hours start the second week of the term.  Textbook  M.T. Goodrich, R. Tamassia, Michael H. Goldwasser. Data Structures and Algorithms in Java, 6th  edition. John Wiley & Sons, 2014. ISBN 978-1-118-77133-4. (Note: 5th edition is ok.)  mailto:hakim.mellah@concordia.camailto:hadeel.elkassabi@concordia.camailto:contact@AimanHanna.comComp 352 â Fall 2021  Course Outline â Page 2  The book is available at the bookstore or can be rented as eTextbook.   Textbook/eTextbook URL: http://ca.wiley.com/WileyCDA/WileyTitle/productCd-EHEP002900.html   From the textbook we shall study these sections: 3.1 to 3.4, 4.1 to 4.3, 5.1 to 5.6, 6.1 to 6.2, 7.1 to 7.3, 8.1 to 8.4, 9.1 to 9.4, 10.1 to 10.3, 11.1 to 11.3, 12.1 to 12.4, 14.1 to 14.7, and 15.1 to 15.2. You also need to study chapters 1 and 2 that will not be covered in provided lectures.  Tentative Schedule The schedule is tentative and might change anytime.  Chapter Topic -  Introduction 4 Algorithm Analysis (4.1 to 4.3) 5 + 15  Recursion (5.1 to 5.6, 15.1 to 15.2) 6 Stacks and Queues (6.1 to 6.2) 3 + 7 Vectors, Lists, Iterators and Sequences (3.1 to 3.4, 7.1 to 7.3) 8 Trees (8.1 to 8.4) / Midterm (See exact date below) 9 Priority Queues and Heaps (9.1 to 9.4)  10 Maps, Dictionaries and Hash Tables (10.1 to 10.3) 11 Search Trees (11.1 to 11.3) 12 Sorting (12.1 to 12.4) 14 Graphs (14.1 to 14.7)  Grading Scheme The table illustrates the components of the course and their corresponding weights (%).  Component % Assignments 10% Midterm 30% Final Exam 60%  There is no fixed, a" .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1631_1635>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ASAP" ;
+        nif:beginIndex          "1631"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1635"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2051> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MusicalArtist> , <http://schema.org/Person> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.wikidata.org/entity/Q215627> , <http://www.wikidata.org/entity/Q483501> , <http://dbpedia.org/ontology/Agent> , <Http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Artist> , <http://dbpedia.org/ontology/Person> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson> , <http://www.wikidata.org/entity/Q24229398> , <http://schema.org/MusicGroup> , <http://www.wikidata.org/entity/Q5> ;
+        itsrdf:taConfidence     "0.9992269806790397"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Angeline_Quinto> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2051> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_846_852>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Moodle" ;
+        nif:beginIndex          "846"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "852"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2051> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Moodle> .
+
+<http://www.dbpedia-spotlight.com/#offset_1985_1988>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "URL" ;
+        nif:beginIndex          "1985"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1988"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2051> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/URL> .
+
+<http://www.dbpedia-spotlight.com/#offset_1810_1818>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computer" ;
+        nif:beginIndex          "1810"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1818"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2051> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8878184090093248"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer> .
+
+<http://www.dbpedia-spotlight.com/#offset_1701_1708>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mailman" ;
+        nif:beginIndex          "1701"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1708"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2051> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mail_carrier> .
+
+<http://www.dbpedia-spotlight.com/#offset_700_706>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Page 3" ;
+        nif:beginIndex          "700"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "706"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2051> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999977263"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Page_3> .
+
+<http://www.dbpedia-spotlight.com/#offset_1340_1346>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Moodle" ;
+        nif:beginIndex          "1340"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1346"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2051> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q7397> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Moodle> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2051>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2051"^^xsd:nonNegativeInteger ;
+        nif:isString    "priori relationship between the numerical percentage and the final letter grades for this course. To pass the course, you must at least pass the assignments and the final exam. Usually a score of 50% is required. There are no make-ups/alternates for missed exams or assignments. In the event of extraordinary circumstances beyond the University's control, the content and/or evaluation scheme in this course is subject to change.  The Midterm Exam, for all sections, is scheduled for Saturday, October 30, starting at 12:00 noon. Your instructor will indicate the exact location of the midterm.  http://ca.wiley.com/WileyCDA/WileyTitle/productCd-EHEP002900.htmlComp 352 â Fall 2021  Course Outline â Page 3  Web pages and other Resources Many resources for the course (slides, assignments, example programs, ...) will be available online through Moodle; (available through the MyConcordia portal www.myconcordia.ca), or through the instructor's website. Your instructor will inform you of the exact link to access the materials.  For Sections D & H (Dr. El-Kassabi), and Section G (Dr. Mellah), please use the Moodle Web site available through the MyConcordia portal www.myconcordia.ca.  For Sections PP (Dr. Hanna), the webpage for the course is: www.AimanHanna.com (follow Concordia links afterwards). Other material will be available on Moodle as well; so you will need to consult both locations. The web pages will contain announcements related to the class, pointers to documents, your theory and lab assignments, etc.  Additionally, a mailing list will be established for the course. You should register to this mailing list ASAP. To register, please link to: https://mail.encs.concordia.ca:444/mailman/listinfo/comp352-f21.  Finally, the faculty web pages have a wealth of information pertaining to our computer systems and software, which includes simple user guides, and answers to many standard questions. You should explore these help pages. Begin your exploration from the URL: http://www.encs.concordia.ca/helpdesk/faq/faq.php  Details of" .
+
+<http://www.dbpedia-spotlight.com/#offset_1201_1203>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PP" ;
+        nif:beginIndex          "1201"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2051> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> , <http://www.wikidata.org/entity/Q11173> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ChemicalObject> ;
+        itsrdf:taConfidence     "0.6934918598924174"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polypropylene> .
+
+<http://www.dbpedia-spotlight.com/#offset_1110_1116>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Moodle" ;
+        nif:beginIndex          "1110"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2051> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q7397> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Moodle> .
+
+<http://www.dbpedia-spotlight.com/#offset_1275_1284>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia" ;
+        nif:beginIndex          "1275"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1284"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2051> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999974739626013"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concordia_University> .
+
+<http://www.dbpedia-spotlight.com/#offset_1086_1092>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Mellah" ;
+        nif:beginIndex          "1086"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1092"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2051> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mellah> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1890_1900>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Plagiarism" ;
+        nif:beginIndex          "1890"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1900"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1995> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plagiarism> .
+
+<http://www.dbpedia-spotlight.com/#offset_985_995>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Plagiarism" ;
+        nif:beginIndex          "985"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "995"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1995> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plagiarism> .
+
+<http://www.dbpedia-spotlight.com/#offset_696_705>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia" ;
+        nif:beginIndex          "696"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "705"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1995> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999974120141197"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concordia_University> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1995> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_773_788>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "multiple choice" ;
+        nif:beginIndex          "773"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "788"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1995> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Multiple_choice> .
+
+<http://www.dbpedia-spotlight.com/#offset_1746_1756>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "lab report" ;
+        nif:beginIndex          "1746"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1756"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1995> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/MusicGroup> , <http://www.wikidata.org/entity/Q24229398> , <http://www.wikidata.org/entity/Q215380> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Band> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Group> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q43229> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.9999999999888587"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lab_Report> .
+
+<http://www.dbpedia-spotlight.com/#offset_1319_1326>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mailman" ;
+        nif:beginIndex          "1319"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1326"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1995> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mail_carrier> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1995>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1995"^^xsd:nonNegativeInteger ;
+        nif:isString    "the Course Components 1. Assignments: There will be 4 assignments (each weight depends on the difficulty of the assignment), all of which will be available online. These assignments play a major role in your learning of the various topics covered in this course. To pass the course, you must pass the assignments. Assignments must be submitted by the due date via Moodle. There will be a 20% per day penalty for late submissions. No assignment will be accepted after two days of delay. More detailed information on assignments is provided below. Please read them carefully!    2. Midterm and Final exams: We will have a midterm and a final exam in this course, which will take place in-person at Concordia campus. The formats of these two exams will be similar and include multiple choice questions (with negative marks for wrong answers), questions with detailed answers, and True/False questions requiring a short justification. The final exam will be identical for all sections.    Plagiarism The most common offense under the Academic Code of Conduct is plagiarism which the Code defines as âthe presentation of the work of another person as ones own or without proper acknowledgement.â This could be: http://www.myconcordia.ca/http://www.myconcordia.ca/http://www.aimanhanna.com/https://mail.encs.concordia.ca:444/mailman/listinfo/comp352-f21http://www.encs.concordia.ca/helpdesk/faq/faq.phphttp://registrar.concordia.ca/calendar/17/17.10.htmlComp 352 â Fall 2021  Course Outline â Page 4  â¢ material copied word for word from books, journals, internet sites, professors course notes, etc. â¢ material that is paraphrased but closely resembles the original source. â¢ the work of a fellow student, for example, an answer on a quiz, data for a lab report, a paper or assignment completed by another student. â¢ a solution or Java code purchased through one of the many available sources.  Plagiarism does not refer to words alone; it can also refer to copying images, graphs, tables, and ideas." .
+
+<http://www.dbpedia-spotlight.com/#offset_364_370>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Moodle" ;
+        nif:beginIndex          "364"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "370"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1995> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q7397> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Moodle> .
+
+<http://www.dbpedia-spotlight.com/#offset_1826_1830>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "1826"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1830"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1995> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.7239372866120387"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_1685_1699>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fellow student" ;
+        nif:beginIndex          "1685"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1699"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1995> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999722604"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fellow_Student> .
+
+<http://www.dbpedia-spotlight.com/#offset_1058_1068>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plagiarism" ;
+        nif:beginIndex          "1058"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1068"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1995> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plagiarism> .
+
+<http://www.dbpedia-spotlight.com/#offset_877_887>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "True/False" ;
+        nif:beginIndex          "877"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "887"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1995> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999949978"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/False_Film_Festival> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1208_1222>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "knowledge base" ;
+        nif:beginIndex          "1208"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1222"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2073> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9993448901293192"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Knowledge_base> .
+
+<http://www.dbpedia-spotlight.com/#offset_432_452>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Software Engineering" ;
+        nif:beginIndex          "432"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "452"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2073> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_engineering> .
+
+<http://www.dbpedia-spotlight.com/#offset_941_957>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Computer Science" ;
+        nif:beginIndex          "941"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "957"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2073> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_science> .
+
+<http://www.dbpedia-spotlight.com/#offset_1284_1295>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mathematics" ;
+        nif:beginIndex          "1284"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1295"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2073> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.99999513837883"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematics> .
+
+<http://www.dbpedia-spotlight.com/#offset_810_818>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computer" ;
+        nif:beginIndex          "810"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "818"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2073> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_science> .
+
+<http://www.dbpedia-spotlight.com/#offset_1606_1625>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic notation" ;
+        nif:beginIndex          "1606"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1625"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2073> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_191_198>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "191"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2073> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> , <http://www.wikidata.org/entity/Q315> ;
+        itsrdf:taConfidence     "0.9999666657623825"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<http://www.dbpedia-spotlight.com/#offset_1297_1313>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "natural sciences" ;
+        nif:beginIndex          "1297"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1313"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2073> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Natural_science> .
+
+<http://www.dbpedia-spotlight.com/#offset_240_250>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plagiarism" ;
+        nif:beginIndex          "240"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2073> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plagiarism> .
+
+<http://www.dbpedia-spotlight.com/#offset_659_699>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Canadian Engineering Accreditation Board" ;
+        nif:beginIndex          "659"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "699"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2073> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canadian_Council_of_Professional_Engineers> .
+
+<http://www.dbpedia-spotlight.com/#offset_181_187>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "French" ;
+        nif:beginIndex          "181"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2073> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://www.wikidata.org/entity/Q315> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9999846713819129"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/French_language> .
+
+<http://www.dbpedia-spotlight.com/#offset_715_754>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Canadian Information Processing Society" ;
+        nif:beginIndex          "715"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "754"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2073> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://www.wikidata.org/entity/Q43229> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q4830453> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Company> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canadian_Information_Processing_Society> .
+
+<http://www.dbpedia-spotlight.com/#offset_1672_1686>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tree traversal" ;
+        nif:beginIndex          "1672"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1686"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2073> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_traversal> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2073> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2073>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2073"^^xsd:nonNegativeInteger ;
+        nif:isString    "Presentation is not limited to written work. It also includes oral presentations, computer assignments and artistic works. Finally, if you translate the work of another person into French or English and do not cite the source, this is also plagiarism.  In Simple Words: Do not copy, paraphrase or translate anything from anywhere without saying where you obtained it!   Graduate Attributes As part of either the Computer Science or Software Engineering program curriculum, the content of this course includes material and exercises related to the teaching and evaluation of graduate attributes. Graduate attributes are skills that have been identified by the Canadian Engineering Accreditation Board (CEAB) and the Canadian Information Processing Society (CIPS) as being central to the formation of engineers, computer scientists and information technology professionals. As such, the accreditation criteria for the Software Engineering and Computer Science programs dictate that graduate attributes are taught and evaluated as part of the courses. The following is the list of graduate attributes covered in this course, along with a description of how these attributes are incorporated in the course:  â¢ A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program. Knowledge of abstract data types: stacks and queues, trees, priority queues, dictionaries. Data structures: arrays, linked lists, heaps, hash tables, search trees. Design and analysis of algorithms: asymptotic notation, recursive algorithms, searching and sorting, tree traversal, graph algorithms.  â¢ Problem analysis: Ability to use appropriate knowledge and skills to identify, analyze, and solve complex engineering problems in order to reach substantiated conclusions. Analyze problems and determine their constraints in order to make a choice as to what data structures and algorithms to use for their implementation.  â¢ Design: Ability to design solutions for" .
+
+<http://www.dbpedia-spotlight.com/#offset_1420_1439>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "abstract data types" ;
+        nif:beginIndex          "1420"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1439"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2073> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_82_90>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computer" ;
+        nif:beginIndex          "82"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "90"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2073> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_science> .
+
+<http://www.dbpedia-spotlight.com/#offset_412_428>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Computer Science" ;
+        nif:beginIndex          "412"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "428"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2073> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_science> .
+
+<http://www.dbpedia-spotlight.com/#offset_1544_1548>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash" ;
+        nif:beginIndex          "1544"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1548"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2073> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.925121749733591"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Associative_array> .
+
+<http://www.dbpedia-spotlight.com/#offset_916_936>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Software Engineering" ;
+        nif:beginIndex          "916"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "936"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2073> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_engineering> .
+
+<http://www.dbpedia-spotlight.com/#offset_1688_1704>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph algorithms" ;
+        nif:beginIndex          "1688"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1704"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2073> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_theory> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2156>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2156"^^xsd:nonNegativeInteger ;
+        nif:isString    "complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations. Use and compose appropriate data structures and algorithms to solve a variety of problems.  Comp 352 â Fall 2021  Course Outline â Page 5  â¢ Use of engineering tools: Ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations. Make educated choices as to what data structures and algorithms to use to solve problems following their respective strengths and constraints.   Learning Objectives â¢ Knowledge base: Demonstrate competence in fundamentals of data structures and algorithms.  â¢ Problem analysis: Analyze and state model limitations and elements of uncertainty. Formulate and calculate qualitative and quantitative qualities of the problems inputs and outputs. Estimate computational complexity. Evaluate and pick the most appropriate approach based on relevant criteria.  â¢ Design: - Critique/evaluate many possible diverse solutions and use techniques to evaluate different solutions with sound arguments related to the problems requirements and constraints. Demonstrate thinking outside the box to create innovative solutions. - Develop a system architecture adapted to the systems application context and its requirements and constraints. Development and specification of internal and external software interfaces at different modularity levels. Describe a solution that presents enough details for implementation. - Write code according to design. Validate implemented systems against system requirements, specifications and constraints, as well as interface specifications.  â¢ Use of Engineering tools: Demonstrate appropriate operational use of tools (e.g. algorithms, abstract data types, data structures, asymptotic complexity analysis) for specific tasks in a laboratory environment.  â¢ One credit represents," .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2156> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_823_837>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Knowledge base" ;
+        nif:beginIndex          "823"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "837"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2156> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Knowledge_base> .
+
+<http://www.dbpedia-spotlight.com/#offset_1107_1131>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computational complexity" ;
+        nif:beginIndex          "1107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2156> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999218354253781"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Analysis_of_algorithms> .
+
+<http://www.dbpedia-spotlight.com/#offset_2062_2081>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "complexity analysis" ;
+        nif:beginIndex          "2062"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2081"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2156> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Analysis_of_algorithms> .
+
+<http://www.dbpedia-spotlight.com/#offset_2051_2061>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic" ;
+        nif:beginIndex          "2051"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2061"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2156> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.994461400745661"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptotic_analysis> .
+
+<http://www.dbpedia-spotlight.com/#offset_1479_1498>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "system architecture" ;
+        nif:beginIndex          "1479"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1498"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2156> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Systems_architecture> .
+
+<http://www.dbpedia-spotlight.com/#offset_2013_2032>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "abstract data types" ;
+        nif:beginIndex          "2013"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2032"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2156> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1668_1678>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "modularity" ;
+        nif:beginIndex          "1668"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1678"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2156> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999979307702723"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modular_programming> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1848>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1848"^^xsd:nonNegativeInteger ;
+        nif:isString    "for an average student, a minimum of 45 hours of workload spread across the various academic activities (Source: Article 16.1.2 of the Undergraduate Calendar.) For an average student, this suggests a minimum of 135 hours of workload for a 3-credit course, including the time spent in lectures, tutorials, laboratories, examinations, and personal and team work.  Important Lecture Guidelines (Section FF) Laptops are STRICTLY PROHIBITED during the lectures. Other communications devices, such as cellular phones, communication watches, and text/video messaging devices, tablets, pads, and similar devices are also STRICTLY PROHIBITED. The usage of any of these materials during the class will result in you being asked to immediately leave the class.   http://www.concordia.ca/academics/undergraduate/calendar/current/sec16/16.html#b16.1.2Comp 352 â Fall 2021  Course Outline â Page 6  Important Notes  1. Assignments will consist of a theoretical and a programming part. Each student must independently and separately prepare and submit the theory part of the assignment. For the programming part, you are allowed to work in a group (maximum 2 students).   2. For the Theory Part of the assignment, work and submission must be individual (no groups are allowed).   3. For the Programing Part, in case you are working in a group, ONLY ONE copy per group is to be submitted; i.e. do not submit 2 separate copies. You have to submit the complete source code and the compiled files, which can be executed without changes. If this is violated, you will get a zero mark for these parts of the assignments.   For all programming components, you need to use Java version 8.0 or later. You will be using the same computing facilities and the same computer account you used in previous courses (e.g., Comp 249). If you do not have a computer account, you can" .
+
+<http://www.dbpedia-spotlight.com/#offset_1738_1746>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computer" ;
+        nif:beginIndex          "1738"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1746"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1848> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.986835178958696"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1848> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1650_1654>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "1650"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1654"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1848> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.601535646500966"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_1080_1091>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "programming" ;
+        nif:beginIndex          "1080"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1091"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1848> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.6865181281241366"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_programming> .
+
+<http://www.dbpedia-spotlight.com/#offset_1443_1454>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "source code" ;
+        nif:beginIndex          "1443"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1454"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1848> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999760655104"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Source_code> .
+
+<http://www.dbpedia-spotlight.com/#offset_953_964>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "programming" ;
+        nif:beginIndex          "953"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "964"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1848> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.6865181281241366"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_programming> .
+
+<http://www.dbpedia-spotlight.com/#offset_400_402>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "FF" ;
+        nif:beginIndex          "400"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "402"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1848> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q386724> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "0.9999999999929514"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Firefox> .
+
+<http://www.dbpedia-spotlight.com/#offset_1610_1621>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "programming" ;
+        nif:beginIndex          "1610"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1621"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1848> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.6865181281241366"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_programming> .
+
+<http://www.dbpedia-spotlight.com/#offset_1823_1831>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computer" ;
+        nif:beginIndex          "1823"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1831"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1848> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.986835178958696"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer> .
+
+<http://www.dbpedia-spotlight.com/#offset_512_525>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "communication" ;
+        nif:beginIndex          "512"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "525"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1848> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999932790199941"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communication> .
+
+<http://www.dbpedia-spotlight.com/#offset_544_559>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "video messaging" ;
+        nif:beginIndex          "544"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "559"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1848> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9892752014121188"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Multimedia_Messaging_Service> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_517_528>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "programming" ;
+        nif:beginIndex          "517"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "528"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1759> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.895565655000409"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_program> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1759> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_262_270>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computer" ;
+        nif:beginIndex          "262"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "270"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1759> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9997735132982664"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer> .
+
+<http://www.dbpedia-spotlight.com/#offset_401_410>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia" ;
+        nif:beginIndex          "401"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "410"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1759> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9991859811781602"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concordia_University> .
+
+<http://www.dbpedia-spotlight.com/#offset_366_370>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "366"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "370"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1759> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9838447084306632"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1759>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1759"^^xsd:nonNegativeInteger ;
+        nif:isString    "obtain it from the help desk at H-960 or EV 07.182. This account will give you access to the laboratories. For more information on CSE Computer accounts please visit the following website: http://www.encs.concordia.ca/helpdesk/access.html.  If you have your own computer and prefer to use it, you may do so, but be aware that your programs must compile and run with Java 8.0, or later version, at the Concordia laboratories.   4. IMPORTANT (Please read very carefully): Additionally, which is very important, for the programming part only, a demo will take place with the markers afterwards. Markers will inform you about the details of demo time and how to book a time slot for your demo. If working in a group, both members must be present during demo time. Different marks may be assigned to teammates based on this demo. Now, please read very carefully:  â¢ If you fail to demo, a zero mark is assigned regardless of your submission.  â¢ If you book a demo time, and do not show up, for whatever reason, you will be allowed to reschedule a second demo but a penalty of 50% will be applied. There will be no exceptions to this rule!  â¢ Failing to demo at the second appointment will result in zero marks and no more chances will be given under any conditions.    Submission format: All assignment-related submissions must be adequately archived in a ZIP file using your ID(s) and last name(s) as file name. The submission itself must also contain your name(s) and student ID(s). Use your âofficialâ name only - no abbreviations or nick names; capitalize the usual âlastâ name. Inappropriate submissions will be heavily penalized. Only http://www.encs.concordia.ca/helpdesk/access.htmlComp 352 â Fall 2021  Course Outline â Page 7  electronic submissions will" .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1730> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_112_118>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Moodle" ;
+        nif:beginIndex          "112"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "118"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1730> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Moodle> .
+
+<http://www.dbpedia-spotlight.com/#offset_1322_1331>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia" ;
+        nif:beginIndex          "1322"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1331"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1730> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.7153792821933195"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concordia_University> .
+
+<http://www.dbpedia-spotlight.com/#offset_1471_1475>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Zoom" ;
+        nif:beginIndex          "1471"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1475"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1730> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Organisation> , <http://www.wikidata.org/entity/Q4830453> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q43229> ;
+        itsrdf:taConfidence     "0.9984396810657371"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Zoom_Video_Communications> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1730>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1730"^^xsd:nonNegativeInteger ;
+        nif:isString    "be accepted. Students will have to submit their assignments (one copy per group for the Programming Part) using Moodle. Assignments must be submitted in the right folder of the assignments. Assignments uploaded to an incorrect folder will not be marked and result in a zero mark. No resubmissions will be allowed.     Comp 352 â Fall 2021  Course Outline â Page 8  In Case the Course has to Switch to Online Delivery!  Due to the uncertainty of the current pandemic times, pressing situations may force the course to switch to online delivery. If this is the case, there are few important matters that you should be aware of. More concrete details will also be given at such time.  1) You must have all equipment, tools, software, etc. that are needed for a remotely delivered course.  2) Lectures, Tutorials, and PODs: all of these components, or only part of them, will be switched to online delivery. In such cases, the online delivery may be through pre-recorded videos, or through live online delivery. Your instructor will fully inform you about the delivery method.  3) In case the lectures are delivered live, there will be no recordings for these live lectures. 4) EXAMS:  In case of switching to online delivery, exams may still take place in-person. If this is not possible, then exams will take place over The Concordia OnLine Exams (COLE) system. Additionally, you may be called for a follow-up oral exam afterwards. The exam will be proctored, through live Zoom invigilation with enabled lock-screen (which is the most likely way that the exam will take place), or through auto-proctoring. Please read very carefully the Addendums below, which provide the full details of such exams. You must make sure that you read" .
+
+<http://www.dbpedia-spotlight.com/#offset_457_465>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pandemic" ;
+        nif:beginIndex          "457"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "465"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1730> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9994938818354621"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pandemic> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1514_1516>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3G" ;
+        nif:beginIndex          "1514"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1516"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9994628556461076"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/3G> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1706> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1369_1379>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microphone" ;
+        nif:beginIndex          "1369"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1379"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999997641271244"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microphone> .
+
+<http://www.dbpedia-spotlight.com/#offset_1614_1622>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lockdown" ;
+        nif:beginIndex          "1614"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1622"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9993045344374729"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lockdown> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1706>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1706"^^xsd:nonNegativeInteger ;
+        nif:isString    "this information very carefully.  Addendum 1 â Zoom invigilation   This course will be taught and all assessments will be completely online.  A midterm and/or a final online exam will be provided through the Concordia Online Exams (COLE) platform with online live proctoring (also known as invigilation). More information about the COLE system may be found at the COLE website.   Please note the following with respect to online live proctored exams: â       That the exam will take place during the exam period at the designated date and time set by the professor (midterm) or the Exams office (final). All exam times will be set to Eastern Standard Time. â       That your image, voice and screen activity may be recorded throughout the duration of the exam. â       That you must show your Concordia University Identification card to validate your identity. Alternative government-issued photo identification will be accepted, though it is not recommended. Only identification in English or French will be accepted.  â       That any recording made (if one is made) will only be viewed by authorized university personnel (no external entity has authorization to review the recording). http://www.concordia.ca/COLEComp 352 â Fall 2021  Course Outline â Page 9  â       That you will be responsible for ensuring appropriate, properly functioning technology (webcam, a microphone, appropriate browser and an ability to download any necessary software, as well as a reliable internet connection with a minimum of a 3G connection). â¢ For your online examination(s), you will need to download the appropriate browser lockdown technology and use Zoom. Protocols for entering the examination will be provided by" .
+
+<http://www.dbpedia-spotlight.com/#offset_793_813>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia University" ;
+        nif:beginIndex          "793"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "813"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.988089988586756"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Main_Page> .
+
+<http://www.dbpedia-spotlight.com/#offset_983_990>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "983"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "990"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q315> , <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9999659335363906"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<http://www.dbpedia-spotlight.com/#offset_994_1000>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "French" ;
+        nif:beginIndex          "994"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1000"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> , <http://www.wikidata.org/entity/Q315> ;
+        itsrdf:taConfidence     "0.9997502553725672"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/French_language> .
+
+<http://www.dbpedia-spotlight.com/#offset_47_51>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Zoom" ;
+        nif:beginIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.wikidata.org/entity/Q4830453> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Company> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://www.wikidata.org/entity/Q43229> ;
+        itsrdf:taConfidence     "0.9584510191597806"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Zoom_Corporation> .
+
+<http://www.dbpedia-spotlight.com/#offset_814_833>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Identification card" ;
+        nif:beginIndex          "814"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "833"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Identity_document> .
+
+<http://www.dbpedia-spotlight.com/#offset_1359_1365>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "webcam" ;
+        nif:beginIndex          "1359"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1365"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Webcam> .
+
+<http://www.dbpedia-spotlight.com/#offset_634_655>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Eastern Standard Time" ;
+        nif:beginIndex          "634"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "655"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9978940955947958"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eastern_Time_Zone> .
+
+<http://www.dbpedia-spotlight.com/#offset_1642_1646>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Zoom" ;
+        nif:beginIndex          "1642"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1646"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Company> , <http://www.wikidata.org/entity/Q24229398> , <http://www.wikidata.org/entity/Q43229> , <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9584510191597806"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Zoom_Corporation> .
+
+<http://www.dbpedia-spotlight.com/#offset_208_217>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia" ;
+        nif:beginIndex          "208"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "217"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1706> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999998080351318"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concordia_University> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1697> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1697>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1697"^^xsd:nonNegativeInteger ;
+        nif:isString    "your professor. â       That you should enter the virtual test site and become familiar with the software that will be used for your exam before starting the exam. â       That you will need a quiet place within which to take the exam. Earplugs or noise-cancelling headphones that are not connected to a device may also be used to allow you to focus for the duration of the exam.   Students who are unable to write an exam because they are unable to meet the above conditions and requirements are advised that they will need to drop the course. More information can be provided on the next or alternative offering of this course by consulting the Department. Students are advised to check the drop deadline (DNE) of the term.    Students who require additional accommodations for their exams due to a documented disability should contact the Access Centre for Students with Disabilities as soon as possible (acsdinfo@concordia.ca).   If you face issues during the exam, you should inform your professor of those issues immediately. Please note that there are in-exam supports you should spend time getting to know. Visit the COLE website for more information.  Addendum 2 â Auto-proctored timed assessments  This course will be taught and all assessments will be completely online.  A midterm and/or a final online exam are planned to be provided with online live proctoring (see Addendum 1 above). Nonetheless; if this could take place for some reason, then the exams will be alternatively be provided through the Concordia Online Exams (COLE) platform with online proctoring (also known as auto-proctoring). More information about the COLE system may be found at the COLE website.    Please note" .
+
+<http://www.dbpedia-spotlight.com/#offset_1515_1524>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia" ;
+        nif:beginIndex          "1515"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1524"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1697> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999950732672"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concordia_University> .
+
+<http://www.dbpedia-spotlight.com/#offset_812_822>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "disability" ;
+        nif:beginIndex          "812"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "822"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1697> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999536499639963"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Disability> .
+
+<http://www.dbpedia-spotlight.com/#offset_248_275>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "noise-cancelling headphones" ;
+        nif:beginIndex          "248"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1697> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Noise-cancelling_headphones> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1682> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1045_1051>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "webcam" ;
+        nif:beginIndex          "1045"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1051"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Webcam> .
+
+<http://www.dbpedia-spotlight.com/#offset_772_778>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "French" ;
+        nif:beginIndex          "772"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "778"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q315> , <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9998729639017295"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/French_language> .
+
+<http://www.dbpedia-spotlight.com/#offset_402_418>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Eastern Standard" ;
+        nif:beginIndex          "402"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "418"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.99999999999784"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eastern_Time_Zone> .
+
+<http://www.dbpedia-spotlight.com/#offset_1500_1527>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "noise-cancelling headphones" ;
+        nif:beginIndex          "1500"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1527"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Noise-cancelling_headphones> .
+
+<http://www.dbpedia-spotlight.com/#offset_1200_1202>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3G" ;
+        nif:beginIndex          "1200"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999414060219126"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/3G> .
+
+<http://www.dbpedia-spotlight.com/#offset_1055_1065>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microphone" ;
+        nif:beginIndex          "1055"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1065"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999971578"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microphone> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1682>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1682"^^xsd:nonNegativeInteger ;
+        nif:isString    "the following with respect to online live proctored exams: mailto:acsdinfo@concordia.cahttp://www.concordia.ca/COLEhttp://www.concordia.ca/COLEhttp://www.concordia.ca/COLEComp 352 â Fall 2021  Course Outline â Page 10  â       That the exam will take place during the exam period at the designated date and time set by the professor (midterm) or the Exams office (final). All exam times will be set to Eastern Standard/Daylight Time. â       That your image, voice and screen activity will be recorded throughout the duration of the exam. â       That you must show your Concordia University Identification card to validate your identity. Alternative government-issued photo identification will be accepted, though it is not recommended. Only identification in English or French will be accepted.  â       That any recording made will only be viewed by authorized university personnel (no external entity has authorization to review the recording). â       That you will be responsible for ensuring appropriate, properly functioning technology (webcam, a microphone, appropriate browser and an ability to download any necessary software, as well as a reliable internet connection with a minimum of a 3G connection). â       That you are very strongly recommended to enter the virtual test site found at the COLE website and become familiar with the software that will be used for your exam before starting the exam. â       That you will need a quiet place within which to take the exam. Earplugs or noise-cancelling headphones that are not connected to a device may also be used to allow you to focus for the duration of the exam.   Students who are unable to write an exam because" .
+
+<http://www.dbpedia-spotlight.com/#offset_592_611>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Identification card" ;
+        nif:beginIndex          "592"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "611"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Identity_document> .
+
+<http://www.dbpedia-spotlight.com/#offset_571_591>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia University" ;
+        nif:beginIndex          "571"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "591"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.6395597139199225"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Main_Page> .
+
+<http://www.dbpedia-spotlight.com/#offset_761_768>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "761"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "768"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://www.wikidata.org/entity/Q315> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.9999779254886937"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1407>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1407"^^xsd:nonNegativeInteger ;
+        nif:isString    "they are unable to meet the above conditions and requirements are advised that they will need to drop the course. More information can be provided on the next or alternative offering of this course by consulting the Department. Students are advised to check the drop deadline (DNE) of the term.    Students who require additional accommodations for their exams due to a documented disability should contact the Access Centre for Students with Disabilities as soon as possible (acsdinfo@concordia.ca).   If you face issues during the exam, you should inform your professor of those issues immediately. Please note that there are in-exam supports you should spend time getting to know. Visit the COLE website for more information.    http://www.concordia.ca/COLEhttp://www.concordia.ca/COLEmailto:acsdinfo@concordia.cahttp://www.concordia.ca/COLE\tInstructor\tInstructor\tInstructor & Coordinator\tTextbook\tTentative Schedule\tGrading Scheme\tWeb pages and other Resources\tMany resources for the course (slides, assignments, example programs, ...) will be available online through Moodle; (available through the MyConcordia portal www.myconcordia.ca), or through the instructor's website. Your instructor will inform you of ...\tDetails of the Course Components\tLearning Objectives\tImportant Lecture Guidelines (Section FF)\tImportant Notes\tAddendum 1 â Zoom invigilation\tAddendum 2 â Auto-proctored timed assessments" .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1407> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1073_1079>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Moodle" ;
+        nif:beginIndex          "1073"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1079"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1407> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q7397> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Moodle> .
+
+<http://www.dbpedia-spotlight.com/#offset_1311_1313>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "FF" ;
+        nif:beginIndex          "1311"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1313"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1407> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q7397> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "0.9999876664933272"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Firefox> .
+
+<http://www.dbpedia-spotlight.com/#offset_381_391>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "disability" ;
+        nif:beginIndex          "381"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1407> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999998208200102"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Disability> .

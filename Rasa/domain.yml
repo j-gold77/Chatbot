@@ -1,0 +1,116 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - about_course
+  - about_courses_offered_at_university
+  - about_student_course_completions
+  - about_student_email
+  - about_course_topics_at_university
+  - about_student_competentcies
+  - about_most_lecture_content_in_course
+  - about_course_attendance_lecture
+  - about_student_at_university
+  - about_topic_in_course
+  - about_topics_covered_course_event
+  - about_courses_cover_topic
+
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
+entities:
+  - course
+  - student
+  - topic
+  - university
+  - lecture
+  - course_event
+  - student_id
+
+slots:
+  course:
+    type: text
+    initial_value: "initial"
+    mappings:
+      - type: from_entity
+        entity: course
+  student:
+    type: text
+    initial_value: "initial"
+    mappings:
+      - type: from_entity
+        entity: student
+  topic:
+    type: text
+    initial_value: "initial"
+    mappings:
+      - type: from_entity
+        entity: topic 
+  university:
+    type: text
+    initial_value: "initial"
+    mappings:
+      - type: from_entity
+        entity: university 
+  lecture:
+    type: text
+    initial_value: "initial"
+    mappings:
+      - type: from_entity
+        entity: lecture 
+  course_event:
+    type: text
+    initial_value: "initial"
+    mappings:
+      - type: from_entity
+        entity: course_event 
+  student_id:
+    type: text
+    initial_value: "initial"
+    mappings:
+      - type: from_entity
+        entity: student_id
+
+actions:
+  - action_course_info
+  - action_student_competentcy_info
+  - action_courses_offered_at_university_info
+  - action_student_course_completions_info
+  - action_student_email_info
+  - action_course_topics_at_university_info
+  - action__most_lecture_content_in_course_info
+  - action_course_attendance_lecture_info
+  - action_topic_in_course_info
+  - action_student_at_university_info
+  - action_topics_covered_course_event_info
+  - action_courses_cover_topic_info

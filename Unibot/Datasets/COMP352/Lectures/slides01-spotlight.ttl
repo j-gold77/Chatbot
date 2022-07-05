@@ -1,0 +1,1800 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1169_1175>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory" ;
+        nif:beginIndex          "1169"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1175"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.778797572601547"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_data_storage> .
+
+<http://www.dbpedia-spotlight.com/#offset_288_292>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "288"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "292"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999995818598"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_1913_1929>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "multiprogramming" ;
+        nif:beginIndex          "1913"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1929"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_multitasking> .
+
+<http://www.dbpedia-spotlight.com/#offset_158_166>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Montreal" ;
+        nif:beginIndex          "158"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://www.wikidata.org/entity/Q515> , <http://www.wikidata.org/entity/Q486972> , <http://dbpedia.org/ontology/Location> , <http://schema.org/City> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/City> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9999876396559478"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Montreal> .
+
+<http://www.dbpedia-spotlight.com/#offset_637_642>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "637"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "642"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_312_317>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Wiley" ;
+        nif:beginIndex          "312"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "317"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Company> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Publisher> , <http://www.wikidata.org/entity/Q24229398> ;
+        itsrdf:taConfidence     "0.9999864417650862"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wiley-Blackwell> .
+
+<http://www.dbpedia-spotlight.com/#offset_1668_1677>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "1668"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1677"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_419_426>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Collins" ;
+        nif:beginIndex          "419"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "426"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Company> , <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Publisher> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Organisation> , <http://www.wikidata.org/entity/Q43229> , <http://schema.org/Organization> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9987034161258684"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/HarperCollins> .
+
+<http://www.dbpedia-spotlight.com/#offset_378_404>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java Collections Framework" ;
+        nif:beginIndex          "378"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "404"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_collections_framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_1327_1336>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "1327"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1336"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_331_335>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "331"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "335"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_1158_1161>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CPU" ;
+        nif:beginIndex          "1158"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Central_processing_unit> .
+
+<http://www.dbpedia-spotlight.com/#offset_71_76>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_1730_1740>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "indicative" ;
+        nif:beginIndex          "1730"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1740"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9667286704874037"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Realis_mood> .
+
+<http://www.dbpedia-spotlight.com/#offset_96_112>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Computer Science" ;
+        nif:beginIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_science> .
+
+<http://www.dbpedia-spotlight.com/#offset_440_444>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "440"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "444"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_115_135>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Software Engineering" ;
+        nif:beginIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_engineering> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2149>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2149"^^xsd:nonNegativeInteger ;
+        nif:isString    "Analysis of AlgorithmsAnalysis of Algorithms1Analysis of AlgorithmsDr. Aiman HannaDepartment of Computer Science & Software Engineering Concordia University, Montreal, CanadaThese slides have been extracted, modified and updated from original slides of :Data Structures and Algorithms in Java, 5th edition. John Wiley& Sons, 2010. ISBN 978-0-470-38326-1.Data Structures and the Java Collections Framework by William J. Collins, 3rdedition, ISBN 978-0-470-48267-4. Both books are published by Wiley.Copyright Â© 2010-2011 WileyCopyright Â© 2010 Michael  T. Goodrich, Roberto TamassiaCopyright Â© 2011 William J. CollinsCopyright Â© 2011-2021 Aiman Hanna All rights reserved Analysis of Algorithms 2How to Estimate Efficiency? ï± Correctness of a method depends merely on whether the algorithm performs what it is supposed to do.ï± Clearly, efficiency is hence different than correctness.ï± Efficiency can be measured in many ways; i.e:ï® Less memory utilizationï® Faster execution timeï® Quicker release of allocated recoursesï® etc.ï± How efficiency can then be measured?ï® Measurement should be independent of used software (i.e. compiler, language, etc.) and hardware (CPU speed, memory size, etc.)ï® Particularly, run-time analysis can have serious weaknessesAnalysis of Algorithms 3Experimental Studiesï± Write a program implementing the algorithm.ï± Run the program with inputs of varying size and composition.ï± Use a method like System.currentTimeMillis() to get an accurate measure of the actual running time.ï± Plot the results.01000200030004000500060007000800090000 50 100Input SizeTime (ms)Analysis of Algorithms 4Limitations of Experimentsï± It is necessary to implement the algorithm, which may be difficult/costly.ï± Results may not be indicative of the running time on other inputs not included in the experiment. ï± In order to compare two algorithms, the same hardware and software environments must be usedï± In some multiprogramming environments, such as Windows, it is very difficult to determine how long a single task takes (since there is so much going behind the scene). Analysis of Algorithms 5How to Estimate Efficiency? ï± Efficiency, to a great" .
+
+<http://www.dbpedia-spotlight.com/#offset_934_940>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory" ;
+        nif:beginIndex          "934"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "940"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.778797572601547"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_data_storage> .
+
+<http://www.dbpedia-spotlight.com/#offset_136_156>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia University" ;
+        nif:beginIndex          "136"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "156"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.6755863200889016"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concordia_University> .
+
+<http://www.dbpedia-spotlight.com/#offset_777_786>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "777"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "786"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1952_1959>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Windows" ;
+        nif:beginIndex          "1952"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1959"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2149> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q7397> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "0.9974123136484575"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microsoft_Windows> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2018>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2018"^^xsd:nonNegativeInteger ;
+        nif:isString    "extent, depends on how the method is defined.ï± An abstract analysis that can be performed by direct investigation of the method definition is hence preferred. ï± Ignore various restrictions; i.e:ï® CPU speedï® Memory limits; for instance allow an int variable to take any allowed integer value, and allow arrays to be arbitrarily large ï® etc.ï± Since the method is now unrelated to specific computer environment, we refer to it as algorithm.Analysis of Algorithms 6Estimating Running Timeï± How can we estimate the running/execution-time from algorithm's definition?ï± Consider the number of executed statements, in a trace of the algorithm, as a measurement of running- time requirement.ï± This measurement can be represented as function of the âsizeâ of the problem.ï± The running time of an algorithm typically grows with the input size.Analysis of Algorithms 7Estimating Running Timeï± We focus on the worst case of running time since this is crucial to many applications such as games, finance, robotics, etc. ï± Given a method of a problem of size n, find worstTime(n) , which is the maximum number of executed statements in a trace, considering all possible parameters/input values.020406080100120Running Time1000 2000 3000 4000Input Sizebest caseaverage caseworst caseAnalysis of Algorithms 8Estimating Running TimeExample: Assume an array a [0 â¦ n â1] of int, and assume the following trace:for (int i = 0; i < n - 1; i++)if (a [i] > a [i + 1])System.out.println (i);What is worstTime(n)?Analysis of Algorithms 9Estimating Running Timeï± That is, worstTime(n) is: 4n â 2.Statement Worst  Case Number of Executionsi = 0 1i < n â 1 ni++ n - 1a[i] > a[i+1] n - 1System.out.println() n - 1Analysis of Algorithms 10Estimating Running Timeï¨ See aboveMeanCount() methodï± What is worstTime(n)?http://www.aimanhanna.com/concordia/comp352/aboveMeanCount%20method.java.docAnalysis of Algorithms 11Estimating Running TimeworstTime(n ) of aboveMeanCount() methodStatements Worst  # of Executionsdouble[] a, double mean (assignment of" .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_786_795>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "786"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "795"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999315605"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_387_395>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computer" ;
+        nif:beginIndex          "387"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "395"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.987574161641551"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer> .
+
+<http://www.dbpedia-spotlight.com/#offset_277_284>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "277"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "284"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999916976776"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.dbpedia-spotlight.com/#offset_538_547>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "538"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "547"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999315605"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_625_634>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "625"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "634"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999315605"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_991_999>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "robotics" ;
+        nif:beginIndex          "991"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "999"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9535115706990374"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Robotics> .
+
+<http://www.dbpedia-spotlight.com/#offset_196_199>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CPU" ;
+        nif:beginIndex          "196"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "199"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999838565"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Central_processing_unit> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1289_1291>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "8T" ;
+        nif:beginIndex          "1289"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1291"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8901479083632358"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/8T> .
+
+<http://www.dbpedia-spotlight.com/#offset_1152_1161>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Quadratic" ;
+        nif:beginIndex          "1152"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quadratic_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_884_888>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "884"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "888"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999552628661"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_606_618>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Control flow" ;
+        nif:beginIndex          "606"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "618"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Control_flow> .
+
+<http://www.dbpedia-spotlight.com/#offset_1208_1211>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "31E" ;
+        nif:beginIndex          "1208"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1211"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Road> , <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://dbpedia.org/ontology/Infrastructure> , <http://dbpedia.org/ontology/RouteOfTransportation> , <http://www.wikidata.org/entity/Q34442> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9999999924225449"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/U.S._Route_31E> .
+
+<http://www.dbpedia-spotlight.com/#offset_195_204>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "195"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "204"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999995174241624"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_839_849>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "expression" ;
+        nif:beginIndex          "839"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "849"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999974694885808"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gene_expression> .
+
+<http://www.dbpedia-spotlight.com/#offset_1559_1562>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CPU" ;
+        nif:beginIndex          "1559"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1562"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999997155555"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Central_processing_unit> .
+
+<http://www.dbpedia-spotlight.com/#offset_919_923>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "919"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "923"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999552628661"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2018>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2018"^^xsd:nonNegativeInteger ;
+        nif:isString    "1st & 2nd arguments)1 + 1n = a.length, count = 0 1 + 1i = 0, return count 1 + 1i < n n + 1i++ na[i] > mean ncount++ n â 1= 4n + 6Analysis of Algorithms 12Pseudocodeï± High-level description of an algorithm.ï± More structured than English prose.ï± Less detailed than a program.ï± Preferred notation for describing algorithmsï± Hides program design issues.Algorithm arrayMax(A, n)Input array A of n integersOutput maximum element of AcurrentMax â A[0]for i â 1 to n â 1 doif A[i] > currentMax thencurrentMax â A[i]return currentMaxExample: find max element of an arrayAnalysis of Algorithms 13Pseudocode Detailsï± Control flowï® if â¦ then â¦ [else â¦]ï® while â¦ do â¦ï® repeat â¦ until â¦ï® for â¦ do â¦ï® Indentation replaces braces ï± Method declarationAlgorithm method (arg [, argâ¦])Input â¦Output â¦ï± Method callvar.method (arg [, argâ¦])ï± Return valuereturn expressionï± ExpressionsâAssignment(like = in Java)= Equality testing(like == in Java)n2 Superscripts and other mathematical formatting allowedAnalysis of Algorithms 14Seven Important Functionsï± Seven functions often appear in algorithm analysis:ï® Constant â 1ï® Logarithmic â log nï® Linear â nï® N-Log-N â n log nï® Quadratic â n2ï® Cubic â n3ï® Exponential â 2n 1E-11E+11E+31E+51E+71E+91E+111E+131E+151E+171E+191E+211E+231E+251E+271E+291E-1 1E+2 1E+5 1E+8T(n)nCubicQuadraticLinearFunctions Graphed Using âNormalâ Scale15Analysis of Algorithmsg(n) = 2ng(n) = 1g(n) = lg ng(n) = n lg ng(n) = ng(n) = n2g(n) = n3Slide by Matt Stallmann included with permission.Analysis of Algorithms 16The Random Access Machine (RAM) Modelï± A CPU.ï± A potentially unbounded bank of memory cells, each of which can hold an arbitrary number or character.012Memory cells are numbered and accessing any cell in memory takes unit time.Analysis of Algorithms 17Primitive Operationsï± Basic computations performed by an algorithm.ï± Identifiable in pseudocode.ï± Largely independent from the programming language.ï± Exact definition not important (we will see why later).ï± Assumed to take a constant amount of time" .
+
+<http://www.dbpedia-spotlight.com/#offset_1065_1083>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm analysis" ;
+        nif:beginIndex          "1065"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1083"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Analysis_of_algorithms> .
+
+<http://www.dbpedia-spotlight.com/#offset_1597_1609>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory cells" ;
+        nif:beginIndex          "1597"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1609"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_data_storage> .
+
+<http://www.dbpedia-spotlight.com/#offset_1722_1728>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory" ;
+        nif:beginIndex          "1722"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1728"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9787492150621248"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_memory> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_228_235>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "228"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://www.wikidata.org/entity/Q315> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9999919179967124"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<http://www.dbpedia-spotlight.com/#offset_1827_1836>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "1827"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1836"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999995174241624"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1897_1917>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "programming language" ;
+        nif:beginIndex          "1897"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1917"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999936963743903"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Programming_language> .
+
+<http://www.dbpedia-spotlight.com/#offset_1855_1865>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pseudocode" ;
+        nif:beginIndex          "1855"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1865"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pseudocode> .
+
+<http://www.dbpedia-spotlight.com/#offset_1033_1038>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Seven" ;
+        nif:beginIndex          "1033"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1038"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://www.wikidata.org/entity/Q95074> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/FictionalCharacter> ;
+        itsrdf:taConfidence     "0.7168706346260816"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Seven_of_Nine> .
+
+<http://www.dbpedia-spotlight.com/#offset_1522_1543>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Random Access Machine" ;
+        nif:beginIndex          "1522"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1543"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2018> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Random-access_machine> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1594> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_228_238>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pseudocode" ;
+        nif:beginIndex          "228"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "238"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1594> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pseudocode> .
+
+<http://www.dbpedia-spotlight.com/#offset_44_54>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "expression" ;
+        nif:beginIndex          "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "54"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1594> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999927612837444"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gene_expression> .
+
+<http://www.dbpedia-spotlight.com/#offset_1378_1384>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "1 time" ;
+        nif:beginIndex          "1378"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1384"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1594> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.6422341510945796"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/NWA_Florida_Tag_Team_Championship> .
+
+<http://www.dbpedia-spotlight.com/#offset_1229_1238>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "1229"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1238"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1594> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999411102"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1594>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1594"^^xsd:nonNegativeInteger ;
+        nif:isString    "in the RAM model.ï± Examples:ï® Evaluating an expressionï® Assigning a value to a variableï® Indexing into an arrayï® Calling a methodï® Returning from a methodAnalysis of Algorithms 18Counting Primitive Operationsï± By inspecting the pseudocode, we can determine the maximum number of primitive operations executed by an algorithm, as a function of the input size.Algorithm compareValues(A, n)Input array A of n integersOutput display all elements larger than following ones# of operationsfor i â 0 to n â 2 do n â 1if A[i] > A[i+1] then n â 1display i n â 1increment counter i n â 1Total 4n â 4Analysis of Algorithms 19Estimating Running Timeï± Algorithm compareValues executes 4n â 4 primitive operations in the worst case.  ï± Define:a = Time taken by the fastest primitive operationb = Time taken by the slowest primitive operationï± Let T(n) be the running time of compareValues.Thena (4n â 4) â¤ T(n) â¤ b(4n â 4)ï± Hence, the running time T(n) is bounded by two linear functionsAnalysis of Algorithms 20Growth Rate of Running Timeï± Changing the hardware/ software environment ï® Affects T(n) by a constant factor, butï® Does not alter the growth rate of T(n)ï± The linear growth rate of the running time T(n) is an intrinsic property of algorithm compareValuesWhy Growth Rate Matters21Analysis of AlgorithmsSlide by Matt Stallmann included with permission.if runtime is... time for n + 1 time for 2 n time for 4 nc log n c log (n + 1) c (log n + 1) c(log n + 2)c n c (n + 1) 2c n 4c nc n log n~ c n log n+  c n2c n log n + 2cn4c n log n + 4cnc n2 ~ c n2 + 2c n 4c n2 16c n2c n3 ~ c n3 + 3c n2 8c n3 64c" .
+
+<http://www.dbpedia-spotlight.com/#offset_315_324>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "315"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1594> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999411102"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1147_1158>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "upper bound" ;
+        nif:beginIndex          "1147"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1158"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1906> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Upper_and_lower_bounds> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1906> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1183_1192>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "1183"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1192"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1906> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999999999994543"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1313_1324>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "upper bound" ;
+        nif:beginIndex          "1313"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1906> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Upper_and_lower_bounds> .
+
+<http://www.dbpedia-spotlight.com/#offset_548_563>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear function" ;
+        nif:beginIndex          "548"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "563"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1906> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.6336012357768973"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_1265_1274>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "1265"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1274"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1906> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999999999994543"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1906>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1906"^^xsd:nonNegativeInteger ;
+        nif:isString    "n3c 2n c 2 n+1 c 2 2n c 2 4nruntimequadrupleswhen problemsize doublesComparison of Two Algorithms22Analysis of AlgorithmsSlide by Matt Stallmann included with permission.insertion sort isn2 / 4merge sort is2 n lg nsort a million items?insertion sort takesroughly 70 hourswhilemerge sort takesroughly 40 secondsThis is a slow machine, but if100 x as fast then it's 40 minutesversus less than 0.5 secondsAnalysis of Algorithms 23Constant Factorsï± The growth rate is not affected byï® constant factors or ï® lower-order termsï± Examplesï® 102n + 105 is a linear functionï® 105n2 + 108n is a quadratic function1E-11E+11E+31E+51E+71E+91E+111E+131E+151E+171E+191E+211E+231E+251E-1 1E+1 1E+3 1E+5 1E+7 1E+9T(n)nQuadraticQuadraticLinearLinearAnalysis of Algorithms 24Big-O Notationï± We do NOT need to calculate the exact worst time since it is only an approximation of time requirements. ï± Instead, we can just approximate that time by means of âBig-Oâ notation. ï± That is quite satisfactory since it gives us approximation of an approximation! 1101001,00010,0001 10 100 1,000n3n2n+10nAnalysis of Algorithms 25Big-O Notationï± The basic idea is to determine an upper bound for the behavior of the algorithm/function. ï± In other words, to determine how bad the performance of the algorithm can get!ï± If some function g(n) is an upper bound of function  f(n), then we say that f(n) is Big-O of g(n). Analysis of Algorithms 26Big-O Notationï± Specifically, Big-O is defined as follows: Given functions f(n) and g(n), we say that f(n) is O(g(n)) if there are positive constants c and n0 such thatf(n) â¤ cg(n)  for n â¥ n0ï± The idea is that if f(n) is O(g(n)) then it is bounded above (cannot get bigger than) some constant times g(n).Analysis of Algorithms 27Big-O Notationï± Further, by a standard abuse of notation, we often associate a function with the value is calculates. ï± For instance, if g(n) = n3, for n = 0, 1, 2,â¦.," .
+
+<http://www.dbpedia-spotlight.com/#offset_612_615>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "31E" ;
+        nif:beginIndex          "612"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "615"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1906> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/RouteOfTransportation> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Road> , <http://www.wikidata.org/entity/Q34442> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/Infrastructure> , <http://dbpedia.org/ontology/ArchitecturalStructure> ;
+        itsrdf:taConfidence     "0.9999999897770522"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/U.S._Route_31E> .
+
+<http://www.dbpedia-spotlight.com/#offset_235_249>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "insertion sort" ;
+        nif:beginIndex          "235"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "249"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1906> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Insertion_sort> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1281> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_554_556>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ai" ;
+        nif:beginIndex          "554"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "556"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1281> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999888572696977"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<http://www.dbpedia-spotlight.com/#offset_543_545>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ai" ;
+        nif:beginIndex          "543"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "545"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1281> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999888572696977"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<http://www.dbpedia-spotlight.com/#offset_409_411>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ai" ;
+        nif:beginIndex          "409"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "411"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1281> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999888572696977"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<http://www.dbpedia-spotlight.com/#offset_424_426>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ai" ;
+        nif:beginIndex          "424"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "426"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1281> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999888572696977"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<http://www.dbpedia-spotlight.com/#offset_536_538>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ai" ;
+        nif:beginIndex          "536"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "538"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1281> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999888572696977"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<http://www.dbpedia-spotlight.com/#offset_360_370>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polynomial" ;
+        nif:beginIndex          "360"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "370"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1281> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9997338177927253"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1281>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1281"^^xsd:nonNegativeInteger ;
+        nif:isString    "then instead of saying that f(n) is O(g(n)), we say f(n) is O(n3).Analysis of Algorithms 28Big-O Notationï± Example 1: What is O() if f(n) = 2n + 10?ï® 2n â¤ 2n for n â¥ 0ï® 10 â¤ 10n for n â¥ 1So, for any n â¥ 1ï® 2n + 10 â¤ 12n ï¨ consider c = 12, n0 = 1 ï¨ g(n) = nConsequently, the above f(n) is O(n). Analysis of Algorithms 29Big-O Notationï± In general, if f(n) is a polynomial function, which is of the form:aini + ai - 1ni â 1 + ai - 2ni â 2 + â¦ + a1n + a0Then, we can directly establish that f(n) is O(ni).Proof: Chooseï® n0 = 1, and ï® c = |ai| + |ai â 1| + |ai â 2| + â¦ + |a1| + |a0|Analysis of Algorithms 30Big-O Notationï± Example 2: What is O() if f(n) = 3n4 + 6n3 + 10n2 + 5n + 4?ï® 3n4 â¤ 3n4 for n â¥ 0ï® 6n3 â¤ 6n4 for n â¥ 0ï® 10n2 â¤ 10n4 for n â¥ 0ï® 5n â¤ 5n4 for n â¥ 0ï® 4 â¤ 4n4 for n â¥ 1So, for any n â¥ 1ï® 3n4 + 6n3 + 10n2 + 5n + 4 â¤ 28n4ï¨ consider c = 28, n0 = 1 ï¨ g(n) = n4Consequently, the above f(n) is O(n4). Analysis of Algorithms 31Big-O Notationï± When determining O(), we can (and actually do) ignore the logarithmic base. Proof: Assume that f(n) is O(loga n), for some positive constant a.ï® Then f(n) â¤ C * loga n for some positive constant C and some n0 â¤ nï® By logarithmic fundamentals, loga n = loga b * logb n, for any n > 0ï® Let C1 = C * loga b. Then for all n â¥ n0f(n) â¤" .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1375> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_820_829>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "820"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "829"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1375> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.99999998553335"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_801_812>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "upper bound" ;
+        nif:beginIndex          "801"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "812"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1375> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Upper_and_lower_bounds> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1375>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1375"^^xsd:nonNegativeInteger ;
+        nif:isString    "C * loga n = C * loga b * logb n = C1 * logb nï¨ f(n) is O(logb n).Analysis of Algorithms 32Big-O Notationï± Example 3: What is O() if f(n) = 3 log n + 5ï® 3 log n â¤ 3 log n for n â¥ 1ï® 5 â¤ 5 log n for n â¥ 2So, for any n â¥ 2ï® 3 log n + 5 â¤ 8 log n ï¨ consider c = 8, n0 = 2 ï¨ g(n) = log nConsequently, the above f(n) is O(log n). Analysis of Algorithms 33Big-O Notationï± Nested loops are significant when estimating O().ï± Example 4:Consider the following loop segment, what is O()? for (int i = 0; i < n; i++ )for (int j = 0; j < n; j++ )â¦â¦â¦â¦â¦ï® The outer loop has 1 + (n + 1) + n executions. ï® The inner loop has n(1 + (n + 1) + n ) executions.ï® Total is: 2n2 + 4n + 2 ï¨ O(n2). Hint: As seen in Example 2 for polynomial functionsAnalysis of Algorithms 34Big-O Notationï± Important Note: Big-O only gives an upper bound of the algorithm.ï± However, if f(n) is O(n), then it is also O(n + 10), O(n3), O(n2 + 5n + 7), O(n10), etc. ï± We, generally, choose the smallest element from this hierarchy of orders. ï± For example, if f(n) = n + 5, then we choose O(n), even though f(n) is actually also O(n log n), O(n4), etc. ï± Similarly,  we write O(n) instead of O(2n + 8), O(n âlog n), etc. Analysis of Algorithms 35Big-O Notationï± Elements of the Big-O hierarchy can be as:O(1) â O(log n) â O(nÂ½) â O(n) â O(n log n) âO(n2) â O(n3) â â¦â¦.. â O(2n) â â¦â¦.. Where the symbol âââ, indicates âis" .
+
+<http://www.dbpedia-spotlight.com/#offset_704_714>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polynomial" ;
+        nif:beginIndex          "704"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "714"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1375> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999697822664"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<http://www.dbpedia-spotlight.com/#offset_1259_1263>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "1259"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1263"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1375> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_679_681>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "f1" ;
+        nif:beginIndex          "679"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "681"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1836> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.7620521556736182"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Family_1> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1836> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_686_688>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "f1" ;
+        nif:beginIndex          "686"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "688"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1836> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.7620521556736182"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Family_1> .
+
+<http://www.dbpedia-spotlight.com/#offset_151_155>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "log2" ;
+        nif:beginIndex          "151"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "155"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1836> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_logarithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1191_1204>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary search" ;
+        nif:beginIndex          "1191"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1204"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1836> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_search_algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_268_272>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "n100" ;
+        nif:beginIndex          "268"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "272"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1836> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999872336504"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/N100> .
+
+<http://www.dbpedia-spotlight.com/#offset_185_189>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "log2" ;
+        nif:beginIndex          "185"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "189"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1836> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_logarithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_871_875>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "871"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "875"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1836> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1836>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1836"^^xsd:nonNegativeInteger ;
+        nif:isString    "contained inâ. Analysis of Algorithms 36Big-O Notationï± The following table provides some examples:Sample Functions Order of O()f(n) = 3000f(n) = (n * log2(n+1) + 2) / (n+1)f(n) = (500 log2 n) + n / 100000f(n) = (n * log10 n) + 4n + 8f(n) = n * (n + 1) / 2f(n) = 3500 n100 + 2nO(1)O(log n)O(n)O(n log n)O(n2)O(2n)Analysis of Algorithms 37Big-O Notationï± Warning: One danger of Big-O is that it can be misleading when the values of n are small. ï± For instance, consider the following two functions f(n) and g(n) for n â¥ 0f1(n) = 1000 n ï¨ f1(n) is hence O(n)f2(n) = n2 / 10 ï¨ f2(n) is hence O(n2)However, and despite of the fact that f2(n) has a higher/worst order than the one of f1(n), f1(n) is actually greater than f2(n), for all values of n less than 10,000! Analysis of Algorithms 38Finding Big-O Estimates Quickly ï± Case 1: Number of executions is independent of nï¨ O(1)ï± Example: // Constructor of a Car classpublic Car(int nd, double pr) {numberOfDoors = nd;price = pr;}Example: for (int j = 0; j < 10000; j++ )System.out.println(j);Analysis of Algorithms 39Finding Big-O Estimates Quickly ï± Case 2: The splitting rule ï¨ O(log n)ï± Example: while(n > 1) {n = n / 2;â¦;}Example: See the binary search method in Recursion6.java& Recursion7.javahttp://aimanhanna.com/concordia/comp249/Recursion6.java.dochttp://aimanhanna.com/concordia/comp249/Recursion7.java.docAnalysis of Algorithms 40Finding Big-O Estimates Quickly ï± Case 3: Single loop, dependent on n ï¨ O(n)ï± Example: for (int j = 0; j < n; j++ )System.out.println(j);Note: It does NOT matter how many simple statement (i.e. no inner loops) are executed in the loop. For instance, if the loop has k statements, then there is k*n executions of them, which will still lead to O(n).Analysis of Algorithms 41Finding Big-O Estimates Quickly ï± Case 4: Double looping dependent on n &" .
+
+<http://www.dbpedia-spotlight.com/#offset_537_539>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "f1" ;
+        nif:beginIndex          "537"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "539"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1836> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.7620521556736182"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Family_1> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_630_642>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "code segment" ;
+        nif:beginIndex          "630"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "642"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1532> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Code_segment> .
+
+<http://www.dbpedia-spotlight.com/#offset_1247_1266>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic analysis" ;
+        nif:beginIndex          "1247"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1266"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1532> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptotic_analysis> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1532> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1532>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1532"^^xsd:nonNegativeInteger ;
+        nif:isString    "splitting ï¨ O(n log n)ï± Example: for (int j = 0; j < n; j++ ){m = n;while (m > 1) {m = m / 2;â¦;// Does not matter how many statements are here}}Analysis of Algorithms 42Finding Big-O Estimates Quickly ï± Case 4: Double looping dependent on nï¨ O(n2)ï± Example: for (int i = 0; i < n; i++ )for (int j = 0; j < n; j++ ){â¦;// Does not matter how many statements are here}Analysis of Algorithms 43Finding Big-O Estimates Quickly ï± Case 4 (Continues): Double looping dependent on nï¨ O(n2)ï± Example: for (int i = 0; i < n; i++ )for (int j = i; j < n; j++ ){â¦;// Does not matter how many statements are here}The number of executions of the code segment is as follows: n + (n-1) + (n-2) + â¦ + 3 + 2 + 1Which is: n(n + 1) / 2 = Â½ n2 + Â½ n ï¨ O(n2)Analysis of Algorithms 44Finding Big-O Estimates Quickly ï± Case 5: Sequence of statements with different O( ) O(g1(n)) + O(g2(n)) + â¦ = O(g1(n) + g2(n) + â¦)ï± Example: for (int i = 0; i < n; i++ ){ ...}for (int i = 0; i < n; i++ )for (int j = i; j < n; j++ ){ ...}The first loop is O(n) and the second is O(n2). The entire segment is hence O(n) + O(n2), which is equal to O(n + n2), which is in this case O(n2 ). Analysis of Algorithms 45Asymptotic Algorithm Analysisï± In computer science and applied mathematics, asymptotic analysis is a way of describing limiting behaviours (may approach ever nearer but never crossing!).ï± Asymptotic analysis of an algorithm determines the running time in big-O notation.ï± To perform the asymptotic analysisï® We find the worst-case number of primitive operations" .
+
+<http://www.dbpedia-spotlight.com/#offset_1205_1221>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computer science" ;
+        nif:beginIndex          "1205"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1221"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1532> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_science> .
+
+<http://www.dbpedia-spotlight.com/#offset_1226_1245>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "applied mathematics" ;
+        nif:beginIndex          "1226"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1245"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1532> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Applied_mathematics> .
+
+<http://www.dbpedia-spotlight.com/#offset_1359_1378>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Asymptotic analysis" ;
+        nif:beginIndex          "1359"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1378"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1532> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptotic_analysis> .
+
+<http://www.dbpedia-spotlight.com/#offset_1385_1394>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "1385"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1394"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1532> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.99999999842953"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1458_1477>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic analysis" ;
+        nif:beginIndex          "1458"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1477"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1532> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptotic_analysis> .
+
+<http://www.dbpedia-spotlight.com/#offset_1426_1431>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "big-O" ;
+        nif:beginIndex          "1426"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1431"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1532> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_256_265>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "256"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "265"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1884> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999915971785"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_77_82>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "big-O" ;
+        nif:beginIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "82"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1884> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1884> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1547_1566>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic analysis" ;
+        nif:beginIndex          "1547"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1566"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1884> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptotic_analysis> .
+
+<http://www.dbpedia-spotlight.com/#offset_696_706>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "small time" ;
+        nif:beginIndex          "696"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "706"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1884> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Movie> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Film> , <http://www.wikidata.org/entity/Q11424> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "0.998727869978175"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Small_Time> .
+
+<http://www.dbpedia-spotlight.com/#offset_785_795>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic" ;
+        nif:beginIndex          "785"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "795"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1884> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999931067123"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1884>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1884"^^xsd:nonNegativeInteger ;
+        nif:isString    "executed as a function of the input sizeï® We then express this function with big-O notationAnalysis of Algorithms 46Asymptotic Algorithm Analysisï± Example:ï® We determine that algorithm compareValuesexecutes at most 4n â 4 primitive operationsï® We say that algorithm compareValues âruns in O(n) timeâ, or has a âcomplexityâ of O(n)Note: Since constant factors and lower-order terms are eventually dropped anyhow, we can disregard them when counting primitive operations.Analysis of Algorithms 47Asymptotic Algorithm Analysisï± If two algorithms A & B exist for solving the same problem, and, for instance, A is O(n) and B is O(n2), then we say that A is asymptotically better than B(although for a small time B may have lower running time than A).  ï± To illustrate the importance of the asymptotic point of view, let us consider three algorithms that perform the same operation, where the running time (in Âµs) is as follows, where n is the size of the problem:ï® Algorithm1: 400nï® Algorithm2: 2n2ï® Algorithm3: 2nAnalysis of Algorithms 48Asymptotic Algorithm Analysisï® Which of the three algorithms is faster? ï· Notice that Algorithm1 has a very large constant factor compared to the other two algorithms! Running Time ( Âµs) Maximum Problem Size (n) that can be solved in:1 Second 1 Minute 1 HourAlgorithm 1400n2,500(400 * 2,500 = 1000,000)150,000 9 MillionAlgorithm 22n2707(2 * 7072 â 1000,000)5,477 42,426Algorithm 32n19(only 19, since 220 would exceed 1000,000)25 31Analysis of Algorithms 49Asymptotic Algorithm Analysisï± Let us further illustrate asymptotic analysis with two algorithms that would compute prefix averages.ï± Given an array X storing nnumbers, we need to construct an array A such that:ï® A[i] is the average of X[0] +X[1] + â¦ + X[i]) 051015202530351 2 3 4 5 6 7XA10 16 4 18 7 23 27 3910 13 10 12 11 13 15 18XAAnalysis of Algorithms 50Asymptotic Algorithm Analysisï± That" .
+
+<http://www.dbpedia-spotlight.com/#offset_175_184>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "175"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "184"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1884> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999915971785"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_367_376>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Quadratic" ;
+        nif:beginIndex          "367"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "376"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1602> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quadratic_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_391_400>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "391"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "400"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1602> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_648_652>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "nfor" ;
+        nif:beginIndex          "648"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "652"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1602> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Athlete> , <http://dbpedia.org/ontology/Person> , <http://www.wikidata.org/entity/Q937857> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/SoccerPlayer> , <http://www.wikidata.org/entity/Q215627> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson> , <Http://xmlns.com/foaf/0.1/Person> , <http://www.wikidata.org/entity/Q5> , <http://www.wikidata.org/entity/Q24229398> , <http://schema.org/Person> ;
+        itsrdf:taConfidence     "0.9999999334347671"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ernest_Webnje_Nfor> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1602> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1602>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1602"^^xsd:nonNegativeInteger ;
+        nif:isString    "is, the i-th prefix average of an array X is average of the first (i + 1) elements of X:A[i] = (X[0] + X[1] + â¦ + X[i])/(i+1)ï± Computing prefix average has applications to financial analysis; for instance the average annual return of a mutual fund for the last year, three years, ten years, etc. 051015202530351 2 3 4 5 6 7XAAnalysis of Algorithms 51Prefix Averages (Quadratic)The following algorithm computes prefix averages in quadratic time (n2) by applying the definitionAlgorithm prefixAverages1(X, n)Input array X of n integersOutput array A of prefix averages of X # of operationsA â new array of n integers nfor i â 0 to n â 1 do ns â X[0] nfor j â 1 to i do 1 + 2 + â¦+ (n â 1)s â s + X[j] 1 + 2 + â¦+ (n â 1)A[i] â s / (i + 1) nreturn A 1Analysis of Algorithms 52Prefix Averages (Quadratic)ï± Hence, to calculate the sum n integers, the algorithm needs (from the segment that has the two loops) n(n + 1) / 2 operations. ï± In other words, prefixAverages1 isO(1 + 2 + â¦+ n) = O(n(n + 1) / 2) ï¨ O(n2)Analysis of Algorithms 53Prefix Averages (Linear)The following algorithm computes prefix averages in linear time (n) by keeping a running sumAlgorithm prefixAverages2(X, n)Input array X of n integersOutput array A of prefix averages of X # of operationsA â new array of n integers ns â 0 1for i â 0 to n â 1 do ns â s + X[i] nA[i] â s / (i + 1) nreturn A 1Algorithm prefixAverages2 runs in O(n) time, which is clearly better than prefixAverages1.Analysis of Algorithms 54Big-Omega, Big-Theta &Plain English!ï± In addition to Big-O, there are two other notations that are used for algorithm analysis:" .
+
+<http://www.dbpedia-spotlight.com/#offset_1497_1510>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Plain English" ;
+        nif:beginIndex          "1497"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1510"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1602> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plain_English> .
+
+<http://www.dbpedia-spotlight.com/#offset_1067_1076>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "1067"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1076"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1602> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1105_1116>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear time" ;
+        nif:beginIndex          "1105"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1602> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<http://www.dbpedia-spotlight.com/#offset_788_797>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Quadratic" ;
+        nif:beginIndex          "788"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "797"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1602> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quadratic_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_844_853>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "844"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "853"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1602> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_615_619>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nfor" ;
+        nif:beginIndex          "615"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "619"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1602> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/SoccerPlayer> , <http://dbpedia.org/ontology/Person> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Athlete> , <Http://xmlns.com/foaf/0.1/Person> , <http://www.wikidata.org/entity/Q5> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson> , <http://www.wikidata.org/entity/Q937857> , <http://schema.org/Person> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.wikidata.org/entity/Q215627> ;
+        itsrdf:taConfidence     "0.9999999334347671"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ernest_Webnje_Nfor> .
+
+<http://www.dbpedia-spotlight.com/#offset_1583_1601>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm analysis" ;
+        nif:beginIndex          "1583"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1601"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1602> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Analysis_of_algorithms> .
+
+<http://www.dbpedia-spotlight.com/#offset_236_247>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mutual fund" ;
+        nif:beginIndex          "236"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "247"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1602> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mutual_fund> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_50_61>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "upper bound" ;
+        nif:beginIndex          "50"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "61"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1515> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Upper_and_lower_bounds> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1515> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1515>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1515"^^xsd:nonNegativeInteger ;
+        nif:isString    "Big-Omega and Big-Theta.ï± While Big-O provides an upper bound of a function, Big-Omega provides a lower bound. ï± In other words, while Big-O indicates that an algorithm behavior âcannot be any worse thanâ, Big-Omega indicates that it âcannot be any better thanâ.Analysis of Algorithms 55Big-Omega, Big-Theta &Plain English!ï± Logically, we are often interested in worst-case estimations, however knowing the lower bound can be significant when trying to achieve an optimal solution. big-OmegaBig-Omega is defined as follows: Given functions f(n) and g(n), we say that f(n) is â¦(g(n)) if there are positive constants c and n0 such thatf(n) â¥ cg(n)  for n â¥ n0Analysis of Algorithms 56Big-Omega, Big-Theta &Plain English!ï± Example: 3n log n + 2n  is  â¦(n log n)Proof:ï± 3n log n + 2n â¥ 3n log n â¥ n log n for every n â¥ 1ï± Example: 3n log n + 2n  is  â¦(n)Proof:ï± 3n log n + 2n â¥ 2n â¥ n for every n â¥ 1Analysis of Algorithms 57Big-Omega, Big-Theta &Plain English!ï± Notice that: â¦ â¦(2n) â â¦(n3) â â¦(n2) â â¦(n log n) ââ¦(n) â â¦(nÂ½)  â â¦ â â¦(log n) â â¦ â â¦(1)Where the symbol âââ, indicates âis contained inâ. ï± It should be noted that in âmanyâ cases, a method that is O( ) is also â¦( ). Analysis of Algorithms 58Big-â¦ï± Example 1 (Revised): What are O() and â¦() if f(n) = 2n + 10?ï  As seen before, the method is O(n). ï± Now, ï® 2n + 10 â¥ 2n â¥ n for n â¥ 0So, for any n â¥ 0ï® 2n + 10 â¥ n ï¨ consider c = 1, n0 = 0 ï¨ g(n) = n ï¨ â¦(n)Consequently, the above f(n) is O(n), and is also â¦(n) . Analysis of Algorithms 59Big-â¦ï± Example 2" .
+
+<http://www.dbpedia-spotlight.com/#offset_943_956>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Plain English" ;
+        nif:beginIndex          "943"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "956"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1515> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plain_English> .
+
+<http://www.dbpedia-spotlight.com/#offset_309_322>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Plain English" ;
+        nif:beginIndex          "309"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "322"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1515> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plain_English> .
+
+<http://www.dbpedia-spotlight.com/#offset_159_168>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "159"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "168"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1515> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_704_717>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Plain English" ;
+        nif:beginIndex          "704"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "717"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1515> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plain_English> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1515> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_710_714>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "710"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "714"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1515> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_1067_1078>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "upper bound" ;
+        nif:beginIndex          "1067"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1078"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1515> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Upper_and_lower_bounds> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1515>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1515"^^xsd:nonNegativeInteger ;
+        nif:isString    "(Revised): What are O() and â¦() if f(n) = 3n4 + 6n3 + 10n2 + 5n + 4?As seen before, the method is O(n4). ï± Now, ï® 3n4 + 6n3 + 10n2 + 5n + 4 â¥ 3n4 for n â¥ 0ï® 3n4 â¥ n4 for n â¥ 0So, for any n â¥ 0ï® 3n4 + 6n3 + 10n2 + 5n + 4 â¥ n4ï¨ consider c = 1, n0 = 0 ï¨ g(n) = n4Consequently, the above f(n) is O(n4) and is also â¦(n4) . Analysis of Algorithms 60Big-â¦ï± However, Big-O and Big-Omega are distinct.ï± That is, there are cases when a function may have different O( ) and â¦( ). ï± A simple, and somehow artificial, proof of that can be provided as follows:ï® Assume f(n) = n for n = 0, 1,2, â¦ ï® Clearly f(n) is O(n), and hence is O(n2)ï® Yet, f(n) is NOT â¦(n2)ï® Also, since f(n) is â¦(n), it is also â¦(1)ï® Yet, f(n) is NOT O(1)Analysis of Algorithms 61Big-â¦ï± In fact, as seen, the hierarchy of â¦() is just the reverse of the one of O()ï± For example, the following code segment: for (int j = 0; j < n; j++)System.out.println (j);is: O(n), O(n log n), O(n2), â¦And is also:â¦(n), â¦(log n), â¦(1) Analysis of Algorithms 62Big-O, Big-Omega, Big-Theta &Plain English!ï± Big-O provides and upper bound of a function, while Big-â¦ provides a lower bound of it. ï± In many, if not most, cases, there is often a need of one function that would serve as both lower and upper bounds; that is Big-Theta (Big-Î).  Analysis of Algorithms 63Big-O, Big-Omega, Big-Theta &Plain English!big-Thetaï± Big-Theta is defined as follows: Given functions f(n) and g(n), we say that f(n) is Î(g(n)) if there are positive constants c1, c2 and n0 such thatc1g(n) " .
+
+<http://www.dbpedia-spotlight.com/#offset_1336_1349>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Plain English" ;
+        nif:beginIndex          "1336"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1349"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1515> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plain_English> .
+
+<http://www.dbpedia-spotlight.com/#offset_851_863>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "code segment" ;
+        nif:beginIndex          "851"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "863"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1515> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Code_segment> .
+
+<http://www.dbpedia-spotlight.com/#offset_1032_1045>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Plain English" ;
+        nif:beginIndex          "1032"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1045"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1515> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plain_English> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1472> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1162_1169>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "1162"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1472> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> , <http://www.wikidata.org/entity/Q315> ;
+        itsrdf:taConfidence     "0.9995437024249235"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<http://www.dbpedia-spotlight.com/#offset_701_708>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "701"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "708"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1472> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999943031963008"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.dbpedia-spotlight.com/#offset_1450_1457>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "1450"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1457"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1472> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q315> , <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.9995437024249235"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<http://www.dbpedia-spotlight.com/#offset_896_903>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "896"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "903"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1472> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999943031963008"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.dbpedia-spotlight.com/#offset_1039_1046>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "1039"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1046"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1472> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999943031963008"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1472>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1472"^^xsd:nonNegativeInteger ;
+        nif:isString    "â¤ f(n) â¤ c2g(n)  for n â¥ n0ï± Simply put, if a function is f(n) is Î(g(n)), then it is bounded above and below by some constants time g(n); in other words, it is, roughly, bounded above and below by g(n).ï± ï  Notice that if f(n) is Î(g(n)), then it is hence both O(g(n)) and â¦(g(n)).Analysis of Algorithms 64Big-Îï± Example 2 (Revised Again): What is Î() of the following function: f(n) = 3n4 + 6n3 + 10n2 + 5n + 4?As seen before, the function is O(n4) and also is â¦(n4)ï¨ Hence, it is Î(n4).Analysis of Algorithms 65Big-O, Big-â¦ & Big-ÎQuick Examplesf(n) is Î(g(n)) if it is â¦(n2) and O(n2). We have already seen the former, for the latter recall that f(n) is O(g(n)) if there is a constant c > 0 and an integer constant n0 â¥ 1 such that f(n) < câ¢g(n) for n â¥ n0 Let c = 5 and n0 = 1â¢ Notice that 5n2 is NOT Î(n) since it is not O(n)ï® 5n2 is Î(n2)f(n) is â¦(g(n)) if there is a constant c > 0 and an integer constant n0 â¥ 1 such that f(n) â¥ câ¢g(n) for n â¥ n0let c = 1 and n0 = 1ï® 5n2 is â¦(n)f(n) is â¦(g(n)) if there is a constant c > 0 and an integer constant n0 â¥ 1 such that f(n) â¥ câ¢g(n) for n â¥ n0let c = 5 and n0 = 1ï® 5n2 is â¦(n2)Analysis of Algorithms 66Plain Englishï± Sometimes, it might be easier to just indicate the behavior of a method through natural language equivalence of Big-Î.ï± For instance ï® if f(n) is Î(n), we indicate that f is âlinear in nâ. ï® if f(n) is Î(n2), we indicate that f is âquadratic in nâ.Analysis of Algorithms 67Plain Englishï± The following" .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_59_66>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1819> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> , <http://www.wikidata.org/entity/Q315> ;
+        itsrdf:taConfidence     "0.9998616581903644"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1819> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_255_260>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plain" ;
+        nif:beginIndex          "255"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "260"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1819> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9907892679873087"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plain> .
+
+<http://www.dbpedia-spotlight.com/#offset_786_797>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "upper bound" ;
+        nif:beginIndex          "786"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "797"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1819> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Upper_and_lower_bounds> .
+
+<http://www.dbpedia-spotlight.com/#offset_183_192>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Quadratic" ;
+        nif:beginIndex          "183"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "192"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1819> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quadratic_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_762_767>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "big-O" ;
+        nif:beginIndex          "762"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "767"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1819> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_381_392>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "upper bound" ;
+        nif:beginIndex          "381"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "392"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1819> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Upper_and_lower_bounds> .
+
+<http://www.dbpedia-spotlight.com/#offset_261_268>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "261"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "268"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1819> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> , <http://www.wikidata.org/entity/Q315> ;
+        itsrdf:taConfidence     "0.9998616581903644"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<http://www.dbpedia-spotlight.com/#offset_955_960>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "big-O" ;
+        nif:beginIndex          "955"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "960"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1819> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1819>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1819"^^xsd:nonNegativeInteger ;
+        nif:isString    "table shows the English-language equivalence of Big-ÎBig-Î English Î(c)for some constant c â¥ 0ConstantÎ(log n) Logarithmic in nÎ(n) Linear in nÎ(n log n) Linear-logarithmic in nÎ(n2) Quadratic in nAnalysis of Algorithms 68Big-Oï± We may just prefer to use plain English, such as âlinearâ, âquadraticâ, etc..ï± However, in practice, there are MANY occasions when all we specify is an upper bound to the method, which is namely:Big-OAnalysis of Algorithms 69Intuition for Asymptotic NotationBig-Oï® f(n) is O(g(n)) if f(n) is asymptotically less than or equal to g(n)Big-Omegaï® f(n) is â¦(g(n)) if f(n) is asymptotically greater than or equal to g(n)Big-Thetaï® f(n) is Î(g(n)) if f(n) is asymptotically equal to g(n)Analysis of Algorithms 70Big-O and Growth Rateï± The big-O notation gives an upper bound on the growth rate of a functionï± The statement âf(n) is O(g(n))â means that the growth rate of f(n) is no more than the growth rate of g(n)ï± We can use the big-O notation to rank functions according to their growth ratef(n) is O(g(n)) g(n) is O(f(n))g(n) grows more Yes Nof(n) grows more No YesSame growth Yes YesAnalysis of Algorithms 71Big-O and Growth Rateï± Again, we are specifically interested in how rapidly a function increases based on its classification.ï± For instance, suppose that we have a method whose worstTime() estimate is linear in n, what will be the effect of doubling the problem size?ï® worstTime(n) â c * n, for some constant c, and sufficiently large value of nï® If the problem size doubles then worstTime(n) â c * 2n â 2* worstTime(n) ï± In other words, if n is doubled, then worst time is doubled.Analysis of Algorithms 72Big-O and Growth Rateï± Now, suppose that we have a method whose worstTime() estimate is quadratic in n, what will be the effect of doubling the problem size?ï® worstTime(n) â c" .
+
+<http://www.dbpedia-spotlight.com/#offset_832_845>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "The statement" ;
+        nif:beginIndex          "832"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "845"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1819> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9844649306746739"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Statement_(film)> .
+
+<http://www.dbpedia-spotlight.com/#offset_1504_1511>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "doubles" ;
+        nif:beginIndex          "1504"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1511"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1819> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999994680593"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Types_of_tennis_match> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1948_1962>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Big-O Notation" ;
+        nif:beginIndex          "1948"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1962"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2255> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_1963_1977>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Big-O Notation" ;
+        nif:beginIndex          "1963"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1977"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2255> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_1903_1917>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Big-O Notation" ;
+        nif:beginIndex          "1903"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1917"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2255> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_235_239>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "235"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "239"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2255> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_2068_2082>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Big-O Notation" ;
+        nif:beginIndex          "2068"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2082"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2255> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_2008_2022>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Big-O Notation" ;
+        nif:beginIndex          "2008"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2022"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2255> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_1888_1902>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Big-O Notation" ;
+        nif:beginIndex          "1888"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1902"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2255> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_2023_2037>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Big-O Notation" ;
+        nif:beginIndex          "2023"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2037"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2255> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2255>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2255"^^xsd:nonNegativeInteger ;
+        nif:isString    "* n2ï® If the problem size doubles then worstTime(2n) â c * (2n)2 = c * 4 * n2 â 4* worstTime(n) ï± In other words, if n is doubled, then worst time is quadrupled.Analysis of Algorithms 73Big-O and Growth RateO(n2)O(n log n) O(n)O(log n)O(1)nworstTime(n)Analysis of Algorithms 74Big-O and Growth Rateï± Again, remember that the Big-O differences eventually dominate constant factors.ï± For instance if n is sufficiently large, 100 n log n will still be smaller than n2 / 100. ï± So, the relevance of Big-O, Big-â¦ or Bog-Î may actually depend on how large the problem size may get (i.e. 100,000 or more in the above example). Analysis of Algorithms 75Big-O and Growth Rateï± The following table provides estimate of needed execution time for various functions of n, if n = 1000,000,000, running on a machine executing 1000,1000 statements per second. Function o f n Time Estimate log2 n .0024 Secondsn 17 Minutes n log2 n 7 Hoursn2 300 YearsAnalysis of Algorithms 76ï± properties of logarithms:logb(xy) = logbx + logbylogb (x/y) = logbx - logbylogbxa = alogbxlogba = logxa/logxbLog22n = log2n + 1Log24n = log2n + 2ï± properties of exponentials:a(b+c) = aba cabc = (ab)cab /ac = a(b-c)b = a logabbc = a c*logabSummationsLogarithms and ExponentsProof techniquesBasic probabilityMath you need to Review\tAnalysis of Algorithms\tHow to Estimate Efficiency? \tExperimental Studies\tLimitations of Experiments\tHow to Estimate Efficiency? \tEstimating Running Time\tEstimating Running Time\tEstimating Running Time\tEstimating Running Time\tEstimating Running Time\tEstimating Running Time\tPseudocode\tPseudocode Details\tSeven Important Functions\tFunctions Graphed ï¿½Using âNormalâ Scale\tThe Random Access Machine (RAM) Model\tPrimitive Operations\tCounting Primitive Operations\tEstimating Running Time\tGrowth Rate of Running Time\tï¿½Why Growth Rate Matters\tï¿½Comparison of Two Algorithms\tConstant Factors\tBig-O Notation\tBig-O Notation\tBig-O Notation\tBig-O Notation\tBig-O Notation\tBig-O Notation\tBig-O Notation\tBig-O Notation\tBig-O Notation\tBig-O Notation\tBig-O Notation\tBig-O Notation\tBig-O Notation\tBig-O Notation\tFinding Big-O Estimates Quickly \tFinding Big-O Estimates Quickly \tFinding Big-O Estimates Quickly \tFinding Big-O Estimates Quickly \tFinding Big-O Estimates Quickly \tFinding" .
+
+<http://www.dbpedia-spotlight.com/#offset_1144_1147>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "aba" ;
+        nif:beginIndex          "1144"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2255> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9871348080737314"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Applied_behavior_analysis> .
+
+<http://www.dbpedia-spotlight.com/#offset_2053_2067>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Big-O Notation" ;
+        nif:beginIndex          "2053"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2067"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2255> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_873_877>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "log2" ;
+        nif:beginIndex          "873"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "877"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2255> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_logarithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1978_1992>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Big-O Notation" ;
+        nif:beginIndex          "1978"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1992"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2255> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_1993_2007>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Big-O Notation" ;
+        nif:beginIndex          "1993"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2007"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2255> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_1933_1947>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Big-O Notation" ;
+        nif:beginIndex          "1933"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1947"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2255> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2255> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_26_33>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "doubles" ;
+        nif:beginIndex          "26"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "33"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2255> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999994483915"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Types_of_tennis_match> .
+
+<http://www.dbpedia-spotlight.com/#offset_2038_2052>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Big-O Notation" ;
+        nif:beginIndex          "2038"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2052"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2255> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_908_912>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "log2" ;
+        nif:beginIndex          "908"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "912"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2255> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_logarithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1664_1685>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Random Access Machine" ;
+        nif:beginIndex          "1664"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1685"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2255> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Random-access_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_1918_1932>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Big-O Notation" ;
+        nif:beginIndex          "1918"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1932"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2255> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_1873_1887>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Big-O Notation" ;
+        nif:beginIndex          "1873"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1887"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2255> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_530_539>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Intuition" ;
+        nif:beginIndex          "530"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "539"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3604> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999968168"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Intuition> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_3604> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_3604>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3604"^^xsd:nonNegativeInteger ;
+        nif:isString    "Big-O Estimates Quickly \tFinding Big-O Estimates Quickly \tAsymptotic Algorithm Analysis\tAsymptotic Algorithm Analysis\tAsymptotic Algorithm Analysis\tAsymptotic Algorithm Analysis\tAsymptotic Algorithm Analysis\tAsymptotic Algorithm Analysis\tSlide Number 51\tPrefix Averages (Quadratic)\tSlide Number 53\tSlide Number 54\tSlide Number 55\tSlide Number 56\tSlide Number 57\tBig-ï\tBig-ï\tBig-ï\tBig-ï\tBig-O, Big-Omega, Big-Theta &Plain English!\tBig-O, Big-Omega, Big-Theta &Plain English!\tBig-ï\tSlide Number 65\tPlain English\tPlain English\tBig-O\tIntuition for Asymptotic Notation\tBig-O and Growth Rate\tBig-O and Growth Rate\tBig-O and Growth Rate\tBig-O and Growth Rate\tBig-O and Growth Rate\tBig-O and Growth Rate\tMath you need to ReviewChart1\t1\t1\t1\t10\t10\t10\t100\t100\t100\t1000\t1000\t1000\t10000\t10000\t10000\t100000\t100000\t100000\t1000000\t1000000\t1000000\t10000000\t10000000\t10000000\t100000000\t100000000\t100000000\t1000000000\t1000000000\t1000000000\t10000000000\t10000000000\t10000000000CubicQuadraticLinearnT(n)1111000100101000000100001001000000000100000010001000000000000100000000100001000000000000000100000000001000001E+18100000000000010000001E+21100000000000000100000001E+241E+161000000001E+271E+1810000000001E+301E+2010000000000Sheet1\tn\tLinear\tQuadratic\tCubic\t1\t1\t1\t1\t10\t10\t100\t1000\t100\t100\t10000\t1000000\t1000\t1000\t1000000\t1000000000\t10000\t10000\t100000000\t1000000000000\t100000\t100000\t10000000000\t1000000000000000\t1000000\t1000000\t1000000000000\t1000000000000000000\t10000000\t10000000\t100000000000000\t1000000000000000000000\t100000000\t100000000\t10000000000000000\t1000000000000000000000000\t1000000000\t1000000000\t1000000000000000000\t1000000000000000000000000000\t10000000000\t10000000000\t100000000000000000000\t1000000000000000000000000000000Chart1\t1\t1\t1\t1\t10\t10\t10\t10\t100\t100\t100\t100\t1000\t1000\t1000\t1000\t10000\t10000\t10000\t10000\t100000\t100000\t100000\t100000\t1000000\t1000000\t1000000\t1000000\t10000000\t10000000\t10000000\t10000000\t100000000\t100000000\t100000000\t100000000\t1000000000\t1000000000\t1000000000\t1000000000\t10000000000\t10000000000\t10000000000\t10000000000QuadraticQuadraticLinearLinearnT(n)10010000011001001101000000010010100010110000000001000011000010020000000000010000002000001000110000000000001000000001100000100001.01E+1510000000000101000001000001.001E+17100000000000010010000010000001.0001E+191000000000000001000100000100000001.00001E+211E+16100001000001000000001.000001E+231E+1810000010000010000000001.0000001E+251E+20100000010000010000000000Sheet1\tn\tn\t10^2n + 10^5\tn2\t10^5n^2 + 10^8n\t1\t1\t100100\t1\t100100000\t10\t10\t101000\t100\t1010000000\t100\t100\t110000\t10000\t11000000000\t1000\t1000\t200000\t1000000\t200000000000\t10000\t10000\t1100000\t100000000\t11000000000000\t100000\t100000\t10100000\t10000000000\t1010000000000000\t1000000\t1000000\t100100000\t1000000000000\t100100000000000000\t10000000\t10000000\t1000100000\t100000000000000\t10001000000000000000\t100000000\t100000000\t10000100000\t10000000000000000\t1000009999999999900000\t1000000000\t1000000000\t100000100000\t1000000000000000000\t100000100000000000000000\t10000000000\t10000000000\t1000000100000\t100000000000000000000\t10000001000000000000000000Chart1\t1\t1\t1\t2\t2\t2\t4\t4\t4\t8\t8\t8\t16\t16\t16\t32\t32\t32\t64\t64\t64\t128\t128\t128\t256\t256\t256\t512\t512\t512\t1024\t1024\t10243n2n+10nn3121614212184242684842169674321921386438426612876852225615361034512307220581024Sheet1\tn\tn\t2n+10\t3n\t1\t1\t12\t3\t2\t2\t14\t6\t4\t4\t18\t12\t8\t8\t26\t24\t16\t16\t42\t48\t32\t32\t74\t96\t64\t64\t138\t192\t128\t128\t266\t384\t256\t256\t522\t768\t512\t512\t1034\t1536\t1024\t1024\t2058\t3072Chart1\t21\t21\t23\t22\t25\t23\t31\t25\t20\t24\t18\t23\t16\t22XASheet1\tX\t21\t23\t25\t31\t20\t18\t16\tA\t21\t22\t23\t25\t24\t23\t22Chart1\t21\t21\t23\t22\t25\t23\t31\t25\t20\t24\t18\t23\t16\t22XASheet1\tX\t21\t23\t25\t31\t20\t18\t16\tA\t21\t22\t23\t25\t24\t23\t22" .
+
+<http://www.dbpedia-spotlight.com/#offset_415_428>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Plain English" ;
+        nif:beginIndex          "415"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "428"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3604> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plain_English> .
+
+<http://www.dbpedia-spotlight.com/#offset_510_523>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Plain English" ;
+        nif:beginIndex          "510"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "523"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3604> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plain_English> .
+
+<http://www.dbpedia-spotlight.com/#offset_271_280>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Quadratic" ;
+        nif:beginIndex          "271"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "280"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3604> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quadratic_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_459_472>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Plain English" ;
+        nif:beginIndex          "459"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "472"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3604> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plain_English> .
+
+<http://www.dbpedia-spotlight.com/#offset_1218_1227>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Quadratic" ;
+        nif:beginIndex          "1218"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1227"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3604> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quadratic_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_496_509>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Plain English" ;
+        nif:beginIndex          "496"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "509"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_3604> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plain_English> .

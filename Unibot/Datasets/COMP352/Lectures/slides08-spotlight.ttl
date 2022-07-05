@@ -1,0 +1,1257 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_824_838>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "priority queue" ;
+        nif:beginIndex          "824"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "838"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_817_820>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "817"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "820"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_301_305>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "305"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_128_136>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Montreal" ;
+        nif:beginIndex          "128"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q486972> , <http://www.wikidata.org/entity/Q515> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://schema.org/City> , <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9999983748704853"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Montreal> .
+
+<http://www.dbpedia-spotlight.com/#offset_41_46>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "46"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_685_688>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "685"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "688"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_106_126>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia University" ;
+        nif:beginIndex          "106"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "126"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999567276790403"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Main_Page> .
+
+<http://www.dbpedia-spotlight.com/#offset_670_684>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Priority Queue" ;
+        nif:beginIndex          "670"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "684"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_853_856>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "853"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "856"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_85_105>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Software Engineering" ;
+        nif:beginIndex          "85"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_engineering> .
+
+<http://www.dbpedia-spotlight.com/#offset_410_414>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "410"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "414"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_348_374>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java Collections Framework" ;
+        nif:beginIndex          "348"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "374"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_collections_framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_1546_1560>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Priority Queue" ;
+        nif:beginIndex          "1546"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1560"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_1561_1564>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1561"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1564"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_690_704>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Priority Queue" ;
+        nif:beginIndex          "690"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "704"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_282_287>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Wiley" ;
+        nif:beginIndex          "282"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q4830453> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Publisher> , <http://dbpedia.org/ontology/Company> , <http://www.wikidata.org/entity/Q43229> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> ;
+        itsrdf:taConfidence     "0.9999962734717742"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wiley-Blackwell> .
+
+<http://www.dbpedia-spotlight.com/#offset_258_262>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "258"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "262"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9991250316354794"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_389_396>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Collins" ;
+        nif:beginIndex          "389"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "396"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Company> , <http://www.wikidata.org/entity/Q43229> , <http://www.wikidata.org/entity/Q4830453> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Publisher> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9982465333377414"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/HarperCollins> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2008>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2008"^^xsd:nonNegativeInteger ;
+        nif:isString    "Analysis of AlgorithmsPriority QueuesDr. Aiman HannaDepartment of Computer Science & Software Engineering Concordia University, Montreal, CanadaThese slides have been extracted, modified and updated from original slides of :Data Structures and Algorithms in Java, 5th edition. John Wiley& Sons, 2010. ISBN 978-0-470-38326-1.Data Structures and the Java Collections Framework by William J. Collins, 3rdedition, ISBN 978-0-470-48267-4. Both books are published by Wiley.Copyright Â© 2010-2011 WileyCopyright Â© 2010 Michael  T. Goodrich, Roberto TamassiaCopyright Â© 2011 William J. CollinsCopyright Â© 2011-2021 Aiman Hanna All rights reserved Priority Queues 2Coverageï± The Priority Queue ADTï± Priority Queue List Implementationï± Sorting with Priority Queueï± Insertion Sort ï± Selection SortPriority Queues3Priority Queue ADTï± A priority queue  (P.Q.) is an ADT for storing a collection of prioritized elements; the elements are referred to as values. ï± P.Q. supports arbitrary insertion of elements, however the removal of the elements is made in order of priorities.ï± Consequently, a P.Q. is fundamentally different from other position-based ADTs (such as stacks, queues, D.Qs, etc.), where operations are conducted on specific positions.  ï± P.Q. ADT stores elements according to their priorities and exposes no notion of positions to the user. Priority Queues4Priority Queue ADTï± A key can be used to indicate the priority of a value (p.s. value means an element here). ï± Each entry in the P.Q. is hence a pair of (key, value)ï± Main methods of the Priority Queue ADTï® insert(k, x): insert an entry with key k and value x into PQ, and return the entry storing them ï® removeMin(): remove and returns the entry with smallest key (smallest key indicates first priority). Priority Queues5Priority Queue ADTï± Additional methodsï® min(): return the entry with smallest key, but do not remove it ï® size(), isEmpty()ï± Applications:ï® Auctionsï® Stock marketï® â¦Priority Queues6Priority Queue ADTï± Example of a P.Q. ï® Notice" .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_755_769>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Insertion Sort" ;
+        nif:beginIndex          "755"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "769"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Insertion_sort> .
+
+<http://www.dbpedia-spotlight.com/#offset_1796_1799>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1796"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1799"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1931_1943>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Stock market" ;
+        nif:beginIndex          "1931"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1943"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stock_market> .
+
+<http://www.dbpedia-spotlight.com/#offset_739_753>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Priority Queue" ;
+        nif:beginIndex          "739"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "753"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_607_612>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "607"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "612"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_1977_1980>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1977"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1980"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1373_1376>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1373"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1376"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_66_82>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Computer Science" ;
+        nif:beginIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "82"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_science> .
+
+<http://www.dbpedia-spotlight.com/#offset_1244_1247>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1244"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1247"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2008> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_679_693>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "priority queue" ;
+        nif:beginIndex          "679"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "693"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1691> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_1092_1094>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "k2" ;
+        nif:beginIndex          "1092"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1094"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1691> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/SocietalEvent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event> , <http://www.wikidata.org/entity/Q1656682> , <http://schema.org/Event> , <http://www.wikidata.org/entity/Q2133344> , <http://dbpedia.org/ontology/SpaceMission> , <http://dbpedia.org/ontology/Event> ;
+        itsrdf:taConfidence     "0.9856125624257019"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kepler_space_telescope> .
+
+<http://www.dbpedia-spotlight.com/#offset_1667_1681>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "priority queue" ;
+        nif:beginIndex          "1667"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1681"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1691> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_1111_1130>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Transitive property" ;
+        nif:beginIndex          "1111"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1691> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transitive_relation> .
+
+<http://www.dbpedia-spotlight.com/#offset_372_374>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "e3" ;
+        nif:beginIndex          "372"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "374"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1691> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999994261088"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Euclidean_space> .
+
+<http://www.dbpedia-spotlight.com/#offset_163_177>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Priority Queue" ;
+        nif:beginIndex          "163"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "177"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1691> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_1136_1138>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "k2" ;
+        nif:beginIndex          "1136"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1138"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1691> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Event> , <http://dbpedia.org/ontology/SpaceMission> , <http://www.wikidata.org/entity/Q2133344> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event> , <http://dbpedia.org/ontology/SocietalEvent> , <http://schema.org/Event> , <http://www.wikidata.org/entity/Q1656682> ;
+        itsrdf:taConfidence     "0.9856125624257019"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kepler_space_telescope> .
+
+<http://www.dbpedia-spotlight.com/#offset_1087_1089>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "k2" ;
+        nif:beginIndex          "1087"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1089"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1691> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/SpaceMission> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event> , <http://dbpedia.org/ontology/Event> , <http://www.wikidata.org/entity/Q1656682> , <http://schema.org/Event> , <http://dbpedia.org/ontology/SocietalEvent> , <http://www.wikidata.org/entity/Q2133344> ;
+        itsrdf:taConfidence     "0.9856125624257019"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kepler_space_telescope> .
+
+<http://www.dbpedia-spotlight.com/#offset_1059_1072>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Antisymmetric" ;
+        nif:beginIndex          "1059"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1072"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1691> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Antisymmetric_relation> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1691>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1691"^^xsd:nonNegativeInteger ;
+        nif:isString    "that the âPriority Queueâ column is somewhat deceiving since it shows that the entries are sorted by keys, which is more than required of a P.Q. Operations Output Priority Queue insert(5, A) e1 [= (5, A)] {(5, A)}insert(9, C) e2 [= (9, C)] {(5, A), (9, C)}insert(3, B) e3 [= (3, B)] {(3, B), (5, A), (9, C)}insert(7, D) e4 [= (7, D)] {(3, B), (5, A), (7, D), (9, C)}min() e3 {(3, B), (5, A), (7, D), (9, C)}removeMin() e3 {(5, A), (7, D), (9, C)}size() 3 {(5, A), (7, D), (9, C)}removeMin() e1 {(7, D), (9, C)}removeMin() e4 {(9, C)}Priority Queues7Total Order Relationsï± Keys in a priority queue can be arbitrary objects on which an order is defined.ï± Two distinct entries in a priority queue can have the same key.ï± P.Q. needs a comparison rule that will never contradict itself. ï± In order for a comparison rule, which we denote by â¤, to be robust, it must define a total order relation. Priority Queues8Total Order Relationsï± The comparison rule must be defined for each pair of keys and must satisfy the following properties: ï® Reflexive property:k â¤ kï® Antisymmetric property:k1 â¤ k2 â§ k2 â¤ k1 â k1 = k2ï® Transitive property:k1 â¤ k2 â§ k2 â¤ k3 â k1 â¤ k3ï± A comparison rule that satisfies these three properties will never lead to a comparison contradiction. Priority Queues9Entries & Comparatorsï± Two important questions must be asked:ï® How do we keep track of the associations between keys and values? ï® How do we compare keys so as to determine the smallest key? ï± The definition of a P.Q. implicitly makes use of two special kinds of objects, which answer the above questions:ï® The entry objectï® The comparator objectPriority Queues10Entry ADTï± An entry in a priority queue is simply" .
+
+<http://www.dbpedia-spotlight.com/#offset_1141_1143>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "k2" ;
+        nif:beginIndex          "1141"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1143"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1691> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/SpaceMission> , <http://dbpedia.org/ontology/Event> , <http://schema.org/Event> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event> , <http://www.wikidata.org/entity/Q2133344> , <http://dbpedia.org/ontology/SocietalEvent> , <http://www.wikidata.org/entity/Q1656682> ;
+        itsrdf:taConfidence     "0.9856125624257019"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kepler_space_telescope> .
+
+<http://www.dbpedia-spotlight.com/#offset_869_880>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "total order" ;
+        nif:beginIndex          "869"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "880"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1691> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Total_order> .
+
+<http://www.dbpedia-spotlight.com/#offset_419_421>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "e3" ;
+        nif:beginIndex          "419"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "421"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1691> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999994261088"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Euclidean_space> .
+
+<http://www.dbpedia-spotlight.com/#offset_1608_1618>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparator" ;
+        nif:beginIndex          "1608"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1618"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1691> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparator> .
+
+<http://www.dbpedia-spotlight.com/#offset_269_271>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "e3" ;
+        nif:beginIndex          "269"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "271"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1691> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999994261088"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Euclidean_space> .
+
+<http://www.dbpedia-spotlight.com/#offset_1648_1651>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1648"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1651"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1691> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999993179"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1691> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_582_596>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "priority queue" ;
+        nif:beginIndex          "582"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "596"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1691> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_10_24>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Priority Queue" ;
+        nif:beginIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1691> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_1107_1109>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "k2" ;
+        nif:beginIndex          "1107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1109"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1691> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Event> , <http://schema.org/Event> , <http://dbpedia.org/ontology/SocietalEvent> , <http://www.wikidata.org/entity/Q1656682> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event> , <http://www.wikidata.org/entity/Q2133344> , <http://dbpedia.org/ontology/SpaceMission> ;
+        itsrdf:taConfidence     "0.9856125624257019"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kepler_space_telescope> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1901_1912>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "total order" ;
+        nif:beginIndex          "1901"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1912"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1923> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Total_order> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1923> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_496_499>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "496"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "499"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1923> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1735_1745>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparator" ;
+        nif:beginIndex          "1735"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1745"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1923> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparator> .
+
+<http://www.dbpedia-spotlight.com/#offset_1820_1830>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparator" ;
+        nif:beginIndex          "1820"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1830"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1923> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparator> .
+
+<http://www.dbpedia-spotlight.com/#offset_1498_1520>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lexicographic ordering" ;
+        nif:beginIndex          "1498"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1520"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1923> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lexicographical_order> .
+
+<http://www.dbpedia-spotlight.com/#offset_201_204>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "201"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "204"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1923> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_552_563>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "total order" ;
+        nif:beginIndex          "552"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "563"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1923> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Total_order> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1923>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1923"^^xsd:nonNegativeInteger ;
+        nif:isString    "a key-value pairï± That is, an entry object is actually composed of a key and a value objectsï± Priority queues store entries to allow for efficient insertion and removal based on keysï± Methods of Entry ADT:ï® getKey: returns the key for this entryï® getValue: returns the value associated with this entryPriority Queues11Entry ADTï± As a Java interface:/** * Interface for a key-value* pair entry **/public interface  Entry<K,V>  {public  K getKey();public  V getValue();}Priority Queues12Comparator ADTï± It is important to define a way for specifying the total order relation for comparing keys.ï± One possibility is to use a particular key type that the P.Q. can compare. ï± The problem with such approach is that the utilization of different keys would require the creation of different/multiple P.Qs.ï± An alternative strategy is to require the keys to be able to compare themselves to one another. ï± This solution allows us to write a general P.Q. that can store instances of a key class that has a well-established natural ordering. Priority Queues13Comparator ADTï± It is possible to have comparable objects by implementing the java.lang.Comparable interface.ï± The problem with such approach however is that there are cases where the keys will be required to provide more information than they should/expected to, such as their comparison rules. ï± For instance, there are two natural ways to compare â7â and â21â.  â7â is < â21â if the rule is integer comparison, where â21â is < â7â if the rule is lexicographic ordering. ï± Such cases would require the keys themselves to provide their comparison rules. http://download.oracle.com/javase/6/docs/api/java/lang/Comparable.htmlPriority Queues14Comparator ADTï± Instead, we can use special comparator objects that are external to the keys to supply the comparison rules. ï± A comparator encapsulates the action of comparing two objects according to a given total order relation.ï±" .
+
+<http://www.dbpedia-spotlight.com/#offset_334_338>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "334"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "338"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1923> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999816399797007"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_1443_1450>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "1443"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1450"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1923> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999996589"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.dbpedia-spotlight.com/#offset_396_412>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "public interface" ;
+        nif:beginIndex          "396"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "412"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1923> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999587027992138"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public_interface> .
+
+<http://www.dbpedia-spotlight.com/#offset_1702_1705>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1702"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1705"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1923> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_633_641>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "key type" ;
+        nif:beginIndex          "633"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "641"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1923> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999998731255"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Key_type_stamp> .
+
+<http://www.dbpedia-spotlight.com/#offset_2_16>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "key-value pair" ;
+        nif:beginIndex          "2"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "16"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1923> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999986648618"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Attributeâvalue_pair> .
+
+<http://www.dbpedia-spotlight.com/#offset_1060_1063>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1060"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1063"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1923> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_324_327>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "324"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "327"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1923> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_955_957>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "xa" ;
+        nif:beginIndex          "955"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "957"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MeanOfTransportation> , <http://dbpedia.org/ontology/Automobile> , <http://schema.org/Product> ;
+        itsrdf:taConfidence     "0.998855553851045"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scion_xA> .
+
+<http://www.dbpedia-spotlight.com/#offset_1803_1813>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparator" ;
+        nif:beginIndex          "1803"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1813"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparator> .
+
+<http://www.dbpedia-spotlight.com/#offset_679_698>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lexicographic order" ;
+        nif:beginIndex          "679"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "698"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lexicographical_order> .
+
+<http://www.dbpedia-spotlight.com/#offset_761_763>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "xa" ;
+        nif:beginIndex          "761"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "763"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MeanOfTransportation> , <http://dbpedia.org/ontology/Automobile> , <http://schema.org/Product> ;
+        itsrdf:taConfidence     "0.998855553851045"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scion_xA> .
+
+<http://www.dbpedia-spotlight.com/#offset_1071_1078>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "1071"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1078"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.dbpedia-spotlight.com/#offset_479_482>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "479"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "482"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_978_980>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "xa" ;
+        nif:beginIndex          "978"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "980"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MeanOfTransportation> , <http://dbpedia.org/ontology/Automobile> , <http://schema.org/Product> ;
+        itsrdf:taConfidence     "0.998855553851045"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scion_xA> .
+
+<http://www.dbpedia-spotlight.com/#offset_290_297>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "290"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "297"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.dbpedia-spotlight.com/#offset_1325_1339>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "priority queue" ;
+        nif:beginIndex          "1325"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1339"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_258_261>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "258"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "261"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_220_223>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "220"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "223"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_99_109>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparator" ;
+        nif:beginIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "109"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparator> .
+
+<http://www.dbpedia-spotlight.com/#offset_1783_1797>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "priority queue" ;
+        nif:beginIndex          "1783"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1797"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_468_478>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparator" ;
+        nif:beginIndex          "468"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "478"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparator> .
+
+<http://www.dbpedia-spotlight.com/#offset_159_169>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparator" ;
+        nif:beginIndex          "159"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparator> .
+
+<http://www.dbpedia-spotlight.com/#offset_43_53>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparator" ;
+        nif:beginIndex          "43"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparator> .
+
+<http://www.dbpedia-spotlight.com/#offset_73_87>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "priority queue" ;
+        nif:beginIndex          "73"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "87"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_1685_1695>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparator" ;
+        nif:beginIndex          "1685"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1695"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparator> .
+
+<http://www.dbpedia-spotlight.com/#offset_10_24>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "priority queue" ;
+        nif:beginIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_846_848>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "xa" ;
+        nif:beginIndex          "846"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "848"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Product> , <http://dbpedia.org/ontology/Automobile> , <http://dbpedia.org/ontology/MeanOfTransportation> ;
+        itsrdf:taConfidence     "0.998855553851045"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scion_xA> .
+
+<http://www.dbpedia-spotlight.com/#offset_1576_1590>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "priority queue" ;
+        nif:beginIndex          "1576"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1590"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1888> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1888>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1888"^^xsd:nonNegativeInteger ;
+        nif:isString    "A generic priority queue uses an auxiliary comparator.ï± We assume that a priority queue is given a comparator object when it is constructed. The P.Q. uses its comparator for keys comparisons. Priority Queues15Comparator ADTï± Primary method of the Comparator ADT:ï® compare(a, b): returns an integer i such that ï· i < 0 if a < b,ï· i = 0 if a = bï· i > 0 if a > bï· An error occurs if a and b cannot be compared.ï± The java.util.Comparator interface correspond to the above comparator ADT.  http://download.oracle.com/javase/6/docs/api/java/util/Comparator.htmlPriority Queues16Example Comparatorï± Lexicographic comparison of 2-D points:/** Comparator for 2D points under the standard lexicographic order. */public class  Lexicographic  implements  Comparator  {int  xa, ya, xb, yb;public int  compare(Object a, Object b)  throws  ClassCastException  {xa = ((Point2D) a).getX();ya = ((Point2D) a).getY();xb = ((Point2D) b).getX();yb = ((Point2D) b).getY();if  (xa != xb)return  (xb - xa);elsereturn  (yb - ya);}}ï± Point objects:/** Class representing a point in the plane with integer coordinates */public class  Point2D {protected int xc, yc; // coordinatespublic  Point2D(int  x,  int  y)  {xc = x;yc = y;}public int  getX()  { return  xc;}public int  getY()  { return  yc;}}Priority Queues17Priority Queue Sortingï± We can use a priority queue to sort a set of comparable elements1. Insert the elements one by one with a series of insert operations2. Remove the elements in sorted order with a series of removeMinoperationsï± The running time of this sorting method depends on the priority queue implementationPriority Queues18Priority Queue SortingAlgorithm PQ-Sort(S, C)Input sequence S, comparator C for the elements of SOutput sequence S sorted  in increasing order according to CP â priority queue with comparator Cwhile Â¬S.isEmpty ()e â S.removeFirst ()P.insert (e, â)while Â¬P.isEmpty()e" .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_715_724>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "715"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "724"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2016> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999943157"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_700_714>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Selection Sort" ;
+        nif:beginIndex          "700"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "714"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2016> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Selection_sort> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2016> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1651_1665>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Priority Queue" ;
+        nif:beginIndex          "1651"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1665"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2016> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2016>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2016"^^xsd:nonNegativeInteger ;
+        nif:isString    "â P.removeMin().getKey()S.addLast(e)Notice that in the above code, the elements of the input sequence S serve as keys of the priority queue P. Priority Queues19Sequence-based Priority Queueï± Implementation with an unsorted listï± Performance:ï® insert takes O(1) time since we can insert the item at the beginning or end of the sequenceï® removeMin and min take O(n) time since we have to traverse the entire sequence to find the smallest key ï± Implementation with a sorted listï± Performance:ï® insert takes O(n) time since we have to find the place where to insert the itemï® removeMin and min take O(1) time, since the smallest key is at the beginning4 5 2 3 1 1 2 3 4 5Priority Queues20Selection-Sortï± Selection Sort algorithm works as follows:ï® Find the minimum value in the collection (list/sequence, P.Q., etc.)ï® Swap it with the value in the first positionï® Repeat the steps above for the remainder of the list (starting at the second position and advancing each time)ï± Click here to view some illustrative animations ï± What is the running time? http://en.wikipedia.org/wiki/Selection_sortPriority Queues21Selection-Sortï± Running time of the PQ-Sort(S, C) Selection-sort; that is when the P.Q. is implemented with unsorted sequence:1. (First loop): Inserting the elements into the priority queue with n insert operations takes O(n) time2. (Second loop) Removing the elements in sorted order (repeated seclection) from the priority queue with nremoveMin operations takes time proportional ton + n -1 + n -2 + â¦+ 3 + 2 + 1Resulting in a total of O(n + n2) ï¨ O(n2)ï± ï¨ Selection-sort runs in O(n2) time Priority Queues22Selection-Sort ExampleSequence S Priority Queue PInput: (7,4,8,2,5,3,9) ()Phase 1 (first loop)(a) (4,8,2,5,3,9) (7)(b) (8,2,5,3,9) (7,4).. .. ..(g) () (7,4,8,2,5,3,9)Phase 2 (second loop)(a) (2) (7,4,8,5,3,9)(b) (2,3) (7,4,8,5,9)(c) (2,3,4) (7,8,5,9)(d) (2,3,4,5) (7,8,9)(e) (2,3,4,5,7) (8,9)(f) (2,3,4,5,7,8) (9)(g) (2,3,4,5,7,8,9) ()Priority Queues23Insertion-Sortï± Insertion Sort algorithm is as" .
+
+<http://www.dbpedia-spotlight.com/#offset_595_599>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "595"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "599"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2016> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_125_139>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "priority queue" ;
+        nif:beginIndex          "125"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "139"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2016> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_1986_2000>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Insertion Sort" ;
+        nif:beginIndex          "1986"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2000"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2016> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Insertion_sort> .
+
+<http://www.dbpedia-spotlight.com/#offset_175_189>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Priority Queue" ;
+        nif:beginIndex          "175"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "189"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2016> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_2001_2010>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "2001"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2010"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2016> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999943157"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1283_1297>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "priority queue" ;
+        nif:beginIndex          "1283"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1297"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2016> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_1424_1438>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "priority queue" ;
+        nif:beginIndex          "1424"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1438"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2016> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_256_260>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "256"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "260"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2016> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1606_1620>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "data structure" ;
+        nif:beginIndex          "1606"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1620"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1998> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_structure> .
+
+<http://www.dbpedia-spotlight.com/#offset_567_581>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "priority queue" ;
+        nif:beginIndex          "567"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "581"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1998> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1998> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1998>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1998"^^xsd:nonNegativeInteger ;
+        nif:isString    "follows: ï® Removes an element (possibly arbitrary) from the input data ï® Insert the element into the correct position in the already-sorted listï® Repeat until no input elements remain. ï± Click here to view some illustrative animations ï± What is the running time? What is fastest case?http://en.wikipedia.org/wiki/Insertion_sortPriority Queues24Insertion-Sortï± Running time of the PQ-Sort(S, C) Insertion-sort; that is when the P.Q. is implemented with sorted sequence (obtained after phase 1 (first loop) is finished):1. (First loop): Inserting the elements into the priority queue with n insert operations takes time proportional to1 + 2 + â¦+ n2. (Second loop): Removing the elements in sorted order from the priority queue with  a series of n removeMinoperations takes O(n) timeResulting in a total of O(n2+ n) ï¨ O(n2)ï± ï¨ Insertion-sort runs in O(n2) time Priority Queues25Insertion-Sortï± Special case:ï® If the sequence is already (by luck) sorted, then 1. (First loop): Sorting the list will take O(n) time2. (Second loop): Removing the elements in sorted order from the priority queue with  a series of n removeMinoperations takes O(n) timeResulting in a total of O(n+ n) ï¨ O(n)Priority Queues26Insertion-Sort ExampleSequence S Priority queue PInput: (7,4,8,2,5,3,9) ()Phase 1 (first loop) (a) (4,8,2,5,3,9) (7)(b) (8,2,5,3,9) (4,7)(c) (2,5,3,9) (4,7,8)(d) (5,3,9) (2,4,7,8)(e) (3,9) (2,4,5,7,8)(f) (9) (2,3,4,5,7,8)(g) () (2,3,4,5,7,8,9)Phase 2 (secondl oop)(a) (2) (3,4,5,7,8,9)(b) (2,3) (4,5,7,8,9).. .. ..(g) (2,3,4,5,7,8,9) ()Priority Queues27In-place Insertion-Sortï± Instead of using an external data structure, we can implement selection-sort and insertion-sort in-placeï± A portion of the input sequence itself serves as the priority queueï± For in-place insertion-sortï® We keep sorted the initial portion of the sequenceï® We can use swapsinstead of modifying the sequence5 4 2 3 15 4 2 3 14 5 2 3 12 4 5 3 12 3 4 5 11 2 3 4 51 2 3 4 5\tPriority Queues\tCoverage\tPriority Queue ADT\tPriority" .
+
+<http://www.dbpedia-spotlight.com/#offset_1971_1985>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Priority Queue" ;
+        nif:beginIndex          "1971"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1985"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1998> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_1736_1750>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "priority queue" ;
+        nif:beginIndex          "1736"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1750"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1998> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_1232_1246>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Priority queue" ;
+        nif:beginIndex          "1232"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1246"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1998> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_1074_1088>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "priority queue" ;
+        nif:beginIndex          "1074"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1088"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1998> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_710_724>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "priority queue" ;
+        nif:beginIndex          "710"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "724"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1998> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_1986_1989>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1986"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1989"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1998> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999999999990905"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_274_288>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Priority Queue" ;
+        nif:beginIndex          "274"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "288"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_433> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_190_193>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_433> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9971223354774883"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_433> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_120_123>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "123"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_433> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9971223354774883"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_29_43>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Priority Queue" ;
+        nif:beginIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_433> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_145_148>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "145"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_433> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9971223354774883"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_433>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "433"^^xsd:nonNegativeInteger ;
+        nif:isString    "Queue ADT\tPriority Queue ADT\tPriority Queue ADT\tTotal Order Relations\tTotal Order Relations\tEntries & Comparators\tEntry ADT\tEntry ADT\tComparator ADT\tComparator ADT\tComparator ADT\tComparator ADT\tExample Comparator\tPriority Queue Sorting\tPriority Queue Sorting\tSequence-based Priority Queue\tSelection-Sort\tSelection-Sort\tSelection-Sort Example\tInsertion-Sort\tInsertion-Sort\tInsertion-Sort\tInsertion-Sort Example\tIn-place Insertion-Sort" .
+
+<http://www.dbpedia-spotlight.com/#offset_130_133>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "133"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_433> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9971223354774883"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_10_24>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Priority Queue" ;
+        nif:beginIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_433> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_25_28>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_433> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9971223354774883"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_6_9>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "9"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_433> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9971223354774883"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_236_250>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Priority Queue" ;
+        nif:beginIndex          "236"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_433> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_213_227>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Priority Queue" ;
+        nif:beginIndex          "213"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "227"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_433> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_175_178>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "175"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_433> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9971223354774883"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_44_47>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_433> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9971223354774883"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_160_163>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "160"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "163"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_433> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9971223354774883"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .

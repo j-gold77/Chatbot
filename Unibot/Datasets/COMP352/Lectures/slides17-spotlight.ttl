@@ -1,0 +1,476 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_262_266>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "262"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "266"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1945> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9951631067117941"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_611_616>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "611"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "616"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1945> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_45_50>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "50"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1945> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_393_400>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Collins" ;
+        nif:beginIndex          "393"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "400"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1945> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q24229398> , <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Publisher> , <http://dbpedia.org/ontology/Company> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.9995965535027345"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/HarperCollins> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1945> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_89_109>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Software Engineering" ;
+        nif:beginIndex          "89"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "109"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1945> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_engineering> .
+
+<http://www.dbpedia-spotlight.com/#offset_70_86>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Computer Science" ;
+        nif:beginIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1945> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999954525"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_science> .
+
+<http://www.dbpedia-spotlight.com/#offset_132_140>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Montreal" ;
+        nif:beginIndex          "132"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "140"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1945> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/City> , <http://www.wikidata.org/entity/Q486972> , <http://schema.org/City> , <http://www.wikidata.org/entity/Q515> , <http://dbpedia.org/ontology/Settlement> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9998565170606982"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Montreal> .
+
+<http://www.dbpedia-spotlight.com/#offset_1313_1322>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "1313"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1322"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1945> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999856755"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1945>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1945"^^xsd:nonNegativeInteger ;
+        nif:isString    "Analysis of AlgorithmsSorting Lower BoundDr. Aiman HannaDepartment of Computer Science & Software Engineering Concordia University, Montreal, CanadaThese slides have been extracted, modified and updated from original slides of :Data Structures and Algorithms in Java, 5th edition. John Wiley& Sons, 2010. ISBN 978-0-470-38326-1.Data Structures and the Java Collections Framework by William J. Collins, 3rdedition, ISBN 978-0-470-48267-4. Both books are published by Wiley.Copyright Â© 2010-2011 WileyCopyright Â© 2010 Michael  T. Goodrich, Roberto TamassiaCopyright Â© 2011 William J. CollinsCopyright Â© 2011-2021 Aiman Hanna All rights reserved Coverageï± Sorting Lower Bound2Sorting Lower BoundSorting Lower Bound 3Comparison-Based Sortingï± Many sorting algorithms are comparison based.ï® They sort by making comparisons between pairs of objectsï® Examples: bubble-sort, selection-sort, insertion-sort, heap-sort, merge-sort, quick-sort, ...ï± Some of these algorithms were able to provide a performance of O(n log n). ï± This question can then be asked: Can we sort any faster than O(n log n)? ï± In other words, what is the lower bound (best case) that we can achieve when sorting (that is actually Î©())? Sorting Lower Bound 4Comparison-Based Sortingï± Let us start by deriving a lower bound on the running time of any algorithm that uses comparisons to sort nelements, x1, x2, â¦, xn.ï± Let us then count only the number of comparisons for the sake of finding the lower bound. Is xi < xj?yesnoSorting Lower Bound 5Counting Comparisonsï± Suppose, we are given a sequence S = {x1, x2, â¦, xn} that we wish to sort. ï± Whether the sequence is implemented using an arrays or a list is irrelevant since we are counting comparisons. ï± Each time we compare two elements, xi < xj, the result is either yes or no. ï± Based on this answer, some internal computation may be performed (which we ignore here), then another comparison is conducted, which will again have" .
+
+<http://www.dbpedia-spotlight.com/#offset_414_418>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "414"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "418"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1945> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_352_378>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java Collections Framework" ;
+        nif:beginIndex          "352"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "378"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1945> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_collections_framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_110_130>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia University" ;
+        nif:beginIndex          "110"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1945> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999193166977333"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Main_Page> .
+
+<http://www.dbpedia-spotlight.com/#offset_1759_1761>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "xj" ;
+        nif:beginIndex          "1759"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1761"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1945> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Automobile> , <http://dbpedia.org/ontology/MeanOfTransportation> , <http://schema.org/Product> ;
+        itsrdf:taConfidence     "0.9999999999988631"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Jaguar_XJ> .
+
+<http://www.dbpedia-spotlight.com/#offset_305_309>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "305"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1945> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_286_291>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Wiley" ;
+        nif:beginIndex          "286"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "291"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1945> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q24229398> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Publisher> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q43229> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> ;
+        itsrdf:taConfidence     "0.9999874926477342"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wiley-Blackwell> .
+
+<http://www.dbpedia-spotlight.com/#offset_1478_1480>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "xj" ;
+        nif:beginIndex          "1478"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1480"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1945> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MeanOfTransportation> , <http://schema.org/Product> , <http://dbpedia.org/ontology/Automobile> ;
+        itsrdf:taConfidence     "0.9999999999988631"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Jaguar_XJ> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_300_302>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "xd" ;
+        nif:beginIndex          "300"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "302"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1580> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999897279395"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XD-Picture_Card> .
+
+<http://www.dbpedia-spotlight.com/#offset_402_420>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "explicit knowledge" ;
+        nif:beginIndex          "402"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "420"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1580> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Explicit_knowledge> .
+
+<http://www.dbpedia-spotlight.com/#offset_1526_1561>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparison-based sorting algorithms" ;
+        nif:beginIndex          "1526"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1561"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1580> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparison_sort> .
+
+<http://www.dbpedia-spotlight.com/#offset_244_246>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "xj" ;
+        nif:beginIndex          "244"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "246"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1580> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MeanOfTransportation> , <http://dbpedia.org/ontology/Automobile> , <http://schema.org/Product> ;
+        itsrdf:taConfidence     "0.999999999483407"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Jaguar_XJ> .
+
+<http://www.dbpedia-spotlight.com/#offset_1477_1479>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "xd" ;
+        nif:beginIndex          "1477"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1479"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1580> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999897279395"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XD-Picture_Card> .
+
+<http://www.dbpedia-spotlight.com/#offset_1463_1465>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "xk" ;
+        nif:beginIndex          "1463"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1465"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1580> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9210442811996354"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/ISO_3166-1_alpha-2> .
+
+<http://www.dbpedia-spotlight.com/#offset_380_389>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "380"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "389"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1580> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999990905"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1439_1441>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "xo" ;
+        nif:beginIndex          "1439"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1441"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1580> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9758479134301395"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Executive_officer> .
+
+<http://www.dbpedia-spotlight.com/#offset_180_189>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "180"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "189"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1580> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999990905"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1421_1423>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "xj" ;
+        nif:beginIndex          "1421"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1423"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1580> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MeanOfTransportation> , <http://schema.org/Product> , <http://dbpedia.org/ontology/Automobile> ;
+        itsrdf:taConfidence     "0.999999999483407"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Jaguar_XJ> .
+
+<http://www.dbpedia-spotlight.com/#offset_580_591>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "permutation" ;
+        nif:beginIndex          "580"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "591"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1580> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999651593049"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Permutation> .
+
+<http://www.dbpedia-spotlight.com/#offset_281_283>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "xf" ;
+        nif:beginIndex          "281"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "283"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1580> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Product> , <http://dbpedia.org/ontology/MeanOfTransportation> , <http://dbpedia.org/ontology/Automobile> ;
+        itsrdf:taConfidence     "0.978485636857231"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Jaguar_XF> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1580> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_262_264>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "xo" ;
+        nif:beginIndex          "262"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "264"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1580> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9758479134301395"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Executive_officer> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1580>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1580"^^xsd:nonNegativeInteger ;
+        nif:isString    "one of two possible outcomes. Sorting Lower Bound 6Counting Comparisonsï± Consequently, we can represent a comparison-based sorting with a decision tree. ï± Each possible run of the algorithm corresponds to a root-to-leaf path in that tree. xi < xj ?xa < xb ?xm < xo ? xp < xq ?xe < xf ? xk < xl ?xc < xd ?Sorting Lower Bound 7Counting Comparisonsï± It is important to note that the algorithm may have no explicit knowledge of the tree; rather, it simply represent all the possible sequences of comparisons that the application might make.  ï± Each leaf hence represents one possible permutation (sorted sequence) of the elements to be compared.  ï± The number of leaves can then conclude the height of the tree. ï± Given n values to compare, That number of leaves (possible permutations) is actually n! Sorting Lower Bound 8Counting Comparisonsï± Example: Assume a sequence S with elements {x1, x2, x3} is to be sorted. There are 3! possible sorted sequences as follows: (x1 x2 x3), (x1 x3 x2), (x2 x1 x3), (x2 x3 x1), (x3 x1 x2), and (x3 x2 x1).  ï± The following tree illustrates the possible comparisons: x1 < x2x1 < x3 x2 < x3Y Nx2 < x3Y Nx1 x2 x3 Yx1 x3 x2Nx3 x1 x2 x1 < x3Y NY Nx3 x2 x1x2 x1 x3 x2 x3 x1Sorting Lower Bound 9Decision Tree Heightï± The height of the decision tree is a lower bound on the running time.ï± Since there are n! leaves, the height of the tree is at least log (n!).minimum height (time)log (n!)xi < xj ?xa < xb ?xm < xo ? xp < xq ?xe < xf ? xk < xl ?xc < xd ?n!Sorting Lower Bound 10The Lower Boundï± Any comparison-based sorting algorithms takes at least log" .
+
+<http://www.dbpedia-spotlight.com/#offset_1425_1427>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "xa" ;
+        nif:beginIndex          "1425"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1427"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1580> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MeanOfTransportation> , <http://dbpedia.org/ontology/Automobile> , <http://schema.org/Product> ;
+        itsrdf:taConfidence     "0.9998656294153353"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scion_xA> .
+
+<http://www.dbpedia-spotlight.com/#offset_138_151>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "decision tree" ;
+        nif:beginIndex          "138"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "151"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1580> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.7704617674368482"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Decision_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_248_250>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "xa" ;
+        nif:beginIndex          "248"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1580> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Product> , <http://dbpedia.org/ontology/Automobile> , <http://dbpedia.org/ontology/MeanOfTransportation> ;
+        itsrdf:taConfidence     "0.9998656294153353"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scion_xA> .
+
+<http://www.dbpedia-spotlight.com/#offset_106_122>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparison-based" ;
+        nif:beginIndex          "106"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1580> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparison_sort> .
+
+<http://www.dbpedia-spotlight.com/#offset_286_288>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "xk" ;
+        nif:beginIndex          "286"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "288"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1580> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9210442811996354"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/ISO_3166-1_alpha-2> .
+
+<http://www.dbpedia-spotlight.com/#offset_1263_1276>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "decision tree" ;
+        nif:beginIndex          "1263"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1276"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1580> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.7704617674368482"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Decision_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_1458_1460>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "xf" ;
+        nif:beginIndex          "1458"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1460"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1580> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MeanOfTransportation> , <http://dbpedia.org/ontology/Automobile> , <http://schema.org/Product> ;
+        itsrdf:taConfidence     "0.978485636857231"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Jaguar_XF> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_77_93>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparison-based" ;
+        nif:beginIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_605> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparison_sort> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_605> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_569_582>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Decision Tree" ;
+        nif:beginIndex          "569"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "582"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_605> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Decision_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_311_327>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparison-based" ;
+        nif:beginIndex          "311"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "327"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_605> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparison_sort> .
+
+<http://www.dbpedia-spotlight.com/#offset_169_185>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparison-based" ;
+        nif:beginIndex          "169"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "185"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_605> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparison_sort> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_605>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "605"^^xsd:nonNegativeInteger ;
+        nif:isString    "(n!) timeï± Therefore, any such algorithm takes, at least, timeï± That is, any comparison-based sorting algorithm must run in at least â¦(n log n) time. In other words, we comparison-based algorithms, we cannot achieve any better performance than n log n. ï± However, can we do any better if the algorithm is not a comparison-based then? Are such algorithms possible?).2/(log)2/(2log)!(log2nnnnn=ï£·ï£¸ï£¶ï£¬ï£­ï£«â¥\tSorting Lower Bound\tSlide Number 2\tComparison-Based Sorting\tComparison-Based Sorting\tCounting Comparisons\tCounting Comparisons\tCounting Comparisons\tCounting Comparisons\tDecision Tree Height\tThe Lower Bound" .
+
+<http://www.dbpedia-spotlight.com/#offset_292_301>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "292"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "301"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_605> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999988519516361"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_94_111>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sorting algorithm" ;
+        nif:beginIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "111"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_605> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sorting_algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_31_40>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "31"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_605> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999988519516361"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .

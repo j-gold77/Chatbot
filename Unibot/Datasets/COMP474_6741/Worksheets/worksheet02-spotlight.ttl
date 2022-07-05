@@ -1,0 +1,254 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_703_707>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "jane" ;
+        nif:beginIndex          "703"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "707"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2112> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/FictionalCharacter> , <http://www.wikidata.org/entity/Q95074> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.7752531097524149"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bennet_family> .
+
+<http://www.dbpedia-spotlight.com/#offset_161_171>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RDF triple" ;
+        nif:beginIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2112> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semantic_triple> .
+
+<http://www.dbpedia-spotlight.com/#offset_806_809>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "IRI" ;
+        nif:beginIndex          "806"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "809"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2112> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Internationalized_Resource_Identifier> .
+
+<http://www.dbpedia-spotlight.com/#offset_752_757>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "752"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "757"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2112> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9979158537961669"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_theory> .
+
+<http://www.dbpedia-spotlight.com/#offset_1441_1448>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Spoiler" ;
+        nif:beginIndex          "1441"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1448"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2112> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q95074> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/FictionalCharacter> , <http://dbpedia.org/ontology/ComicsCharacter> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.7283960157550766"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stephanie_Brown_(character)> .
+
+<http://www.dbpedia-spotlight.com/#offset_13_32>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Intelligent Systems" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2112> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999999998196472"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<http://www.dbpedia-spotlight.com/#offset_884_891>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "884"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "891"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2112> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q315> , <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9999998640398736"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<http://www.dbpedia-spotlight.com/#offset_120_129>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "N-Triples" ;
+        nif:beginIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "129"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2112> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/N-Triples> .
+
+<http://www.dbpedia-spotlight.com/#offset_954_958>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "954"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "958"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2112> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2112>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2112"^^xsd:nonNegativeInteger ;
+        nif:isString    "COMP474/6741 Intelligent Systems (Winter 2022)Worksheet #2: Vocabularies & OntologiesTask 1. Quick refresher: Using the N-Triples serialization format, write an RDF triple describingÃConcordia's homepage:Task 2. Define the fact that Student is a class (as opposed to an instance, like Jane). UseTurtle format with the following prefix definitions and define Student as part of the ex namespace(ex:Student):@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .@prefix ex: <http://example.org/> .Add the triple:and draw the resulting graph:Task 3. Now add another triple stating that Jane (ex:jane#me) is of type ex:Student:and add it to the graph above.Task 4. It is good practice to give every IRI a human-readable label (where appropriate). Add twordfs:label triples (in English and French) for âStudentâ:1.2.(Similarly, you would define an rdfs:comment to explain what it means to be a student.)Task 5. For now at least, every Student is a Person (sorry, robots!). Define this fact as a triple (usefoaf:Person) and add it to your graph above:COMP474/6741 Worksheet: Vocabularies & Ontologies Winter 2022Task 6. Ok, let's look at these three triples (written in pseudocode for brevity):<LS-210> <teaches> <COMP472/6721> .<professor> <is a> <slide> .<student> <handed in by> <assignment> .Are these syntactically legal triples? (Spoiler alert: yes, we could write each of them using perfectly fineRDF URIs.) So what exactly is wrong here?Task 7. We now define a property, studiesAt, so that we can indicate at which university a student isstudying. Write the triple defining studiesAt as a property (again using the ex: namespace):(Note: properties should also have labels & comments, but we omit this here.)Task 8. We now have to add domain and range restrictions for our property to avoid problems like theones in Task 6 above. For the domain of our studiesAt property, we only permit ex:Student resourcesand for the range, we only admit ex:University resources. Write the two triples:1.2.Task 9. A" .
+
+<http://www.dbpedia-spotlight.com/#offset_474_478>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdfs" ;
+        nif:beginIndex          "474"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "478"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2112> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RDF_Schema> .
+
+<http://www.dbpedia-spotlight.com/#offset_896_902>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "French" ;
+        nif:beginIndex          "896"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "902"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2112> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://www.wikidata.org/entity/Q315> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.9998572149454532"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/French_language> .
+
+<http://www.dbpedia-spotlight.com/#offset_644_649>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "644"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "649"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2112> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9979158537961669"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_theory> .
+
+<http://www.dbpedia-spotlight.com/#offset_414_417>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdf" ;
+        nif:beginIndex          "414"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "417"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2112> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2112> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1275_1285>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pseudocode" ;
+        nif:beginIndex          "1275"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1285"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2112> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pseudocode> .
+
+<http://www.dbpedia-spotlight.com/#offset_812_826>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "human-readable" ;
+        nif:beginIndex          "812"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "826"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2112> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human-readable_medium> .
+
+<http://www.dbpedia-spotlight.com/#offset_1144_1149>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "1144"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1149"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2112> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9979158537961669"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_theory> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_441> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_257_260>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "URL" ;
+        nif:beginIndex          "257"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "260"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/URL> .
+
+<http://www.dbpedia-spotlight.com/#offset_302_317>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "knowledge graph" ;
+        nif:beginIndex          "302"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "317"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999967599"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Knowledge_Graph> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_441>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "441"^^xsd:nonNegativeInteger ;
+        nif:isString    "widely used vocabulary for describing people and their (social) networks is Friend-of-a-FriendÃ(FOAF), which you've seen before:PREFIX foaf: <http://xmlns.com/foaf/0.1/>1. Assume Joe has a photo of him published under http://facebook.me/joe.png (not a real URL).How can you add this information to the knowledge graph using FOAF (hint: look up the vocabu-lary using the prefix URL above):2. Again using FOAF, model that Jane is 22 years old:" .
+
+<http://www.dbpedia-spotlight.com/#offset_324_328>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "FOAF" ;
+        nif:beginIndex          "324"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "328"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9854785984014808"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/FOAF_(ontology)> .
+
+<http://www.dbpedia-spotlight.com/#offset_96_100>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "FOAF" ;
+        nif:beginIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9854785984014808"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/FOAF_(ontology)> .
+
+<http://www.dbpedia-spotlight.com/#offset_403_407>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "FOAF" ;
+        nif:beginIndex          "403"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "407"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9854785984014808"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/FOAF_(ontology)> .
+
+<http://www.dbpedia-spotlight.com/#offset_377_380>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "URL" ;
+        nif:beginIndex          "377"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "380"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/URL> .

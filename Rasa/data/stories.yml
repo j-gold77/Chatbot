@@ -1,0 +1,115 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: get course info
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_course
+    - action: action_course_info
+
+- story: get student competency info
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_student_competentcies
+    - action: action_student_competentcy_info
+
+- story: get courses offered at university info
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_courses_offered_at_university
+    - action: action_courses_offered_at_university_info
+
+- story: get student course completions
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_student_course_completions
+    - action: action_student_course_completions_info
+
+- story: get student email
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_student_email
+    - action: action_student_email_info
+
+- story: get topics covered at university
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_course_topics_at_university
+    - action: action_course_topics_at_university_info
+
+- story: get most lecture content from courses 
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_most_lecture_content_in_course
+    - action: action__most_lecture_content_in_course_info
+
+- story: get course attendance by lecture
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_course_attendance_lecture
+    - action: action_course_attendance_lecture_info
+
+- story: get where in course topic was introduced
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_topic_in_course
+    - action: action_topic_in_course_info
+
+- story: get where student attends university
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_student_at_university
+    - action: action_student_at_university_info
+
+
+- story:
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_topics_covered_course_event
+    - action: action_topics_covered_course_event_info
+
+- story:
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_courses_cover_topic
+    - action: action_courses_cover_topic_info

@@ -1,0 +1,256 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1734_1736>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "m4" ;
+        nif:beginIndex          "1734"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1736"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1763> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> , <http://www.wikidata.org/entity/Q315> , <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://www.wikidata.org/entity/Q9143> ;
+        itsrdf:taConfidence     "0.977033422978766"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/M4_(computer_language)> .
+
+<http://www.dbpedia-spotlight.com/#offset_819_828>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "question!" ;
+        nif:beginIndex          "819"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "828"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1763> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Song> , <http://www.wikidata.org/entity/Q2188189> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/MusicalWork> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> , <http://schema.org/MusicRecording> ;
+        itsrdf:taConfidence     "0.9999834881031243"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Question!> .
+
+<http://www.dbpedia-spotlight.com/#offset_1303_1319>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "machine learning" ;
+        nif:beginIndex          "1303"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1319"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1763> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8116982667403627"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Supervised_learning> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1763>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1763"^^xsd:nonNegativeInteger ;
+        nif:isString    "COMP 474/6741 Intelligent Systems (Winter 2022)Worksheet #6: Introduction to Machine LearningTask 1. A quick refresher: Based on the output below, compute precision@k = 1kÂ·kâc=1rel(c) for the threerecommender systems (for k = 1, 2, 3):System@k precision@k1 2 3 1 2 3system 1 7 7 3system 2 7 3 3system 3 3 3 3Task 2. Here is a dataset of documents with two attributes, to be grouped into two clusters. Applyk-Means clustering, by computing the Euclidian distance d(~p, ~q) =ââni=1(pi â qi)2 of each data point tothe two initial centroÌÄ±ds and assigning each document to its closest cluster:CentroÌÄ±da1 a2Cluster 1 1.0 1.0Cluster 2 5.0 7.0a1 a2 Distance to C1 Distance to C2 Cluster TagDoc1 1.5 2.0 #TravelDoc2 3.0 4.0 #FoodDoc3 4.5 5.0 #TravelDoc4 3.5 4.5 #Food(Ignore the âTagâ column for now, we'll use it in the next question!)Task 3. Now apply the kNN classification algorithm on the new document below to determine its tag. Usek = 3 and the Euclidian distance d(~p, ~q) =ââni=1(pi â qi)2 (just like for k-Means-clustering):a1 a2 d-Doc1 d-Doc2 d-Doc3 d-Doc4 Tag?Doc5 2.5 3.5You can now auto-assign a tag to the new document based on a majority vote of the k nearest neighbors.COMP474/6741 Worksheet: Introduction to ML Winter 2022Task 4. Should we invest $100m in producing this new movie? We'll use machine learning to predict therating (1â5 stars) of a movie, by applying the regression version of the kNN algorithm. Here's our trainingdata:# Movie Length #Zombies #Explosions Rating1 Movie 1 135 0 5 FFF2 Movie 2 90 123 2 FFFFF3 Movie 3 159 2 1 F4 Movie 4 109 5 3To find the predicted rating for Movie #4, first find the two nearest neighbors (i.e., k = 2), using the samecalculation as before:d( ~m4, ~m1) = d( ~m4, ~m2) = d( ~m4, ~m3) = =â Closest = ,Now," .
+
+<http://www.dbpedia-spotlight.com/#offset_870_879>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "870"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "879"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1763> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999331521"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1551_1553>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "F4" ;
+        nif:beginIndex          "1551"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1553"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1763> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8570719979302194"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fujita_scale> .
+
+<http://www.dbpedia-spotlight.com/#offset_1411_1420>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "1411"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1420"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1763> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999331521"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1407_1410>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kNN" ;
+        nif:beginIndex          "1407"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1410"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1763> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/K-nearest_neighbors_algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_485_487>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "qi" ;
+        nif:beginIndex          "485"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "487"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1763> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999995453"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Qi> .
+
+<http://www.dbpedia-spotlight.com/#offset_987_989>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "qi" ;
+        nif:beginIndex          "987"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "989"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1763> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999995453"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Qi> .
+
+<http://www.dbpedia-spotlight.com/#offset_1704_1706>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "m4" ;
+        nif:beginIndex          "1704"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1706"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1763> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://www.wikidata.org/entity/Q315> , <http://dbpedia.org/ontology/Language> , <http://www.wikidata.org/entity/Q9143> ;
+        itsrdf:taConfidence     "0.977033422978766"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/M4_(computer_language)> .
+
+<http://www.dbpedia-spotlight.com/#offset_851_854>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kNN" ;
+        nif:beginIndex          "851"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "854"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1763> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/K-nearest_neighbors_algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1381_1391>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "regression" ;
+        nif:beginIndex          "1381"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1763> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999686199321"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Regression_analysis> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1763> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1138_1151>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "majority vote" ;
+        nif:beginIndex          "1138"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1151"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1763> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.6911369385441284"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Majority> .
+
+<http://www.dbpedia-spotlight.com/#offset_14_33>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Intelligent Systems" ;
+        nif:beginIndex          "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "33"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1763> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999996982751"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_4>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "COMP" ;
+        nif:beginIndex          "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1763> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q7187> , <http://dbpedia.org/ontology/HumanGene> , <http://dbpedia.org/ontology/Gene> , <http://www.wikidata.org/entity/Q206229> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.928782715712488"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cartilage_oligomeric_matrix_protein> .
+
+<http://www.dbpedia-spotlight.com/#offset_1219_1221>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ML" ;
+        nif:beginIndex          "1219"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1221"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1763> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999995453"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Machine_learning> .
+
+<http://www.dbpedia-spotlight.com/#offset_1719_1721>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "m4" ;
+        nif:beginIndex          "1719"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1721"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1763> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q315> , <http://dbpedia.org/ontology/Language> , <http://www.wikidata.org/entity/Q9143> , <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.977033422978766"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/M4_(computer_language)> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_450_454>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "TPTP" ;
+        nif:beginIndex          "450"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "454"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_605> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Automated_theorem_proving> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_605> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_409_411>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "F1" ;
+        nif:beginIndex          "409"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "411"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_605> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8977263163754224"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Formula_One> .
+
+<http://www.dbpedia-spotlight.com/#offset_430_432>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "TP" ;
+        nif:beginIndex          "430"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "432"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_605> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.7568566630929184"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Toilet_paper> .
+
+<http://www.dbpedia-spotlight.com/#offset_435_438>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "TNP" ;
+        nif:beginIndex          "435"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "438"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_605> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q41176> , <http://dbpedia.org/ontology/Venue> , <http://dbpedia.org/ontology/Building> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://dbpedia.org/ontology/Location> ;
+        itsrdf:taConfidence     "0.9904136651692925"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/ThÃ©Ã¢tre_National_Populaire> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_605>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "605"^^xsd:nonNegativeInteger ;
+        nif:isString    "compute the average of the ratings of the k nearest movies for k = 2 (convert the ? rating into a valuein [1...5]): This is your predicted rating for Movie 4!Task 5. Here are three different systems that classified 500 data items:Last time, we already calculated Precision and Recall for these systes (you can verify that the alternativeformulas here give you the same results). Now, compute the Accuracy and F1-Measure:Accuracy =TP + TNP + NRecall =TPTP + FNPrecision =TPTP + FPF1 =2 Â· Precision Â· RecallPrecision + Recallsystem 1 system 2 system 3Precision n/a 1.0 0.71Recall 0 0.6 1.0AccuracyF1-Measure" .
+
+<http://www.dbpedia-spotlight.com/#offset_470_474>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "TPTP" ;
+        nif:beginIndex          "470"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "474"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_605> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Automated_theorem_proving> .

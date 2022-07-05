@@ -1,0 +1,904 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1544_1554>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "The motive" ;
+        nif:beginIndex          "1544"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1554"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1694> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q11424> , <http://dbpedia.org/ontology/Film> , <http://schema.org/Movie> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "0.6941725521811866"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Motive_(film)> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_4>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "COMP" ;
+        nif:beginIndex          "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1694> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q7187> , <http://dbpedia.org/ontology/HumanGene> , <http://dbpedia.org/ontology/Gene> , <http://www.wikidata.org/entity/Q206229> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.8896188153564798"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cartilage_oligomeric_matrix_protein> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1694>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1694"^^xsd:nonNegativeInteger ;
+        nif:isString    "COMP 352 â Fall 2021 Assignment 3&4 â page 1 of 6   Department Computer Science and Software Engineering Concordia University  COMP 352: Data Structures and Algorithms Fall 2021 â Combined Assignment 3 & 4  Due date and time: Monday December 6th , 2021  by 10:00 AM (MORNING) The due date is sharp and strict. NO EXTENSION WILL BE ALLOWED BEYOND THIS TIME! Part 1: Written Questions (50 marks): Assignment MUST be typed. However, you are allowed to hand-draw any images and incorporate them into your typed submission. Hand-drawn images must be very clear; otherwise they will be discarded by the markers. All text must be typed and not hand-written.  Question 1 Assume the utilization of linear probing for hash-tables. To enhance the complexity of the operations performed on the table, a special AVAILABLE object is used. Assuming that all keys are positive integers, the following two techniques were suggested in order to enhance complexity:  i) In case an entry is removed, instead of marking its location as AVAILABLE, indicate the key as the negative value of the removed key (i.e. if the removed key was 16, indicate the key as -16). Searching for an entry with the removed key would then terminate once a negative value of the key is found (instead of continuing to search if AVAILABLE is used).  ii) Instead of using AVAILABLE, find a key in the table that should have been placed in the location of the removed entry, then place that key (the entire entry of course) in that location (instead of setting the location as AVAILABLE). The motive is to find the key faster since it now in its hashed location. This would also avoid the dependence on the AVAILABLE object.    Will either" .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1694> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1644_1654>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dependence" ;
+        nif:beginIndex          "1644"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1654"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1694> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.6018241292531264"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_independence> .
+
+<http://www.dbpedia-spotlight.com/#offset_63_79>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Computer Science" ;
+        nif:beginIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1694> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_science> .
+
+<http://www.dbpedia-spotlight.com/#offset_689_703>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear probing" ;
+        nif:beginIndex          "689"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "703"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1694> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_probing> .
+
+<http://www.dbpedia-spotlight.com/#offset_105_125>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia University" ;
+        nif:beginIndex          "105"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1694> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999864973801621"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Main_Page> .
+
+<http://www.dbpedia-spotlight.com/#offset_127_131>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "COMP" ;
+        nif:beginIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1694> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q7187> , <http://www.wikidata.org/entity/Q206229> , <http://dbpedia.org/ontology/HumanGene> , <http://dbpedia.org/ontology/Gene> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.8896188153564798"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cartilage_oligomeric_matrix_protein> .
+
+<http://www.dbpedia-spotlight.com/#offset_263_265>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AM" ;
+        nif:beginIndex          "263"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "265"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1694> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9959758711841926"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Amplitude_modulation> .
+
+<http://www.dbpedia-spotlight.com/#offset_84_104>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Software Engineering" ;
+        nif:beginIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1694> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_engineering> .
+
+<http://www.dbpedia-spotlight.com/#offset_351_355>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "TIME" ;
+        nif:beginIndex          "351"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "355"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1694> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Organisation> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q43229> ;
+        itsrdf:taConfidence     "0.9999851772061364"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Top_International_Managers_in_Engineering> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1311_1314>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mod" ;
+        nif:beginIndex          "1311"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1314"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1594> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.6122699146221503"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modulo_operation> .
+
+<http://www.dbpedia-spotlight.com/#offset_1240_1257>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "separate chaining" ;
+        nif:beginIndex          "1240"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1594> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1594> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1275_1288>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash function" ;
+        nif:beginIndex          "1275"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1288"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1594> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999494430099"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_952_956>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "COMP" ;
+        nif:beginIndex          "952"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "956"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1594> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/HumanGene> , <http://www.wikidata.org/entity/Q206229> , <http://www.wikidata.org/entity/Q7187> , <http://dbpedia.org/ontology/Gene> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.9543253231772558"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cartilage_oligomeric_matrix_protein> .
+
+<http://www.dbpedia-spotlight.com/#offset_348_352>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heap" ;
+        nif:beginIndex          "348"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "352"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1594> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999939909685"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_heap> .
+
+<http://www.dbpedia-spotlight.com/#offset_366_375>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "366"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "375"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1594> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1594>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1594"^^xsd:nonNegativeInteger ;
+        nif:isString    "of these proposal have an advantage of the achieved complexity? You should analyze both time-complexity and space-complexity. Additionally, will any of these approaches result in misbehaviors (in terms of functionalities)? If so, explain clearly through illustrative examples.   Question 2      i) Draw the min-heap that results from the bottom-up heap construction algorithm on the following list of values:  20, 12, 35, 19, 7, 10, 15, 24, 16, 39, 5, 19, 11, 3, 27.   Starting from the bottom layer, use the values from left to right as specified above. Show immediate steps and the final tree representing the min-heap. Afterwards perform the operation removeMin 6 times and show the resulting min-heap after each step.   ii) Create again a min-heap using the list of values from the above part (i) of this question but this time you have to insert these values step by step (i.e. one by one) using the order from left to right (i.e. insert 20, then COMP 352 â Fall 2021 Assignment 3&4 â page 2 of 6  insert 12, then 35, etc.) as shown in the above question. Show the tree after each step and the final tree representing the min-heap.   Question 3   Assume a hash table utilizes an array of 13 elements and that collisions are handled by separate chaining. Considering the hash function is defined as: h(k)=k mod 13.   i) Draw the contents of the table after inserting elements with the following keys:  32, 147, 265, 195, 207, 180, 21, 16, 189, 202, 91, 94, 162, 75, 37, 77, 81, 48.   ii) What is the maximum number of collisions caused by the above insertions?    Question 4   To reduce the" .
+
+<http://www.dbpedia-spotlight.com/#offset_1161_1171>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash table" ;
+        nif:beginIndex          "1161"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1594> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_848_861>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash function" ;
+        nif:beginIndex          "848"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "861"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1531> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999913598"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_218_221>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mod" ;
+        nif:beginIndex          "218"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "221"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1531> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9972644439638174"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modulo_operation> .
+
+<http://www.dbpedia-spotlight.com/#offset_785_799>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "double hashing" ;
+        nif:beginIndex          "785"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "799"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1531> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Double_hashing> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1531>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1531"^^xsd:nonNegativeInteger ;
+        nif:isString    "maximum number of collisions in the hash table described in Question 3 above, someone proposed the use of a larger array of 15 elements (that is roughly 15% bigger) and of course modifying the hash function to: h(k)=k mod 15. The idea is to reduce the load factor and hence the number of collisions.   Does this proposal hold any validity to it? If yes, indicate why such modifications would actually reduce the number of collisions. If no, indicate clearly the reasons you believe/think that such proposal is senseless.  Question 5  Draw a single binary tree that gave the following traversals:  Inorder: T N C K V A S M W Q B R L  Postorder: T C N V S A W M B Q L R K   Question 6  Assume an open addressing hash table implementation, where the size of the array is N = 19, and that double hashing is performed for collision handling. The second hash function is defined as: d(k) = q - k mod q,  where k is the key being inserted in the table and the prime number q is = 7. Use simple modular operation (k mod N) for the first hash function.  i) Show the content of the table after performing the following operations, in order:   put(25), put(12), put(42), put(31), put(35), put(39), remove(31), put(48), remove(25), put(18), put(29), put(29), put(35). ii) What is the size of the longest cluster caused by the above insertions?  iii) What is the number of occurred collisions as a result of the above operations?  iv) What is the current value of the table's load factor?      COMP 352 â Fall 2021 Assignment 3&4 â page 3 of 6 " .
+
+<http://www.dbpedia-spotlight.com/#offset_710_720>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash table" ;
+        nif:beginIndex          "710"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "720"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1531> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_987_1004>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "modular operation" ;
+        nif:beginIndex          "987"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1004"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1531> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modular_arithmetic> .
+
+<http://www.dbpedia-spotlight.com/#offset_694_709>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "open addressing" ;
+        nif:beginIndex          "694"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "709"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1531> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999947626714216"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_1463_1474>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "load factor" ;
+        nif:beginIndex          "1463"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1474"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1531> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_252_263>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "load factor" ;
+        nif:beginIndex          "252"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "263"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1531> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_548_559>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "548"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "559"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1531> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_890_893>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mod" ;
+        nif:beginIndex          "890"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "893"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1531> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9972644439638174"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modulo_operation> .
+
+<http://www.dbpedia-spotlight.com/#offset_36_46>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash table" ;
+        nif:beginIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "46"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1531> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_1481_1485>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "COMP" ;
+        nif:beginIndex          "1481"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1485"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1531> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/HumanGene> , <http://dbpedia.org/ontology/Biomolecule> , <http://www.wikidata.org/entity/Q206229> , <http://dbpedia.org/ontology/Gene> , <http://www.wikidata.org/entity/Q7187> ;
+        itsrdf:taConfidence     "0.9486376166496356"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cartilage_oligomeric_matrix_protein> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1531> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1029_1042>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash function" ;
+        nif:beginIndex          "1029"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1042"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1531> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999913598"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_953_965>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prime number" ;
+        nif:beginIndex          "953"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "965"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1531> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prime_number> .
+
+<http://www.dbpedia-spotlight.com/#offset_193_206>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash function" ;
+        nif:beginIndex          "193"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "206"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1531> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999913598"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_1008_1011>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mod" ;
+        nif:beginIndex          "1008"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1011"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1531> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9972644439638174"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modulo_operation> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_64_72>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AVL tree" ;
+        nif:beginIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "72"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1560> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AVL_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_652_660>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AVL tree" ;
+        nif:beginIndex          "652"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "660"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1560> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AVL_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_1052_1056>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "COMP" ;
+        nif:beginIndex          "1052"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1056"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1560> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q206229> , <http://dbpedia.org/ontology/Gene> , <http://dbpedia.org/ontology/HumanGene> , <http://dbpedia.org/ontology/Biomolecule> , <http://www.wikidata.org/entity/Q7187> ;
+        itsrdf:taConfidence     "0.6067185899589281"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cartilage_oligomeric_matrix_protein> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1560> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1560>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1560"^^xsd:nonNegativeInteger ;
+        nif:isString    "Question 7  Given the following tree, which is assumed to be an AVL tree!    i) Are there any errors with the tree as shown? If so, indicate what the error(s) are, correct these error(s), show the corrected AVL tree, then proceed to the following questions (Questions ii to iv) and start with the tree that you have just corrected. If no errors are there in the above tree, indicate why the tree is correctly an AVL tree, then proceed to the following questions (Questions ii to iv) and continue working on the tree as shown above.   ii) Show the AVL tree after put(74) operation is performed.  What is the complexity of this operation?  iii) Show the AVL tree after remove(70) is performed. What is the complexity of this operation?  iv) Show the AVL tree after remove(91) is performed. Show the progress of your work step-by-step. What is the complexity of this operation?   Question 8 Using Dijksra's Alogrithm, find the shortest path of the following graph form node N to each of the other nodes.              A E N D K W M T 4 2 8 3 7 3 9 4 1 5 2 COMP 352 â Fall 2021 Assignment 3&4 â page 4 of 6   Programming Questions (50 marks): The North American Student Tracking Association (NASTA) maintains and operates on multiple lists of n students. Each student is identified by a unique 8-digit code, called StudentIDentificationCode (SIDC); (e.g. # SIDC: 47203235). Some of these student lists are local to villages, towns and remote areas, where n counts only to few hundred students, and possibly less. Others are at the urban cities or provincial levels," .
+
+<http://www.dbpedia-spotlight.com/#offset_924_937>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "shortest path" ;
+        nif:beginIndex          "924"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "937"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1560> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999981243619769"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Shortest_path_problem> .
+
+<http://www.dbpedia-spotlight.com/#offset_1148_1156>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "American" ;
+        nif:beginIndex          "1148"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1156"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1560> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Location> , <http://schema.org/Country> , <http://www.wikidata.org/entity/Q6256> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9995805195710092"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<http://www.dbpedia-spotlight.com/#offset_207_215>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AVL tree" ;
+        nif:beginIndex          "207"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "215"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1560> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AVL_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_547_555>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AVL tree" ;
+        nif:beginIndex          "547"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "555"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1560> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AVL_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_748_756>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AVL tree" ;
+        nif:beginIndex          "748"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "756"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1560> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AVL_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_10>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Question 7" ;
+        nif:beginIndex          "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "10"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1560> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://schema.org/Movie> , <http://dbpedia.org/ontology/Film> , <http://www.wikidata.org/entity/Q11424> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "0.9999999981150722"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Question_7> .
+
+<http://www.dbpedia-spotlight.com/#offset_1187_1192>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NASTA" ;
+        nif:beginIndex          "1187"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1192"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1560> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Student_television_in_the_United_Kingdom> .
+
+<http://www.dbpedia-spotlight.com/#offset_955_960>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "955"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "960"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1560> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999948926048007"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_theory> .
+
+<http://www.dbpedia-spotlight.com/#offset_412_420>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AVL tree" ;
+        nif:beginIndex          "412"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "420"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1560> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AVL_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_1022_1025>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "K W" ;
+        nif:beginIndex          "1022"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1025"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1560> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Watt> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1718_1722>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash" ;
+        nif:beginIndex          "1718"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1722"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1803> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.956972957019574"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Associative_array> .
+
+<http://www.dbpedia-spotlight.com/#offset_818_824>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory" ;
+        nif:beginIndex          "818"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "824"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1803> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9569169159501997"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_memory> .
+
+<http://www.dbpedia-spotlight.com/#offset_47_52>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NASTA" ;
+        nif:beginIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "52"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1803> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Student_television_in_the_United_Kingdom> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1803> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_464_470>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory" ;
+        nif:beginIndex          "464"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "470"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1803> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9569169159501997"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_memory> .
+
+<http://www.dbpedia-spotlight.com/#offset_1188_1191>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1188"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1803> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_608_614>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory" ;
+        nif:beginIndex          "608"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "614"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1803> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9569169159501997"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_memory> .
+
+<http://www.dbpedia-spotlight.com/#offset_1025_1029>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "1025"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1029"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1803> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_107_110>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "110"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1803> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1429_1443>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "data structure" ;
+        nif:beginIndex          "1429"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1443"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1803> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_structure> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1803>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1803"^^xsd:nonNegativeInteger ;
+        nif:isString    "where n counts to tens of thousands or more.   NASTA needs your help to design a clever âstudent trackingâ ADT called CleverSIDC. Keys of CleverSIDC entries are long integers of 8 digits, and one can retrieve the keys/values of an CleverSIDC or access a single element by its key. Furthermore, similar to Sequences, given a CleverSIDC key, one can access its predecessor or successor (if it exists).   CleverSIDC adapts to their usage and keep the balance between memory and runtime requirements. For instance, if an CleverSIDC contains only a small number of entries (e.g., few hundreds), it might use less memory overhead but slower (sorting) algorithms. On the other hand, if the number of contained entries is large (greater than 1000 or even in the range of tens of thousands of elements), it might have a higher memory requirement but faster (sorting) algorithms. CleverSIDC might be almost constant in size or might grow and/or shrink dynamically. Ideally, operations applicable to a single CleverSIDC entry should be O(1) but never worse than O(n). Operations applicable to a complete CleverSIDC should not exceed O(n2). You have been asked to design and implement the CleverSIDC ADT, which automatically adapts to the dynamic content that it operates on. In other words, it accepts the size (total number of students, n, identified by their 8 digits SIDC number as a key) as a parameter and uses an appropriate (set of) data structure(s), or other data types, from the one(s) studied in class in order to perform the operations below efficiently1. You are NOT allowed however to use any of the built-in data types (that is, you must implement whatever you need, for instance, linked lists, expandable arrays, hash tables, etc. yourself).   The CleverSIDC must implement the following methods: â¢" .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_59_66>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1490> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999999986213652"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.dbpedia-spotlight.com/#offset_232_240>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AVL tree" ;
+        nif:beginIndex          "232"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1490> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AVL_tree> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1490> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1490>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1490"^^xsd:nonNegativeInteger ;
+        nif:isString    "SetSIDCThreshold (Size): where 100 â¤ Size â¤ ~500,000 is an integer number that defines the size of the list. This size is very important as it will determine what data types or data structures will be used (i.e. a Tree, Hash Table, AVL tree, binary tree, sequence, etc.);  â¢ generate(): randomly generates new non-existing key of 8 digits;  â¢ allKeys(CleverSIDC): return all keys in CleverSIDC as a sorted sequence; â¢ add(CleverSIDC,key,value2): add an entry for the given key and value; â¢ remove(CleverSIDC,key): remove the entry for the given key; â¢ getValues(CleverSIDC,key): return the values of the given key;                                                  1 The lower the memory and runtime requirements of the ADT and its operations, the better will be your marks.  2 Value here could be any info of the student. You can use a single string composed of Family Name, First Name, and DOB. COMP 352 â Fall 2021 Assignment 3&4 â page 5 of 6  â¢ nextKey(CleverSIDC,key): return the key for the successor of key; â¢ prevKey(CleverSIDC,key): return the key for the predecessor of key; â¢ rangeKey(key1, key2): returns the number of keys that are within the specified range of the two keys key1 and key2. 1. Write the pseudo code for at least 4 of the above methods. 2. Write the java code that implements all the above methods. 3. Discuss how both the time and space complexity change for each of the above methods depending on the underlying structure of your CleverSIDC (i.e. whether it is" .
+
+<http://www.dbpedia-spotlight.com/#offset_1360_1376>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "space complexity" ;
+        nif:beginIndex          "1360"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1376"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1490> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Space_complexity> .
+
+<http://www.dbpedia-spotlight.com/#offset_242_253>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "242"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "253"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1490> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_896_900>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "COMP" ;
+        nif:beginIndex          "896"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "900"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1490> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Gene> , <http://dbpedia.org/ontology/HumanGene> , <http://www.wikidata.org/entity/Q206229> , <http://dbpedia.org/ontology/Biomolecule> , <http://www.wikidata.org/entity/Q7187> ;
+        itsrdf:taConfidence     "0.9909720471412168"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cartilage_oligomeric_matrix_protein> .
+
+<http://www.dbpedia-spotlight.com/#offset_719_722>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "719"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "722"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1490> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_271_275>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "271"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999963833840327"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_730_734>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "COMP" ;
+        nif:beginIndex          "730"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "734"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/University> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/EducationalOrganization> , <http://schema.org/CollegeOrUniversity> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q3918> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/EducationalInstitution> , <http://www.wikidata.org/entity/Q2385804> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q24229398> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> ;
+        itsrdf:taConfidence     "0.9293978651407718"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/College_of_Osteopathic_Medicine_of_the_Pacific> .
+
+<http://www.dbpedia-spotlight.com/#offset_869_880>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "programming" ;
+        nif:beginIndex          "869"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "880"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9948723921027164"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_program> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1787> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1262_1268>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Moodle" ;
+        nif:beginIndex          "1262"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1268"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q386724> , <http://www.wikidata.org/entity/Q7397> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Moodle> .
+
+<http://www.dbpedia-spotlight.com/#offset_1279_1283>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "1279"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1283"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999963833840327"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_538_541>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "538"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "541"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1787>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1787"^^xsd:nonNegativeInteger ;
+        nif:isString    "an array, linked list, etc.)?  You have to submit the following deliverables: a) A detailed report about your design decisions and specification of your CleverSIDC ADT including a rationale and comments about assumptions and semantics.   b) Well-formatted and documented Java source code and the corresponding class files with the implemented algorithms. c) Demonstrate the functionality of your CleverSIDC by documenting at least 5 different, but representative, data sets. These examples should demonstrate all cases of your CleverSIDC ADT functionality (e.g., all operations of your ADT for different sizes). You have to additionally test your implementation with benchmark files that are posted along with the assignment.     COMP 352 â Fall 2021 Assignment 3&4 â page 6 of 6   Deliverables The written part must be done individually (no groups are permitted). The programming part can be done in groups of two students (maximum!).  For the written questions, submit all your answers in PDF or text formats only (no scans of handwriting (except for images); this will result in your answer being discarded). Please be concise and brief (less than Â¼ of a page for each question) in your answers. Submit the assignment under Theory Assignment 3&4 directory on Moodle.  For the Java programs, you must submit the source files together with the compiled files. The solutions to all the questions should be zipped together into one .zip or .tar.gz file and submitted  under Programming 3&4 directory on Moodle. You must upload at most one file (even if working in a team; please read below). In specific, here is what you need to do:  1) Create one zip file, containing the necessary source-code files (.java, etc.) You must name your file using the following convention: â¢ If the work is" .
+
+<http://www.dbpedia-spotlight.com/#offset_225_234>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semantics" ;
+        nif:beginIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "234"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9973809996695125"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semantics> .
+
+<http://www.dbpedia-spotlight.com/#offset_10_21>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linked list" ;
+        nif:beginIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "21"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linked_list> .
+
+<http://www.dbpedia-spotlight.com/#offset_1502_1508>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Moodle" ;
+        nif:beginIndex          "1502"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1508"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Moodle> .
+
+<http://www.dbpedia-spotlight.com/#offset_276_287>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "source code" ;
+        nif:beginIndex          "276"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999995886325499"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Source_code> .
+
+<http://www.dbpedia-spotlight.com/#offset_164_167>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "164"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "167"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_586_589>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "586"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "589"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_991_994>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PDF" ;
+        nif:beginIndex          "991"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "994"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999579861205"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/PDF> .
+
+<http://www.dbpedia-spotlight.com/#offset_1489_1498>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "directory" ;
+        nif:beginIndex          "1489"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1498"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999862774150416"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/File_system> .
+
+<http://www.dbpedia-spotlight.com/#offset_1249_1258>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "directory" ;
+        nif:beginIndex          "1249"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1258"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999862774150416"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/File_system> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1723> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_430_436>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Moodle" ;
+        nif:beginIndex          "430"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "436"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1723> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q7397> , <http://www.wikidata.org/entity/Q386724> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Moodle> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1723>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1723"^^xsd:nonNegativeInteger ;
+        nif:isString    "done by 1 student: Your file should be called A#_studentID, where # is the number of the assignment. studentID is your student ID number. â¢ If the work is done by 2 students: The zip file should be called A#_studentID1_studentID2, where # is the number of the assignment. studentID1 and studentID2 are the student ID numbers of each of the group members. 2) Assignments must be submitted in the right folder/dropbox on the course Moodle page. Assignments uploaded to an incorrect folder will not be marked and result in a zero mark. No resubmissions will be allowed. Demo A demo is needed for this assignment and your lab instructors will communicate the available demo times to you, where you must register a time-slot for the demo, and you must prepare your assignment and be ready to demo at the start of your time-slot. If the assignment is done by 2 members, then both members must be present for the demo. During your presentation, you are expected to demo the functionality of the application, explain some parts of your implementation, and answer any questions that the lab instructor may ask in relation to the assignment and your work. Different marks may be assigned to the two members of the team if needed. Demos are mandatory. Failure to demo your assignment will entail a mark of zero for the assignment regardless of your submission. Please read the following carefully! â¢ If you book a demo time, and do not show up, for whatever reason, you will be allowed to reschedule a second demo but a penalty of 50% will be applied.  â¢ Failing to demo at the second appointment will result in zero marks and no more chances will be given under any conditions.    \tProgramming Questions (50 marks):\tDeliverables\tDemo" .

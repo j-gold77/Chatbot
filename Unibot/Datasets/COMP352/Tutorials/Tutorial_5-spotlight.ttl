@@ -1,0 +1,675 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_208_211>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "208"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "211"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1064_1074>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Array List" ;
+        nif:beginIndex          "1064"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1074"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamic_array> .
+
+<http://www.dbpedia-spotlight.com/#offset_1159_1162>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1159"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_213_220>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "General" ;
+        nif:beginIndex          "213"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9996374300910152"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/General_officer> .
+
+<http://www.dbpedia-spotlight.com/#offset_1353_1364>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linked list" ;
+        nif:beginIndex          "1353"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1364"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linked_list> .
+
+<http://www.dbpedia-spotlight.com/#offset_276_286>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ARRAY LIST" ;
+        nif:beginIndex          "276"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "286"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamic_array> .
+
+<http://www.dbpedia-spotlight.com/#offset_1148_1158>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ARRAY LIST" ;
+        nif:beginIndex          "1148"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1158"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamic_array> .
+
+<http://www.dbpedia-spotlight.com/#offset_482_492>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Array List" ;
+        nif:beginIndex          "482"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "492"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamic_array> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1744>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1744"^^xsd:nonNegativeInteger ;
+        nif:isString    "Comp 352 â Fall 2011COMP 352 â FALL 2021Tutorial 51SESSION OUTLINEï¢ Array Lists:ï¢ Definitionï¢ Methodsï¢ Node Lists:ï¢ Simply Linked Listï¢ The position ADTï¢ The Node List ADT ï¢ Doubly Linked Listsï¢ The Sequence ADTï¢ General Overviewï¢ Methodsï¢ Implementationï¢ Problem Solving2THE ARRAY LIST -DEFINITIONAn Array List stores its elements in a linear sequential way and supports access to these elements by their indices. An Array List extends an array and is far more superior than it. A Array List grows as items are added to it, it is searchable, sortable, etc.3THE ARRAY LIST ADT - METHODSï¢ get(i): Return the element of S with index i; an error condition occurs if i < 0 or i > size() â 1. ï¢ set(i,e): Replace with e and return the element at index i; an error condition occurs if i < 0 or i > size() â 1. ï¢ add(i,e): Insert a new element e into S to have index i; an error condition occurs if i < 0 or i > size(). ï¢ remove(i): Remove from S the element at index i; an error condition occurs if i < 0 or i > size() â 1.ï¢ size(): Return the number of elements in the Array List.ï¢ isEmpty(): Return a Boolean indicating if the Array List is empty.4THE ARRAY LIST ADT - IMPLEMENTATIONMethod Timeget(i) O(1)set(i,e) O(1)add(i,e) O(n)remove(i) O(n)size() O(1)isEmpty() O(1)Simple Array-Based Implementation Performance:5NODE LISTS - SIMPLY LINKED LISTA simply linked list is a sequence of nodes.Each node in a simply linked list consists of:ï¢ An elementï¢ A link to the next nodehead tail6NODE LISTS - THE POSITION ADTThe position ADT abstracts the notion of âplaceâ in a node list.A position is itself an abstract data type that supports the following simple method:ï¢ element(): Returns the element stored at this position.A position is always defined" .
+
+<http://www.dbpedia-spotlight.com/#offset_1197_1201>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "1197"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1201"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_562_572>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ARRAY LIST" ;
+        nif:beginIndex          "562"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "572"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamic_array> .
+
+<http://www.dbpedia-spotlight.com/#offset_1097_1104>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Boolean" ;
+        nif:beginIndex          "1097"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9991114427610268"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Boolean_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1598_1616>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "abstract data type" ;
+        nif:beginIndex          "1598"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1616"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1262_1266>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "1262"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1266"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_168_171>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_573_576>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "573"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "576"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1410_1421>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linked list" ;
+        nif:beginIndex          "1410"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1421"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linked_list> .
+
+<http://www.dbpedia-spotlight.com/#offset_301_311>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Array List" ;
+        nif:beginIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "311"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamic_array> .
+
+<http://www.dbpedia-spotlight.com/#offset_149_152>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "152"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1523_1526>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1523"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1526"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1123_1133>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Array List" ;
+        nif:beginIndex          "1123"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1133"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamic_array> .
+
+<http://www.dbpedia-spotlight.com/#offset_1248_1252>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "1248"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1252"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_418_428>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Array List" ;
+        nif:beginIndex          "418"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "428"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamic_array> .
+
+<http://www.dbpedia-spotlight.com/#offset_195_207>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "The Sequence" ;
+        nif:beginIndex          "195"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "207"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Group> , <http://dbpedia.org/ontology/Organisation> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://schema.org/MusicGroup> , <http://dbpedia.org/ontology/Band> , <http://www.wikidata.org/entity/Q215380> , <http://www.wikidata.org/entity/Q24229398> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9999999989446451"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Sequence> .
+
+<http://www.dbpedia-spotlight.com/#offset_1340_1345>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "LISTA" ;
+        nif:beginIndex          "1340"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1345"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Company> , <http://www.wikidata.org/entity/Q43229> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q24229398> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.8020419252897409"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/LISTA> .
+
+<http://www.dbpedia-spotlight.com/#offset_1210_1214>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "1210"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1214"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1744> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1649_1652>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1649"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1652"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1704> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999980673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1262_1280>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "doubly linked list" ;
+        nif:beginIndex          "1262"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1280"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1704> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Doubly_linked_list> .
+
+<http://www.dbpedia-spotlight.com/#offset_96_99>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1704> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999980673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1704> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_700_703>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "700"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "703"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1704> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999980673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_128_131>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "128"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1704> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999980673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1704>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1704"^^xsd:nonNegativeInteger ;
+        nif:isString    "relatively, that is, in terms of its neighbors.7NODE LISTS - THE NODE LIST ADT (1)The node list ADT is another type of sequence ADT that uses the concept of position to encapsulate the idea of \"node\" in a list. It supports the following methods:ï¢ first(): Return the position of the first element of S; an error occurs if S is empty.ï¢ last(): Return the position of the last element of S; an error occurs if S is empty.ï¢ prev(p): Return the position of the element of S preceding the one at position p; an error occurs if p is the first position.ï¢ next(p): Return the position of the element of S following the one at position p; an error occurs if p is the last position.8NODE LISTS - THE NODE LIST ADT (2)The node list ADT also supports the following update methods:ï¢ set(p,e): Replace the element at position p with e, returning the element formerly at position p.ï¢ addFirst(e): Insert a new element e into S as the first element.ï¢ addLast(e): Insert a new element e into S as the last element.ï¢ addBefore(p,e): Insert a new element e into S before position p.ï¢ addAfter(p,e): Insert a new element e into S before position p.ï¢ remove(p): Remove and return the element at position p in S, invalidating this position in S.9NODE LISTS - DOUBLY LINKED LISTS (1)A doubly linked list provides a natural implementation of the List ADT. It is a sequence of nodes.Every node consists of:ï¢ An element.ï¢ A link to the previous nodeï¢ A link to the next node10NODE LISTS - DOUBLY LINKED LISTS (2)ï¢ A doubly linked list uses the Accessor methods (getNext and getPrev), as well as the Update methods (setNext, setPrev and setElement) to implement the Node List ADT methods (addFirst, addAfter, remove, etc.)ï¢ Using a" .
+
+<http://www.dbpedia-spotlight.com/#offset_721_724>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "721"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "724"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1704> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999980673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_75_78>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "75"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "78"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1704> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999980673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1490_1508>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "doubly linked list" ;
+        nif:beginIndex          "1490"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1508"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1704> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Doubly_linked_list> .
+
+<http://www.dbpedia-spotlight.com/#offset_1327_1330>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1327"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1330"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1704> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999980673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_638_641>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "638"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "641"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1798> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1798> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1495_1499>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "1495"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1499"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1798> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_1728_1738>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "array list" ;
+        nif:beginIndex          "1728"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1738"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1798> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamic_array> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1798>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1798"^^xsd:nonNegativeInteger ;
+        nif:isString    "doubly linked list, we can perform all the methods of the list ADT in O(1) time. Thus, a doubly linked list is an efficient implementation of the list ADT11THE SEQUENCE ADT - INTRODUCTION AND BRIDGE METHODSï¢ A Sequence is an ADT that provides explicit access to the elements in the list either by their indices or by their positions. ï¢ The two bridging methods that provide the connection between indices (ranks) and positions are:ï atIndex(i) (or atRank(r) ): return the position of the element with index i; an error occurs if i<0 or i>size()-1.ï indexOf(p) (or rankOf(p) ): return the index of the element at position p.12THE SEQUENCE ADT - IMPLEMENTATIONS13PROBLEM SOLVING -R-6.8Give pseudo-code descriptions of algorithms for performing the methods addBefore(p,e), addFirst(e), and addLast(e) of the node list ADT, assuming the list is implemented using a doubly linked list.14PROBLEM SOLVING -R-6.14Suppose we are keeping track of access counts in a list L of n elements. Suppose further that we have made kn total accesses to the elements in L, for some integer k â¥ 1. What are the minimum and maximum number of elements that havebeen accessed fewer than k times?15PROBLEM SOLVING -R-6.17Briefly describe how to perform a new sequence method makeFirst(p) that moves an element of a sequence S at position p to be the first element in S while keeping the relative ordering of the remaining elements in S unchanged. That is, makeFirst(p) performs a move-to-front. Your method should run in O(1) time if S is implemented with a doubly linked list.16PROBLEM SOLVING -R-6.20Suppose we are maintaining a collection C of elements such that, each time we add a new element to the collection, we copy the contents of C into a new array list of just the right size.What is the running time of adding n" .
+
+<http://www.dbpedia-spotlight.com/#offset_225_228>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1798> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_89_107>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "doubly linked list" ;
+        nif:beginIndex          "89"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1798> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Doubly_linked_list> .
+
+<http://www.dbpedia-spotlight.com/#offset_1532_1550>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "doubly linked list" ;
+        nif:beginIndex          "1532"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1550"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1798> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Doubly_linked_list> .
+
+<http://www.dbpedia-spotlight.com/#offset_1061_1068>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "1061"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1068"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1798> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999931012553"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.dbpedia-spotlight.com/#offset_63_66>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1798> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_861_879>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "doubly linked list" ;
+        nif:beginIndex          "861"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "879"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1798> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Doubly_linked_list> .
+
+<http://www.dbpedia-spotlight.com/#offset_1454_1467>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "move-to-front" ;
+        nif:beginIndex          "1454"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1467"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1798> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Move-to-front_transform> .
+
+<http://www.dbpedia-spotlight.com/#offset_1012_1014>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kn" ;
+        nif:beginIndex          "1012"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1014"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1798> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Currency> ;
+        itsrdf:taConfidence     "0.9999999809498379"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Croatian_kuna> .
+
+<http://www.dbpedia-spotlight.com/#offset_815_818>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "815"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "818"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1798> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_18>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "doubly linked list" ;
+        nif:beginIndex          "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "18"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1798> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Doubly_linked_list> .
+
+<http://www.dbpedia-spotlight.com/#offset_169_172>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "169"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "172"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1798> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_70_74>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1798> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_301_311>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Array List" ;
+        nif:beginIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "311"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamic_array> .
+
+<http://www.dbpedia-spotlight.com/#offset_359_369>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Array List" ;
+        nif:beginIndex          "359"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "369"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamic_array> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_806> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_480_483>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "480"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999548663"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_449_452>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "449"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "452"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999548663"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_806>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "806"^^xsd:nonNegativeInteger ;
+        nif:isString    "elements to an initially empty collection C in this case?17PROBLEM SOLVING -R-6.21Describe an implementation of the methods addLast and addBeforerealized by using only methods in the set {isEmpty, checkPosition, first, last, prev, next, addAfter, addFirst}.18\tComp 352 â Fall 2021\tSession Outline\tThe Array List -ï¿½Definition\tThe Array List ADT - Methods \tThe Array List ADT - Implementation\tNode Lists - Simply Linked List\tNode Lists - The position ADT\tNode Lists - The Node List ADT (1)\tNode Lists - The Node List ADT (2)\tNode Lists - Doubly Linked Lists (1)\tNode Lists - Doubly Linked Lists (2)\tThe Sequence ADT - Introduction and Bridge Methods\tThe Sequence ADT - Implementations\tProblem Solving -ï¿½R-6.8\tProblem Solving -ï¿½R-6.14\tProblem Solving -ï¿½R-6.17\tProblem Solving -ï¿½R-6.20\tProblem Solving -ï¿½R-6.21" .
+
+<http://www.dbpedia-spotlight.com/#offset_661_664>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "661"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "664"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999548663"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_515_518>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "515"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "518"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999548663"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_329_339>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Array List" ;
+        nif:beginIndex          "329"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "339"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamic_array> .
+
+<http://www.dbpedia-spotlight.com/#offset_340_343>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "340"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "343"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999548663"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_370_373>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "370"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "373"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999548663"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_597_609>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "The Sequence" ;
+        nif:beginIndex          "597"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "609"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q215380> , <http://www.wikidata.org/entity/Q43229> , <http://schema.org/MusicGroup> , <http://schema.org/Organization> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Group> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Band> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> ;
+        itsrdf:taConfidence     "0.9999999893530004"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Sequence> .
+
+<http://www.dbpedia-spotlight.com/#offset_648_660>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "The Sequence" ;
+        nif:beginIndex          "648"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "660"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Group> , <http://schema.org/MusicGroup> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q43229> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Band> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.wikidata.org/entity/Q215380> , <http://schema.org/Organization> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9999999893530004"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Sequence> .
+
+<http://www.dbpedia-spotlight.com/#offset_610_613>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "610"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "613"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999548663"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .

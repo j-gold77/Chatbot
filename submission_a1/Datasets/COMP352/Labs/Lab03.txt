@@ -1,0 +1,106 @@
+// *******************************************************************
+// Factorial.java By: Aiman Hanna (C) 1993 - 2019
+// This program illustrates the difference between recursion and tail recursion. 
+// Key Points: 
+// 	1) Tail Recursion
+// *******************************************************************
+
+import java.util.Scanner;
+
+	
+
+public class Factorial {
+	// Given a non-negative value n, return factorial n. 
+	// Notice that a large input may result in integer overflow!
+	// A larger input may result in stack overflow!
+	// Two methods are included in the class to achieve this functionality; 
+	// one of which resulting in tail recursion 
+	
+	public static int fact(int n)
+	{
+		if (n == 0) return 1;
+		return n * fact(n-1);
+	}
+	
+	
+	public static int tailFactorial(int n)
+	{
+		
+		return tfact(n, 1); // no recursion here
+	}
+	
+	public static int tfact(int n, int res)
+	{
+		if(n == 0)
+			return res;
+		return tfact(n-1, res*n); // this is where recursion occurs
+	}
+	
+	
+public static void main(String[] args) {
+		Scanner kb = new Scanner(System.in);
+		int n;
+		System.out.print("Please enter the value that you wish to calculate its
+                              factorial: ");
+		n = kb.nextInt();
+		
+		System.out.print("The value of " + n +"! using fact("+ n +") is: " +
+                             fact(n));
+		System.out.print("\n\n");
+		System.out.print("The value of " + n +"! using tailFactorial("+ n +") is: " +
+                              tailFactorial(n));
+		
+System.out.print("\n\n");
+		
+		System.out.print("Please enter the value that you wish to calculate its
+                              factorial: ");
+		n = kb.nextInt();
+		
+		System.out.print("The value of " + n +"! using fact("+ n +") is: " +
+                              fact(n));
+		System.out.print("\n\n");
+		System.out.print("The value of " + n +"! using tailFactorial("+ n +") is: " +
+                              tailFactorial(n));
+		
+		
+		kb.close();
+	}
+
+}
+
+/*The output
+Please enter the value that you wish to calculate its factorial: 6
+The value of 6! using fact(6) is: 720
+
+The value of 6! using tailFactorial(6) is: 720
+
+Please enter the value that you wish to calculate its factorial: 10
+The value of 10! using fact(10) is: 3628800
+
+The value of 10! using tailFactorial(10) is: 3628800
+*/
+
+/*Run Again - Notice overflow 
+Please enter the value that you wish to calculate its factorial: 22
+The value of 22! using fact(22) is: -522715136
+
+The value of 22! using tailFactorial(22) is: -522715136
+
+Please enter the value that you wish to calculate its factorial: 3000
+The value of 3000! using fact(3000) is: 0
+
+The value of 3000! using tailFactorial(3000) is: 0
+*/
+
+/*Run Again 
+Please enter the value that you wish to calculate its factorial: 6500
+Exception in thread "main" java.lang.StackOverflowError
+	at Factorial.fact(Factorial.java:23)
+	at Factorial.fact(Factorial.java:23)
+	at Factorial.fact(Factorial.java:23)
+	at Factorial.fact(Factorial.java:23)
+	:
+	:
+*/
+
+

@@ -1,0 +1,185 @@
+------------------------------
+GetCourseDescriptionByName - Intelligent Systems
+Description:  “intelligent” (Artificial Intelligence, AI)-based software systems, that is, software that incorporates algorithms or methods from Artificial Intelligence, Machine Learning, Natural Learning Process or Information Retrieval.
+------------------------------
+GetCourseDescription - COMP 348
+Description:  Description: Survey of programming paradigms: Imperative, functional, and logic programming. Issues in the design and implementation of programming languages. Declaration models: binding, visibility, and scope. Type systems, including static and dynamic typing. Parameter passing mechanisms. Hybrid language design. Lectures: three hours per week. Tutorial: one hour per week. Prerequisite: COMP 249.      Prerequisite:    Course Prerequisite: COMP249, Degree: None, Career: UGRD, Program: None, Department: None, Faculty: None.
+------------------------------
+GetStudentCompetencies - 46870226
+Topic:  Analysis-of-Algorithms
+Topic:  MergeSort
+Topic:  Trees
+Topic:  ShortestPaths
+Topic:  BFS
+Topic:  HashTables
+Topic:  Maps
+Topic:  BinarySearchTrees
+Topic:  OrderedMaps_and_Dictionaries
+Topic:  DFS
+Topic:  LinkedLists_and_Iterators
+Topic:  PriorityQueues
+Topic:  Stacks
+Topic:  Sorting-LowerBound
+Topic:  Graphs
+Topic:  AVLTrees
+Topic:  Heaps
+Topic:  Queues
+Topic:  Bucket-Sort_and_Radix-Sort
+Topic:  QuickSort
+Topic:  ArrayLists_NodeLists_and_Sequences
+Topic:  DiGraphs
+Topic:  Recursion
+------------------------------
+GetStudentCompetenciesByName - Nathalie Guaytan
+Topic:  Analysis-of-Algorithms
+Topic:  MergeSort
+Topic:  Trees
+Topic:  ShortestPaths
+Topic:  BFS
+Topic:  HashTables
+Topic:  Maps
+Topic:  BinarySearchTrees
+Topic:  OrderedMaps_and_Dictionaries
+Topic:  DFS
+Topic:  LinkedLists_and_Iterators
+Topic:  PriorityQueues
+Topic:  Stacks
+Topic:  Sorting-LowerBound
+Topic:  Graphs
+Topic:  AVLTrees
+Topic:  Heaps
+Topic:  Queues
+Topic:  Bucket-Sort_and_Radix-Sort
+Topic:  QuickSort
+Topic:  ArrayLists_NodeLists_and_Sequences
+Topic:  DiGraphs
+Topic:  Recursion
+------------------------------
+GetCoursesAtUniversityThatCoverTopic - Concordia University, SPARQL
+Course:  Intelligent Systems
+------------------------------
+GetEmailOfStudent - 46654420
+Email:  m_scott@gmail.com
+------------------------------
+GetCoursesCompletedByStudent - 46654420
+Course:  Mathematics for Computer Science
+Course:  Data Structures and Algorithms
+Course:  Data Structures and Algorithms
+------------------------------
+GetCoursesOfferedAtUniversity - Concordia University, limit 25
+Course:  DIRECTED STUDIES - Conducting Research in Hostile Territory
+Course:  SEL TOP.-COMPUTAT'L ALGEBRA
+Course:  Copyright and your thesis
+Course:  CONVERSATION FRAN�AISE INTRODUCTION
+Course:  SPEC DOCTORAL LEVEL STUDIES
+Course:  From Orality to Literacy in Medieval Spain, 1100-1500
+Course:  MANAGEMENT SKILLS SEMINAR
+Course:  EASTERN RELIGIONS
+Course:  Ancient Jewish Biblical Interpretation
+Course:  TOPICS IN DANCE
+Course:  Interview 101: The Art of Communicating Your Skills to an Employer
+Course:  Introduction aux cultures populaires de langue fran�aise
+Course:  AMERICAN LITERATURE BEFORE 1800
+Course:  RESEARCH & THESIS
+Course:  Introduction to Epistemology
+Course:  JUDAISM IN LATE ANTIQUITY
+Course:  Selected Topics in Video
+Course:  Lithography III
+Course:  Advanced Family Life Education
+Course:  TUTORAT EN LITTERATURE
+Course:  WATER RESOURCE MANAGEMENT
+Course:  Mathematics with Computer Algebra
+Course:  Stage Properties Realization
+Course:  COMPUTER ARCHITECTURE
+Course:  REFLECTIVE LEARNING III
+------------------------------
+GetLecturesWithMostContent - Limit 1
+Course name:  Intelligent Systems
+Lecture name:  Introduction to Knowledge Graphs
+Lecture number:  2
+Number of lecture content:  5
+
+------------------------------
+GetLecturesInCourse - COMP 352
+Lecture name:  Recursion
+Lecture number:  6
+
+Lecture name:  Analysis-of-Algorithms
+Lecture number:  4
+
+Lecture name:  Introduction
+Lecture number:  2
+
+Lecture name:  ArrayLists_NodeLists_Sequences and Trees
+Lecture number:  11
+
+Lecture name:  Stacks and Queues
+Lecture number:  7
+
+Lecture name:  Recursion
+Lecture number:  5
+
+Lecture name:  LinkedLists_and_Iterators
+Lecture number:  10
+
+Lecture name:  PriorityQueues and Heaps
+Lecture number:  14
+
+Lecture name:  Sorting-LowerBound_Bucket-Sort_Radix-Sort _Graphs and DFS
+Lecture number:  19
+
+Lecture name:  ShortestPaths
+Lecture number:  23
+
+Lecture name:  Introduction
+Lecture number:  1
+
+Lecture name:  PriorityQueues and Heaps
+Lecture number:  13
+
+Lecture name:  Stacks and Queues
+Lecture number:  8
+
+Lecture name:  BFS_DiGraphs
+Lecture number:  22
+
+Lecture name:  Maps_HashTables_OrderedMaps_and_Dictionaries
+Lecture number:  16
+
+Lecture name:  BinarySearchTrees_AVLTrees_MergeSort and QuickSort
+Lecture number:  18
+
+Lecture name:  LinkedLists_and_Iterators
+Lecture number:  9
+
+Lecture name:  Maps_HashTables_OrderedMaps_and_Dictionaries
+Lecture number:  15
+
+Lecture name:  ArrayLists_NodeLists_Sequences and Trees
+Lecture number:  12
+
+Lecture name:  Sorting-LowerBound_Bucket-Sort_Radix-Sort _Graphs and DFS
+Lecture number:  20
+
+Lecture name:  BFS_DiGraphs
+Lecture number:  21
+
+Lecture name:  Analysis-of-Algorithms
+Lecture number:  3
+
+Lecture name:  BinarySearchTrees_AVLTrees_MergeSort and QuickSort
+Lecture number:  17
+
+------------------------------
+GetCourseTopicProvenance - COMP 352, Analysis-of-Algorithms
+Provenance:  http://focu.io/data#COMP352-Lecture1
+------------------------------
+GetUniversityStudentAttends - Mariam Samson
+University:  Concordia University
+------------------------------
+Number of triples:  67256
+Number of courses:  7374
+Number of students:  10
+Number of lectures:  30
+Number of universities:  3
+Number of topics:  29

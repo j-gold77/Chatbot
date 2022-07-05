@@ -1,0 +1,414 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_97_117>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Software Engineering" ;
+        nif:beginIndex          "97"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "117"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1767> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_engineering> .
+
+<http://www.dbpedia-spotlight.com/#offset_401_408>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Collins" ;
+        nif:beginIndex          "401"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "408"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1767> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Company> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://www.wikidata.org/entity/Q43229> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Publisher> , <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9995547476348934"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/HarperCollins> .
+
+<http://www.dbpedia-spotlight.com/#offset_1255_1265>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparator" ;
+        nif:beginIndex          "1255"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1265"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1767> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparator> .
+
+<http://www.dbpedia-spotlight.com/#offset_313_317>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "313"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "317"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1767> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1767> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_140_148>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Montreal" ;
+        nif:beginIndex          "140"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1767> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Location> , <http://www.wikidata.org/entity/Q515> , <http://schema.org/Place> , <http://dbpedia.org/ontology/City> , <http://www.wikidata.org/entity/Q486972> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Settlement> , <http://schema.org/City> ;
+        itsrdf:taConfidence     "0.9997863632818602"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Montreal> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1767>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1767"^^xsd:nonNegativeInteger ;
+        nif:isString    "Analysis of AlgorithmsOrdered Maps & DictionariesDr. Aiman HannaDepartment of Computer Science & Software Engineering Concordia University, Montreal, CanadaThese slides have been extracted, modified and updated from original slides of :Data Structures and Algorithms in Java, 5th edition. John Wiley& Sons, 2010. ISBN 978-0-470-38326-1.Data Structures and the Java Collections Framework by William J. Collins, 3rdedition, ISBN 978-0-470-48267-4. Both books are published by Wiley.Copyright Â© 2010-2011 WileyCopyright Â© 2010 Michael  T. Goodrich, Roberto TamassiaCopyright Â© 2011 William J. CollinsCopyright Â© 2011-2021 Aiman Hanna All rights reserved Ordered Maps & DictionariesCoverageï± Section 9.3: Ordered Maps & Binary Searchï± Section 9.5: Dictionariesï±21 3 4 5 7 8 9 11 14 16 18 191 3 4 5 7 8 9 11 14 16 18 191 3 4 5 7 8 9 11 14 16 18 191 3 4 5 7 8 9 11 14 16 18 190000ml hml hml hOrdered Maps & Dictionaries 3Ordered Mapsï± In some applications, simply looking up values based on associated keys is not enough. ï± The entries may need to be sorted in the map according in total order. ï± An ordered map would have the usual operations that a map has, but also maintains an order relation for the keys.  ï± Keys are assumed to come from a total order; a comparator can be used to provide the needed order between the keys. Ordered Maps & Dictionaries 4Ordered Mapsï± Since the entries are sorted, some additional methods can efficiently be provided: ï® firstEntry(): return the entry with smallest key, or null if the map is emptyï® lastEntry(): return the entry with largest key, or null if the map is emptyï® floorEntry(k): return the entry with the largest key â¤ kï® ceilingEntry(k): return the entry with the smallest key â¥ kï· These two operations also return null if" .
+
+<http://www.dbpedia-spotlight.com/#offset_270_274>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "270"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "274"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1767> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.992986901423142"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_1240_1251>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "total order" ;
+        nif:beginIndex          "1240"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1251"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1767> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Total_order> .
+
+<http://www.dbpedia-spotlight.com/#offset_53_58>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "58"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1767> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_619_624>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "619"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "624"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1767> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_294_299>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Wiley" ;
+        nif:beginIndex          "294"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "299"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1767> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Publisher> , <http://dbpedia.org/ontology/Company> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://schema.org/Organization> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://www.wikidata.org/entity/Q24229398> ;
+        itsrdf:taConfidence     "0.9999923188549344"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wiley-Blackwell> .
+
+<http://www.dbpedia-spotlight.com/#offset_118_138>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia University" ;
+        nif:beginIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "138"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1767> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9194658642549651"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Main_Page> .
+
+<http://www.dbpedia-spotlight.com/#offset_422_426>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "422"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "426"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1767> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_360_386>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java Collections Framework" ;
+        nif:beginIndex          "360"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "386"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1767> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_collections_framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_78_94>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Computer Science" ;
+        nif:beginIndex          "78"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1767> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999993179"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_science> .
+
+<http://www.dbpedia-spotlight.com/#offset_1076_1087>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "total order" ;
+        nif:beginIndex          "1076"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1087"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1767> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Total_order> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1406_1413>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "1406"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1413"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1664> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://www.wikidata.org/entity/Q315> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9999887563628821"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1664> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_227_235>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "high-low" ;
+        nif:beginIndex          "227"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1664> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/High-low_split> .
+
+<http://www.dbpedia-spotlight.com/#offset_1634_1637>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1634"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1637"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1664> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999993179"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1664>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1664"^^xsd:nonNegativeInteger ;
+        nif:isString    "the map is emptyOrdered Maps & Dictionaries 5Binary Searchï± Binary search can perform operations get, floorEntry and ceilingEntry on an ordered map implemented by means of an array-based sequence, sorted by keyï® similar to the high-low gameï® at each step, the number of candidate items is halvedï® terminates after O(log n) stepsï± Example: find(7)1 3 4 5 7 8 9 11 14 16 18 191 3 4 5 7 8 9 11 14 16 18 191 3 4 5 7 8 9 11 14 16 18 191 3 4 5 7 8 9 11 14 16 18 190000ml hml hml hl=m =hOrdered Maps & Dictionaries 6Performance of Ordered Mapsï± We can store the items in an array-based sequence, sorted by key. ï± Performance:ï® get, floorEntry and ceilingEntry take O(log n) time, using binary searchï® put takes O(n) time since in the worst case we have to shift n/2items to make room for the new itemï® remove take O(n) time since in the worst case we have to shift n/2items to compact the items after the removalï± Ordered maps are effective only for small size maps or for maps on which searches are the most common operations, while insertions and removals are rarely performed.Ordered Maps & Dictionaries 7Dictionary ADTï± Like a map, a dictionary stores key-value entries.ï± Similarly, a dictionary allows the keys and the values to be of any object types. ï± However, in contrast to maps, where the keys must be unique, a dictionary allows for multiple entries to have the same keys. ï± This is very much like an English dictionary, for instance, which allows for a multiple definitions for the same word. ï± The main operations of a dictionary are searching, inserting, and deleting items. Ordered Maps & Dictionaries 8Dictionary ADTï± As an ADT, an (unordered) dictionary" .
+
+<http://www.dbpedia-spotlight.com/#offset_1623_1626>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1623"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1626"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1664> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999993179"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_60_73>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Binary search" ;
+        nif:beginIndex          "60"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1664> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_search_algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_870_877>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "compact" ;
+        nif:beginIndex          "870"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "877"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1664> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9998186952891972"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Compact_space> .
+
+<http://www.dbpedia-spotlight.com/#offset_1112_1115>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1112"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1664> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999993179"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_679_692>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary search" ;
+        nif:beginIndex          "679"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "692"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1664> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_search_algorithm> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2190> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1135_1140>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "trail" ;
+        nif:beginIndex          "1135"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1140"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2190> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999921556"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Glossary_of_graph_theory_terms> .
+
+<http://www.dbpedia-spotlight.com/#offset_1804_1815>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "workstation" ;
+        nif:beginIndex          "1804"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1815"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2190> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.696204358220706"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Digital_audio_workstation> .
+
+<http://www.dbpedia-spotlight.com/#offset_1340_1344>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "1340"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1344"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2190> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2190>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2190"^^xsd:nonNegativeInteger ;
+        nif:isString    "D supports the following methods:ï® get(k): if the dictionary has an entry with key k, return it, else, return null. If more than one entry exists with key k then arbitrarily return one of them. ï® getAll(k): return an iterable collection of all entries with key k.ï® put(k, v): insert an entry with key k and value v and return that entry.ï® remove(e): remove the entry e from the dictionary and return it; error occurs if e is not in the dictionary. ï® entrySet(): return an iterable collection of the entries in the dictionary.ï® size(), isEmpty()Ordered Maps & Dictionaries 9ExampleOperation Output Dictionaryput(5,A) (5,A) (5,A)put(7,B) (7,B) (5,A),(7,B)put(2,C) (2,C) (5,A),(7,B),(2,C)put(8,D) (8,D) (5,A),(7,B),(2,C),(8,D)put(2,E) (2,E) (5,A),(7,B),(2,C),(8,D),(2,E)get(7) (7,B) (5,A),(7,B),(2,C),(8,D),(2,E)get(4) null (5,A),(7,B),(2,C),(8,D),(2,E)get(2) (2,C) (5,A),(7,B),(2,C),(8,D),(2,E)getAll(2) (2,C),(2,E) (5,A),(7,B),(2,C),(8,D),(2,E)size() 5 (5,A),(7,B),(2,C),(8,D),(2,E)remove(get(5)) (5,A) (7,B),(2,C),(8,D),(2,E)get(5) null (7,B),(2,C),(8,D),(2,E)Ordered Maps & Dictionaries 10A List-Based Dictionaryï± A log file or audit trail is a dictionary implemented by means of an unsorted sequenceï® We store the items of the dictionary in a sequence (based on a doubly-linked list or array), in arbitrary orderï± Performance:ï® put takes O(1) time since we can insert the new item at the beginning or at the end of the sequenceï® get and remove take O(n) time since in the worst case (the item is not found) we traverse the entire sequence to look for an item with the given keyï± The log file is effective only for dictionaries of small size or for dictionaries on which insertions are the most common operations, while searches and removals are rarely performed (e.g., historical record of logins to a workstation)http://en.wikipedia.org/wiki/Audit_trailOrdered Maps & Dictionaries 11The getAll and put AlgorithmsAlgorithm getAll(k)Create an initially-empty list Lfor e: D doif e.getKey() = k  thenL.addLast(e)return LAlgorithm put(k,v)Create a new entry e = (k,v)S.addLast(e) {S is unordered}return eOrdered Maps & Dictionaries 12The remove AlgorithmAlgorithm remove(e):{ We don't assume" .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_707_717>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparator" ;
+        nif:beginIndex          "707"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "717"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparator> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1454> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_413_423>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash table" ;
+        nif:beginIndex          "413"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "423"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_1329_1332>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1329"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1332"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_594_606>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sorted array" ;
+        nif:beginIndex          "594"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "606"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sorted_array> .
+
+<http://www.dbpedia-spotlight.com/#offset_777_790>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary search" ;
+        nif:beginIndex          "777"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "790"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_search_algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_294_311>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "separate chaining" ;
+        nif:beginIndex          "294"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "311"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hash_table> .
+
+<http://www.dbpedia-spotlight.com/#offset_487_491>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "487"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "491"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1454>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1454"^^xsd:nonNegativeInteger ;
+        nif:isString    "here that e stores its position in S }B = S.positions()while B.hasNext() dop = B.next()if p.element() = e thenS.remove(p)return ereturn null {there is no entry e in D}Ordered Maps & Dictionaries 13Hash Table Implementationï± We can also create a hash-table dictionary implementation.ï± If we use separate chaining to handle collisions, then each operation can be delegated to a list-based dictionary stored at each hash table cell.ï± In that case, the dictionary methods can be achieved in O(1). Ordered Maps & Dictionaries 14Search Tableï± A search table is a dictionary implemented by means of a sorted arrayï® We store the items of the dictionary in an array-based sequence, sorted by keyï® We use an external comparator for the keysï± Performance:ï® get takes O(log n) time, using binary searchï® put takes O(n) time since in the worst case we have to shift n/2items to make room for the new itemï® remove takes O(n) time since in the worst case we have to shift n/2items to compact the items after the removalï± A search table is effective only for dictionaries of small size or for dictionaries on which searches are the most common operations, while insertions and removals are rarely performed.\tOrdered Maps & Dictionaries\tSlide Number 2\tOrdered Maps\tOrdered Maps\tBinary Search\tPerformance of Ordered Maps\tDictionary ADT\tDictionary ADT\tExample\tA List-Based Dictionary\tThe getAll and put Algorithms\tThe remove Algorithm\tHash Table Implementation\tSearch Table" .
+
+<http://www.dbpedia-spotlight.com/#offset_969_976>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "compact" ;
+        nif:beginIndex          "969"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "976"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9998815535296396"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Compact_space> .
+
+<http://www.dbpedia-spotlight.com/#offset_1314_1317>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1314"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1317"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .

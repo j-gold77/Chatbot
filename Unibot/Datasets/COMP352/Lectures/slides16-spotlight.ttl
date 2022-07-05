@@ -1,0 +1,486 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_252_256>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "252"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "256"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.998425728617955"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_404_408>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "404"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "408"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_1780_1786>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary" ;
+        nif:beginIndex          "1780"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1786"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999961310604514"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_number> .
+
+<http://www.dbpedia-spotlight.com/#offset_807_825>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "divide-and-conquer" ;
+        nif:beginIndex          "807"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "825"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Divide-and-conquer_algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_80_100>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Software Engineering" ;
+        nif:beginIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_engineering> .
+
+<http://www.dbpedia-spotlight.com/#offset_295_299>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "295"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "299"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_601_606>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "601"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "606"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_1345_1354>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "partition" ;
+        nif:beginIndex          "1345"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1354"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999124854677"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Partition_of_a_set> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1786>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1786"^^xsd:nonNegativeInteger ;
+        nif:isString    "Analysis of AlgorithmsQuick-SortDr. Aiman HannaDepartment of Computer Science & Software Engineering Concordia University, Montreal, CanadaThese slides has been extracted, modified and updated from original slides of :Data Structures and Algorithms in Java, 5th edition. John Wiley& Sons, 2010. ISBN 978-0-470-38326-1.Data Structures and the Java Collections Framework by William J. Collins, 3rdedition, ISBN 978-0-470-48267-4. Both books are published by Wiley.Copyright Â© 2010-2011 WileyCopyright Â© 2010 Michael  T. Goodrich, Roberto TamassiaCopyright Â© 2011 William J. CollinsCopyright Â© 2011-2021 Aiman Hanna All rights reserved Coverageï± Quick-Sort27  4  9  6 2  â 2  4  6 7  94 2  â 2  4 7 9  â 7 92 â 2 9 â 9Quick SortQuick Sort 3Quick-Sortï± Quick-sort is a randomized sorting algorithm based on the divide-and-conquer paradigm:ï® Divide: pick a random element x (called pivot) and partition S into ï· L elements less than xï· E elements equal xï· G elements greater than xï® Recur: sort L and Gï® Conquer: join L, E and GxxL GExQuick Sort 4Partitionï± We partition an input sequence as follows:ï® We remove, in turn, each element y from S and ï® We insert y into L, E or G,depending on the result of the comparison with the pivot xï± Each insertion and removal is at the beginning or at the end of a sequence, and hence takes O(1) timeï± Thus, the partition step of quick-sort takes O(n) timeAlgorithm partition(S, p)Input sequence S, position p of pivot Output subsequences L, E, G of the elements of S less than, equal to,or greater than the pivot, resp.L, E, G â empty sequencesx â S.remove(p)while Â¬S.isEmpty()y â S.remove(S.first())if y < xL.addLast(y)else if y = xE.addLast(y)else { y > x }G.addLast(y)return L, E, GQuick-Sort Treeï± An execution of quick-sort is depicted by a binary" .
+
+<http://www.dbpedia-spotlight.com/#offset_36_41>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_776_793>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sorting algorithm" ;
+        nif:beginIndex          "776"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "793"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sorting_algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_123_131>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Montreal" ;
+        nif:beginIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/City> , <http://schema.org/City> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://www.wikidata.org/entity/Q515> , <http://www.wikidata.org/entity/Q486972> ;
+        itsrdf:taConfidence     "0.9992910587145092"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Montreal> .
+
+<http://www.dbpedia-spotlight.com/#offset_1324_1328>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "1324"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1328"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_383_390>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Collins" ;
+        nif:beginIndex          "383"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "390"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q43229> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Publisher> , <http://dbpedia.org/ontology/Company> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9999990667460941"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/HarperCollins> .
+
+<http://www.dbpedia-spotlight.com/#offset_852_866>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "random element" ;
+        nif:beginIndex          "852"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "866"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Random_element> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_61_77>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Computer Science" ;
+        nif:beginIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_science> .
+
+<http://www.dbpedia-spotlight.com/#offset_888_897>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "partition" ;
+        nif:beginIndex          "888"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "897"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999124854677"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Partition_of_a_set> .
+
+<http://www.dbpedia-spotlight.com/#offset_1399_1408>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "partition" ;
+        nif:beginIndex          "1399"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1408"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999124854677"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Partition_of_a_set> .
+
+<http://www.dbpedia-spotlight.com/#offset_1056_1065>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "partition" ;
+        nif:beginIndex          "1056"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1065"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999124854677"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Partition_of_a_set> .
+
+<http://www.dbpedia-spotlight.com/#offset_342_368>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java Collections Framework" ;
+        nif:beginIndex          "342"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_collections_framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_101_121>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia University" ;
+        nif:beginIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "121"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.6836848095394039"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Main_Page> .
+
+<http://www.dbpedia-spotlight.com/#offset_276_281>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Wiley" ;
+        nif:beginIndex          "276"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "281"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1786> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Company> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.wikidata.org/entity/Q43229> , <http://www.wikidata.org/entity/Q4830453> , <http://schema.org/Organization> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Publisher> ;
+        itsrdf:taConfidence     "0.9976129981231913"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wiley-Blackwell> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_969> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_969>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "969"^^xsd:nonNegativeInteger ;
+        nif:isString    "treeï® Each node represents a recursive call of quick-sort and storesï· Unsorted sequence before the execution and its pivotï· Sorted sequence at the end of the executionï® The root is the initial call ï® The leaves are calls on subsequences of size 0 or 15Quick SortQuick Sort 6Quick-Sort Treeï± Example:85  24  63  45  17  31  96     5024  45  17   31 85  63     96Divide & Recur4524    172485   6385Quick Sort 7Quick-Sort Treeï± Example (Continuesâ¦):17  24  31  45     50 63  85  9617  24 31 45 63  85     96Conquer4517   242463 8585Quick Sort 8Execution Exampleï± Pivot selection7  2  9  4  â 2  4  7  92 â 27  2  9  4 3  7  6 1 â 1  2  3  4  6  7  8  93  8  6  1  â 1  3  8  63 â 3 8 â 89  4  â 4  99 â 9 4 â 4Quick Sort 9Execution Example (cont.)ï± Partition, recursive call, pivot selection2 4  3  1 â 2  4  7  99  4  â 4  99 â 9 4 â 47  2  9  4  3  7  6 1 â 1  2  3  4  6  7  8  93  8  6  1  â 1  3  8  63 â 3 8 â 82 â 2Quick Sort 10Execution Example (cont.)ï± Partition," .
+
+<http://www.dbpedia-spotlight.com/#offset_200_210>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "The leaves" ;
+        nif:beginIndex          "200"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_969> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q215380> , <http://dbpedia.org/ontology/Band> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Group> , <http://schema.org/MusicGroup> , <http://www.wikidata.org/entity/Q43229> ;
+        itsrdf:taConfidence     "0.99999999619547"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Leaves> .
+
+<http://www.dbpedia-spotlight.com/#offset_169_177>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "The root" ;
+        nif:beginIndex          "169"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "177"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_969> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q2188189> , <http://dbpedia.org/ontology/Work> , <http://schema.org/MusicRecording> , <http://dbpedia.org/ontology/MusicalWork> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Song> ;
+        itsrdf:taConfidence     "0.999999919475275"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Root> .
+
+<http://www.dbpedia-spotlight.com/#offset_560_565>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Pivot" ;
+        nif:beginIndex          "560"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "565"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_969> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9612689217849294"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Futsal_positions> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_715>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "715"^^xsd:nonNegativeInteger ;
+        nif:isString    "recursive call, base case2 4  3  1 ââ 2  4  7  1 â 1 9  4  â 4  99 â 9 4 â 47  2  9  4 3  7  6 1 â â 1  2  3  4  6  7  8  93  8  6  1  â 1  3  8  63 â 3 8 â 8Quick Sort 11Execution Example (cont.)ï± Recursive call, â¦, base case, join3  8  6  1  â 1  3  8  63 â 3 8 â 87  2  9  4 3  7  6 1 â 1  2  3  4  6  7  8  92 4  3  1 â 1  2 3  41 â 1 4  3 â 3 49 â 9 4 â 4Quick Sort 12Execution Example (cont.)ï± Recursive call, pivot selection7  9  7 1  â 1  3  8  68 â 87  2  9  4 3  7  6 1 â 1  2  3  4  6  7  8  92 4  3  1 â 1  2 3  41 â 1 4  3 â 3 49 â 9 4 â 49 â 9Quick Sort 13Execution Example (cont.)ï± Partition, â¦, recursive call, base case7  9  7 1  â 1  3  8  68 â 87  2  9  4 3  7  6 1 â 1  2  3  4  6  7  8  92 4  3" .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_715> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1071> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_647_649>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "n1" ;
+        nif:beginIndex          "647"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "649"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1071> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999993154305072"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Group_N> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1071>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1071"^^xsd:nonNegativeInteger ;
+        nif:isString    " 1 â 1  2 3  41 â 1 4  3 â 3 49 â 9 4 â 49 â 9Quick Sort 14Execution Example (cont.)ï± Join, join7 9  7 â 17 7 98 â 87  2  9  4  3  7  6 1  â 1  2  3  4  6 7  7  92 4  3  1 â 1  2 3  41 â 1 4  3 â 3 49 â 9 4 â 49 â 9Quick Sort 15Worst-case Running Timeï± The worst case for quick-sort occurs when the pivot is the unique minimum or maximum elementï± One of L and G has size n â 1 and the other has size 0ï± The amount or work done at any depth proportional to the number of nodes at that depth. Hence, the running time in that case is proportional to the sumn + (n â 1) + â¦ + 2 + 1ï± Thus, the worst-case running time of quick-sort is O(n2)depth time0 n1 n â 1â¦ â¦n â 1 1Quick Sort 16Expected Running Timeï± Consider a recursive call of quick-sort on a sequence of size sï® Good call: the sizes of L and G are each less than 3s/4ï® Bad call: one of L and G has size greater than 3s/4ï± A call is good with probability 1/2ï® 1/2 of the possible pivots cause good calls:7  9  7 1  â 17  2  9  4 3  7  6 1 92  4  3  1 7 9 4 3 7 617  2 9  4 3  7  6  1Good call Bad call1 2 3 4 5 6 7 8 9" .
+
+<http://www.dbpedia-spotlight.com/#offset_823_826>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Bad" ;
+        nif:beginIndex          "823"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "826"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1071> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8871383221768202"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spa_town> .
+
+<http://www.dbpedia-spotlight.com/#offset_896_907>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability" ;
+        nif:beginIndex          "896"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "907"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1071> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8861314174631799"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability_distribution> .
+
+<http://www.dbpedia-spotlight.com/#offset_1046_1049>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Bad" ;
+        nif:beginIndex          "1046"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1049"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1071> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8871383221768202"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spa_town> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1544_1554>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Quick Sort" ;
+        nif:beginIndex          "1544"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1554"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1752> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quicksort> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1752> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_42_45>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Bad" ;
+        nif:beginIndex          "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1752> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9927184214608151"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spa_town> .
+
+<http://www.dbpedia-spotlight.com/#offset_1592_1601>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "partition" ;
+        nif:beginIndex          "1592"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1601"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1752> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999998231033"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Partition_of_a_set> .
+
+<http://www.dbpedia-spotlight.com/#offset_774_784>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Quick Sort" ;
+        nif:beginIndex          "774"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "784"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1752> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quicksort> .
+
+<http://www.dbpedia-spotlight.com/#offset_1623_1630>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "split S" ;
+        nif:beginIndex          "1623"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1630"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1752> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999975029823"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Split_S> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1752>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1752"^^xsd:nonNegativeInteger ;
+        nif:isString    "10 11 12 13 14 15 16Good pivotsBad pivots Bad pivotsQuick Sort 17Expected Running Time, Part 2ï± Probabilistic Fact: The expected number of coin tosses required in order to get k heads is 2kï± For a node of depth i, we expectï® i/2 ancestors are good calls (that is Â½ the calls above)ï® The size of the input sequence for the current call is at most (3/4)i/2ns(r)s(a) s(b)s(c) s(d) s(f)s(e)time per levelexpected heightO(log n)O(n)O(n)O(n)total expected time: O(n log n)Therefore, ï® When the expected input size finally reaches one?ï® It does at depth i = 2log4/3nï® i.e. n=100, (3/4)log4/3(100) 100 = 1ï® The expected height of the quick-sort tree is O(log n)The amount or work done at the nodes of the same depth is O(n)Thus, the expected running time of quick-sort is O(n log n)Quick Sort 18In-Place Quick-Sortï± Quick-sort can be implemented to run in-placeï± In the partition step, we use replace operations to rearrange the elements of the input sequence such thatï® the elements less than the pivot have rank less than hï® the elements equal to the pivot have rank between h and kï® the elements greater than the pivot have rank greater than kï± The recursive calls considerï® elements with rank less than hï® elements with rank greater than kAlgorithm inPlaceQuickSort(S, l, r)Input sequence S, ranks l and rOutput sequence S with theelements of rank between l and rrearranged in increasing orderif l â¥ rreturni â a random integer between l and rx â S.elemAtRank(i)(h, k) â inPlacePartition(x)inPlaceQuickSort(S, l, h â 1)inPlaceQuickSort(S, k + 1, r)Quick Sort 19In-Place Partitioningï± Perform the partition using two indices to split S into L and E U G (a similar method can split E U G into E and G).ï± Repeat until j and k cross:ï® Scan j to the right until" .
+
+<http://www.dbpedia-spotlight.com/#offset_862_871>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "partition" ;
+        nif:beginIndex          "862"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "871"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1752> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999998231033"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Partition_of_a_set> .
+
+<http://www.dbpedia-spotlight.com/#offset_139_143>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "coin" ;
+        nif:beginIndex          "139"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "143"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1752> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999275937712564"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coin> .
+
+<http://www.dbpedia-spotlight.com/#offset_1438_1440>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "rx" ;
+        nif:beginIndex          "1438"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1440"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1752> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MeanOfTransportation> , <http://schema.org/Product> , <http://dbpedia.org/ontology/Automobile> ;
+        itsrdf:taConfidence     "0.7624270505984432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lexus_RX> .
+
+<http://www.dbpedia-spotlight.com/#offset_1416_1423>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "1416"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1423"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1752> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999997567179276"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1212> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_261_263>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "9j" ;
+        nif:beginIndex          "261"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "263"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1212> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8020419252897409"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/9J> .
+
+<http://www.dbpedia-spotlight.com/#offset_199_201>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "9j" ;
+        nif:beginIndex          "199"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "201"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1212> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8020419252897409"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/9J> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1212>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1212"^^xsd:nonNegativeInteger ;
+        nif:isString    "finding an element > x.ï® Scan k to the left until finding an element < x.ï® Swap elements at indices j and kï± Click here for a good illustrative example.3  2  5  1  0  7  3  5  9  2  7  9  8  9  7  6 9j k(pivot = 6)3  2  5  1  0  7  3  5  9  2  7  9  8  9  7  6 9j khttp://www.csanimated.com/animation.php?t=QuicksortQuick Sort 20Summary of Sorting AlgorithmsAlgorithm Time Notesselection-sort O(n2) ï§ in-placeï§ slow (good for small inputs)insertion-sort O(n2) ï§ in-placeï§ slow (good for small inputs)quick-sort O(n log n)expectedï§ in-place, randomizedï§ fastest (good for large inputs)ï§ Quick-sort is often faster in practice than other O(n log n) algorithms.heap-sort O(n log n) ï§ in-placeï§ fast (good for large inputs)merge-sort O(n log n) ï§ sequential data accessï§ fast  (good for huge inputs)\tQuick-Sort\tSlide Number 2\tQuick-Sort\tPartition\tQuick-Sort Tree\tQuick-Sort Tree\tQuick-Sort Tree\tExecution Example\tExecution Example (cont.)\tExecution Example (cont.)\tExecution Example (cont.)\tExecution Example (cont.)\tExecution Example (cont.)\tExecution Example (cont.)\tWorst-case Running Time\tExpected Running Time\tExpected Running Time, Part 2\tIn-Place Quick-Sort\tIn-Place Partitioning\tSummary of Sorting Algorithms" .

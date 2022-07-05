@@ -1,0 +1,226 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbr:   <http://dbpedia.org/resource/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix bibo:  <http://purl.org/ontology/bibo/> .
+@prefix focu:  <http://focu.io/schema#> .
+@prefix vivo:  <http://vivoweb.org/ontology/core#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix focudata: <http://focu.io/data#> .
+
+focudata:Topic-Ontology
+        a                     focu:Topic ;
+        rdfs:label            "Ontologies"@en ;
+        rdfs:seeAlso      dbr:ontology ;
+        focu:topicProvenance  <file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides03.pdf>;
+        focu:partOfLecture  focudata:COMP474_6741-Lecture3 .
+
+focudata:COMP474_6741-Lecture5
+        a                   focu:Lecture ;
+        rdfs:label          "Introduction to Linked Data"@en ;
+        focu:hasContent     <file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides05.pdf> , <file:///home/Unibot/Datasets/COMP474_6741/Worksheets/worksheet04.pdf> , <file:///home/Unibot/Datasets/COMP474_6741/Labs/Lab04.txt> ;
+        focu:lectureNumber  5 ;
+        focu:partOfCourse   focudata:COMP474_6741 .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Assignments/A2.txt>
+        a           focu:LectureContentOther ;
+        rdfs:label  "COMP 474_6741 Assignment 2"@en .
+
+focudata:COMP474_6741
+        a                       vivo:Course ;
+        rdfs:label              "Intelligent Systems"@en ;
+        focu:courseDescription  "“intelligent” (Artificial Intelligence, AI)-based software systems, that is, software that incorporates algorithms or methods from Artificial Intelligence, Machine Learning, Natural Learning Process or Information Retrieval."@en ;
+        focu:courseOutline      <file:///home/Unibot/Datasets/COMP474_6741/Course_Outline/Course_Outline_comp474_6741_w2022.pdf> ;
+        focu:hasTitle           focudata:COMP474-Title, focudata:COMP6741-Title ;
+        focu:taughtAt           focudata:ConcordiaUniversity ;
+        vivo:courseCredits      "4.0"^^xsd:float .
+
+focudata:COMP474_6741-Lecture4
+        focu:hasTopic       focudata:Topic-SPARQL;
+        a                   focu:Lecture ;
+        rdfs:label          "Introduction to SPARQL"@en ;
+        focu:hasContent     <file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides04.pdf> , <file:///home/Unibot/Datasets/COMP474_6741/Worksheets/worksheet03.pdf> , <file:///home/Unibot/Datasets/COMP474_6741/Labs/Lab03.txt> ;
+        focu:lectureNumber  4 ;
+        focu:partOfCourse   focudata:COMP474_6741 .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Assignments/A1.txt>
+        a           focu:LectureContentOther ;
+        rdfs:label  "COMP 474_6741 Assignment 1"@en .
+
+focudata:Topic-Intelligent-Systems
+        a                     focu:Topic ;
+        rdfs:label            "Intelligent Systems"@en ;
+        rdfs:seeAlso      dbr:Intelligent_system ;
+        focu:topicProvenance  <file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides01.pdf>;
+        focu:partOfLecture  focudata:COMP474_6741-Lecture1 .
+
+focudata:Topic-SPARQL
+        a                     focu:Topic ;
+        rdfs:label            "SPARQL"@en ;
+        rdfs:seeAlso      dbr:sparql ;
+        focu:topicProvenance  <file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides04.pdf>;
+        focu:partOfLecture  focudata:COMP474_6741-Lecture4 .
+
+focudata:COMP474_6741-Lecture3
+        focu:hasTopic       focudata:Topic-Ontology;
+        a                   focu:Lecture ;
+        rdfs:label          "Introduction to Vocabularies"@en ;
+        focu:hasContent     <file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides03.pdf> , <file:///home/Unibot/Datasets/COMP474_6741/Worksheets/worksheet02.pdf> , <file:///home/Unibot/Datasets/COMP474_6741/Labs/Lab02.txt> , <file:///home/Unibot/Datasets/COMP474_6741/Labs/Lab03.txt> ;
+        focu:lectureNumber  3 ;
+        focu:partOfCourse   focudata:COMP474_6741 .
+
+focudata:Topic-Linked-Data
+        a                     focu:Topic ;
+        rdfs:label            "Linked Data"@en ;
+        rdfs:seeAlso      dbr:Linked_data ;
+        focu:topicProvenance  <file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides06.pdf>;
+        focu:partOfLecture  focudata:COMP474_6741-Lecture6 .
+
+focudata:Topic-Machine-Learning
+        a                     focu:Topic ;
+        rdfs:label            "Machine Learning"@en ;
+        rdfs:seeAlso      dbr:Machine_learning ;
+        focu:topicProvenance  <file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides07.pdf>;
+        focu:partOfLecture  focudata:COMP474_6741-Lecture7 .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Labs/Lab04.txt>
+        a           focu:LectureContentOther ;
+        rdfs:label  "COMP 474_6741 Lab 4"@en .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Labs/Lab01.txt>
+        a           focu:LectureContentOther ;
+        rdfs:label  "COMP 474_6741 Lab 1"@en .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides06.pdf>
+        a           focu:LectureContentSlides ;
+        rdfs:label  "Recommender Systems"@en .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides03.pdf>
+        a           focu:LectureContentSlides ;
+        rdfs:label  "Vocabularies & Ontologies"@en .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Labs/Lab08.txt>
+        a           focu:LectureContentOther ;
+        rdfs:label  "COMP 474_6741 Lab 8"@en .
+
+focudata:Topic-Knowledge-Graphs
+        a                     focu:Topic ;
+        rdfs:label            "Knowledge Graphs"@en ;
+        rdfs:seeAlso      dbr:knowledge-graphs ;
+        focu:topicProvenance  <file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides02.pdf>;
+        focu:partOfLecture  focudata:COMP474_6741-Lecture2 .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Worksheets/worksheet06.pdf>
+        a           focu:LectureContentWorksheet ;
+        rdfs:label  "COMP 474_6741 worksheet 6 for lecture 7"@en .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Labs/Lab05.txt>
+        a           focu:LectureContentOther ;
+        rdfs:label  "COMP 474_6741 Lab 5"@en .
+
+focudata:COMP474_6741-Lecture2
+        focu:hasTopic       focudata:Topic-Knowledge-Graphs;
+        a                   focu:Lecture ;
+        rdfs:label          "Introduction to Knowledge Graphs"@en ;
+        focu:hasContent     <file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides02.pdf> , <file:///home/Unibot/Datasets/COMP474_6741/Worksheets/worksheet01.pdf> , <file:///home/Unibot/Datasets/COMP474_6741/Labs/Lab00.txt> , <file:///home/Unibot/Datasets/COMP474_6741/Labs/Lab01.txt> , <file:///home/Unibot/Datasets/COMP474_6741/Assignments/A1.txt> ;
+        focu:lectureNumber  2 ;
+        focu:partOfCourse   focudata:COMP474_6741 .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Worksheets/worksheet03.pdf>
+        a           focu:LectureContentWorksheet ;
+        rdfs:label  "COMP 474_6741 worksheet 3 for lecture 4"@en .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Labs/Lab02.txt>
+        a           focu:LectureContentOther ;
+        rdfs:label  "COMP 474_6741 Lab 2"@en .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides07.pdf>
+        a           focu:LectureContentSlides ;
+        rdfs:label  "Introduction to Machine Learning for Intelligent Systems"@en .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides04.pdf>
+        a           focu:LectureContentSlides ;
+        rdfs:label  "Knowledge Base Queries"@en .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides01.pdf>
+        a           focu:LectureContentSlides ;
+        rdfs:label  "Introduction to Intelligent Systems"@en .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Course_Outline/Course_Outline_comp474_6741_w2022.pdf>
+        a             rdfs:Resource ;
+        rdfs:comment  "The Winter 2022 semester COMP 474_6741 course outline."@en ;
+        rdfs:label    "COMP474_6741 Course Outline"@en .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Labs/Lab06.txt>
+        a           focu:LectureContentOther ;
+        rdfs:label  "COMP 474_6741 Lab 6"@en .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Worksheets/worksheet04.pdf>
+        a           focu:LectureContentOther ;
+        rdfs:label  "COMP 474_6741 worksheet 4 for lecture 5"@en .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Labs/Lab03.txt>
+        a           focu:LectureContentOther ;
+        rdfs:label  "COMP 474_6741 Lab 3"@en .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Worksheets/worksheet01.pdf>
+        a           focu:LectureContentWorksheet ;
+        rdfs:label  "COMP 474_6741 worksheet 1 for lecture 2"@en .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Labs/Lab00.txt>
+        a           focu:LectureContentOther ;
+        rdfs:label  "COMP 474_6741 Lab 0"@en .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides05.pdf>
+        a           focu:LectureContentSlides ;
+        rdfs:label  "Linked Open Data & Applications"@en .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides02.pdf>
+        a           focu:LectureContentSlides ;
+        rdfs:label  "Knowledge Graphs"@en .
+
+focudata:COMP474_6741-Lecture7
+        focu:hasTopic       focudata:Topic-Machine-Learning;
+        a                   focu:Lecture ;
+        rdfs:label          "Machine Learning"@en ;
+        focu:hasContent     <file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides07.pdf> , <file:///home/Unibot/Datasets/COMP474_6741/Worksheets/worksheet06.pdf> , <file:///home/Unibot/Datasets/COMP474_6741/Labs/Lab06.txt> , <file:///home/Unibot/Datasets/COMP474_6741/Labs/Lab07.txt> ;
+        focu:lectureNumber  7 ;
+        focu:partOfCourse   focudata:COMP474_6741 .
+
+focudata:COMP6741-Title
+        a                   focu:CourseTitle ;
+        focu:courseNumber   "6741" ;
+        focu:courseSubject  "COMP"@en .
+
+focudata:COMP474-Title
+        a                   focu:CourseTitle ;
+        focu:courseNumber   "474" ;
+        focu:courseSubject  "COMP"@en .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Labs/Lab07.txt>
+        a           focu:LectureContentOther ;
+        rdfs:label  "COMP 474_6741 Lab 7"@en .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Worksheets/worksheet05.pdf>
+        a           focu:LectureContentWorksheet ;
+        rdfs:label  "COMP 474_6741 worksheet 5 for lecture 6"@en .
+
+focudata:COMP474_6741-Lecture1
+        focu:hasTopic       focudata:Topic-Intelligent-Systems;
+        a                   focu:Lecture ;
+        rdfs:label          "Introduction of course"@en ;
+        focu:hasContent     <file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides01.pdf> ;
+        focu:lectureNumber  1 ;
+        focu:partOfCourse   focudata:COMP474_6741 .
+
+<file:///home/Unibot/Datasets/COMP474_6741/Worksheets/worksheet02.pdf>
+        a           focu:LectureContentWorksheet ;
+        rdfs:label  "COMP 474_6741 worksheet 2 for lecture 3"@en .
+
+focudata:COMP474_6741-Lecture6
+        foaf:hasTopic       focudata:Topic-Linked-Data;
+        a                   focu:Lecture ;
+        rdfs:label          "Introduction to Linked Data"@en ;
+        focu:hasContent     <file:///home/Unibot/Datasets/COMP474_6741/Lectures/slides06.pdf> , <file:///home/Unibot/Datasets/COMP474_6741/Worksheets/worksheet05.pdf> , <file:///home/Unibot/Datasets/COMP474_6741/Labs/Lab05.txt> , <file:///home/Unibot/Datasets/COMP474_6741/Assignments/A2.txt> ;
+        focu:lectureNumber  6 ;
+        focu:partOfCourse   focudata:COMP474_6741 .

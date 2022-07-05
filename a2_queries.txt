@@ -1,0 +1,60 @@
+PREFIX ref: <http://purl.org/vocab/relationship/>
+PREFIX re: <http://www.w3.org/2000/10/swap/reason#>
+PREFIX fo: <http://purl.org/ontology/fo/>
+PREFIX focu: <http://focu.io/schema#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+PREFIX vivo: <http://vivoweb.org/ontology/core#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX bibo: <http://purl.org/ontology/bibo/> 
+PREFIX teach: <http://linkedscience.org/teach/ns#>
+
+# 1. For a course c, list all covered topics t, printing out their English labels and their DBpedia URI,
+# together with the course event URI (e.g., ’lab3’) and resource URI (e.g., ’slides10’) where they
+# appeared.
+
+SELECT DISTINCT ?resourceLabel ?topicLabel ?topicLink ?lectureNumber ?resourceUri
+WHERE {
+    ?course focu:hasTitle ?courseTitle .
+    ?courseTitle focu:courseSubject "COMP"@en .
+    ?courseTitle focu:courseNumber "352" .
+	?topic focu:partOfLecture ?lecture .
+  	?lecture focu:partOfCourse ?course .
+    ?topic rdfs:label ?topicLabel .
+    ?topic rdfs:seeAlso ?topicLink .
+    ?lecture focu:lectureNumber ?lectureNumber .
+    ?topic focu:topicProvenance ?resourceUri .
+  	?lecture focu:hasContent ?resourceUri .
+    ?resourceUri rdfs:label ?resourceLabel .
+}
+
+# 2. For a given topic t (DBpedia URI), list all courses where they appear, together with a count, sorted
+# by frequency.
+
+SELECT ?courseName ?courseSubject ?courseNumber (COUNT(?topic) AS ?count)
+WHERE {
+	?topic rdfs:seeAlso dbr:Algorithm .
+  	?topic focu:partOfLecture ?lecture .
+  	?lecture focu:partOfCourse ?course .
+  	?course focu:hasTitle ?courseTitle .
+  	?course rdfs:label ?courseName .
+  	?courseTitle focu:courseSubject ?courseSubject .
+  	?courseTitle focu:courseNumber ?courseNumber .
+}
+GROUP BY ?courseName ?courseSubject ?courseNumber
+ORDER BY ?count
+
+# 3. For a given topic t, list the precise course URI, course event URI and corresponding resource URI
+# where the topic is covered (e.g., “NLP” is covered in COMP474 → Lecture 10→ Lab 10 → Lab
+# Notes)
+
+SELECT DISTINCT ?course ?lecture ?lectureNumber ?resourceURI
+WHERE {
+	?topic rdfs:label "Intelligent Systems"@en .
+ 	?topic focu:partOfLecture ?lecture .
+	?lecture focu:lectureNumber ?lectureNumber .
+	?topic focu:topicProvenance ?resourceURI .
+  	?lecture focu:hasContent ?resourceURI .
+  	?lecture focu:partOfCourse ?course .
+}

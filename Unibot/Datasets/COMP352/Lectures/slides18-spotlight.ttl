@@ -1,0 +1,656 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_618_623>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "618"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "623"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1855> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_269_273>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "269"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "273"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1855> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9921709605375424"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_77_93>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Computer Science" ;
+        nif:beginIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1855> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_science> .
+
+<http://www.dbpedia-spotlight.com/#offset_293_298>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Wiley" ;
+        nif:beginIndex          "293"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "298"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1855> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Publisher> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Company> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q4830453> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> ;
+        itsrdf:taConfidence     "0.9999996839058485"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wiley-Blackwell> .
+
+<http://www.dbpedia-spotlight.com/#offset_117_137>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia University" ;
+        nif:beginIndex          "117"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1855> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999788639147644"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Main_Page> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1855> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_400_407>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Collins" ;
+        nif:beginIndex          "400"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "407"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1855> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> , <http://www.wikidata.org/entity/Q24229398> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Organisation> , <http://www.wikidata.org/entity/Q4830453> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Publisher> ;
+        itsrdf:taConfidence     "0.9997379511392966"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/HarperCollins> .
+
+<http://www.dbpedia-spotlight.com/#offset_96_116>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Software Engineering" ;
+        nif:beginIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1855> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_engineering> .
+
+<http://www.dbpedia-spotlight.com/#offset_139_147>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Montreal" ;
+        nif:beginIndex          "139"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1855> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/Place> , <http://schema.org/City> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://www.wikidata.org/entity/Q515> , <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/Settlement> , <http://schema.org/Place> , <http://www.wikidata.org/entity/Q486972> ;
+        itsrdf:taConfidence     "0.999667143173594"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Montreal> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1855>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1855"^^xsd:nonNegativeInteger ;
+        nif:isString    "Analysis of AlgorithmsBucket-Sort and Radix-SortDr. Aiman HannaDepartment of Computer Science & Software Engineering Concordia University, Montreal, CanadaThese slides have been extracted, modified and updated from original slides of :Data Structures and Algorithms in Java, 5th edition. John Wiley& Sons, 2010. ISBN 978-0-470-38326-1.Data Structures and the Java Collections Framework by William J. Collins, 3rdedition, ISBN 978-0-470-48267-4. Both books are published by Wiley.Copyright Â© 2010-2011 WileyCopyright Â© 2010 Michael  T. Goodrich, Roberto TamassiaCopyright Â© 2011 William J. CollinsCopyright Â© 2011-2021 Aiman Hanna All rights reserved Coverageï± Bucket-Sortï± Stable Sortingï± Radix-Sort20 1 2 3 4 5 6 7 8 9B1, c 7, d 7, g3, b3, a 7, eâ â â â â â âBucket-Sort and Radix-SortBucket-Sort and Radix-Sort 3Sorting Lower-Bound ï± As previously shown, with comparison-based sorting, Î©(n log n) time is necessary to sort a sequence of n elements. ï± The following question can then be asked: Can any other k inds of sorting algorithms be designed to run asymptotically faster than O(n log n)? ï± Interestingly, such algorithms exist, but they require special assumptions about the input sequence to be sorted. ï± Even so, such scenarios often exist in practice, so it worthwhile investigating such algorithms. ï± We will next consider the sorting problem of key-value entries, where the keys have a restricted type.   Bucket-Sort and Radix-Sort 4Bucket-Sortï± Let S be a sequence of n entries where the keys are always restricted in the range [0, N â 1], for some N >1.  ï± Because of the restrictive assumption about the keys, it is possible to sort without comparisons. ï± Bucket-sort does not use comparisons; instead it uses the keys as indices into an auxiliary array B of sequences (buckets). ï± The array B has cells that are indexed from 0 to N â 1. ï±" .
+
+<http://www.dbpedia-spotlight.com/#offset_862_878>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparison-based" ;
+        nif:beginIndex          "862"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "878"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1855> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparison_sort> .
+
+<http://www.dbpedia-spotlight.com/#offset_359_385>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java Collections Framework" ;
+        nif:beginIndex          "359"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "385"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1855> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_collections_framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_421_425>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "421"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "425"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1855> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_52_57>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "57"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1855> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_312_316>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "312"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "316"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1855> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1383_1393>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparator" ;
+        nif:beginIndex          "1383"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1393"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1564> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparator> .
+
+<http://www.dbpedia-spotlight.com/#offset_672_681>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "672"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "681"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1564> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999996158522"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1564> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1564>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1564"^^xsd:nonNegativeInteger ;
+        nif:isString    "An entry with key k is placed in the bucket pointed by B[k].ï® Notice that the bucket pointed by B[k] is hence a sequence of entries that have similar key k.  Bucket-Sort and Radix-Sort 5Bucket-SortPhase 1: Empty sequence S by moving each entry (k, v) into its bucket B[k].Phase 2: For i = 0, â¦, N â 1, move the entries of bucket B[i] back to the end of  sequence S.ï± Analysis:ï® Phase 1 takes O(n) timeï® Phase 2 takes O(n + N) timeï® Hence, total is O(n + N)ï® If N is O(n), then we can sort in O(n) time. ï¨ Bucket-sort can sort in O(n) time; that is clearly lower (better) than O(n log n). ï± You must notice that the range Nshould not be significantly bigger than n for the algorithm to be efficient. Algorithm bucketSort(S, N)Input sequence S of (key, element)items with keys in the range[0, N â 1]Output sequence S sorted byincreasing keysB â array of N empty sequenceswhile Â¬S.isEmpty()f â S.first()(k, o) â S.remove(f)B[k].addLast((k, o))for i â 0 to N â 1while Â¬B[i].isEmpty()f â B[i].first()(k, o) â B[i].remove(f)S.addLast((k, o))Bucket-Sort and Radix-Sort 6Exampleï± Key range [0, 9]7, d 1, c 3, a 7, g 3, b 7, e1, c 3, a 3, b 7, d 7, g 7, ePhase 1Phase 20 1 2 3 4 5 6 7 8 9B1, c 7, d 7, g3, b3, a 7, eâ â â â â â âBucket-Sort and Radix-Sort 7Properties and Extensionsï± Key-type Propertyï® The keys are used as indices into an array and cannot be arbitrary objects.ï® No external comparator is neededPossible Extensions:ï® Integer keys can be in the range [a - b], which is equal in size to [0 âN-1], but not restricted to [0 â N-1]ï· Simply put entry (k, v) into" .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_914_916>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "k2" ;
+        nif:beginIndex          "914"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "916"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q11173> , <http://dbpedia.org/ontology/ChemicalSubstance> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ChemicalObject> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "0.7974443208176759"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Potassium> .
+
+<http://www.dbpedia-spotlight.com/#offset_428_445>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sorting algorithm" ;
+        nif:beginIndex          "428"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "445"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sorting_algorithm> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1707> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_755_757>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "k2" ;
+        nif:beginIndex          "755"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "757"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> , <http://www.wikidata.org/entity/Q11173> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ChemicalObject> ;
+        itsrdf:taConfidence     "0.7974443208176759"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Potassium> .
+
+<http://www.dbpedia-spotlight.com/#offset_1693_1695>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kd" ;
+        nif:beginIndex          "1693"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1695"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dissociation_constant> .
+
+<http://www.dbpedia-spotlight.com/#offset_904_906>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "k2" ;
+        nif:beginIndex          "904"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "906"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://www.wikidata.org/entity/Q11173> , <http://dbpedia.org/ontology/ChemicalCompound> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ChemicalObject> ;
+        itsrdf:taConfidence     "0.7974443208176759"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Potassium> .
+
+<http://www.dbpedia-spotlight.com/#offset_929_931>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "k2" ;
+        nif:beginIndex          "929"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "931"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ChemicalObject> , <http://dbpedia.org/ontology/ChemicalSubstance> , <http://www.wikidata.org/entity/Q11173> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "0.7974443208176759"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Potassium> .
+
+<http://www.dbpedia-spotlight.com/#offset_327_334>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "strings" ;
+        nif:beginIndex          "327"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "334"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8868503921412539"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/String_instrument> .
+
+<http://www.dbpedia-spotlight.com/#offset_1686_1688>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "k2" ;
+        nif:beginIndex          "1686"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1688"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q11173> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ChemicalObject> , <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "0.7974443208176759"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Potassium> .
+
+<http://www.dbpedia-spotlight.com/#offset_277_284>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lengths" ;
+        nif:beginIndex          "277"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "284"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9373806226258438"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Length> .
+
+<http://www.dbpedia-spotlight.com/#offset_223_230>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lengths" ;
+        nif:beginIndex          "223"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "230"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9373806226258438"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Length> .
+
+<http://www.dbpedia-spotlight.com/#offset_779_781>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "k2" ;
+        nif:beginIndex          "779"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "781"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ChemicalObject> , <http://dbpedia.org/ontology/ChemicalSubstance> , <http://www.wikidata.org/entity/Q11173> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "0.7974443208176759"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Potassium> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1707>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1707"^^xsd:nonNegativeInteger ;
+        nif:isString    "bucket B[k â a]ï· Example: Keys are 30 to 39. Key 37 is placed in B[37 â 30]; that is B[7]. ï® String keys can also be possible. For instance if the length of the string is the mean of sorting, and the entries have keys with lengths that are always between a minimum and maximum lengths (e.g., names of the 50 U.S. states), then strings can be used as the keys. Bucket-Sort and Radix-Sort 8Stable Sortingï± Stable Sort Propertyï® A sorting algorithm is classified as âstableâ if it preserves the original order (in the unsorted sequence) of entries with the same keys when it forms the sorted sequence. ï® In other words, the relative order of any two items with the same key is preserved after the execution of the algorithm.ï® For instance, if three entries (k2, v3), (k2, v9), and (k2, v5) exist in that order in the unsorted sequences, then the final sorted sequence must also have them in that same order(k2, v3), (k2, v9), then (k2, v5). Bucket-Sort and Radix-Sort 9Stable Sortingï± Our informal description of bucket-sort does not guarantee stability ï® We neither restricted how the entries are removed from the unsorted sequence, nor how they we removed from the bucket entry when forming the sorted sequence. ï± Bucket-sort can be made stable however just by:ï® Enforcing the order of removal of the items from the unsorted sequence from first to last, ï® Insert these items at the tail of sequences in the buckets ï® Enforce the removal from the bucket array when forming the sorted sequence  to be from first to last (head to tail). ï± Generally, stable sorting is important for many applications. Bucket-Sort and Radix-Sort 10Lexicographic Orderï± A d-tuple is a sequence of d keys (k1, k2, â¦, kd), where key" .
+
+<http://www.dbpedia-spotlight.com/#offset_711_720>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "711"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "720"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999987803676"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_765_767>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "k2" ;
+        nif:beginIndex          "765"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "767"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1707> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ChemicalObject> , <http://www.wikidata.org/entity/Q11173> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.7974443208176759"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Potassium> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_208_210>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "xd" ;
+        nif:beginIndex          "208"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1623> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999994981901759"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XD-Picture_Card> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1623> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_973_982>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "973"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "982"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1623> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999999976166919"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_127_146>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lexicographic order" ;
+        nif:beginIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1623> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lexicographical_order> .
+
+<http://www.dbpedia-spotlight.com/#offset_166_185>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "recursively defined" ;
+        nif:beginIndex          "166"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "185"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1623> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.8580391563915889"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_259_261>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "xd" ;
+        nif:beginIndex          "259"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "261"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1623> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999994981901759"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XD-Picture_Card> .
+
+<http://www.dbpedia-spotlight.com/#offset_65_86>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Cartesian coordinates" ;
+        nif:beginIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1623> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cartesian_coordinate_system> .
+
+<http://www.dbpedia-spotlight.com/#offset_115_120>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tuple" ;
+        nif:beginIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1623> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tuple> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1623>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1623"^^xsd:nonNegativeInteger ;
+        nif:isString    "ki is said to be the i-th dimension of the tuple.ï± Example:ï® The Cartesian coordinates of a point in space are a 3-tuple.ï± The lexicographic order of two d-tuples is recursively defined as follows(x1, x2, â¦, xd) < (y1, y2, â¦, yd)âx1 < y1  â¨ x1 = y1 â§ (x2, â¦, xd) < (y2, â¦, yd)ï± I.e., the tuples are compared by the first dimension, then by the second dimension, etc.Bucket-Sort and Radix-Sort 11Radix-Sortï± One of the reasons that stable sorting is so important, is that it allows bucket-sort approach to be applied to more general contexts that sorting integers. ï± For instance, suppose that entries have key pairs (x, y), and not just one key. That  is, an entry looks as follows: ((x, y), v) where the sorting is to be made based on these pairs. ï± In such cases, it is natural to define an ordering of these keys using lexicographical convention. ï± That is pair (x1, y1) < (x2, y2) if x1 < x2  or x1 = x1 and y1 < y2 .Bucket-Sort and Radix-Sort 12Radix-Sortï± Radix-sort algorithm sorts a sequence S of entries with keys that are pairs (or generally d-tuple). ï± Radix-sort performs that simply by applying a stable bucket-sort on the sequence twice (when the keys are pairs. The application is done d times in the general d-tuple case). ï± That is, sort first using one of the keys in the pair, then sort again using the other key. ï± The question however is that: Given entries with key pairs (x1, y1) & (x2, y2), should we first sort based on the first component of the pair (these are the xi keys) then the second component (these are the yi keys) or vise versa? Bucket-Sort and Radix-Sort 13Radix-Sortï± Example:ï® Let us" .
+
+<http://www.dbpedia-spotlight.com/#offset_43_48>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tuple" ;
+        nif:beginIndex          "43"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "48"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1623> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tuple> .
+
+<http://www.dbpedia-spotlight.com/#offset_1554_1558>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vise" ;
+        nif:beginIndex          "1554"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1558"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1623> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vise> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1686> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_498_515>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lexicographically" ;
+        nif:beginIndex          "498"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "515"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1686> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999946670641"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lexicographical_order> .
+
+<http://www.dbpedia-spotlight.com/#offset_1022_1039>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lexicographically" ;
+        nif:beginIndex          "1022"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1039"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1686> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999946670641"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lexicographical_order> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1686>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1686"^^xsd:nonNegativeInteger ;
+        nif:isString    "consider the following sequence S (only the keys are shown) where sorting is needed. S = ((3, 3), (1, 5), (2, 5), (1, 2), (2, 3), (1, 7), (3, 2), (2, 2))ï± Sorting based on first component then second component will result in the following: ï® After first component sorting, we have: S = ((1, 5), (1, 2), (1, 7), (2, 5), (2, 3), (2, 2), (3, 3), (3, 2))ï® Finally, after second component sorting, we end up with: S = ((1, 2), (2, 2), (3, 2), (2, 3), (3, 3), (1, 5), (2, 5), (1, 7))which is clearly NOT lexicographically sorted!Bucket-Sort and Radix-Sort 14Radix-SortExample (continues â¦):ï± Now let us sorting based on second component then first component will result in the following: ï± Initial sequence S = ((3, 3), (1, 5), (2, 5), (1, 2), (2, 3), (1, 7), (3, 2), (2, 2))ï® After first component sorting, we have: S = ((1, 2), (3, 2), (2, 2), (3, 3), (2, 3), (1, 5), (2, 5), (1, 7))ï® Finally, after second component sorting, we end up with: S = ((1, 2), (1, 5), (1, 7), (2, 2), (2, 3), (2, 5), (3, 2), (3, 3))which is indeed lexicographically sorted. Bucket-Sort and Radix-Sort 15Radix-Sortï± The previous example led us to believe that the sorting should start by the second component then finish by the first one. ï± Is that generally the case? Will this always result in the correct behavior?ï± Yes. By first stably sorting by the second component and then by the first component, we guarantee that if two entries have an equal first component key (when applying the second phase of sorting), then their relative order from the first phase is preserved. ï± Thus, the resulting sequence is guaranteed to be lexicographically sorted every time. Bucket-Sort and Radix-Sort 16Lexicographic-Sort" .
+
+<http://www.dbpedia-spotlight.com/#offset_1602_1619>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lexicographically" ;
+        nif:beginIndex          "1602"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1619"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1686> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999946670641"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lexicographical_order> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_256_265>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "256"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "265"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1780> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999998234443"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_147_157>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparator" ;
+        nif:beginIndex          "147"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "157"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1780> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparator> .
+
+<http://www.dbpedia-spotlight.com/#offset_1177_1179>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "xd" ;
+        nif:beginIndex          "1177"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1780> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999989004515234"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XD-Picture_Card> .
+
+<http://www.dbpedia-spotlight.com/#offset_24_34>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comparator" ;
+        nif:beginIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1780> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comparator> .
+
+<http://www.dbpedia-spotlight.com/#offset_1116_1118>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "xd" ;
+        nif:beginIndex          "1116"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1118"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1780> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999989004515234"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XD-Picture_Card> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1780> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_112_136>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stable sorting algorithm" ;
+        nif:beginIndex          "112"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1780> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sorting_algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1780>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1780"^^xsd:nonNegativeInteger ;
+        nif:isString    "Analysisï± Let Ci be the comparator that compares two tuples by their i-th dimension.ï± Let stableSort(S, C) be a stable sorting algorithm that uses comparator C.ï± Lexicographic-sort sorts a sequence.ï± of d-tuples in lexicographic order by executing d times algorithm stableSort, one per dimensionï± Lexicographic-sort runs in O(dT(n)) time, where T(n) is the running time of stableSort .Algorithm lexicographicSort(S)Input sequence S of  d-tuplesOutput sequence S sorted inlexicographic orderfor i â d downto 1stableSort(S, Ci)Example:(7,4,6) (5,1,5) (2,4,6) (2, 1, 4) (3, 2, 4)(2, 1, 4) (3, 2, 4) (5,1,5) (7,4,6) (2,4,6)(2, 1, 4) (5,1,5) (3, 2, 4) (7,4,6) (2,4,6)(2, 1, 4) (2,4,6) (3, 2, 4) (5,1,5) (7,4,6)Bucket-Sort and Radix-Sort 17Radix-Sort Analysis ï± Again, in the general case, Radix-sort is applicable to d-tuples keys, where the keys in each dimension i  are integers in the range [0, N â 1] for N > 1. ï± Radix-sort uses sable bucket-sort for each of the d components.  ï± Consequently, Radix-sort runs in time O(d( n + N)). Algorithm radixSort(S, N)Input sequence S of  d-tuples suchthat (0, â¦, 0) â¤ (x1, â¦, xd) and(x1, â¦, xd) â¤ (N â 1, â¦, N â 1)for each tuple (x1, â¦, xd) in SOutput sequence S sorted inlexicographic orderfor i â d downto 1bucketSort(S, N)Bucket-Sort and Radix-Sort 18Radix-Sort for Binary Numbersï± Consider a sequence of nb-bit integers x = xb â 1 â¦ x1x0ï± We represent each element as a b-tuple of integers in the range [0, 1] and apply radix-sort with N = 2ï± This application of the radix-sort algorithm runs in O(bn) time ï± For example, we can sort a sequence of 32-bit integers in linear timeAlgorithm binaryRadixSort(S)Input sequence S of b-bitintegers Output sequence S sortedreplace each element xof S with the item (0, x)for i â 0 to b â 1replace" .
+
+<http://www.dbpedia-spotlight.com/#offset_1163_1168>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tuple" ;
+        nif:beginIndex          "1163"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1168"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1780> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tuple> .
+
+<http://www.dbpedia-spotlight.com/#offset_1131_1133>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "xd" ;
+        nif:beginIndex          "1131"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1133"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1780> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999989004515234"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XD-Picture_Card> .
+
+<http://www.dbpedia-spotlight.com/#offset_1592_1598>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "32-bit" ;
+        nif:beginIndex          "1592"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1598"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1780> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.823125454842006"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/IEEE_754> .
+
+<http://www.dbpedia-spotlight.com/#offset_929_934>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sable" ;
+        nif:beginIndex          "929"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "934"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1780> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9963525977123275"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sable> .
+
+<http://www.dbpedia-spotlight.com/#offset_215_234>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lexicographic order" ;
+        nif:beginIndex          "215"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "234"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1780> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lexicographical_order> .
+
+<http://www.dbpedia-spotlight.com/#offset_1522_1531>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "1522"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1531"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1780> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999998234443"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1729_1732>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "xof" ;
+        nif:beginIndex          "1729"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1732"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1780> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Currency> ;
+        itsrdf:taConfidence     "0.9999999735167652"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/West_African_CFA_franc> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_553>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "553"^^xsd:nonNegativeInteger ;
+        nif:isString    "the key k of each item (k, x) of Swith bit xi of xbucketSort(S, 2)Bucket-Sort and Radix-Sort 19Exampleï± Sorting a sequence of 4-bit integers1001001011010001111000101110100111010001100111010001001011101001000100101101111000010010100111011110\tBucket-Sort and Radix-Sort\tSlide Number 2\tSorting Lower-Bound \tBucket-Sort\tBucket-Sort\tExample\tProperties and Extensions\tStable Sorting\tStable Sorting\tLexicographic Order\tRadix-Sort\tRadix-Sort\tRadix-Sort\tRadix-Sort\tRadix-Sort\tLexicographic-Sort Analysis\tRadix-Sort Analysis \tRadix-Sort for Binary Numbers\tExample" .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_553> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_126_131>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "4-bit" ;
+        nif:beginIndex          "126"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_553> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.6110088472599176"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/4-bit_computing> .

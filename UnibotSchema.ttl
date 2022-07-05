@@ -1,0 +1,245 @@
+@base <http://focu.io/schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix teach: <http://linkedscience.org/teach/ns#>.
+
+<#Student>
+    a rdfs:Class ;
+    rdfs:subClassOf vivo:Student ;
+    rdfs:label "Student"@en ;
+    rdfs:comment "A student."@en .
+
+foaf:givenName rdfs:domain <#Student> .
+
+<#University>
+    a rdfs:Class ;
+    rdfs:subClassOf vivo:University ;
+    rdfs:label "University"@en ;
+    rdfs:comment "A university."@en .
+
+<#Course>
+    a rdfs:Class ;
+    rdfs:subClassOf vivo:Course ;
+    rdfs:label "Course"@en ;
+    rdfs:comment "A course offered at a university."@en .
+
+<#Lecture>
+    a rdfs:Class ;
+    rdfs:subClassOf teach:Lecture ;
+    rdfs:label "Lecture"@en ;
+    rdfs:comment "A lecture taught in the context of a course."@en .
+
+<#studentID>
+	a rdf:Property ;
+	rdfs:domain <#Student> ;
+	rdfs:range rdfs:Literal ;
+	rdfs:label "Student ID"@en ;
+    rdfs:comment "A unique 8-digit number associated with a unique student."@en .
+
+<#studiesAt>
+    a rdf:Property ;
+    rdfs:domain <#Student> ;
+    rdfs:range <#University> ;
+    rdfs:label "Studies at"@en ;
+    rdfs:comment "At which university a given student studies."@en .
+
+<#CompletedCourse>
+	a rdfs:Class ;
+	rdfs:label "Completed Course"@en ;
+    rdfs:comment "A course completed by a student with their obtained grade and the date of completion."@en .
+
+<#relatedCourse>
+    a rdf:Property ;
+    rdfs:domain <#CompletedCourse> ;
+    rdfs:range <#Course> ;
+    rdfs:label "Course"@en ;
+    rdfs:comment "Points to a course"@en .
+
+<#Grade>
+	a rdfs:Class ;
+	rdfs:label "Grade"@en ;
+    rdfs:comment "A measure of the success in completing a course"@en .
+
+<#letterGrade>
+	a rdf:Property ;
+	rdfs:domain <#Grade> ;
+	rdfs:range rdfs:Literal ;
+	rdfs:label "Letter Grade"@en ;
+	rdfs:comment "The value (letter and + or -) of a grade"@en .
+
+<#isPassing>
+	a rdf:Property ;
+	rdfs:domain <#Grade> ;
+	rdfs:range xsd:boolean ;
+	rdfs:label "Is Passing"@en ;
+    rdfs:comment "Whether a grade is passing (true) or not (false)"@en .
+
+<#obtainedGrade>
+	a rdf:Property ;
+	rdfs:domain <#CompletedCourse> ;
+	rdfs:range <#Grade> ;
+	rdfs:label "Obtained Grade"@en ;
+    rdfs:comment "The grade a student obtained upon completing a course"@en .
+
+<#term>
+    a rdf:Property ;
+    rdfs:domain <#CompletedCourse> ;
+    rdfs:range rdfs:Literal ;
+    rdfs:label "Term"@en ;
+    rdfs:comment "The term (season and year) at which a course was completed by a student."@en .
+
+<#hasCompleted>
+	a rdf:Property ;
+	rdfs:domain <#Student> ;
+	rdfs:range <#CompletedCourse> ;
+	rdfs:label "Has Completed"@en ;
+    rdfs:comment "Points to the courses that were completed by a student"@en .
+
+<#hasTitle>
+    a rdf:Property ;
+    rdfs:domain <#Course> ;
+    rdfs:range <#CourseTitle> ;
+    rdfs:label "Has Title"@en ;
+    rdfs:comment "Points to a course's title"@en .
+
+<#CourseTitle>
+    a rdf:Class ;
+    rdfs:label "Course Title"@en ;
+    rdfs:comment "The title of a course which comprises a subject and a number"@en .
+
+<#courseSubject>
+	a rdf:Property ;
+	rdfs:domain <#CourseTitle> ;
+	rdfs:range rdfs:Literal ;
+	rdfs:label "Course Subject"@en ;
+	rdfs:comment "Subject name of the course."@en .
+
+<#courseNumber>
+	a rdf:Property ;
+	rdfs:domain <#CourseTitle>;
+	rdfs:range rdfs:Literal ;
+	rdfs:label "Course Number"@en ;
+	rdfs:comment "Course number associated with its respective course."@en .
+
+<#courseDescription>
+	a rdf:Property ;
+	rdfs:domain <#Course>;
+	rdfs:range rdfs:Literal ;
+	rdfs:label "Course description"@en ;
+	rdfs:comment "Brief description of what associated course is about."@en .
+
+<#courseOutline>
+	a rdf:Property ;
+	rdfs:domain <#Course>;
+	rdfs:range rdfs:Resource ;
+	rdfs:label "Course Outline"@en ;
+	rdfs:comment "Link to course outline with further information associated with the course."@en .
+
+<#taughtAt>
+    a rdf:Property ;
+    rdfs:domain <#Course> ;
+    rdfs:range <#University> ;
+    rdfs:label "Taught At"@en ;
+    rdfs:comment "Indicates in which university a course is taught"@en .
+
+<#lectureNumber> 
+	a rdf:Property ;
+	rdfs:domain <#Lecture> ;
+	rdfs:range rdfs:Literal ;
+	rdfs:label "Lecture number"@en ;
+	rdfs:comment "Lecture number of a course."@en .
+
+<#partOfCourse>
+    a rdf:Property ;
+    rdfs:domain <#Lecture> ;
+    rdfs:range <#Course> ;
+    rdfs:label "Part of Course"@en ;
+    rdfs:comment "In which course a lecture belongs to"@en .
+
+<#hasContent> 
+	a rdf:Property ;
+	rdfs:domain <#Lecture> ;
+	rdfs:range <#LectureContent> ;
+    rdfs:range <#LectureContentChapterReading> ;
+    rdfs:range <#LectureContentOther> ;
+    rdfs:range <#LectureContentSlides> ;
+    rdfs:range <#LectureContentWebReading> ;
+    rdfs:range <#LectureContentWorksheet> ;
+	rdfs:label "Has lecture content"@en ;
+	rdfs:comment "A lecture content associated with a lecture."@en .
+
+<#LectureContent>
+	a rdfs:Class ;
+	rdfs:label "Lecture Content"@en ;
+	rdfs:comment "Represents various types of lecture content."@en .
+
+<#LectureContentSlides>
+	a rdfs:Class ;
+	rdfs:subClassOf <#LectureContent> ;
+	rdfs:subClassOf bibo:Slideshow ;
+	rdfs:label "Lecture Slides"@en ;
+	rdfs:comment "Represents slides used or provided during a lecture."@en .
+
+<#LectureContentWorksheet>
+	a rdfs:Class ;
+	rdfs:subClassOf <#LectureContent> ;
+	rdfs:subClassOf teach:Assignment ;
+	rdfs:label "Lecture Worksheets"@en ;
+	rdfs:comment "Represents worksheets used or provided during a lecture."@en .
+
+<#LectureContentChapterReading>
+	a rdfs:Class ;
+	rdfs:subClassOf <#LectureContent> ;
+    rdfs:subClassOf bibo:Chapter ;
+	rdfs:label "Lecture Content Chapter Reading"@en ;
+	rdfs:comment "Represents chapter readings used or provided during a lecture."@en .
+
+<#LectureContentWebReading>
+	a rdfs:Class ;
+	rdfs:subClassOf <#LectureContent> ;
+    rdfs:subClassOf bibo:Webpage ;
+	rdfs:label "Lecture Content Web Reading"@en ;
+	rdfs:comment "Represents web readings used or provided during a lecture."@en .
+
+<#LectureContentOther>
+	a rdfs:Class ;
+	rdfs:subClassOf <#LectureContent> ;
+	rdfs:subClassOf bibo:Document ;
+	rdfs:label "Other Lecture Materials"@en ;
+	rdfs:comment "Represents other materials used or provided during a lecture."@en .
+
+<#Topic>
+	a rdfs:Class ;
+    rdfs:label "Topic."@en ;
+    rdfs:comment "A topic covered in a given lecture or course."@en.
+
+<#partOfLecture>
+    a rdf:Property ;
+    rdfs:domain <#Topic> ;
+    rdfs:range <#Lecture> ;
+    rdfs:label "Lecture"@en ;
+    rdfs:comment "In which lecture a topic was introduced."@en .
+
+<#topicProvenance>
+	a rdf:Property ;
+    rdfs:domain <#Topic> ;
+    rdfs:range rdfs:Literal ;
+    rdfs:range <#LectureContent> ;
+    rdfs:range <#LectureContentChapterReading> ;
+    rdfs:range <#LectureContentOther> ;
+    rdfs:range <#LectureContentSlides> ;
+    rdfs:range <#LectureContentWebReading> ;
+    rdfs:range <#LectureContentWorksheet> ;
+    rdfs:label "Topic provenance."@en ;
+    rdfs:comment "In which lecture content the topic was introduced."@en.
+
+<#hasTopic>
+	a rdf:Property ;
+	rdfs:domain <#Lecture> ;
+	rdfs:range <#Topic> ;
+	rdfs:label "Has Topic"@en ;
+	rdfs:comment "Indicates that a lecture covers a given topic."@en.

@@ -1,0 +1,307 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_918_922>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dest" ;
+        nif:beginIndex          "918"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "922"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2050> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999998623077412"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/DEST> .
+
+<http://www.dbpedia-spotlight.com/#offset_1679_1682>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GCD" ;
+        nif:beginIndex          "1679"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1682"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2050> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999995740154"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Greatest_common_divisor> .
+
+<http://www.dbpedia-spotlight.com/#offset_115_124>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "124"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2050> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2050>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2050"^^xsd:nonNegativeInteger ;
+        nif:isString    "COMP 352Tutorial Session 31SESSION OUTLINEï¢ Recursion - Tower of Hanoiï¢ Exercises:ï Big-Oh complexity calculationï Recursion exercises ï Proof of Big-Oh complexity2RECURSION - TOWER OF HANOIï¢ Rules: â¢ Only one disk can be moved among the towers at any given time.â¢ Only the \"top\" disk can be removed.â¢ No large disk can sit over a small disk.ï¢ Demo example 3Reference: https://www.tutorialspoint.com/data_structures_algorithms/tower_of_hanoi.htmhttps://www.youtube.com/watch?v=YstLjLCGmgg4A B C21ILLUSTRATIVE EXAMPLE 1Move two disks from A to C5A B C2 1ILLUSTRATIVE EXAMPLE 1Move disk 1 from A to B6A B C21ILLUSTRATIVE EXAMPLE 1Move disk 2 from A to cMove disk 1 from B to C7A B C21ILLUSTRATIVE EXAMPLE 2Move three disks from A to C3RECURSION - TOWER OF HANOIStep 1 â Move n-1 disks from source to auxStep 2 â Move nth disk from source to destStep 3 â Move n-1 disks from aux to destSTARTProcedure Hanoi(disk, source, dest, aux)IF disk == 1, THENmove disk from source to destELSEHanoi(disk - 1, source, aux, dest)     // Step 1move disk from source to dest // Step 2Hanoi(disk - 1, aux, dest, source)     // Step 3END IFEND ProcedureSTOP 8Reference: https://www.tutorialspoint.com/data_structures_algorithms/tower_of_hanoi.htmTRACE OF RECURSION FOR 3 DISKS9Hanoi (3,A,C,B)Hanoi (2,A,B,C)Move disk A-CHanoi (2,B,C,A)Hanoi (1,A,C,B)Move disk A-BHanoi (1,C,B,A)Move disk A-CMove disk C-BHanoi (1,B,A,C)Move disk B-CHanoi (1,A,C,B)Move disk B-AMove disk A-CCOMPLEXITY ANALYSISEXERCISESConsider the following code, int recursiveFun1(int n){if (n <= 0)return 1;elsereturn 1 + recursiveFun1(n-1);What's the big O complexity ?10RECURSION EXERCISESQuestion 1:The Greatest Common Divisor (GCD) of two integers, when at least one of them is not zero, is the largest positive integer that divides the two numbers without a remainder. Given integers ðð and ðð, find the GCD of ðð and ðð, recursively.11RECURSION EXERCISESQuestion 2:A prime number (or a prime) is a natural numbergreater than 1 that has no positive divisors other than 1and itself. Write a" .
+
+<http://www.dbpedia-spotlight.com/#offset_1087_1091>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dest" ;
+        nif:beginIndex          "1087"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1091"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2050> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999998623077412"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/DEST> .
+
+<http://www.dbpedia-spotlight.com/#offset_1861_1864>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GCD" ;
+        nif:beginIndex          "1861"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1864"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2050> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999995740154"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Greatest_common_divisor> .
+
+<http://www.dbpedia-spotlight.com/#offset_44_53>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2050> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_176_190>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "TOWER OF HANOI" ;
+        nif:beginIndex          "176"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "190"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2050> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tower_of_Hanoi> .
+
+<http://www.dbpedia-spotlight.com/#offset_65_70>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Hanoi" ;
+        nif:beginIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "70"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2050> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Town> , <http://dbpedia.org/ontology/Settlement> , <http://www.wikidata.org/entity/Q486972> , <http://www.wikidata.org/entity/Q3957> , <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9991641911427357"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hanoi> .
+
+<http://www.dbpedia-spotlight.com/#offset_1929_1941>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prime number" ;
+        nif:beginIndex          "1929"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1941"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2050> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prime_number> .
+
+<http://www.dbpedia-spotlight.com/#offset_1315_1320>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hanoi" ;
+        nif:beginIndex          "1315"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1320"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2050> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Town> , <http://www.wikidata.org/entity/Q3957> , <http://www.wikidata.org/entity/Q486972> ;
+        itsrdf:taConfidence     "0.9991641911427357"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hanoi> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2050> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_898_903>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Hanoi" ;
+        nif:beginIndex          "898"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "903"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2050> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Town> , <http://www.wikidata.org/entity/Q3957> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://www.wikidata.org/entity/Q486972> ;
+        itsrdf:taConfidence     "0.9991641911427357"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hanoi> .
+
+<http://www.dbpedia-spotlight.com/#offset_673_676>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "C7A" ;
+        nif:beginIndex          "673"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "676"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2050> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cambridge_Seven_Associates> .
+
+<http://www.dbpedia-spotlight.com/#offset_1052_1056>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dest" ;
+        nif:beginIndex          "1052"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1056"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2050> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999998623077412"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/DEST> .
+
+<http://www.dbpedia-spotlight.com/#offset_1008_1012>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dest" ;
+        nif:beginIndex          "1008"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1012"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2050> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999998623077412"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/DEST> .
+
+<http://www.dbpedia-spotlight.com/#offset_1764_1771>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "1764"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1771"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2050> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999909709913"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.dbpedia-spotlight.com/#offset_1272_1277>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hanoi" ;
+        nif:beginIndex          "1272"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1277"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2050> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q486972> , <http://www.wikidata.org/entity/Q3957> , <http://dbpedia.org/ontology/Town> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Settlement> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9991641911427357"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hanoi> .
+
+<http://www.dbpedia-spotlight.com/#offset_543_546>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "C5A" ;
+        nif:beginIndex          "543"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "546"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2050> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q206229> , <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> , <http://www.wikidata.org/entity/Q8054> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Complement_component_5a> .
+
+<http://www.dbpedia-spotlight.com/#offset_1654_1677>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Greatest Common Divisor" ;
+        nif:beginIndex          "1654"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1677"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2050> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Greatest_common_divisor> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_441_450>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "441"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "450"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_766> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_322_332>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transitive" ;
+        nif:beginIndex          "322"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "332"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_766> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9994791839594225"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transitive_relation> .
+
+<http://www.dbpedia-spotlight.com/#offset_674_683>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "674"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "683"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_766> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_586_591>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Hanoi" ;
+        nif:beginIndex          "586"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "591"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_766> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q3957> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Settlement> , <http://www.wikidata.org/entity/Q486972> , <http://dbpedia.org/ontology/Location> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Town> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9981764095903769"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hanoi> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_766> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_40_47>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "40"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_766> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999882229601562"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_766>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "766"^^xsd:nonNegativeInteger ;
+        nif:isString    "recursive algorithm to determinewhether integer number ðð is a prime.12Question 3:Prove that the running time T(n) = n3 + 20n + 1 is O(n4)13PROOF OF BIG-OH COMPLEXITYPROOF OF BIG-OH COMPLEXITYQuestion 4:Prove that the running time T(n) = n3 + 20n + 1 is Î©(n2)14BIG-OH COMPLEXITY CALCULATIONQuestion 5:Show that Big O is transitive by relation.That is, if f(n) = O(g(n)) and g(n) = O(h(n)), then, f(n) â¤ O(h(n)) 15\tComp 352\tSession Outline\tRecursion - Tower of Hanoiï¿½\tIllustrative Example 1ï¿½\tIllustrative Example 1ï¿½\tIllustrative Example 1ï¿½\tIllustrative Example 2ï¿½\tRecursion - Tower of Hanoi\tTrace of recursion for 3 disks\tComplexity Analysisï¿½Exercises \tRecursion Exercises\tRecursion Exercises\tSlide Number 13\tProof of Big-Oh complexity\tBig-Oh complexity calculation" .
+
+<http://www.dbpedia-spotlight.com/#offset_0_19>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "recursive algorithm" ;
+        nif:beginIndex          "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_766> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999925440761"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion_(computer_science)> .
+
+<http://www.dbpedia-spotlight.com/#offset_654_663>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "654"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "663"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_766> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_565_574>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "565"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "574"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_766> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_462_467>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hanoi" ;
+        nif:beginIndex          "462"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "467"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_766> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/Town> , <http://dbpedia.org/ontology/Place> , <http://www.wikidata.org/entity/Q486972> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Location> , <http://www.wikidata.org/entity/Q3957> ;
+        itsrdf:taConfidence     "0.9981764095900365"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hanoi> .

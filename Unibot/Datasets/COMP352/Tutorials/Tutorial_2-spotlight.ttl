@@ -1,0 +1,360 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1821_1840>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "recursive algorithm" ;
+        nif:beginIndex          "1821"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1840"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999925441898"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion_(computer_science)> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2058>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2058"^^xsd:nonNegativeInteger ;
+        nif:isString    "Comp 352COMP 352Tutorial Session 21SESSION OUTLINEï¢ Quick Overview on Recursion:ï¢ Definitionï¢ Recursion Typesï¢ Exercises:ï¢ Complexity Analysis Extra Problemsï¢ Recursion application exercisesï¢ Recursion & Complexity Problems2QUICK OVERVIEW ON RECURSION -DEFINITIONï¢ Recursion occurs when a certain function calls itself in its own definition.ï¢ Typically, a recursive function contains:ï One or more base cases, which are not recursive. These work as a final goal or a stopping point.ï One or more recursive cases, that solve a small part of the problem and then call the function again to solve the rest3QUICK OVERVIEW ON RECURSION -TYPES OF RECURSIONï¢ Linear Recursion:ï Simplest form of recursionï Only one recursive call is made per function callï¢ Tail Recursion:ï Same as Linear Recursionï Recursive call must be the last operation if called4QUICK OVERVIEW ON RECURSION -TYPES OF RECURSIONQuestion 1:Does the following algorithm use tail recursion? Algorithm LinearSum(A, n)Input: An integer array A and an integer nâ¥1, such that Ahas at least n elementsOutput: The sum of the first n integers in Aif n = 1 then return A[0]else return LinearSum(A, n-1) + A[n-1]5QUICK OVERVIEW ON RECURSION -TYPES OF RECURSIONï¢ Binary Recursion:ï Recursive cases call the function two more timesï¢ Multiple Recursion:ï Generalization of binary recursion, with multiple recursive calls (more than 2 calls)6COMPLEXITY ANALYSISEXTRA EXERCISESQuestion 2:Consider the following code, n is data size, k is a constantfor (i=0; i<n; i=i+k)for(j=0; j<i; j++)sum[j] = j * sum[i];What is the big-O time complexity in terms of n? Show all necessary steps. 7RECURSIONEXERCISESQuestion 3:Give a recursive algorithm to compute the product of two positive integers, m and n, using only addition and subtraction.8RECURSIONEXERCISESQuestion 4:Describe a recursive algorithm for finding the maximum element in an array A of n elements.9RECURSIONEXERCISESQuestion 5:Given an array A of length n containing values in increasing order, write a recursive algorithm to find the first repeated pair" .
+
+<http://www.dbpedia-spotlight.com/#offset_192_201>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "201"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_936_950>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tail recursion" ;
+        nif:beginIndex          "936"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "950"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tail_call> .
+
+<http://www.dbpedia-spotlight.com/#offset_987_994>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "987"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "994"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999999999838451"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.dbpedia-spotlight.com/#offset_922_931>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "922"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "931"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999985266496818"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1666_1685>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "recursive algorithm" ;
+        nif:beginIndex          "1666"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1685"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999925441898"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion_(computer_science)> .
+
+<http://www.dbpedia-spotlight.com/#offset_1221_1230>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "1221"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1230"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_1010_1017>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "1010"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1017"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999999999838451"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.dbpedia-spotlight.com/#offset_1566_1571>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "big-O" ;
+        nif:beginIndex          "1566"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1571"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_2007_2026>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "recursive algorithm" ;
+        nif:beginIndex          "2007"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2026"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999925441898"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion_(computer_science)> .
+
+<http://www.dbpedia-spotlight.com/#offset_356_374>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "recursive function" ;
+        nif:beginIndex          "356"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "374"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999873520440092"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_755_764>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "755"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "764"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_265_274>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "265"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "274"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_398_408>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "base cases" ;
+        nif:beginIndex          "398"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "408"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_70_79>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_94_103>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1292_1301>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "1292"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1301"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_782_791>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "782"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "791"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_1572_1587>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time complexity" ;
+        nif:beginIndex          "1572"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1587"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999637564094"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<http://www.dbpedia-spotlight.com/#offset_659_668>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "659"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "668"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_1322_1328>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary" ;
+        nif:beginIndex          "1322"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1328"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999997075827168"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_number> .
+
+<http://www.dbpedia-spotlight.com/#offset_1768_1779>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "subtraction" ;
+        nif:beginIndex          "1768"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1779"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Subtraction> .
+
+<http://www.dbpedia-spotlight.com/#offset_159_168>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "159"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "168"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2058> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_119_128>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "119"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "128"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_304_313>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "304"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "313"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_189_198>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "189"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_343> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_284_293>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "284"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "293"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_238_247>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "238"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "247"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_343>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "343"^^xsd:nonNegativeInteger ;
+        nif:isString    "of values if such a pair exists.10\tComp 352\tSession Outline\tQuick Overview on Recursion -ï¿½Definition\tQuick Overview on Recursion -ï¿½Types of Recursion\tQuick Overview on Recursion -ï¿½Types of Recursion\tQuick Overview on Recursion -ï¿½Types of Recursion\tComplexity Analysisï¿½Extra Exercises\tRecursionï¿½Exercises\tRecursionï¿½Exercises\tRecursionï¿½Exercises" .
+
+<http://www.dbpedia-spotlight.com/#offset_78_87>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "78"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "87"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_140_149>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "140"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "149"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_168_177>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "177"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_324_333>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "324"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "333"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.dbpedia-spotlight.com/#offset_217_226>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Recursion" ;
+        nif:beginIndex          "217"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "226"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .

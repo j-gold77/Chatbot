@@ -1,0 +1,66 @@
+@base <http://focu.io/data#> .
+@prefix focu: <http://focu.io/schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix teach: <http://linkedscience.org/teach/ns#> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+
+<#COMP479>
+    a vivo:Course ;
+    vivo:courseCredits 4 ;
+    rdfs:label "Information Retrieval and Web Search"@en ;
+    focu:courseDescription "Prerequisite: COMP 233 or ENGR 371; COMP 352. Basics of information retrieval (IR): boolean, vector space and probabilistic models. Tokenization and creation of inverted files. Weighting schemes. Evaluation of IR systems: precision, recall, F-measure. Relevance feedback and query expansion. Application of IR to web search engines: XML, link analysis, PageRank algorithm. Text categorization and clustering techniques as used in spam filtering. Project. Lectures: three hours per week. Laboratory: two hours per week."@en ;
+    focu:hasTitle <#COMP479-Title> ;
+    focu:taughtAt <#ConcordiaUniversity> ;
+    focu:hasTopic <#Topic-InformationRetrieval> .
+
+<#COMP479-Title>
+    a focu:CourseTitle ;
+    focu:courseSubject "COMP"@en ;
+    focu:courseNumber 479 .
+
+<#ConcordiaUniversity>
+    a vivo:University ;
+    rdfs:label "Concordia University"@en ;
+    focu:dbpediaLink dbr:Concordia_University .
+
+<#Topic-InformationRetrieval>
+    a focu:Topic ;
+    rdfs:label "Information Retrieval"@en ;
+    focu:topicProvenance "Course Outline"@en ;
+    focu:dbpediaLink dbr:Information_retrieval .
+
+<#Student-12345678>
+    a vivo:Student ;
+    foaf:givenName "Ada"@en ;
+    foaf:familyName "Lovelace"@en ;
+    foaf:mbox "ada@gmail.com"@en ;
+    focu:studentID 12345678 ;
+    focu:studiesAt <#ConcordiaUniversity> ;
+    focu:hasCompleted <#Student-12345678-COMP479> .
+
+<#Student-12345678-COMP479>
+    a focu:CompletedCourse ;
+    focu:course <#COMP479> ;
+    xsd:date "2015-12-24" ;
+    focu:obtainedGrade <#Grade-A> .
+
+<#Grade-A>
+    a focu:Grade ;
+    focu:letterGrade "A"@en ;
+    focu:isPassing true .
+
+<#COMP479-Lecture1>
+    a teach:Lecture ;
+    rdfs:label "Introduction"@en ;
+    focu:lectureNumber 1 ;
+    focu:partOfCourse <#COMP479> ;
+    focu:hasContent <#COMP479-Reading1> .
+
+<#COMP479-Reading1>
+    a focu:LectureContentChapterReading ;
+    rdfs:label "Introduction to Information Retrieval"@en .

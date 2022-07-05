@@ -1,0 +1,604 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_2063_2080>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cosine similarity" ;
+        nif:beginIndex          "2063"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2080"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2287> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cosine_similarity> .
+
+<http://www.dbpedia-spotlight.com/#offset_284_290>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Python" ;
+        nif:beginIndex          "284"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "290"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2287> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ComedyGroup> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Group> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q43229> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9925674929893369"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monty_Python> .
+
+<http://www.dbpedia-spotlight.com/#offset_904_913>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MovieLens" ;
+        nif:beginIndex          "904"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "913"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2287> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/MovieLens> .
+
+<http://www.dbpedia-spotlight.com/#offset_1259_1275>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "natural language" ;
+        nif:beginIndex          "1259"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2287> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999994508926"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Natural_language_processing> .
+
+<http://www.dbpedia-spotlight.com/#offset_1015_1032>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "similarity matrix" ;
+        nif:beginIndex          "1015"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1032"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2287> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Similarity_measure> .
+
+<http://www.dbpedia-spotlight.com/#offset_204_220>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "machine learning" ;
+        nif:beginIndex          "204"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2287> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999993179"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Machine_learning> .
+
+<http://www.dbpedia-spotlight.com/#offset_422_428>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Moodle" ;
+        nif:beginIndex          "422"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "428"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2287> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Moodle> .
+
+<http://www.dbpedia-spotlight.com/#offset_173_179>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tf-idf" ;
+        nif:beginIndex          "173"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2287> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9860922887788256"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tfâidf> .
+
+<http://www.dbpedia-spotlight.com/#offset_1313_1325>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Scikit-learn" ;
+        nif:beginIndex          "1313"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1325"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2287> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q386724> , <http://www.wikidata.org/entity/Q7397> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scikit-learn> .
+
+<http://www.dbpedia-spotlight.com/#offset_586_591>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "numpy" ;
+        nif:beginIndex          "586"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "591"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2287> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/NumPy> .
+
+<http://www.dbpedia-spotlight.com/#offset_505_511>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Cosine" ;
+        nif:beginIndex          "505"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "511"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2287> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trigonometric_functions> .
+
+<http://www.dbpedia-spotlight.com/#offset_112_119>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "library" ;
+        nif:beginIndex          "112"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "119"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2287> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9998737037840303"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Library> .
+
+<http://www.dbpedia-spotlight.com/#offset_1199_1205>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "TF-IDF" ;
+        nif:beginIndex          "1199"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1205"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2287> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999297415"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tfâidf> .
+
+<http://www.dbpedia-spotlight.com/#offset_2081_2087>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "matrix" ;
+        nif:beginIndex          "2081"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2087"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2287> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.7804078376586275"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Definiteness_of_a_matrix> .
+
+<http://www.dbpedia-spotlight.com/#offset_1881_1884>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "idf" ;
+        nif:beginIndex          "1881"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1884"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2287> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q43229> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/MilitaryUnit> , <http://www.wikidata.org/entity/Q176799> ;
+        itsrdf:taConfidence     "0.9999999952631242"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Israel_Defense_Forces> .
+
+<http://www.dbpedia-spotlight.com/#offset_124_130>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Python" ;
+        nif:beginIndex          "124"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2287> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Group> , <http://dbpedia.org/ontology/Organisation> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/ComedyGroup> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q24229398> ;
+        itsrdf:taConfidence     "0.9925674929893369"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monty_Python> .
+
+<http://www.dbpedia-spotlight.com/#offset_1297_1303>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tf-idf" ;
+        nif:beginIndex          "1297"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1303"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2287> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9860922887788256"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tfâidf> .
+
+<http://www.dbpedia-spotlight.com/#offset_1365_1371>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tf-idf" ;
+        nif:beginIndex          "1365"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1371"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2287> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9860922887788256"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tfâidf> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2287>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2287"^^xsd:nonNegativeInteger ;
+        nif:isString    "Lab Session #07IntroductionWelcome to Lab #7. The goal in this lab is to become familiar with the scitkit-learn library for Python, in particular how to use it for creating tf-idf vectors and other basic machine learning tasks.You can find a number of \"cheat sheets\" for working with Python at DataCamp; in particular, there is a nice one for working with scikit-learn as well.Follow-up Lab #6As always, please ask in the Moodle forum if something is unclear or doesn't work as expected!Solution Task #1 (Cosine Similarity)Well, the complete code to run this was basically given:import numpy as np movies = np.array([[4, 8, 6, 3, 0, 0],[0, 5, 0, 8, 5, 0],[1, 4, 0, 3, 0, 10]])print(movies)from sklearn.metrics.pairwise import cosine_similaritysimilarity_scores = cosine_similarity(movies)print(similarity_scores)Solution Task #2 (Movie Recommender System)Here's a complete example program that reads the MovieLens dataset (hard-coded as stored in \"ml-latest-small/\"), creates the tag-based vectors and computes the similarity matrix. Then, it prints out the top-5 recommendations for a movie (again, hard-coded for 'Toy Story (1995)'). Feel free to make it more generic and improve upon it!Task #1: TF-IDF VectorsIn the lecture, we discussed how to represent natural language documents in form of tf-idf vectors. Scikit-learn also has built-in support for creating tf-idf vectors, the TfidfVectorizer. Let's try this out on some documents:documents = (\"The sky is blue\",\"The sun is bright\",\"The sun in the sky is bright\",\"We can see the shining sun, the bright sun\")You can now use a TfidfVectorizer similar to the CountVectorizer from the previous lab:from sklearn.feature_extraction.text import TfidfVectorizertfidf_vectorizer = TfidfVectorizer()tfidf_matrix = tfidf_vectorizer.fit_transform(documents)Print out the tfidf_matrix.toarray(), the tfidf_matrix.shape, as well as the idf_ weights for each word:import pandas as pddf_idf = pd.DataFrame(tfidf_vectorizer.idf_, index=tfidf_vectorizer.get_feature_names(),columns=[\"idf_weights\"])You could now compute a cosine similarity matrix on the documents, similar to the recommender engine exercise:from sklearn.metrics.pairwise import cosine_similaritysimilarity_scores = cosine_similarity(tfidf_matrix)However, what we'll do next is to" .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2287> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_595_597>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "np" ;
+        nif:beginIndex          "595"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "597"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2287> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9965044819522291"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Noun_phrase> .
+
+<http://www.dbpedia-spotlight.com/#offset_356_368>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scikit-learn" ;
+        nif:beginIndex          "356"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2287> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scikit-learn> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1657_1690>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "natural language processing (NLP)" ;
+        nif:beginIndex          "1657"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1690"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2029> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Natural_language_processing> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2029>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2029"^^xsd:nonNegativeInteger ;
+        nif:isString    "use the idea of cosine similarity to implement a basic search engine: Given a new document,search_doc = \"The dog is bright\"you want to find the best matching (most similar) documents in your index. You first have to vectorize the new document:search_tfidf_vector = ...Be careful: you can use the same tfidf_vectorizer, but you have to make sure you use the same vocabulary (feature names). Read the documentation and make sure you understand the difference between the methods fit_transform and transform. Check your features using tfidf_vectorizer.get_feature_names().After you successfully converted the search document, you can compute the similarity scores with the other documents:similar_docs = cosine_similarity(...)Now you can sort the documents by similarity and print them out by rank, search engine-style.For more details, make sure to read the documentation on text feature extraction. In particular, if you want to check the tf-idf calculations we made on the worksheet, make sure you check the various parameter settings for the vectorizer as explained in the documentation on tf-idf term weighting.Task #2: Re-implement GoogleWe'll extend the ideas from the previous task to a mini-search engine, where you let the user enter some keywords (just like a Google search box), search your documents, and return the top-n matching results.To get some more data into your program, we'll use one of the datasets that come with scikit-learn: The 20newsgroups dataset. You probably don't know about these newsgroups â that's ok, they are even older than the Web: they come from Usenet, which dates back to 1979. This dataset is often used for various natural language processing (NLP) experiments. Here's an example post, from the newsgroup comp.sys.mac.hardware:Newsgroup: comp.sys.mac.hardwaredocument_id: 52139From: rriegsec@iris.mbvlab.wpafb.af.mil (Randy Riegsecker)Subject: Third party monitor on IIsiSo what's the deal with the PDS slot in the IIsi?I recently purchased a Mac IIsi.  I want to add a non-Apple monitor" .
+
+<http://www.dbpedia-spotlight.com/#offset_55_68>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "search engine" ;
+        nif:beginIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "68"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2029> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999995086965398"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_search_engine> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2029> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1268_1274>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Google" ;
+        nif:beginIndex          "1268"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1274"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2029> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q24229398> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.wikidata.org/entity/Q4830453> , <http://www.wikidata.org/entity/Q43229> ;
+        itsrdf:taConfidence     "0.9813469618559123"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Google> .
+
+<http://www.dbpedia-spotlight.com/#offset_1769_1778>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Newsgroup" ;
+        nif:beginIndex          "1769"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1778"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2029> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Usenet_newsgroup> .
+
+<http://www.dbpedia-spotlight.com/#offset_1941_1944>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PDS" ;
+        nif:beginIndex          "1941"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1944"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2029> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9993352655100126"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Processor_Direct_Slot> .
+
+<http://www.dbpedia-spotlight.com/#offset_16_33>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cosine similarity" ;
+        nif:beginIndex          "16"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "33"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2029> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cosine_similarity> .
+
+<http://www.dbpedia-spotlight.com/#offset_109_112>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dog" ;
+        nif:beginIndex          "109"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2029> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999018040387803"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dog> .
+
+<http://www.dbpedia-spotlight.com/#offset_1091_1097>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tf-idf" ;
+        nif:beginIndex          "1091"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1097"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2029> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9860922887788256"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tfâidf> .
+
+<http://www.dbpedia-spotlight.com/#offset_1737_1746>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "newsgroup" ;
+        nif:beginIndex          "1737"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1746"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2029> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Usenet_newsgroup> .
+
+<http://www.dbpedia-spotlight.com/#offset_1584_1590>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Usenet" ;
+        nif:beginIndex          "1584"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1590"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2029> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Usenet> .
+
+<http://www.dbpedia-spotlight.com/#offset_938_944>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tf-idf" ;
+        nif:beginIndex          "938"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "944"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2029> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9860922887788256"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tfâidf> .
+
+<http://www.dbpedia-spotlight.com/#offset_878_896>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "feature extraction" ;
+        nif:beginIndex          "878"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "896"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2029> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Feature_extraction> .
+
+<http://www.dbpedia-spotlight.com/#offset_1435_1447>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "scikit-learn" ;
+        nif:beginIndex          "1435"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1447"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2029> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q7397> , <http://www.wikidata.org/entity/Q386724> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scikit-learn> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1971_1977>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tf-idf" ;
+        nif:beginIndex          "1971"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1977"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1991> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9860922887788256"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tfâidf> .
+
+<http://www.dbpedia-spotlight.com/#offset_1511_1515>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Solr" ;
+        nif:beginIndex          "1511"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1515"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1991> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q7397> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Apache_Solr> .
+
+<http://www.dbpedia-spotlight.com/#offset_1070_1076>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vector" ;
+        nif:beginIndex          "1070"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1076"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1991> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.6504061087330497"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Array_data_structure> .
+
+<http://www.dbpedia-spotlight.com/#offset_1007_1013>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tf-idf" ;
+        nif:beginIndex          "1007"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1013"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1991> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9860922887788256"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tfâidf> .
+
+<http://www.dbpedia-spotlight.com/#offset_235_238>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PDS" ;
+        nif:beginIndex          "235"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "238"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1991> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999982071586"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Processor_Direct_Slot> .
+
+<http://www.dbpedia-spotlight.com/#offset_353_365>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Scikit-learn" ;
+        nif:beginIndex          "353"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "365"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1991> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q7397> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scikit-learn> .
+
+<http://www.dbpedia-spotlight.com/#offset_1442_1449>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "library" ;
+        nif:beginIndex          "1442"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1449"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1991> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9994877979179283"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Library> .
+
+<http://www.dbpedia-spotlight.com/#offset_1014_1020>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vector" ;
+        nif:beginIndex          "1014"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1020"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1991> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.6504061087330497"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Array_data_structure> .
+
+<http://www.dbpedia-spotlight.com/#offset_1494_1507>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Elasticsearch" ;
+        nif:beginIndex          "1494"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1507"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1991> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q7397> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Elasticsearch> .
+
+<http://www.dbpedia-spotlight.com/#offset_178_181>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PDS" ;
+        nif:beginIndex          "178"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1991> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999982071586"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Processor_Direct_Slot> .
+
+<http://www.dbpedia-spotlight.com/#offset_1482_1488>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "server" ;
+        nif:beginIndex          "1482"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1488"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1991> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999943997872758"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_server> .
+
+<http://www.dbpedia-spotlight.com/#offset_1462_1468>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lucene" ;
+        nif:beginIndex          "1462"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1468"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1991> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q7397> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Apache_Lucene> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1991> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_115_120>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NuBus" ;
+        nif:beginIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1991> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/NuBus> .
+
+<http://www.dbpedia-spotlight.com/#offset_71_76>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NuBus" ;
+        nif:beginIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1991> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/NuBus> .
+
+<http://www.dbpedia-spotlight.com/#offset_1532_1538>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Python" ;
+        nif:beginIndex          "1532"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1538"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1991> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Group> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/ComedyGroup> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q43229> ;
+        itsrdf:taConfidence     "0.8855458079680624"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monty_Python> .
+
+<http://www.dbpedia-spotlight.com/#offset_1943_1959>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "natural language" ;
+        nif:beginIndex          "1943"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1959"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1991> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Natural_language_processing> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1991>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1991"^^xsd:nonNegativeInteger ;
+        nif:isString    "to thesystem.  I was told that you could buy a 90 degree angled PDS to NuBus adaptorcard so you can fit a standard NuBus card into the computer.Am I mistaken or do have to buy a PDS monitor card specifically for the IIsi?I've seen the PDS monitor cards for the si, but they seem expensive, and I'mnot exactly made of money.Any ideas?  Help.  Clue me in!Scikit-learn has some utility functions that will download the dataset for you the first time you use it (by default it will go into ~/scikit_learn_data/). Re-running the program will then make use of the cached data:from sklearn.datasets import fetch_20newsgroupsnewsgroups_train = fetch_20newsgroups()You can print out the topics using:from pprint import pprintpprint(list(newsgroups_train.target_names))Ok, now it's your turn: First, create tfidf-vectors from this dataset, similar to last week:tfidf_matrix = tfidf_vectorizer.fit_transform(newsgroups_train.data)Now you can use your code from the previous week to (1) transform a search query into a tf-idf vector; and (2) use cosine_similarity between the query vector and the document vectors to find the best search results for the query. Note: for development & testing, you should probably only load a subset of the newsgroups, like here:cats = ['alt.atheism', 'sci.space']newsgroups_train = fetch_20newsgroups(subset='train', categories=cats)Of course, if you ever have to build a real-life, scalable search system, better use a library like Apache Lucene and a search server like Elasticsearch or Solr (they all offer Python bindings as well).Task #3: k-Means ClusteringScikit-learn also provides an implementation for k-Means clustering. Let's try to cluster the documents from Task #1:documents = (\"The sky is blue\",\"The sun is bright\",\"The sun in the sky is bright\",\"We can see the shining sun, the bright sun\")To be able to cluster them, we will need to convert each document into a feature vector. Since we are dealing with natural language documents, tf-idf vectors are a" .
+
+<http://www.dbpedia-spotlight.com/#offset_64_67>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PDS" ;
+        nif:beginIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "67"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1991> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999982071586"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Processor_Direct_Slot> .
+
+<http://www.dbpedia-spotlight.com/#offset_1259_1270>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "alt.atheism" ;
+        nif:beginIndex          "1259"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1270"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1991> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999991789537"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Alt.atheism> .
+
+<http://www.dbpedia-spotlight.com/#offset_1901_1915>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "feature vector" ;
+        nif:beginIndex          "1901"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1915"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1991> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999982606206351"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Feature_(machine_learning)> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_34_40>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary" ;
+        nif:beginIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_849> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9750271320625492"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_data> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_849> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_849>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "849"^^xsd:nonNegativeInteger ;
+        nif:isString    "better representation than simple binary or count vectors:from sklearn.feature_extraction.text import TfidfVectorizertfidf_vectorizer = TfidfVectorizer()tfidf_matrix = tfidf_vectorizer.fit_transform(documents)Now you can use k-Means to create clusters. Remember that you have to provide k (the number of clusters) as input: Here we are using k=3, so three clusters:kmeans = KMeans(n_clusters=3)kmeans.fit(tfidf_matrix)To see which document now belongs to which clusters, you can print:print(kmeans.labels_)Experiment with different documents and different numbers of clusters. For example, try to cluster the documents from the 20newsgroups dataset into different sized clusters. Remember that k-Means uses random starting positions for the centroids, so different runs will most likely give you different clusters as result.That's all for this lab!" .

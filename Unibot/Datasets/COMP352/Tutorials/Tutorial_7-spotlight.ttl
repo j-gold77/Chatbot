@@ -1,0 +1,416 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1498_1502>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heap" ;
+        nif:beginIndex          "1498"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1502"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1736> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_heap> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1736>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1736"^^xsd:nonNegativeInteger ;
+        nif:isString    "Comp 352 â Fall 2011COMP 352Tutorial Session 71PRIORITY QUEUESQUICK OVERVIEW (1)ï¢ A Priority Queue is an ADT that supports:ï Arbitrary Insertion of elementsï Removal of elements in order of priorityï¢ An entry is a (key, value) pairï¢ A Comparator is an object that compares 2 keys2PRIORITY QUEUESQUICK OVERVIEW (2)ï¢ A Priority Queue P supports the following methods:ï size(): Return the number of entries in P.ï isEmpty(): Test whether P is empty.ï min(): Return (but do not remove) an entry of P with smallest key; an error condition occurs if P is empty.ï insert(k,x): Insert into P key k with value x and return the entry storing them; an error condition occurs if k is invalid (that is, k cannot be compared with other keys.ï removeMin(): Remove from P and return an entry with smallest key; an error condition occurs if P is empty.ï¢ Implementation via unsorted vs. sorted list (pp. 344,345)ï¢ Selection vs. Insertion Sort (p. 348)3HEAPQUICK OVERVIEW (1)ï¢ To overcome the O(n) worst case running time of insertions (using sorted list) and removals (using unsorted lists), entries of a Priority Queue are stored in a binary tree instead of a list.ï¢ The Heap  data structure allows us to perform both insertions and removals in logarithmic time.ï¢ Heap-Order Property: In a heap T, for every node v other than the root, the key stored at v is greater than or equal to the key stored at v's parent. 4HEAPQUICK OVERVIEW (2)ï¢ For efficiency reasons, a heap should have as small a height as possible. A heap T should additionally satisfy a structural property: it must be complete.ï¢ Complete Binary Tree Property: A heap T with height h is a complete binary tree if levels 0,1,2,â¦ ,h â 1 of T have the maximum number of nodes possible and in" .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1736> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1160_1174>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "data structure" ;
+        nif:beginIndex          "1160"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1174"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1736> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_structure> .
+
+<http://www.dbpedia-spotlight.com/#offset_1637_1657>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "complete binary tree" ;
+        nif:beginIndex          "1637"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1657"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1736> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_979_1002>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "worst case running time" ;
+        nif:beginIndex          "979"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1002"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1736> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Analysis_of_algorithms> .
+
+<http://www.dbpedia-spotlight.com/#offset_317_331>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Priority Queue" ;
+        nif:beginIndex          "317"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "331"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1736> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_910_924>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Insertion Sort" ;
+        nif:beginIndex          "910"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "924"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1736> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Insertion_sort> .
+
+<http://www.dbpedia-spotlight.com/#offset_1087_1101>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Priority Queue" ;
+        nif:beginIndex          "1087"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1736> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_1448_1452>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heap" ;
+        nif:beginIndex          "1448"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1452"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1736> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_heap> .
+
+<http://www.dbpedia-spotlight.com/#offset_1587_1598>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Binary Tree" ;
+        nif:beginIndex          "1587"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1598"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1736> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_1273_1277>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heap" ;
+        nif:beginIndex          "1273"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1277"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1736> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_heap> .
+
+<http://www.dbpedia-spotlight.com/#offset_84_98>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Priority Queue" ;
+        nif:beginIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "98"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1736> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Priority_queue> .
+
+<http://www.dbpedia-spotlight.com/#offset_1611_1615>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heap" ;
+        nif:beginIndex          "1611"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1615"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1736> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_heap> .
+
+<http://www.dbpedia-spotlight.com/#offset_105_108>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "105"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "108"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1736> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1118_1129>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "1118"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1129"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1736> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_422_426>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Test" ;
+        nif:beginIndex          "422"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "426"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1736> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999965682447732"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Test_cricket> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1582_1599>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inorder traversal" ;
+        nif:beginIndex          "1582"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1599"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_traversal> .
+
+<http://www.dbpedia-spotlight.com/#offset_177_181>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heap" ;
+        nif:beginIndex          "177"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999928377"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_heap> .
+
+<http://www.dbpedia-spotlight.com/#offset_851_860>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "851"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "860"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_285_289>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heap" ;
+        nif:beginIndex          "285"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999928377"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_heap> .
+
+<http://www.dbpedia-spotlight.com/#offset_694_703>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "694"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "703"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_402_406>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heap" ;
+        nif:beginIndex          "402"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "406"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999928377"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_heap> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1833>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1833"^^xsd:nonNegativeInteger ;
+        nif:isString    "level h â 1, all the internal nodes are to the left of the external nodes and there is at most one node with one child, which must be a left child.ï¢ Another important node in a heap T, other than the root, is the last node of T, which is the right-most, deepest external node of T.ï¢ A heap T storing n entries has height h = âlognâ. 5QUESTION 1Illustrate the execution of a Bottom-Up construction of a heap on the following sequence: (2,5,16,4,10,23,39,18,26,15,7,9,30,31,40)6QUESTION 2Illustrate the execution of the heap-sort algorithm on the following sequence:(2,5,16,4,10,23,39,18,26,15).Show the contents of both the heap and the sequence at each step of the algorithm.7QUESTION 3Give an algorithm for changing the value of an arbitrary element from a heap of size N.Determine worst-case time complexity of your algorithm. You may describe your algorithm in English.8At which nodes of a heap can an entry with the largest key be stored?9QUESTION 4Bill claims that a preorder traversal of a heap will list its keys in nondecreasing order. Draw an example of a heap that proves him wrong.10QUESTION 5Let T be a complete binary tree such that node v stores the entry (p(v), 0), where p(v) is the level number of v. Is tree T a heap?Why or why not?11QUESTION 6Explain why the case where node r has a right child but not a left child was not considered in the description of down-heap bubbling.12QUESTION 7Is there a heap T storing seven entries with distinct keys such that a pre order traversal of T yields the entries of T in increasing or decreasing order by key? How about an inorder traversal?How about a postorder traversal? If so, give an example; if not, say why.13QUESTION 8\tComp 352\tPriority Queuesï¿½Quick Overview (1)\tPriority Queuesï¿½Quick Overview (2)\tHeapï¿½Quick Overview (1)\tHeapï¿½Quick Overview (2)\tQuestion 1ï¿½\tQuestion" .
+
+<http://www.dbpedia-spotlight.com/#offset_972_990>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "preorder traversal" ;
+        nif:beginIndex          "972"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "990"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_traversal> .
+
+<http://www.dbpedia-spotlight.com/#offset_1115_1135>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "complete binary tree" ;
+        nif:beginIndex          "1115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_996_1000>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heap" ;
+        nif:beginIndex          "996"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1000"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999928377"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_heap> .
+
+<http://www.dbpedia-spotlight.com/#offset_665_674>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "665"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "674"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1612_1631>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "postorder traversal" ;
+        nif:beginIndex          "1612"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1631"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_traversal> .
+
+<http://www.dbpedia-spotlight.com/#offset_262_275>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "external node" ;
+        nif:beginIndex          "262"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999999967100394"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+<http://www.dbpedia-spotlight.com/#offset_528_537>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "528"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "537"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1418_1422>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heap" ;
+        nif:beginIndex          "1418"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1422"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999928377"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_heap> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_794_809>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time complexity" ;
+        nif:beginIndex          "794"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "809"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<http://www.dbpedia-spotlight.com/#offset_1065_1069>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heap" ;
+        nif:beginIndex          "1065"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1069"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999928377"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_heap> .
+
+<http://www.dbpedia-spotlight.com/#offset_818_827>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "818"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "827"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_893_897>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heap" ;
+        nif:beginIndex          "893"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "897"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999928377"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_heap> .
+
+<http://www.dbpedia-spotlight.com/#offset_758_762>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heap" ;
+        nif:beginIndex          "758"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "762"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999928377"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_heap> .
+
+<http://www.dbpedia-spotlight.com/#offset_623_627>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heap" ;
+        nif:beginIndex          "623"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "627"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999928377"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_heap> .
+
+<http://www.dbpedia-spotlight.com/#offset_1230_1234>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heap" ;
+        nif:beginIndex          "1230"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1234"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999928377"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_heap> .
+
+<http://www.dbpedia-spotlight.com/#offset_864_871>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "864"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "871"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1833> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q315> , <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9997149782836544"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_92> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_92>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "92"^^xsd:nonNegativeInteger ;
+        nif:isString    "2ï¿½\tQuestion 3\tSlide Number 9\tSlide Number 10\tSlide Number 11\tSlide Number 12\tSlide Number 13" .

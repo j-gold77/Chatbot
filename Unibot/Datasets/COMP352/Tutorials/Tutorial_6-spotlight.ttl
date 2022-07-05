@@ -1,0 +1,321 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_664_677>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "internal node" ;
+        nif:beginIndex          "664"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "677"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999994259878178"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+<http://www.dbpedia-spotlight.com/#offset_284_296>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ordered tree" ;
+        nif:beginIndex          "284"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "296"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999999625090438"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(graph_theory)> .
+
+<http://www.dbpedia-spotlight.com/#offset_568_579>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "568"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "579"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_1199_1210>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Binary Tree" ;
+        nif:beginIndex          "1199"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_784_795>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Binary Tree" ;
+        nif:beginIndex          "784"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "795"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_821_837>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "accessor methods" ;
+        nif:beginIndex          "821"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "837"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mutator_method> .
+
+<http://www.dbpedia-spotlight.com/#offset_1652_1659>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3 times" ;
+        nif:beginIndex          "1652"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1659"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999550050083973"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ironman_Heavymetalweight_Championship> .
+
+<http://www.dbpedia-spotlight.com/#offset_1466_1483>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inorder traversal" ;
+        nif:beginIndex          "1466"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_traversal> .
+
+<http://www.dbpedia-spotlight.com/#offset_520_531>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "520"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "531"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_1280_1284>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            ".303" ;
+        nif:beginIndex          "1280"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1284"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/.303_British> .
+
+<http://www.dbpedia-spotlight.com/#offset_1550_1560>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Euler Tour" ;
+        nif:beginIndex          "1550"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1560"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999964757"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eulerian_path> .
+
+<http://www.dbpedia-spotlight.com/#offset_201_211>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Euler Tour" ;
+        nif:beginIndex          "201"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "211"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999964757"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eulerian_path> .
+
+<http://www.dbpedia-spotlight.com/#offset_1739_1749>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "arithmetic" ;
+        nif:beginIndex          "1739"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1749"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9935700137258469"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Floating-point_arithmetic> .
+
+<http://www.dbpedia-spotlight.com/#offset_266_277>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Binary Tree" ;
+        nif:beginIndex          "266"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "277"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_1870_1883>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "external node" ;
+        nif:beginIndex          "1870"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1883"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999999967100394"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_645_656>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "645"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "656"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_1071_1075>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Test" ;
+        nif:beginIndex          "1071"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1075"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999775651530931"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Test_cricket> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1907>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1907"^^xsd:nonNegativeInteger ;
+        nif:isString    "Comp 352 â Fall 2011COMP 352 â FALL 2021Tutorial 61SESSION OUTLINEï¢ Binary Trees:ï¢ Definitionsï¢ Additional Methodsï¢ Properties and Implementationsï¢ Additional Traversal Algorithmsï¢ In-order Traversalï¢ Euler Tour Traversalï¢ Problem Solving2BINARY TREES -DEFINITIONSA Binary Tree is an ordered tree having the following properties:1. Every node has at most 2 children2. Each child node is labeled as being either a left child or a right child.3. A left child precedes a right child in the ordering of children of a node.A binary tree is proper (also referred to as full binary tree) if each node has either zero or two children. Thus, in a proper binary tree, every internal node has exactly two children. A binary tree that is not proper is improper.3BINARY TREES -ADDITIONAL METHODSA Binary Tree supports the following 4 accessor methods in addition to the regular Tree methods:ï¢ left(v): Return the left child of v; an error condition occurs if v has no left child.ï¢ right(v): Return the right child of v; an error condition occurs if v has no right child.ï¢ hasLeft(v): Test whether v has a left child.ï¢ hasRight(v): Test whether v has a right child.4BINARY TREES âPROPERTIES & IMPLEMENTATIONSIn a Binary Tree, every level d has at most 2^d nodes (the rest of the properties on p.303)Linked structure implementation & performance (p.305)Array list representation (p.314) 5BINARY TREES -ADDITIONAL TRAVERSAL ALGORITHMSBinary Tree-specific traversal algorithms:ï¢ The inorder traversal, informally viewed as visiting the nodes from left to right.ï¢ The Euler Tour Traversal, informally described as a âwalk aroundâ the tree, where every node is traversed 3 times (on the left, from below, and on the right)6PROBLEM SOLVING âQUESTION 1Draw an arithmetic expression tree that has four external nodes, storing the numbers 1, 5, 6, and 7 (with each number stored in a distinct external node, but not necessarily in" .
+
+<http://www.dbpedia-spotlight.com/#offset_706_717>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "706"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "717"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_1118_1122>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Test" ;
+        nif:beginIndex          "1118"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999775651530931"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Test_cricket> .
+
+<http://www.dbpedia-spotlight.com/#offset_1750_1765>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "expression tree" ;
+        nif:beginIndex          "1750"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1765"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999987494"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parse_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_1338_1348>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Array list" ;
+        nif:beginIndex          "1338"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1348"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1907> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamic_array> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_741_759>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "in-order traversal" ;
+        nif:beginIndex          "741"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "759"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1100> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_traversal> .
+
+<http://www.dbpedia-spotlight.com/#offset_765_776>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "765"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "776"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1100> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1100> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_780_791>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear time" ;
+        nif:beginIndex          "780"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "791"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1100> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<http://www.dbpedia-spotlight.com/#offset_391_408>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inorder traversal" ;
+        nif:beginIndex          "391"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "408"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1100> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_traversal> .
+
+<http://www.dbpedia-spotlight.com/#offset_269_280>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "269"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "280"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1100> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1100>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1100"^^xsd:nonNegativeInteger ;
+        nif:isString    "this order), and has three internal nodes, each storing an operator from the set { + , â , Ã, /}, so that the value of the root is 21. The operators may return and act on fractions, and an operator may be used more than once.7PROBLEM SOLVING âQUESTION 2Draw a (single) binary tree T such that:ï¢ Each internal node of T stores a single characterï¢ A preorder traversal of T yields EXAMFUNï¢ An inorder traversal of T yields MAFXUEN.8PROBLEM SOLVING âQUESTION 3ï¢ Draw a Binary Search Tree that shows the result of the tree after inserting the following keys (from left to right): The tree initially is empty.key ={17, 9, 26, 12, 11, 7, 30, 20, 21, 10}9PROBLEM SOLVING âQUESTION 4Describe, in pseudo-code, a nonrecursive method for performing an in-order traversal of a binary tree in linear time.10\tComp 352 â Fall 2021\tSession Outline\tBinary Trees -ï¿½Definitions \tBinary Trees -ï¿½Additional Methods\tBinary Trees âï¿½Properties & Implementations\tBinary Trees -ï¿½Additional Traversal Algorithms\tProblem Solving âï¿½Question 1\tProblem Solving âï¿½Question 2\tProblem Solving âï¿½Question 3\tProblem Solving âï¿½Question 4" .
+
+<http://www.dbpedia-spotlight.com/#offset_348_366>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "preorder traversal" ;
+        nif:beginIndex          "348"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "366"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1100> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_traversal> .
+
+<http://www.dbpedia-spotlight.com/#offset_300_313>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "internal node" ;
+        nif:beginIndex          "300"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "313"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1100> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999994259878178"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+<http://www.dbpedia-spotlight.com/#offset_135_148>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "The operators" ;
+        nif:beginIndex          "135"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1100> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Book> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q571> , <http://dbpedia.org/ontology/Book> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/WrittenWork> , <Http://purl.org/ontology/bibo/Book> , <http://www.wikidata.org/entity/Q234460> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "0.5882324637800468"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Operators_(book)> .

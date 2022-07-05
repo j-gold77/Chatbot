@@ -1,0 +1,1301 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_400_404>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "400"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "404"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1979> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_338_364>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java Collections Framework" ;
+        nif:beginIndex          "338"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "364"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1979> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_collections_framework> .
+
+<http://www.dbpedia-spotlight.com/#offset_96_116>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Concordia University" ;
+        nif:beginIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1979> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9998760211804951"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concordia_University> .
+
+<http://www.dbpedia-spotlight.com/#offset_272_277>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Wiley" ;
+        nif:beginIndex          "272"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "277"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1979> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Publisher> , <http://www.wikidata.org/entity/Q4830453> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q24229398> , <http://schema.org/Organization> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Company> ;
+        itsrdf:taConfidence     "0.9999730464720876"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wiley-Blackwell> .
+
+<http://www.dbpedia-spotlight.com/#offset_379_386>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Collins" ;
+        nif:beginIndex          "379"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "386"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1979> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://schema.org/Organization> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Company> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Organisation> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Publisher> , <http://www.wikidata.org/entity/Q4830453> ;
+        itsrdf:taConfidence     "0.9996984771704848"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/HarperCollins> .
+
+<http://www.dbpedia-spotlight.com/#offset_291_295>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISBN" ;
+        nif:beginIndex          "291"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "295"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1979> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Standard_Book_Number> .
+
+<http://www.dbpedia-spotlight.com/#offset_31_36>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "31"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1979> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+
+<http://www.dbpedia-spotlight.com/#offset_56_72>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Computer Science" ;
+        nif:beginIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "72"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1979> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_science> .
+
+<http://www.dbpedia-spotlight.com/#offset_1966_1973>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Subtree" ;
+        nif:beginIndex          "1966"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1973"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1979> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9994296489208311"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+<http://www.dbpedia-spotlight.com/#offset_1688_1692>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vise" ;
+        nif:beginIndex          "1688"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1692"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1979> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vise> .
+
+<http://www.dbpedia-spotlight.com/#offset_75_95>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Software Engineering" ;
+        nif:beginIndex          "75"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "95"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1979> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_engineering> .
+
+<http://www.dbpedia-spotlight.com/#offset_1063_1067>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Asia" ;
+        nif:beginIndex          "1063"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1067"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1979> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Continent> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Continent> , <http://dbpedia.org/ontology/Location> ;
+        itsrdf:taConfidence     "0.9999776512346117"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asia> .
+
+<http://www.dbpedia-spotlight.com/#offset_248_252>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "248"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "252"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1979> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999533213637255"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1979> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_118_126>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Montreal" ;
+        nif:beginIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "126"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1979> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q515> , <http://dbpedia.org/ontology/Place> , <http://www.wikidata.org/entity/Q486972> , <http://schema.org/City> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/Location> ;
+        itsrdf:taConfidence     "0.9999513933156782"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Montreal> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1979>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1979"^^xsd:nonNegativeInteger ;
+        nif:isString    "Analysis of AlgorithmsTreesDr. Aiman HannaDepartment of Computer Science & Software Engineering Concordia University, Montreal, CanadaThese slides have been extracted, modified and updated from original slides of :Data Structures and Algorithms in Java, 5th edition. John Wiley& Sons, 2010. ISBN 978-0-470-38326-1.Data Structures and the Java Collections Framework by William J. Collins, 3rdedition, ISBN 978-0-470-48267-4. Both books are published by Wiley.Copyright Â© 2010-2011 WileyCopyright Â© 2010 Michael  T. Goodrich, Roberto TamassiaCopyright Â© 2011 William J. CollinsCopyright Â© 2011-2021 Aiman Hanna All rights reserved Trees 2Coverageï± General Treesï± Tree Traversal Algorithmsï± Binary TreesMake Money Fast!StockFraudPonziSchemeBankRobberyTrees 3What is a Treeï± In computer science, a tree is an abstract model of a hierarchical structure.ï± A tree consists of nodes with a parent-child relation.ï± Applications include:ï® Organization chartsï® File systemsï® Programming environmentsComputersâRâUsSales R&DManufacturingLaptops DesktopsUS InternationalEurope Asia CanadaTrees 4Tree Terminologyï± Root: node without parent (A)ï± Internal node: node with at least one child (A, B, C, F)ï± External node (leaf ): node without children (E, I, J, K, G, H, D)ï± Ancestors of a node: parent, grandparent, grand-grandparent, etc.ï± Depth of a node: number of ancestorsï± Height of a tree: maximum depth of any node (3, in the shown tree)ï± Descendant of a node: child, grandchild, grand-grandchild, etc.AB DCG HE FI J KTrees 5Tree Terminologyï± siblings: Two nodes that are children of the same parent.ï± edge: an edge of a tree is a pair of nodes (u, v), where u is the parent and v is the child, or vise versa. In other words, an edge is a connection between a parent and a child in the tree. ï± Path: a sequence of nodes such that any two consecutive nodes in the sequence form an edge (for instance: A, B, F, J).AB DCG HE FI J KTrees 6subtreeTree TerminologyAB DCG HE FI J Kï± Subtree: tree" .
+
+<http://www.dbpedia-spotlight.com/#offset_646_659>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "General Trees" ;
+        nif:beginIndex          "646"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "659"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1979> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://schema.org/Person> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson> , <http://dbpedia.org/ontology/MusicalArtist> , <http://www.wikidata.org/entity/Q5> , <http://dbpedia.org/ontology/Artist> , <http://www.wikidata.org/entity/Q215627> , <http://www.wikidata.org/entity/Q483501> , <Http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/MusicGroup> , <http://dbpedia.org/ontology/Person> , <http://www.wikidata.org/entity/Q24229398> ;
+        itsrdf:taConfidence     "0.9999999923568339"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/General_Trees> .
+
+<http://www.dbpedia-spotlight.com/#offset_774_790>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computer science" ;
+        nif:beginIndex          "774"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "790"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1979> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_science> .
+
+<http://www.dbpedia-spotlight.com/#offset_597_602>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aiman" ;
+        nif:beginIndex          "597"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "602"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1979> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aiman> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1792> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1072_1075>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1072"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1075"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1792> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_501_504>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "501"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "504"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1792> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_896_904>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "iterator" ;
+        nif:beginIndex          "896"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "904"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1792> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Iterator> .
+
+<http://www.dbpedia-spotlight.com/#offset_767_774>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "767"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "774"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1792> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999999199629635"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.dbpedia-spotlight.com/#offset_887_895>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Iterator" ;
+        nif:beginIndex          "887"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "895"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1792> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Iterator> .
+
+<http://www.dbpedia-spotlight.com/#offset_918_926>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "iterator" ;
+        nif:beginIndex          "918"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "926"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1792> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Iterator> .
+
+<http://www.dbpedia-spotlight.com/#offset_95_110>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear ordering" ;
+        nif:beginIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "110"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1792> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Total_order> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1792>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1792"^^xsd:nonNegativeInteger ;
+        nif:isString    "consisting of a node and its descendants.Trees 7Ordered Treesï± A tree is ordered if there is a linear ordering defined for the children of each node. ï± That is, with ordered trees we can identify the children of a node as being first, second, third, etc. ï± Ordered trees typically indicate the linear order among siblings by listing them in the correct (ordered) order. BookChapter 1 Chapter 3Chapter 2Section 2.1 Section 2.2Section 1.1 Section 1.2Section 1.2.1 Section 1.2.2 Section 1.2.3Trees 8Tree ADTï± We can use positions to abstract nodes. Positions of a tree are its nodes. The terms âpositionâ and ânodeâ is hence used interchangeably. A position object support the following method: ï® element(): Return the object stored in the position. ï± Generic methods:ï® integer size(): Return the number of nodes in the tree. ï® boolean isEmpty(): Tests whether or not the tree has nodes. ï® Iterator iterator(): Return an iterator of all the elements stored at nodes of the tree. ï® Iterable positions(): Return an iterable collection of all the nodes of the tree. Trees 9Tree ADTï± Accessor methods:ï® position root(): Return the ârootâ of tree; error if tree is empty. ï® position parent(p): Return the parent of p; error if p is the root. ï® Iterable children(p): Return an iterable collection containing all the children of node p. ï¨If the tree is ordered, then the iterable collection returned by  children(p)  stores the children of p in order. ï¨If p is a leaf, then the returned collection is empty.  Trees 10Tree ADTQuery methods:ï® boolean isInternal(p): Tests whether node p is internal .ï® boolean isExternal(p ): Tests whether node p is external.ï® boolean isRoot(p): Tests whether node p is the root.Update method:ï® element replace (p, e): Replace the element at node p with e and return the" .
+
+<http://www.dbpedia-spotlight.com/#offset_294_306>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear order" ;
+        nif:beginIndex          "294"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "306"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1792> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Total_order> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_861_880>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "postorder traversal" ;
+        nif:beginIndex          "861"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "880"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_traversal> .
+
+<http://www.dbpedia-spotlight.com/#offset_351_355>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "351"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "355"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_202_210>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Iterator" ;
+        nif:beginIndex          "202"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Iterator> .
+
+<http://www.dbpedia-spotlight.com/#offset_1195_1203>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Preorder" ;
+        nif:beginIndex          "1195"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Preorder> .
+
+<http://www.dbpedia-spotlight.com/#offset_151_154>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "151"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_637_652>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Make Money Fast" ;
+        nif:beginIndex          "637"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "652"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Make_Money_Fast> .
+
+<http://www.dbpedia-spotlight.com/#offset_122_125>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1777_1790>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "internal node" ;
+        nif:beginIndex          "1777"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1790"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999994259878178"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+<http://www.dbpedia-spotlight.com/#offset_236_240>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "236"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_1702_1708>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary" ;
+        nif:beginIndex          "1702"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1708"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9966562556917584"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_function> .
+
+<http://www.dbpedia-spotlight.com/#offset_969_978>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "directory" ;
+        nif:beginIndex          "969"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "978"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999232354669"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/File_system> .
+
+<http://www.dbpedia-spotlight.com/#offset_198_202>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "198"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_253_257>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "253"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_1580_1591>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "1580"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1591"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_451_469>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "preorder traversal" ;
+        nif:beginIndex          "451"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "469"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_traversal> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2069>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2069"^^xsd:nonNegativeInteger ;
+        nif:isString    "original (old) element. Additional update methods may be defined by data structures implementing the Tree ADTTrees 11Tree ADTï± Performance of the Tree ADT methods:Operation Complexity size, isEmpty O(1)Iterator, positions O(n)replace() O(1)root, parent O(1)children(v) O(cv )cv denotes the number of children at node C. isInternal, isExternal, isRoot O(1)Trees 12Preorder Traversalï± A traversal visits the nodes of a tree in a systematic mannerï± In a preorder traversal, the root is visited first and then subtrees rooted as its children are traversed recursively in the same manner. ï± That is, a node is visited before its descendants. Make Money Fast!1. Motivations References2. Methods2.1 StockFraud2.2 PonziScheme1.1 Greed 1.2 Avidity2.3 BankRobbery12354 6 7 89Algorithm preOrder(v)visit(v)for each child w of vpreorder (w)Trees 13Postorder Traversalï± In a postorder traversal, a node is visited after its descendantsï± Application: compute space used by files in a directory and its subdirectoriesAlgorithm postOrder(v)for each child w of vpostOrder (w)visit(v)cs16/homeworks/ todo.txt1Kprograms/DDR.java10KStocks.java25Kh1c.doc3Kh1nc.doc2KRobot.java20K93172 4 5 68Trees 14Other Traversalsï± Preorder and Postorder traversals are common but other traversals are possible. ï± For instance, we can visit all the nodes at depth d before visiting the ones at depth d + 1. ï® Numbering the nodes as we visit them in such fashion is called level numbering. cs16/homeworks/ todo.txt1Kprograms/DDR.java10KStocks.java25Kh1c.doc3Kh1nc.doc2KRobot.java20K12536 7 8 94Trees 15Binary Treesï± A binary tree is a tree with the following properties:ï® Each internal node has at most two children (exactly two for proper binary trees; otherwise the tree is improper )ï± We call the children of an internal node left child and right childï® The children of a node are an ordered pair, where the left child precedes the right oneï± A binary tree can be defined recursively as eitherï® a tree consisting of a single node, orï® a tree whose root has an ordered pair of children, each of which is a" .
+
+<http://www.dbpedia-spotlight.com/#offset_2025_2037>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ordered pair" ;
+        nif:beginIndex          "2025"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2037"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9994224400210012"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ordered_pair> .
+
+<http://www.dbpedia-spotlight.com/#offset_1910_1921>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "1910"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1921"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_1849_1861>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ordered pair" ;
+        nif:beginIndex          "1849"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1861"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9994224400210012"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ordered_pair> .
+
+<http://www.dbpedia-spotlight.com/#offset_1639_1652>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "internal node" ;
+        nif:beginIndex          "1639"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1652"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2069> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999994259878178"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_195_206>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "195"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "206"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_887_907>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "balanced binary tree" ;
+        nif:beginIndex          "887"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "907"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Self-balancing_binary_search_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_552_558>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "coffee" ;
+        nif:beginIndex          "552"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "558"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Food> , <http://dbpedia.org/ontology/Beverage> , <http://www.wikidata.org/entity/Q2095> ;
+        itsrdf:taConfidence     "0.998805825531409"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coffee> .
+
+<http://www.dbpedia-spotlight.com/#offset_635_642>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "NoTrees" ;
+        nif:beginIndex          "635"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "642"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Village> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://www.wikidata.org/entity/Q486972> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Settlement> , <http://www.wikidata.org/entity/Q532> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Location> ;
+        itsrdf:taConfidence     "0.9294165033216156"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Notrees,_Texas> .
+
+<http://www.dbpedia-spotlight.com/#offset_161_171>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "arithmetic" ;
+        nif:beginIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9998889326896105"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Floating-point_arithmetic> .
+
+<http://www.dbpedia-spotlight.com/#offset_1300_1304>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Test" ;
+        nif:beginIndex          "1300"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1304"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9981665358966355"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Test_cricket> .
+
+<http://www.dbpedia-spotlight.com/#offset_1626_1637>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "1626"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1637"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_856_860>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "log2" ;
+        nif:beginIndex          "856"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "860"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_logarithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1099_1102>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1099"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1102"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_28_38>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "arithmetic" ;
+        nif:beginIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "38"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9998889326896105"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Floating-point_arithmetic> .
+
+<http://www.dbpedia-spotlight.com/#offset_84_86>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CF" ;
+        nif:beginIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.7675303404886659"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/CompactFlash> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_11>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "11"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_312_322>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "expression" ;
+        nif:beginIndex          "312"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "322"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999980733157743"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gene_expression> .
+
+<http://www.dbpedia-spotlight.com/#offset_380_391>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Binary tree" ;
+        nif:beginIndex          "380"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_172_182>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "expression" ;
+        nif:beginIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "182"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999980733157743"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gene_expression> .
+
+<http://www.dbpedia-spotlight.com/#offset_277_287>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "arithmetic" ;
+        nif:beginIndex          "277"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9998889326896105"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Floating-point_arithmetic> .
+
+<http://www.dbpedia-spotlight.com/#offset_844_848>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "log2" ;
+        nif:beginIndex          "844"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "848"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_logarithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1729>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1729"^^xsd:nonNegativeInteger ;
+        nif:isString    "binary treeï± Applications:ï® arithmetic expressionsï® decision processesï® searchingAB CF GD EH ITrees 16Arithmetic Expression Treeï± Binary tree associated with an arithmetic expression is a proper binary tree where:ï® internal nodes: operatorsï® external nodes: operandsï± Example: arithmetic expression tree for the expression (2 Ã (a â 1) + (3 Ã b))+ÃÃâ2a 13 bTrees 17Decision Treeï± Binary tree associated with a decision processï® internal nodes: questions with yes/no answerï® external nodes: decisionsï± Example: dining decisionWant a fast meal?How about coffee? On expense account?Starbucks Spike's Al Forno CafÃ© ParagonYes NoYes No Yes NoTrees 18Properties of Proper Binary Treesï± Notationn number of nodese number of external nodesi number of internal nodesh heightProperties:ï® e = i + 1ï® n = 2e â 1 = 2i + 1ï® h â¤ iï® h â¤ (n â 1)/2ï® e â¤ 2hï® h â¥ log2 eï® h â¥ log2 (n + 1) â 1In a perfectly balanced binary tree:n = 20 + 21 + â¦+ 2hn = 2h+1 â 12h+1 = n + 1h+1 = log(n + 1)ï¨ h = log(n + 1 ) - 1Trees 19BinaryTree ADTï± The BinaryTree ADT extends the Tree ADT, i.e., it inherits all the methods of the Tree ADTï± Additional methods:ï® position left(p): Return the left child of p; error if p has no left childï® position right(p): Return the right child of p; error if p has no right childï® boolean hasLeft(p): Test whether p has a left childï® boolean hasRight(p): Test whether p has a right childï± Update methods may be defined by data structures implementing the BinaryTree ADTTrees 20Inorder Traversal of Binary Treesï± In an inorder traversal a node is visited after its left subtree and before its right subtreeï± Application: draw a binary treeï® x(v) = inorder rank of vï® y(v) = depth of vAlgorithm inOrder(v)if hasLeft (v)inOrder (left" .
+
+<http://www.dbpedia-spotlight.com/#offset_896_907>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "896"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "907"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_1048_1051>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1048"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1051"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1027_1030>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1027"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1030"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1007_1010>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "1007"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1010"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1517_1534>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inorder traversal" ;
+        nif:beginIndex          "1517"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1534"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_traversal> .
+
+<http://www.dbpedia-spotlight.com/#offset_589_594>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Spike" ;
+        nif:beginIndex          "589"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "594"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q15265344> , <http://dbpedia.org/ontology/Broadcaster> , <http://www.wikidata.org/entity/Q24229398> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://www.wikidata.org/entity/Q43229> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/TelevisionStation> , <http://dbpedia.org/ontology/TelevisionStation> ;
+        itsrdf:taConfidence     "0.9999999998165094"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Paramount_Network> .
+
+<http://www.dbpedia-spotlight.com/#offset_130_141>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Binary tree" ;
+        nif:beginIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "141"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_288_303>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "expression tree" ;
+        nif:beginIndex          "288"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "303"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parse_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_579_588>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Starbucks" ;
+        nif:beginIndex          "579"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "588"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Starbucks> .
+
+<http://www.dbpedia-spotlight.com/#offset_1354_1358>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Test" ;
+        nif:beginIndex          "1354"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1358"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1729> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9981665358966355"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Test_cricket> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1671_1681>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Euler Tour" ;
+        nif:beginIndex          "1671"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1681"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1951> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999973655768057"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eulerian_path> .
+
+<http://www.dbpedia-spotlight.com/#offset_1567_1578>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "1567"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1578"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1951> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_1598_1606>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "preorder" ;
+        nif:beginIndex          "1598"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1606"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1951> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_traversal> .
+
+<http://www.dbpedia-spotlight.com/#offset_115_132>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inorder traversal" ;
+        nif:beginIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1951> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_traversal> .
+
+<http://www.dbpedia-spotlight.com/#offset_1325_1335>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Euler Tour" ;
+        nif:beginIndex          "1325"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1335"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1951> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999973655768057"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eulerian_path> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1951> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_918_931>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "internal node" ;
+        nif:beginIndex          "918"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "931"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1951> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999994259878178"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+<http://www.dbpedia-spotlight.com/#offset_475_484>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "475"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "484"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1951> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999354259"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1762_1770>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "preorder" ;
+        nif:beginIndex          "1762"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1770"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1951> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_traversal> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1951>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1951"^^xsd:nonNegativeInteger ;
+        nif:isString    "(v))visit(v)if hasRight (v)inOrder (right (v))312567 984Trees 21Print Arithmetic Expressionsï± Specialization of an inorder traversalï® print operand or operator when visiting nodeï® print â(â before traversing left subtreeï® print â)â after traversing right subtreeAlgorithm printExpression(v)if hasLeft (v)print(â('')inOrder (left(v))print(v.element ())if hasRight (v)inOrder (right(v))print (â)'')+ÃÃâ2a 13 b((2 Ã (a â 1)) + (3 Ã b))PresenterPresentation NotesNote: The above algorithm is a bit simplified one to illustrate the idea. i.e. more code is needed to have the () correctly placed since inOrder (left(v))does not do that. Also, a call to printExpression as a recursive call may be better here. We will need to pass a tree and a node to the call in that case. Trees 22Evaluate Arithmetic Expressionsï± Specialization of a postorder traversalï® recursive method returning the value of a subtreeï® when visiting an internal node, combine the values of the subtreesAlgorithm evalExpr(v)if isExternal (v)return v.element ()elsex â evalExpr(leftChild (v))y â evalExpr(rightChild (v))â â operator stored at vreturn x â y+ÃÃâ25 13 2Trees 23Euler Tour Traversalï± All previously discussed  traversal algorithms  are forms of iterators where each traversal is guaranteed to visit each node in a certain order, and exactly once. ï± Euler Tour traversal relaxes that requirement of the single visit to each node.ï± The advantage of such algorithms is to allow for more general kinds of algorithms to be expressed easily. ï± In other words, it provides a generic traversal of a binary tree which includes the preorder, postorder and inorder traversals.Trees 24Euler Tour Traversalï± Euler Tour traversals walks around the tree and visit each node three times:ï® on the left (preorder â root ï  left ï  right)ï® from below (inorder â left ï  root ï  right)ï® on the right (postorder â left ï  right ï  root)ï± If the node is external, all three visits actually happen at the" .
+
+<http://www.dbpedia-spotlight.com/#offset_1406_1419>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "The advantage" ;
+        nif:beginIndex          "1406"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1419"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1951> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q215380> , <http://dbpedia.org/ontology/Organisation> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://schema.org/Organization> , <http://schema.org/MusicGroup> , <http://dbpedia.org/ontology/Band> , <http://dbpedia.org/ontology/Group> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> , <http://www.wikidata.org/entity/Q43229> , <http://www.wikidata.org/entity/Q24229398> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9999831668847283"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Advantage> .
+
+<http://www.dbpedia-spotlight.com/#offset_829_848>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "postorder traversal" ;
+        nif:beginIndex          "829"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "848"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1951> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_traversal> .
+
+<http://www.dbpedia-spotlight.com/#offset_140_147>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "operand" ;
+        nif:beginIndex          "140"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1951> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Operand> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_69_79>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Euler Tour" ;
+        nif:beginIndex          "69"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1825> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999490683"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eulerian_path> .
+
+<http://www.dbpedia-spotlight.com/#offset_678_689>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Parent node" ;
+        nif:beginIndex          "678"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "689"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1825> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999045126106"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1825> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_231_241>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Euler Tour" ;
+        nif:beginIndex          "231"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "241"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1825> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999490683"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eulerian_path> .
+
+<http://www.dbpedia-spotlight.com/#offset_1082_1090>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Iterator" ;
+        nif:beginIndex          "1082"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1090"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1825> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Iterator> .
+
+<http://www.dbpedia-spotlight.com/#offset_874_885>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Parent node" ;
+        nif:beginIndex          "874"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "885"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1825> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999045126106"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+<http://www.dbpedia-spotlight.com/#offset_1237_1248>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "1237"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1248"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1825> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_610_623>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "General Trees" ;
+        nif:beginIndex          "610"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "623"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1825> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson> , <http://schema.org/Person> , <Http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/MusicalArtist> , <http://www.wikidata.org/entity/Q215627> , <http://dbpedia.org/ontology/Agent> , <http://www.wikidata.org/entity/Q483501> , <http://schema.org/MusicGroup> , <http://dbpedia.org/ontology/Artist> , <http://www.wikidata.org/entity/Q5> , <http://www.wikidata.org/entity/Q24229398> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> ;
+        itsrdf:taConfidence     "0.9999999981528163"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/General_Trees> .
+
+<http://www.dbpedia-spotlight.com/#offset_1078_1082>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "1078"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1082"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1825> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_980_982>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DC" ;
+        nif:beginIndex          "980"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "982"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1825> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.6103350067839239"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Direct_current> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1825>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1825"^^xsd:nonNegativeInteger ;
+        nif:isString    "same time. +Ãâ25 13 2LBRÃTrees 25Euler Tour Traversalï± Complexity of Euler Tour is easy to analyze:ï® Assume each visit takes a constant time O(1)ï® Since we spend a constant time at each node, the overall running time is O(n) ï± The Euler Tour can perform other kinds of traversals as wellï± For instance, to compute the number of descendants of a node v, we can perform the following: ï® Start the tour by initializing a counter to 0ï® Record the counter when v is visited on the left, say xï® Record the counter when v is visited on the right, say yï® Number of descendants = y â x + 1Trees 26âLinked Structure for General Treesï± A node is represented by an object storingï® Elementï® Parent nodeï® Sequence of children nodesï± Node objects implement the Position ADTBDAC EFBâ âA D FâCâETrees 27Linked Structure for Binary Treesï± A node is represented by an object storingï® Elementï® Parent nodeï® Left child nodeï® Right child nodeï± Node objects implement the Position ADTBDAC Eâ ââ â â âBA DC EâTrees 28Performance of List Implementation of Binary TreesOperation Complexity size, isEmpty O(1)Iterator, positions O(n)replace O(1)root, parent, left, right, sibling, childrenO(1)children(v) O(1 )Since there are at most two children of any node in a binary tree. hasLeft, hasRight, isInternal, isExternal, isRoot, remove, insertLeft, insertRight, attachO(1)Array-Based Representation of Binary Treesï± Nodes are stored in an array A29Treesï± Use level numbering ï± Node v is stored at A[rank(v)]ï® rank(root) = 0ï® if node is the left child of parent(node), rank(node) = 2 â (rank(parent(node) + 1))ï® if node is the right child of parent(node), rank(node) = 2â (rank(parent(node)) + 2)01 25 63 49 10AHGFEDCBJA B D G H â¦1 2 9 100â¦Array-Based Representation of Binary Trees30Treesï±So, in general; for any parent/root at rank iï® the left child is" .
+
+<http://www.dbpedia-spotlight.com/#offset_141_145>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "141"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1825> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_1114_1118>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "1114"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1118"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1825> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_977_979>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "BA" ;
+        nif:beginIndex          "977"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "979"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1825> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9622055913381674"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bachelor_of_Arts> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_586_601>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Template method" ;
+        nif:beginIndex          "586"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "601"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Template_method_pattern> .
+
+<http://www.dbpedia-spotlight.com/#offset_2209_2212>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "2209"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_393_404>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "393"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "404"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_2191_2194>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "2191"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2194"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_534_538>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "534"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "538"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999583906"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_virtual_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_899_903>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "init" ;
+        nif:beginIndex          "899"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "903"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Init> .
+
+<http://www.dbpedia-spotlight.com/#offset_318_322>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "318"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "322"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_2309_2322>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Decision Tree" ;
+        nif:beginIndex          "2309"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2322"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Decision_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_2200_2203>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "2200"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_2368_2371>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "2368"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2371"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_1795_1799>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "init" ;
+        nif:beginIndex          "1795"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1799"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Init> .
+
+<http://www.dbpedia-spotlight.com/#offset_499_508>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "499"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "508"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999645297"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_2509_2519>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Euler Tour" ;
+        nif:beginIndex          "2509"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2519"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999992076027"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eulerian_path> .
+
+<http://www.dbpedia-spotlight.com/#offset_2488_2498>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Euler Tour" ;
+        nif:beginIndex          "2488"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2498"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999992076027"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eulerian_path> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_244_252>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Iterator" ;
+        nif:beginIndex          "244"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "252"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Iterator> .
+
+<http://www.dbpedia-spotlight.com/#offset_1437_1447>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "arithmetic" ;
+        nif:beginIndex          "1437"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1447"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9897734529822062"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Floating-point_arithmetic> .
+
+<http://www.dbpedia-spotlight.com/#offset_2467_2477>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Euler Tour" ;
+        nif:beginIndex          "2467"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2477"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999992076027"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eulerian_path> .
+
+<http://www.dbpedia-spotlight.com/#offset_2551_2564>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "General Trees" ;
+        nif:beginIndex          "2551"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2564"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <Http://xmlns.com/foaf/0.1/Person> , <http://www.wikidata.org/entity/Q215627> , <http://schema.org/Person> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson> , <http://dbpedia.org/ontology/MusicalArtist> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> , <http://dbpedia.org/ontology/Artist> , <http://dbpedia.org/ontology/Person> , <http://www.wikidata.org/entity/Q5> , <http://schema.org/MusicGroup> , <http://www.wikidata.org/entity/Q24229398> , <http://www.wikidata.org/entity/Q483501> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/General_Trees> .
+
+<http://www.dbpedia-spotlight.com/#offset_780_794>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "abstract class" ;
+        nif:beginIndex          "780"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "794"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_2213_2221>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Preorder" ;
+        nif:beginIndex          "2213"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2221"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Preorder> .
+
+<http://www.dbpedia-spotlight.com/#offset_278_282>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "278"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "282"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_240_244>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "240"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "244"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.dbpedia-spotlight.com/#offset_2182_2185>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADT" ;
+        nif:beginIndex          "2182"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2185"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2787> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_data_type> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2787>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2787"^^xsd:nonNegativeInteger ;
+        nif:isString    "at rank 2i + 1ï® the right child is at rank 2i + 2ï® links between nodes are not explicitly stored01 25 63 49 10AHGFEDCBJA B D G H â¦1 2 9 100â¦Trees 31Performance of Array-based Implementation of Binary TreesOperation Complexity size, isEmpty O(1)Iterator, positions O(n)replace() O(1)root, parent, left, right, children O(1)children(v) O(1 )Since there are at most two children of any node in a binary tree. hasLeft, hasRight, isInternal, isExternal, isRootO(1)Trees 32Template Method Patternï±Generic algorithmï± Implemented by abstract Java class ï± Visit methods redefined by subclassesï± Template method eulerTourï® Recursively called on left and right childrenï® A TourResult object with fields left, right and out keeps track of the output of the recursive calls to eulerTourpublic abstract class EulerTour <E, R> {protected BinaryTree<E> tree;public abstact R execute(BinaryTree<E> T);protected void init(BinaryTree<E> T) { tree = T; }protected R eulerTour(Position<E> v) { TourResult<R> r = new TourResult<R>();visitLeft(v, r);if (tree.hasLeft(p)) { r.left=eulerTour(tree.left(v)); }visitBelow(v, r);if (tree.hasRight(p)) { r.right=eulerTour(tree.right(v)); }return r.out;}protected void visitLeft(Position<E> v, TourResult<R> r) {}protected void visitBelow(Position<E> v, TourResult<R> r) {}protected void visitRight(Position<E> v, TourResult<R> r) {}}Trees 33Specializations of EulerTourï± Specialization of class EulerTour to evaluate arithmetic expressionsï± Assumptionsï® Nodes store ExpressionTerm objects with method getValueï® ExpressionVariableobjects at external nodesï® ExpressionOperatorobjects at internal nodes with methodsetOperands(Integer, Integer) public class EvaluateExpressionTourextends EulerTour<ExpressionTerm, Integer> {public Integer execute (BinaryTree<ExpressionTerm> T) {init(T);return eulerTour(tree.root());}protected void visitRight(Position<ExpressionTerm> v, TourResult<Integer> r) {ExpressionTerm term = v.element();if (tree.isInternal(v)) {ExpressionOperator op = (ExpressionOperator) term;op.setOperands(r.left, r.right); }r.out = term.getValue();}}\tTrees\tCoverage\tWhat is a Tree\tTree Terminology\tTree Terminology\tTree Terminology\tOrdered Trees\tTree ADT\tTree ADT\tTree ADT\tTree ADT\tPreorder Traversal\tPostorder Traversal\tOther Traversals\tBinary Trees\tArithmetic Expression Tree\tDecision Tree\tProperties of Proper Binary Trees\tBinaryTree ADT\tInorder Traversal of Binary Trees\tPrint Arithmetic Expressions\tEvaluate Arithmetic Expressions\tEuler Tour Traversal\tEuler Tour Traversal\tEuler Tour Traversal\tLinked Structure for General Trees\tLinked Structure for Binary Trees\tPerformance of List Implementation of Binary Trees\tArray-Based Representation of Binary Trees\tArray-Based Representation of Binary Trees\tPerformance of Array-based Implementation of Binary" .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_58>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "58"^^xsd:nonNegativeInteger ;
+        nif:isString    "Trees\tTemplate Method Pattern\tSpecializations of EulerTour" .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_58> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

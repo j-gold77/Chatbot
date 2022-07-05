@@ -1,0 +1,19 @@
+@base <http://focu.io/data#> .
+@prefix focu: <http://focu.io/schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+
+<#ConcordiaUniversity>
+    a focu:University ;
+    rdfs:label "Concordia University"@en ;
+    rdfs:seeAlso dbr:Concordia_University .
+
+<#McGillUniversity>
+    a focu:University ;
+    rdfs:label "McGill University"@en ;
+    rdfs:seeAlso dbr:McGill_University .
+
+<#OttawaUniversity>
+    a focu:University ;
+    rdfs:label "University of Ottawa"@en ;
+    rdfs:seeAlso dbr:University_of_Ottawa .

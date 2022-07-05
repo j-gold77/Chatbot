@@ -1,0 +1,345 @@
+@base <http://focu.io/data#> .
+@prefix focu: <http://focu.io/schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix teach: <http://linkedscience.org/teach/ns#> .
+
+<#Student-45114154>
+    a focu:Student ;
+    foaf:givenName "Marceau"@en ;
+    foaf:familyName "Leblanc"@en ;
+    foaf:mbox "m_leblanc@gmail.com"@en ;
+    focu:studentID 45114154 ;
+    focu:studiesAt <#ConcordiaUniversity> ;
+    focu:hasCompleted <#Student-45114154-COMP352> ;
+    focu:hasCompleted <#Student-45114154-COMP474> ;
+    focu:hasCompleted <#Student-45114154-ACCO220> .
+
+<#Student-46870226>
+    a focu:Student ;
+    foaf:givenName "Bertrand"@en ;
+    foaf:familyName "Olivier"@en ;
+    foaf:mbox "b_olivier@gmail.com"@en ;
+    focu:studentID 46870226 ;
+    focu:studiesAt <#ConcordiaUniversity> ;
+    focu:hasCompleted <#Student-46870226-COMP352> ;
+    focu:hasCompleted <#Student-46870226-COMP474> ;
+    focu:hasCompleted <#Student-46870226-CHEM203> .
+    
+<#Student-42116118>
+    a focu:Student ;
+    foaf:givenName "Roxanne"@en ;
+    foaf:familyName "Ninon"@en ;
+    foaf:mbox "r_ninon@gmail.com"@en ;
+    focu:studentID 42116118 ;
+    focu:studiesAt <#ConcordiaUniversity> ;
+    focu:hasCompleted <#Student-42116118-COMP352> ;
+    focu:hasCompleted <#Student-42116118-COMP352-1> ;
+    focu:hasCompleted <#Student-42116118-COMP479> .
+    
+<#Student-48120078>
+    a focu:Student ;
+    foaf:givenName "Nathalie"@en ;
+    foaf:familyName "Guaytan"@en ;
+    foaf:mbox "n_guaytan@gmail.com"@en ;
+    focu:studentID 48120078 ;
+    focu:studiesAt <#ConcordiaUniversity> ;
+    focu:hasCompleted <#Student-48120078-COMP352> ;
+    focu:hasCompleted <#Student-48120078-COMP474> ;
+    focu:hasCompleted <#Student-48120078-ELEC273> ;
+    focu:hasCompleted <#Student-48120078-COMP232> .
+
+<#Student-46654420>
+    a focu:Student ;
+    foaf:givenName "Michael"@en ;
+    foaf:familyName "Scott"@en ;
+    foaf:mbox "m_scott@gmail.com"@en ;
+    focu:studentID 46654420 ;
+    focu:studiesAt <#ConcordiaUniversity> ;
+    focu:hasCompleted <#Student-46654420-COMP352> ;
+    focu:hasCompleted <#Student-46654420-COMP232> .
+
+<#Student-45261589>
+    a focu:Student ;
+    foaf:givenName "Ludovic"@en ;
+    foaf:familyName "Leclerc"@en ;
+    foaf:mbox "l_leclerc@gmail.com"@en ;
+    focu:studentID 45261589 ;
+    focu:studiesAt <#ConcordiaUniversity> ;
+    focu:hasCompleted <#Student-45261589-COMM215> .
+
+<#Student-48356170>
+    a focu:Student ;
+    foaf:givenName "Jennifer"@en ;
+    foaf:familyName "Stilton"@en ;
+    foaf:mbox "j_stilton@gmail.com"@en ;
+    focu:studentID 48356170 ;
+    focu:studiesAt <#ConcordiaUniversity> ;
+    focu:hasCompleted <#Student-48356170-COMP474> ;
+    focu:hasCompleted <#Student-48356170-COMP352> ;
+    focu:hasCompleted <#Student-48356170-COMP352-1> ;
+    focu:hasCompleted <#Student-48356170-THEO302> .
+
+<#Student-43176115>
+    a focu:Student ;
+    foaf:givenName "Mariam"@en ;
+    foaf:familyName "Samson"@en ;
+    foaf:mbox "m_samson@gmail.com"@en ;
+    focu:studentID 43176115 ;
+    focu:studiesAt <#ConcordiaUniversity> ;
+    focu:hasCompleted <#Student-43176115-COMP474> ;
+    focu:hasCompleted <#Student-43176115-COMP352> .
+
+<#Student-42989625>
+    a focu:Student ;
+    foaf:givenName "Monica"@en ;
+    foaf:familyName "Brown"@en ;
+    foaf:mbox "m_brown@gmail.com"@en ;
+    focu:studentID 42989625 ;
+    focu:studiesAt <#ConcordiaUniversity> ;
+    focu:hasCompleted <#Student-42989625-ENGR233> ;
+    focu:hasCompleted <#Student-42989625-COMP474> ;
+    focu:hasCompleted <#Student-42989625-COMP371> ;
+    focu:hasCompleted <#Student-42989625-COMP371-1> ;
+    focu:hasCompleted <#Student-42989625-COMM215> ;
+    focu:hasCompleted <#Student-42989625-COMP479> .
+
+<#Student-45279533>
+    a focu:Student ;
+    foaf:givenName "James"@en ;
+    foaf:familyName "Stapelton"@en ;
+    foaf:mbox "j_stapelton@gmail.com"@en ;
+    focu:studentID 45279533 ;
+    focu:studiesAt <#ConcordiaUniversity> ;
+    focu:hasCompleted <#Student-45279533-ENGR233> ;
+    focu:hasCompleted <#Student-45279533-COMP352> ;
+    focu:hasCompleted <#Student-45279533-COMM215> ;
+    focu:hasCompleted <#Student-45279533-COMM215-1> ;
+    focu:hasCompleted <#Student-45279533-COMP371> .
+
+
+<#Student-45114154-COMP352>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP352> ;
+    focu:term "Winter 2015"@en ;
+    focu:obtainedGrade <#Grade-A> .
+
+<#Student-45114154-COMP474>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP474> ;
+    focu:term "Summer 2015"@en ;
+    focu:obtainedGrade <#Grade-C> .
+
+<#Student-45114154-ACCO220>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#ACCO220> ;
+    focu:term "Summer 2015"@en ;
+    focu:obtainedGrade <#Grade-D> .
+    
+<#Student-46870226-COMP352>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP352> ;
+    focu:term "Fall 2015"@en ;
+    focu:obtainedGrade <#Grade-B> .
+    
+<#Student-46870226-COMP474>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP474> ;
+    focu:term "Winter 2016"@en ;
+    focu:obtainedGrade <#Grade-D> .
+    
+<#Student-46870226-CHEM203>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#CHEM203> ;
+    focu:term "Fall 2016"@en ;
+    focu:obtainedGrade <#Grade-B> .
+    
+<#Student-42116118-COMP352>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP352> ;
+    focu:term "Winter 2017"@en ;
+    focu:obtainedGrade <#Grade-F> .
+
+<#Student-42116118-COMP352-1>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP352> ;
+    focu:term "Winter 2019"@en ;
+    focu:obtainedGrade <#Grade-B> .
+    
+<#Student-42116118-COMP479>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP479> ;
+    focu:term "Winter 2017"@en ;
+    focu:obtainedGrade <#Grade-B> .
+    
+<#Student-48120078-COMP352>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP352> ;
+    focu:term "Fall 2017"@en ;
+    focu:obtainedGrade <#Grade-B> .
+    
+<#Student-48120078-COMP474>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP474> ;
+    focu:term "Fall 2017"@en ;
+    focu:obtainedGrade <#Grade-F> .
+    
+<#Student-48120078-ELEC273>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#ELEC273> ;
+    focu:term "Winter 2018"@en ;
+    focu:obtainedGrade <#Grade-B> .
+    
+<#Student-48120078-COMP232>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP232> ;
+    focu:term "Winter 2018"@en ;
+    focu:obtainedGrade <#Grade-B> .
+    
+<#Student-46654420-COMP352>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP352> ;
+    focu:term "Winter 2018"@en ;
+    focu:obtainedGrade <#Grade-F> .
+
+<#Student-46654420-COMP232>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP232> ;
+    focu:term "Summer 2018"@en ;
+    focu:obtainedGrade <#Grade-B> .
+    
+<#Student-45261589-COMM215>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMM215> ;
+    focu:term "Fall 2018"@en ;
+    focu:obtainedGrade <#Grade-A> .
+    
+<#Student-48356170-COMP474>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP474> ;
+    focu:term "Fall 2018"@en ;
+    focu:obtainedGrade <#Grade-A> .
+    
+<#Student-48356170-COMP352>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP352> ;
+    focu:term "Fall 2018"@en ;
+    focu:obtainedGrade <#Grade-F> .
+
+<#Student-48356170-COMP352-1>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP352> ;
+    focu:term "Winter 2019"@en ;
+    focu:obtainedGrade <#Grade-A> .
+    
+<#Student-48356170-THEO302>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#THEO302> ;
+    focu:term "Fall 2018"@en ;
+    focu:obtainedGrade <#Grade-A> .
+    
+<#Student-43176115-COMP474>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP474> ;
+    focu:term "Winter 2020"@en ;
+    focu:obtainedGrade <#Grade-A> .
+    
+<#Student-43176115-COMP352>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP352> ;
+    focu:term "Fall 2020"@en ;
+    focu:obtainedGrade <#Grade-C> .
+    
+<#Student-42989625-ENGR233>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#ENGR233> ;
+    focu:term "Winter 2021"@en ;
+    focu:obtainedGrade <#Grade-A> .
+    
+<#Student-42989625-COMP474>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP474> ;
+    focu:term "Summer 2021"@en ;
+    focu:obtainedGrade <#Grade-B> .
+    
+<#Student-42989625-COMP371>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP371> ;
+    focu:term "Fall 2021"@en ;
+    focu:obtainedGrade <#Grade-F> .
+
+<#Student-42989625-COMP371>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP371> ;
+    focu:term "Winter 2022"@en ;
+    focu:obtainedGrade <#Grade-A> .
+    
+<#Student-42989625-COMM215>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMM215> ;
+    focu:term "Fall 2021"@en ;
+    focu:obtainedGrade <#Grade-C> .
+    
+<#Student-42989625-COMP479>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP479> ;
+    focu:term "Winter 2022"@en ;
+    focu:obtainedGrade <#Grade-C> .
+    
+<#Student-45279533-ENGR233>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#ENGR233> ;
+    focu:term "Winter 2015"@en ;
+    focu:obtainedGrade <#Grade-B> .
+    
+<#Student-45279533-COMP352>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP352> ;
+    focu:term "Summer 2015"@en ;
+    focu:obtainedGrade <#Grade-B> .
+    
+<#Student-45279533-COMM215>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMM215> ;
+    focu:term "Fall 2015"@en ;
+    focu:obtainedGrade <#Grade-F> .
+
+<#Student-45279533-COMM215-1>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMM215> ;
+    focu:term "Winter 2016"@en ;
+    focu:obtainedGrade <#Grade-C> .
+    
+<#Student-45279533-COMP371>
+    a focu:CompletedCourse ;
+    focu:relatedCourse <#COMP371> ;
+    focu:term "Fall 2015"@en ;
+    focu:obtainedGrade <#Grade-F> .
+
+<#Grade-A>
+    a focu:Grade ;
+    focu:letterGrade "A"@en ;
+    focu:isPassing true .
+
+<#Grade-B>
+    a focu:Grade ;
+    focu:letterGrade "B"@en ;
+    focu:isPassing true .
+
+<#Grade-C>
+    a focu:Grade ;
+    focu:letterGrade "C"@en ;
+    focu:isPassing true .
+
+<#Grade-D>
+    a focu:Grade ;
+    focu:letterGrade "D"@en ;
+    focu:isPassing true .
+
+<#Grade-F>
+    a focu:Grade ;
+    focu:letterGrade "F"@en ;
+    focu:isPassing true .

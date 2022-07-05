@@ -1,0 +1,342 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_657_667>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "regression" ;
+        nif:beginIndex          "657"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "667"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2206> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999623697"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Regression_analysis> .
+
+<http://www.dbpedia-spotlight.com/#offset_1492_1501>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "1492"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1501"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2206> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999999999992724"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1488_1491>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kNN" ;
+        nif:beginIndex          "1488"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1491"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2206> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/K-nearest_neighbors_algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1431_1434>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kNN" ;
+        nif:beginIndex          "1431"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1434"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2206> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/K-nearest_neighbors_algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_653_656>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kNN" ;
+        nif:beginIndex          "653"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "656"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2206> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/K-nearest_neighbors_algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_1989_1993>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "wine" ;
+        nif:beginIndex          "1989"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1993"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2206> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Beverage> , <http://dbpedia.org/ontology/Food> , <http://www.wikidata.org/entity/Q2095> ;
+        itsrdf:taConfidence     "0.9932905256405424"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wine> .
+
+<http://www.dbpedia-spotlight.com/#offset_605_608>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kNN" ;
+        nif:beginIndex          "605"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "608"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2206> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/K-nearest_neighbors_algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_46_55>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "This week" ;
+        nif:beginIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "55"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2206> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q15416> , <http://dbpedia.org/ontology/TelevisionShow> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "0.5821253254270942"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/This_Week_(American_TV_program)> .
+
+<http://www.dbpedia-spotlight.com/#offset_1803_1807>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "wine" ;
+        nif:beginIndex          "1803"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1807"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2206> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Food> , <http://dbpedia.org/ontology/Beverage> , <http://www.wikidata.org/entity/Q2095> ;
+        itsrdf:taConfidence     "0.9932905256405424"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wine> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_2206>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2206"^^xsd:nonNegativeInteger ;
+        nif:isString    "Lab Session #08IntroductionWelcome to Lab #8: This week, we'll practice more machine learning with scikit-learn.Note: we haven't covered the theory for the kNN algorithm yet (to be completed this week), but you can already start experimenting with its implementation.Follow-up Lab #7Solution Task #1 (TF-IDF Vectors)Here's a sample program for this task from last week that prints out various intermediate steps.Solution Task #2 (Search)Here's a solution for the \"re-implementation of Google\"Solution Task #3 (k-Means)Here's an example solution for the first part (clustering the test sentences).Task #1: kNN RegressionThe goal here is to implement the kNN regression exercise from lecture Worksheet #6. To start, use the statements below to import the required libraries (here is a nice cheat sheet for working with scitkit-learn from Datacamp):import numpy as npfrom sklearn.neighbors import KNeighborsRegressorNow, create a dataset using the samples from the worksheet and train the dataset with the KNeighborsRegressor with n_neighbors = 2.dataset = np.array([[135,0,5,3],[90,123,2,5],[159,2,1,1]])For the feature vectors, we need the first three columns:X = dataset[:,0:3]And for the training labels, we use the last column from the dataset:y = dataset[:, 3]Create a regressor object and train the model:clf = KNeighborsRegressor(2)clf.fit(X, y)Make predictions on the test data featurestest data features = [109,5,3]Task #2: kNN ClassificationFor these experiments, we will use the kNN algorithm as discussed in the lecture. Luckily, it's already implemented for us in scitkit-learn:import numpy as npfrom sklearn.neighbors import KNeighborsClassifierTo see how this works, let's start with some real data, using one of the example datasets available with scikit-learn. Here, we will be using the wine dataset:from sklearn.datasets import load_wineX, y = load_wine(return_X_y=True)Now create the train and test data.  Use scikit-learn's train_test_split helper function to split the wine dataset into a training and testing subset:from sklearn.model_selection import train_test_splitX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0) Here, the data is split into" .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_2206> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1928_1940>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "scikit-learn" ;
+        nif:beginIndex          "1928"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1940"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2206> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q7397> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scikit-learn> .
+
+<http://www.dbpedia-spotlight.com/#offset_301_307>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "TF-IDF" ;
+        nif:beginIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "307"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2206> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999999297415"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tfâidf> .
+
+<http://www.dbpedia-spotlight.com/#offset_1596_1601>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "numpy" ;
+        nif:beginIndex          "1596"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1601"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2206> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q7397> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/NumPy> .
+
+<http://www.dbpedia-spotlight.com/#offset_1272_1281>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "regressor" ;
+        nif:beginIndex          "1272"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1281"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2206> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dependent_and_independent_variables> .
+
+<http://www.dbpedia-spotlight.com/#offset_1762_1774>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scikit-learn" ;
+        nif:beginIndex          "1762"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1774"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2206> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scikit-learn> .
+
+<http://www.dbpedia-spotlight.com/#offset_77_93>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "machine learning" ;
+        nif:beginIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2206> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999643849891688"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Machine_learning> .
+
+<http://www.dbpedia-spotlight.com/#offset_1309_1312>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "clf" ;
+        nif:beginIndex          "1309"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1312"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2206> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ChemicalObject> , <http://www.wikidata.org/entity/Q11173> ;
+        itsrdf:taConfidence     "0.9999999894937446"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chlorine_monofluoride> .
+
+<http://www.dbpedia-spotlight.com/#offset_156_159>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kNN" ;
+        nif:beginIndex          "156"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2206> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/K-nearest_neighbors_algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_160_169>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "160"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2206> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999999999992724"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_853_858>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "numpy" ;
+        nif:beginIndex          "853"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "858"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_2206> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q7397> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/NumPy> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_873_875>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "F1" ;
+        nif:beginIndex          "873"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "875"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1334> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9815832906518057"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Formula_One> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1334> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1286_1292>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Moodle" ;
+        nif:beginIndex          "1286"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1292"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1334> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q7397> , <http://www.wikidata.org/entity/Q386724> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Moodle> .
+
+<http://www.dbpedia-spotlight.com/#offset_948_960>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scikit-learn" ;
+        nif:beginIndex          "948"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "960"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1334> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://www.wikidata.org/entity/Q386724> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scikit-learn> .
+
+<http://www.dbpedia-spotlight.com/#offset_319_329>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "classifier" ;
+        nif:beginIndex          "319"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "329"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1334> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Statistical_classification> .
+
+<http://www.dbpedia-spotlight.com/#offset_624_636>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scikit-learn" ;
+        nif:beginIndex          "624"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "636"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1334> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://www.wikidata.org/entity/Q7397> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://www.wikidata.org/entity/Q386724> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scikit-learn> .
+
+<http://www.dbpedia-spotlight.com/#offset_1119_1121>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "TA" ;
+        nif:beginIndex          "1119"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1121"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1334> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.999836629111639"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Azimuth> .
+
+<http://www.dbpedia-spotlight.com/#offset_610_612>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ML" ;
+        nif:beginIndex          "610"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "612"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1334> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Machine_learning> .
+
+<http://www.dbpedia-spotlight.com/#offset_390_393>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "clf" ;
+        nif:beginIndex          "390"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "393"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1334> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ChemicalObject> , <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> , <http://www.wikidata.org/entity/Q11173> ;
+        itsrdf:taConfidence     "0.9999999894938583"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chlorine_monofluoride> .
+
+<http://www.dbpedia-spotlight.com/#offset_907_917>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "classifier" ;
+        nif:beginIndex          "907"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "917"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1334> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Statistical_classification> .
+
+<http://www.dbpedia-spotlight.com/#offset_687_690>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SVM" ;
+        nif:beginIndex          "687"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "690"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1334> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Support-vector_machine> .
+
+<http://www.dbpedia-spotlight.com/#offset_335_338>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kNN" ;
+        nif:beginIndex          "335"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "338"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1334> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/K-nearest_neighbors_algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1334>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1334"^^xsd:nonNegativeInteger ;
+        nif:isString    "80% training data and 20% testing data.It is always a good practice to scale the features so that all of them can be uniformly evaluated:from sklearn.preprocessing import StandardScalerscaler = StandardScaler()scaler.fit(X_train)X_train = scaler.transform(X_train)X_test = scaler.transform(X_test)Now you can \"train\" a classifier (for kNN, this simply stores the vectors with their labels):clf = KNeighborsClassifier(n_neighbors=3)clf.fit(X_train, y_train)Here, \"3\" is k, the number of neighbors voting when classifying unseen data (see the documentation). Note that this is a standard pattern when creating a ML model with scikit-learn, you can use other algorithms (e.g., Naive Bayes, SVM) in the same way.To make predictions on the test data:y_pred = clf.predict(X_test) Evaluate the performance of your classifierNow run an evaluation to compute the Precision, Recall, F1-measure, and Accuracy  of your classifier using the evaluation tools in scikit-learn. Finally, compute and print out the confusion matrix.Task #3: Project Team MeetingWe will use the remaining time of the lab session for meetings between your TA and team members to discuss any outstanding issues and plan for the remaining week ahead.Please post any open questions you still have regarding the project in the Moodle Discussion Forum!That's all for this lab!" .

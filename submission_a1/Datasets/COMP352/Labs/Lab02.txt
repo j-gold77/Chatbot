@@ -1,0 +1,2286 @@
+// *******************************************************************
+// BinaryFibStack.java By: Aiman Hanna (C) 1993 - 2020
+// This program simulates the growth of stack size as a result of using 
+// binary recursion to find Fibonacci numbers. 
+// Key Points: 
+// 	1) Binary Recursion for Fibonacci Numbers
+//  2) Growth of stack size
+// *******************************************************************
+import java.util.Scanner;
+
+public class BinaryFibStack
+{
+	private static int numOfCalls = 0;
+	private static int currentStackSize = 0;
+	private static int maxReachedStackSize = 0;
+	
+	public static int  binaryFib(int k)
+	{
+		int fibVal;
+		// Increase the number of calls each time the method is called (executes)
+		numOfCalls++;
+		currentStackSize++;		// Increment this counter as indication/simulation of 
+								// a push() operation on the stack for the current call
+		if (currentStackSize > maxReachedStackSize) // Keep track of maximum reached stack growth
+			maxReachedStackSize = currentStackSize;
+		System.out.println("\nCurrently calculating Fibonacci value for k=" + k + ".");
+		
+		System.out.println(" ==> The current stack size is: " + currentStackSize + ".");
+		
+		if(k == 0 || k == 1)
+		{
+			fibVal = k;
+		}
+		else
+		{
+			fibVal = binaryFib(k-1) + binaryFib(k-2);
+		}
+		
+		//System.out.println("Fibonacci value for k=" + k + " is:" + fibVal +".");
+		// Decrease stack size before returning/poping 
+		currentStackSize--;
+		System.out.println("Just finished with the calculation of Fibonacci value: " + k + ".");
+		System.out.println(" <== The current stack size is: " + currentStackSize + ".");		
+		return fibVal;
+	}
+	
+	public static void main(String[] args) 
+	{
+		int n;
+		Scanner kb = new Scanner(System.in);	
+
+		System.out.print("Please enter the a non-negative value to find its Fibonacci sequence: ");
+		n = kb.nextInt();
+		
+		//System.out.println("Here is the Fibonacci(" + n + ") sequence\n");
+
+
+		int fibVal = binaryFib(n);	
+		System.out.println("\n The Fibonacci value for n=" + n + " is:" + fibVal +".");
+		System.out.println("\n\nThe method has been called " + numOfCalls + " times.");
+		System.out.println("\n\nThe maximum recorded value of stack growth for n=" + n + " was: " + maxReachedStackSize + ".");
+		kb.close();  
+	}
+}
+
+/* Partial Output for n = 13
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 6.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=5.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 5.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 7.
+ <== The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=6.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=5.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 5.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 6.
+ <== The current stack size is: 5.
+Just finished with the calculation of Fibonacci value: 8.
+ <== The current stack size is: 4.
+
+Currently calculating Fibonacci value for k=7.
+ ==> The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=6.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=5.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 5.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 6.
+ <== The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=5.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 5.
+ <== The current stack size is: 5.
+Just finished with the calculation of Fibonacci value: 7.
+ <== The current stack size is: 4.
+Just finished with the calculation of Fibonacci value: 9.
+ <== The current stack size is: 3.
+
+Currently calculating Fibonacci value for k=8.
+ ==> The current stack size is: 4.
+
+Currently calculating Fibonacci value for k=7.
+ ==> The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=6.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=5.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 5.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 6.
+ <== The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=5.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 5.
+ <== The current stack size is: 5.
+Just finished with the calculation of Fibonacci value: 7.
+ <== The current stack size is: 4.
+
+Currently calculating Fibonacci value for k=6.
+ ==> The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=5.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 5.
+ <== The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 5.
+Just finished with the calculation of Fibonacci value: 6.
+ <== The current stack size is: 4.
+Just finished with the calculation of Fibonacci value: 8.
+ <== The current stack size is: 3.
+Just finished with the calculation of Fibonacci value: 10.
+ <== The current stack size is: 2.
+Just finished with the calculation of Fibonacci value: 12.
+ <== The current stack size is: 1.
+
+Currently calculating Fibonacci value for k=11.
+ ==> The current stack size is: 2.
+
+Currently calculating Fibonacci value for k=10.
+ ==> The current stack size is: 3.
+
+Currently calculating Fibonacci value for k=9.
+ ==> The current stack size is: 4.
+
+Currently calculating Fibonacci value for k=8.
+ ==> The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=7.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=6.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=5.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 11.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 12.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 11.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 12.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 5.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 6.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=5.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 5.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 7.
+ <== The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=6.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=5.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 5.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 6.
+ <== The current stack size is: 5.
+Just finished with the calculation of Fibonacci value: 8.
+ <== The current stack size is: 4.
+
+Currently calculating Fibonacci value for k=7.
+ ==> The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=6.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=5.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 5.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 6.
+ <== The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=5.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 5.
+ <== The current stack size is: 5.
+Just finished with the calculation of Fibonacci value: 7.
+ <== The current stack size is: 4.
+Just finished with the calculation of Fibonacci value: 9.
+ <== The current stack size is: 3.
+
+Currently calculating Fibonacci value for k=8.
+ ==> The current stack size is: 4.
+
+Currently calculating Fibonacci value for k=7.
+ ==> The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=6.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=5.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 5.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 6.
+ <== The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=5.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 5.
+ <== The current stack size is: 5.
+Just finished with the calculation of Fibonacci value: 7.
+ <== The current stack size is: 4.
+
+Currently calculating Fibonacci value for k=6.
+ ==> The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=5.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 5.
+ <== The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 5.
+Just finished with the calculation of Fibonacci value: 6.
+ <== The current stack size is: 4.
+Just finished with the calculation of Fibonacci value: 8.
+ <== The current stack size is: 3.
+Just finished with the calculation of Fibonacci value: 10.
+ <== The current stack size is: 2.
+
+Currently calculating Fibonacci value for k=9.
+ ==> The current stack size is: 3.
+
+Currently calculating Fibonacci value for k=8.
+ ==> The current stack size is: 4.
+
+Currently calculating Fibonacci value for k=7.
+ ==> The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=6.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=5.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 10.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 11.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 5.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 6.
+ <== The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=5.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 5.
+ <== The current stack size is: 5.
+Just finished with the calculation of Fibonacci value: 7.
+ <== The current stack size is: 4.
+
+Currently calculating Fibonacci value for k=6.
+ ==> The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=5.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 5.
+ <== The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 5.
+Just finished with the calculation of Fibonacci value: 6.
+ <== The current stack size is: 4.
+Just finished with the calculation of Fibonacci value: 8.
+ <== The current stack size is: 3.
+
+Currently calculating Fibonacci value for k=7.
+ ==> The current stack size is: 4.
+
+Currently calculating Fibonacci value for k=6.
+ ==> The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=5.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 9.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 10.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 5.
+ <== The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 5.
+Just finished with the calculation of Fibonacci value: 6.
+ <== The current stack size is: 4.
+
+Currently calculating Fibonacci value for k=5.
+ ==> The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=4.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 8.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 9.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 4.
+ <== The current stack size is: 5.
+
+Currently calculating Fibonacci value for k=3.
+ ==> The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=2.
+ ==> The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 7.
+
+Currently calculating Fibonacci value for k=0.
+ ==> The current stack size is: 8.
+Just finished with the calculation of Fibonacci value: 0.
+ <== The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 2.
+ <== The current stack size is: 6.
+
+Currently calculating Fibonacci value for k=1.
+ ==> The current stack size is: 7.
+Just finished with the calculation of Fibonacci value: 1.
+ <== The current stack size is: 6.
+Just finished with the calculation of Fibonacci value: 3.
+ <== The current stack size is: 5.
+Just finished with the calculation of Fibonacci value: 5.
+ <== The current stack size is: 4.
+Just finished with the calculation of Fibonacci value: 7.
+ <== The current stack size is: 3.
+Just finished with the calculation of Fibonacci value: 9.
+ <== The current stack size is: 2.
+Just finished with the calculation of Fibonacci value: 11.
+ <== The current stack size is: 1.
+Just finished with the calculation of Fibonacci value: 13.
+ <== The current stack size is: 0.
+
+ The Fibonacci value for n=13 is:233.
+
+
+The method has been called 753 times.
+
+
+The maximum recorded value of stack growth for n=13 was: 13.
+
+
+*/

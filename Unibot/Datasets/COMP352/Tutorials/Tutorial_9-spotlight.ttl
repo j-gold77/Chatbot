@@ -1,0 +1,337 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_240_258>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary search tree" ;
+        nif:beginIndex          "240"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "258"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1882> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_search_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_873_882>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "873"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "882"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1882> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999123552964"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_345_356>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "345"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "356"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1882> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_264_278>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "data structure" ;
+        nif:beginIndex          "264"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "278"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1882> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_structure> .
+
+<http://www.dbpedia-spotlight.com/#offset_725_736>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary tree" ;
+        nif:beginIndex          "725"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "736"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1882> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_131_140>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AVL Trees" ;
+        nif:beginIndex          "131"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "140"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1882> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AVL_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_373_386>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "internal node" ;
+        nif:beginIndex          "373"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "386"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1882> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999994259878178"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+<http://www.dbpedia-spotlight.com/#offset_630_648>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary search tree" ;
+        nif:beginIndex          "630"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "648"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1882> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_search_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_932_950>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary search tree" ;
+        nif:beginIndex          "932"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "950"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1882> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_search_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_321_339>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary search tree" ;
+        nif:beginIndex          "321"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "339"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1882> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_search_tree> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1882> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_1180_1193>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "external node" ;
+        nif:beginIndex          "1180"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1882> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999999671002803"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_4>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "COMP" ;
+        nif:beginIndex          "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "4"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1882> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://www.wikidata.org/entity/Q7187> , <http://dbpedia.org/ontology/HumanGene> , <http://dbpedia.org/ontology/Gene> , <http://www.wikidata.org/entity/Q206229> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.8461196217380366"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cartilage_oligomeric_matrix_protein> .
+
+<http://www.dbpedia-spotlight.com/#offset_38_41>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AVL" ;
+        nif:beginIndex          "38"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1882> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999863904137802"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Automatic_vehicle_location> .
+
+<http://www.dbpedia-spotlight.com/#offset_1846_1864>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary search tree" ;
+        nif:beginIndex          "1846"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1864"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1882> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_search_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_1230_1243>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "internal node" ;
+        nif:beginIndex          "1230"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1243"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1882> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999994259878178"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1882>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1882"^^xsd:nonNegativeInteger ;
+        nif:isString    "COMP 352Tutorial 9: Binary Search and AVL Trees1OUTLINEâ¢ Binary Search Trees Definitions Search and Update Algorithms Performanceâ¢ AVL Trees Definitions Update Operations / Rotationsâ¢ Problem Solving2BINARY SEARCH TREES -DEFINITIONS (1)  A binary search tree is a data structure forstoring the entries of a dictionary. A binary search tree is a binary tree T suchthat each internal node v of T stores an entry(k,x) such that:â« Keys stored at nodes in the left subtree of v are lessthan or equal to k.â« Keys stored at nodes in the right subtree of v aregreater than or equal to k.3BINARY SEARCH TREES -DEFINITIONS (2) Entries in a binary search tree are stored ininternal nodes; empty external nodes are addedto form a proper binary tree. An inorder traversal of nodes in a binarysearch tree lists the keys in increasing order.4BINARY SEARCH TREES -SEARCHING ALGORITHM This algorithm has O(h) complexity, where h is theheight of the binary search tree. In the worst case, it is linear because the heightwill be equal to n. 5BINARY SEARCH TREES -UPDATE OPERATIONS (1) insertAtExternal(v,e): Insert the element e at theexternal node v, and expand v to be internal, havingnew (empty) external node children; an error occursif v is an internal node. Recursive Algorithm for insertion:6BINARY SEARCH TREES -UPDATE OPERATIONS (2) Insertion of an entry with key 68:7BINARY SEARCH TREES -UPDATE OPERATIONS (3) removeExternal(v): Remove an external nodev and its parent, replacing v's parent with v'ssibling; an error occurs if v is not external. Removal with entry to be removed having anexternal child: remove(32)8BINARY SEARCH TREES -UPDATE OPERATIONS (4)Removal with entry to be removed having both its children internal: remove(88)9BINARY SEARCH TREES -PERFORMANCE The find, insert, and remove methods run in O(h) time, where h is the height of T.  A binary search tree T is an efficient" .
+
+<http://www.dbpedia-spotlight.com/#offset_741_758>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inorder traversal" ;
+        nif:beginIndex          "741"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "758"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1882> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_traversal> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_1150_1163>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary search" ;
+        nif:beginIndex          "1150"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1163"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1731> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_search_algorithm> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_1731>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1731"^^xsd:nonNegativeInteger ;
+        nif:isString    "implementation of a dictionary with n entries only if the height of T is small In the worst case, T has height n10AVL TREES -DEFINITIONS An AVL Tree presents a more efficient way toimplement a dictionary. It maintains a logarithmic-time performance, dueto the Height-Balance Property:â« For every internal node v of the tree, the heights ofthe children of v differ by at most 1. If this property is violated after insertion/removalfrom an AVL tree, a re-struction is needed.11AVL TREES -ROTATIONS (1) Rotation Algorithm: â« z is the first unbalanced node encountered while going upwards,  y is the child of z with a higher height, and x the child of y with a higher height12AVL TREES âROTATIONS (2) Representation of a tree before and after a rotation:â« If b= y, the trinode restructuring method is called a single rotation.â« If b= x, the trinode restructuring method is called a double rotation.13PROBLEM SOLVING - R â 10.1 QUESTION 1 We defined a BST so that keys equal to a node'skey can be in either the left or right subtree ofthe node. Suppose we change the definition sothat we restrict equal keys to the right subtree. What must a subtree of a binary search treecontaining only equal keys look like in this case?14PROBLEM SOLVING - R â 10.6QUESTION 215 Dr. Amongus claims that the order in which afixed set of entries is inserted into a binarysearch tree does not matterâ the same treeresults every time. Give a small example thatproves he is wrong.PROBLEM SOLVING - R â 10.3 QUESTION 316 How many different BST's can store the keys {1,2,3}?PROBLEM SOLVING âQUESTION 4 Draw a Binary Search Tree that initially is empty and shows the result of the tree after inserting the following keys (from left to right): â« key ={ 30, 40," .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_1731> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_140_148>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AVL Tree" ;
+        nif:beginIndex          "140"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1731> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AVL_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_296_309>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "internal node" ;
+        nif:beginIndex          "296"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1731> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.9999994259878178"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+<http://www.dbpedia-spotlight.com/#offset_947_950>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "BST" ;
+        nif:beginIndex          "947"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "950"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1731> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.994107246843496"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/British_Summer_Time> .
+
+<http://www.dbpedia-spotlight.com/#offset_1514_1517>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "BST" ;
+        nif:beginIndex          "1514"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1517"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1731> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "0.994107246843496"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/British_Summer_Time> .
+
+<http://www.dbpedia-spotlight.com/#offset_438_446>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AVL tree" ;
+        nif:beginIndex          "438"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "446"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1731> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AVL_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_878_893>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "double rotation" ;
+        nif:beginIndex          "878"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "893"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_1731> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rotations_in_4-dimensional_Euclidean_space> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.dbpedia-spotlight.com/#offset_626_635>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AVL Trees" ;
+        nif:beginIndex          "626"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "635"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_908> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AVL_tree> .
+
+<http://www.dbpedia-spotlight.com/#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.dbpedia-spotlight.com/#offset_0_908> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.dbpedia-spotlight.com/#offset_63_71>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AVL tree" ;
+        nif:beginIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "71"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_908> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AVL_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_279_283>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "COMP" ;
+        nif:beginIndex          "279"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "283"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_908> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://www.wikidata.org/entity/Q7187> , <http://dbpedia.org/ontology/HumanGene> , <http://www.wikidata.org/entity/Q206229> , <http://dbpedia.org/ontology/Gene> ;
+        itsrdf:taConfidence     "0.6380635202419059"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cartilage_oligomeric_matrix_protein> .
+
+<http://www.dbpedia-spotlight.com/#offset_166_174>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AVL tree" ;
+        nif:beginIndex          "166"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "174"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_908> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AVL_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_677_686>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AVL Trees" ;
+        nif:beginIndex          "677"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "686"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_908> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AVL_tree> .
+
+<http://www.dbpedia-spotlight.com/#offset_0_908>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "908"^^xsd:nonNegativeInteger ;
+        nif:isString    "24, 58, 48, 26, 11, 13 }17PROBLEM SOLVING -QUESTION 5 Build an AVL tree with the following keys: {3, 2, 1, 4 ,5 ,6 ,7 ,16 ,15}18PROBLEM SOLVING -QUESTION 6 Using the AVL tree obtained in Question 5, delete nodes with values 1 and 3, and draw the final orientation of the tree.19\tCOMP 352\tOutlineï¿½\tBinary Search Trees -ï¿½Definitions (1) \tBinary Search Trees -ï¿½Definitions (2)\tBinary Search Trees -ï¿½Searching Algorithm\tBinary Search Trees -ï¿½Update Operations (1)\tBinary Search Trees -ï¿½Update Operations (2)\tBinary Search Trees -ï¿½Update Operations (3)\tBinary Search Trees -ï¿½Update Operations (4)\tBinary Search Trees -ï¿½Performance\tAVL Trees -ï¿½Definitions \tAVL Trees -ï¿½Rotations (1)\tAVL Trees â ï¿½Rotations (2)\tProblem Solving - R â 10.1 ï¿½Question 1\tProblem Solving - R â 10.6ï¿½Question 2\tProblem Solving - R â 10.3 ï¿½Question 3\tProblem Solving â ï¿½Question 4\tProblem Solving -ï¿½Question 5\tProblem Solving -ï¿½Question 6\t" .
+
+<http://www.dbpedia-spotlight.com/#offset_651_660>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AVL Trees" ;
+        nif:beginIndex          "651"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "660"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.dbpedia-spotlight.com/#offset_0_908> ;
+        itsrdf:taAnnotatorsRef  <http://www.dbpedia-spotlight.com> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AVL_tree> .
